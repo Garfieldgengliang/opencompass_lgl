@@ -34,7 +34,7 @@ class XunFei(BaseAPIModel):
                  api_key: str,
                  domain: str = 'general',
                  query_per_second: int = 2,
-                 max_seq_len: int = 2048,
+                 max_seq_len: int = 4096,
                  meta_template: Optional[Dict] = None,
                  retry: int = 2):
         super().__init__(path=path,

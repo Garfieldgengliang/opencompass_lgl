@@ -6,7 +6,7 @@ import requests
 
 from opencompass.utils.prompt import PromptList
 
-from .base_api import BaseAPIModel
+from opencompass.models.base_api import BaseAPIModel
 
 PromptType = Union[PromptList, str]
 
@@ -193,3 +193,15 @@ class PanGu(BaseAPIModel):
             max_num_retries += 1
 
         raise RuntimeError(response['error_msg'])
+
+if __name__ == '__main__':
+    model = PanGu(
+        path='pangu',
+        access_key= 'HE13BMXWJ3MXKF47BJTG',
+        secret_key= 'uWMU2s0Ac7nXcP6YxXHj0Kdv35tO4dJ23CY0kn4m',
+        url = 'https://pangu.cn-southwest-2.myhuaweicloud.com/v1/infers/7c996ea5-a08d-4480-9b47-29b71df679ce/v1/919391f229034ef989ba83486c00ff5f/deployments/870e96e8-08c8-4063-b0c5-b167e3942214/chat/completions',
+        token_url = 'https://iam.cn-southwest-2.myhuaweicloud.com/v3/auth/tokens',
+        project_name = 'cn-southwest-2',)
+
+    print(model.generate(['写一个穿越到宋朝的故事。']))
+

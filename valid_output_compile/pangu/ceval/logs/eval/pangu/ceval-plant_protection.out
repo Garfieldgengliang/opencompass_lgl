@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:42:09 - OpenCompass - INFO - Task [pangu/ceval-plant_protection]: {'accuracy': 31.818181818181817}
+05/17 13:42:09 - OpenCompass - INFO - time elapsed: 5.06s

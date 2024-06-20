@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:40:53 - OpenCompass - INFO - Task [pangu/ceval-college_programming]: {'accuracy': 48.64864864864865}
+05/17 13:40:53 - OpenCompass - INFO - time elapsed: 3.65s

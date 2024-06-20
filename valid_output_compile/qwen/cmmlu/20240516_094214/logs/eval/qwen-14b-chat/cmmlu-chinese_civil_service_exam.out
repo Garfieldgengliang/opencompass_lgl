@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:58:26 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-chinese_civil_service_exam]: {'accuracy': 64.375}
+05/16 11:58:26 - OpenCompass - INFO - time elapsed: 4.62s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:12 - OpenCompass - INFO - Task [pangu/cmmlu-chinese_food_culture]: {'accuracy': 47.794117647058826}
+05/23 09:43:12 - OpenCompass - INFO - time elapsed: 5.43s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:41:40 - OpenCompass - INFO - Task [pangu/ceval-chinese_language_and_literature]: {'accuracy': 39.130434782608695}
+05/17 13:41:40 - OpenCompass - INFO - time elapsed: 3.23s

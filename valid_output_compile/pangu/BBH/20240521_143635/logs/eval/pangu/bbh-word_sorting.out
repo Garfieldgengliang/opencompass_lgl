@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:21 - OpenCompass - INFO - Task [pangu/bbh-word_sorting]: {'score': 11.600000000000001}
+05/22 01:56:21 - OpenCompass - INFO - time elapsed: 9.77s

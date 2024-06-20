@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:31 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-marxist_theory]: {'accuracy': 84.12698412698413}
+05/16 12:00:31 - OpenCompass - INFO - time elapsed: 5.84s

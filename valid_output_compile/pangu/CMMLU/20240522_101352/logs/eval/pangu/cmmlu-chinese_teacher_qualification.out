@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:42:46 - OpenCompass - INFO - Task [pangu/cmmlu-chinese_teacher_qualification]: {'accuracy': 65.36312849162012}
+05/23 09:42:46 - OpenCompass - INFO - time elapsed: 12.52s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:22 - OpenCompass - INFO - Task [pangu/bbh-object_counting]: {'score': 55.60000000000001}
+05/22 01:56:22 - OpenCompass - INFO - time elapsed: 9.61s

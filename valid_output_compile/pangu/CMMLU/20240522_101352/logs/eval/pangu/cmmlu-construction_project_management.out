@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:16 - OpenCompass - INFO - Task [pangu/cmmlu-construction_project_management]: {'accuracy': 35.97122302158273}
+05/23 09:43:16 - OpenCompass - INFO - time elapsed: 4.78s

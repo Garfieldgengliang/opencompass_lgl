@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:41:03 - OpenCompass - INFO - Task [pangu/ceval-probability_and_statistics]: {'accuracy': 38.88888888888889}
+05/17 13:41:03 - OpenCompass - INFO - time elapsed: 2.93s

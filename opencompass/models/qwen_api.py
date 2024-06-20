@@ -32,7 +32,7 @@ class Qwen(BaseAPIModel):
                  path: str,
                  key: str,
                  query_per_second: int = 1,
-                 max_seq_len: int = 2048,
+                 max_seq_len: int = 9192,
                  meta_template: Optional[Dict] = None,
                  retry: int = 5,
                  generation_kwargs: Dict = {}):
@@ -49,7 +49,7 @@ class Qwen(BaseAPIModel):
     def generate(
         self,
         inputs: List[PromptType],
-        max_out_len: int = 512,
+        max_out_len: int = 9192,
     ) -> List[str]:
         """Generate results given a list of inputs.
 
@@ -72,7 +72,7 @@ class Qwen(BaseAPIModel):
     def _generate(
         self,
         input: PromptType,
-        max_out_len: int = 512,
+        max_out_len: int = 9192,
     ) -> str:
         """Generate results given an input.
 

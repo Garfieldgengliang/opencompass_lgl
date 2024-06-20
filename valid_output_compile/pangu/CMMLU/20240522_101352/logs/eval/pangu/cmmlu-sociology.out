@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:44:59 - OpenCompass - INFO - Task [pangu/cmmlu-sociology]: {'accuracy': 54.424778761061944}
+05/23 09:44:59 - OpenCompass - INFO - time elapsed: 7.20s

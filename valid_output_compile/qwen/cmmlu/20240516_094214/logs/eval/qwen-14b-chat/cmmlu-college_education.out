@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:58:42 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-college_education]: {'accuracy': 82.2429906542056}
+05/16 11:58:42 - OpenCompass - INFO - time elapsed: 5.10s

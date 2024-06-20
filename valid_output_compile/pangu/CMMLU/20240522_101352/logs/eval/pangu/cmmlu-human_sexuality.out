@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:44:34 - OpenCompass - INFO - Task [pangu/cmmlu-human_sexuality]: {'accuracy': 46.82539682539682}
+05/23 09:44:34 - OpenCompass - INFO - time elapsed: 6.94s

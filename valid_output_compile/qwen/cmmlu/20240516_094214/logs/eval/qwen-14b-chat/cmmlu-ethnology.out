@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:59:29 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-ethnology]: {'accuracy': 71.11111111111111}
+05/16 11:59:29 - OpenCompass - INFO - time elapsed: 6.37s

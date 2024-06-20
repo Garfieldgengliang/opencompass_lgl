@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:44:37 - OpenCompass - INFO - Task [pangu/cmmlu-high_school_politics]: {'accuracy': 53.14685314685315}
+05/23 09:44:37 - OpenCompass - INFO - time elapsed: 7.17s

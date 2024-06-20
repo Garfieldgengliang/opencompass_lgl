@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:41:07 - OpenCompass - INFO - Task [pangu/ceval-college_economics]: {'accuracy': 30.909090909090907}
+05/17 13:41:07 - OpenCompass - INFO - time elapsed: 3.47s

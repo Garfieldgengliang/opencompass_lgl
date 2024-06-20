@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:49 - OpenCompass - INFO - Task [pangu/cmmlu-college_mathematics]: {'accuracy': 39.04761904761905}
+05/23 09:43:49 - OpenCompass - INFO - time elapsed: 7.13s

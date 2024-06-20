@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:42:45 - OpenCompass - INFO - Task [pangu/cmmlu-astronomy]: {'accuracy': 35.15151515151515}
+05/23 09:42:45 - OpenCompass - INFO - time elapsed: 12.41s

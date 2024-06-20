@@ -49,7 +49,7 @@ class LocalRunner(BaseRunner):
     def __init__(
         self,
         task: ConfigDict,
-        max_num_workers: int = 16,
+        max_num_workers: int = 2,
         debug: bool = False,
         max_workers_per_gpu: int = 1,
         lark_bot_url: str = None,

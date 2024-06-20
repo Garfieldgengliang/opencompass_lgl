@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:59:28 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-high_school_chemistry]: {'accuracy': 77.27272727272727}
+05/16 11:59:28 - OpenCompass - INFO - time elapsed: 6.23s

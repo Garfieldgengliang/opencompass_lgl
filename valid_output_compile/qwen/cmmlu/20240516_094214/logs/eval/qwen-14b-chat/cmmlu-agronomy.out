@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:58:45 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-agronomy]: {'accuracy': 65.08875739644971}
+05/16 11:58:45 - OpenCompass - INFO - time elapsed: 5.15s

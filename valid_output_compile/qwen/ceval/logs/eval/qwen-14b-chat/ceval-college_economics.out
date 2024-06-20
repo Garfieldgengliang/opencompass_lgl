@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:45:45 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-college_economics]: {'accuracy': 52.72727272727272}
+05/16 16:45:45 - OpenCompass - INFO - time elapsed: 3.28s

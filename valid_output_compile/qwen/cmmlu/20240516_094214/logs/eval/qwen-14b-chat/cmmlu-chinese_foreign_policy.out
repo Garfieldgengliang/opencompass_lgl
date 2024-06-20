@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:59:04 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-chinese_foreign_policy]: {'accuracy': 81.30841121495327}
+05/16 11:59:04 - OpenCompass - INFO - time elapsed: 4.90s

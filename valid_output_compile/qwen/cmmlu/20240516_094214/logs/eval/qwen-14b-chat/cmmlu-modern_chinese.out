@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:44 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-modern_chinese]: {'accuracy': 63.793103448275865}
+05/16 12:00:44 - OpenCompass - INFO - time elapsed: 6.55s

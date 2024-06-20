@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:41 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-high_school_politics]: {'accuracy': 84.61538461538461}
+05/16 12:00:41 - OpenCompass - INFO - time elapsed: 7.33s

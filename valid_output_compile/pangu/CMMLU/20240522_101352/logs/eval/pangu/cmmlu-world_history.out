@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:07 - OpenCompass - INFO - Task [pangu/cmmlu-world_history]: {'accuracy': 54.6583850931677}
+05/23 09:45:07 - OpenCompass - INFO - time elapsed: 7.38s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:46:29 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-middle_school_geography]: {'accuracy': 91.66666666666666}
+05/16 16:46:29 - OpenCompass - INFO - time elapsed: 3.28s

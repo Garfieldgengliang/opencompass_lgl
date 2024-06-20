@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:40:38 - OpenCompass - INFO - Task [pangu/ceval-advanced_mathematics]: {'accuracy': 21.052631578947366}
+05/17 13:40:38 - OpenCompass - INFO - time elapsed: 5.15s

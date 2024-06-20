@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:50 - OpenCompass - INFO - Task [pangu/cmmlu-food_science]: {'accuracy': 49.65034965034965}
+05/23 09:43:50 - OpenCompass - INFO - time elapsed: 7.02s

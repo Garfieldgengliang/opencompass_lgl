@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:59:46 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-conceptual_physics]: {'accuracy': 84.35374149659864}
+05/16 11:59:46 - OpenCompass - INFO - time elapsed: 4.65s

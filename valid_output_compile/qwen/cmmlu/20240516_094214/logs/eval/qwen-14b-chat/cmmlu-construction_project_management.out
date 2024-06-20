@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:59:32 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-construction_project_management]: {'accuracy': 52.51798561151079}
+05/16 11:59:32 - OpenCompass - INFO - time elapsed: 5.84s

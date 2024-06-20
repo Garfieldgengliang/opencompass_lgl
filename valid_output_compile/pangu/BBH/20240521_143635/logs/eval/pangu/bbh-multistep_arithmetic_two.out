@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:16 - OpenCompass - INFO - Task [pangu/bbh-multistep_arithmetic_two]: {'score': 51.2}
+05/22 01:56:16 - OpenCompass - INFO - time elapsed: 10.20s

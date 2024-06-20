@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:22 - OpenCompass - INFO - Task [pangu/bbh-web_of_lies]: {'score': 83.2}
+05/22 01:56:22 - OpenCompass - INFO - time elapsed: 9.70s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:46 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-world_religions]: {'accuracy': 75.625}
+05/16 12:00:46 - OpenCompass - INFO - time elapsed: 5.78s

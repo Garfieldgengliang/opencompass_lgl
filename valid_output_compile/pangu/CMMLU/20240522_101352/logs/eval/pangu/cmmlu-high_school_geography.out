@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:44:26 - OpenCompass - INFO - Task [pangu/cmmlu-high_school_geography]: {'accuracy': 57.6271186440678}
+05/23 09:44:26 - OpenCompass - INFO - time elapsed: 5.20s

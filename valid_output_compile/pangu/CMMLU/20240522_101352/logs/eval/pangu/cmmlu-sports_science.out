@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:07 - OpenCompass - INFO - Task [pangu/cmmlu-sports_science]: {'accuracy': 49.09090909090909}
+05/23 09:45:07 - OpenCompass - INFO - time elapsed: 7.62s

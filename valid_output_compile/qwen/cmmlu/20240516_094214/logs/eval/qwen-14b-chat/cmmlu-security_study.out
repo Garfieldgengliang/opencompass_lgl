@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:37 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-security_study]: {'accuracy': 77.03703703703704}
+05/16 12:00:37 - OpenCompass - INFO - time elapsed: 6.68s

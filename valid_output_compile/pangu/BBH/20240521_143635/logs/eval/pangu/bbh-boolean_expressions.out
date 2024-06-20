@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:22 - OpenCompass - INFO - Task [pangu/bbh-boolean_expressions]: {'score': 64.8}
+05/22 01:56:22 - OpenCompass - INFO - time elapsed: 9.77s

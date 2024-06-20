@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:42:09 - OpenCompass - INFO - Task [pangu/ceval-physician]: {'accuracy': 48.97959183673469}
+05/17 13:42:09 - OpenCompass - INFO - time elapsed: 5.09s

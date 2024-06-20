@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/21 10:09:51 - OpenCompass - INFO - Task [pangu/math]: {'accuracy': 5.76}
+05/21 10:09:51 - OpenCompass - INFO - time elapsed: 12.28s

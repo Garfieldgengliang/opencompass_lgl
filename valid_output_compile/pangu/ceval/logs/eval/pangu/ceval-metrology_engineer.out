@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:40:45 - OpenCompass - INFO - Task [pangu/ceval-metrology_engineer]: {'accuracy': 45.83333333333333}
+05/17 13:40:45 - OpenCompass - INFO - time elapsed: 3.03s

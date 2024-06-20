@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:46 - OpenCompass - INFO - Task [pangu/cmmlu-college_engineering_hydrology]: {'accuracy': 52.83018867924528}
+05/23 09:43:46 - OpenCompass - INFO - time elapsed: 7.69s

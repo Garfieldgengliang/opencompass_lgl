@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:45:15 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-electrical_engineer]: {'accuracy': 40.54054054054054}
+05/16 16:45:15 - OpenCompass - INFO - time elapsed: 3.08s

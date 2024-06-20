@@ -166,7 +166,7 @@ class LocalAPIRunner(BaseRunner):
     def __init__(self,
                  task: ConfigDict,
                  concurrent_users: int,
-                 max_num_workers: int = 16,
+                 max_num_workers: int = 4,
                  debug: bool = False,
                  lark_bot_url: str = None):
         super().__init__(task=task, debug=debug, lark_bot_url=lark_bot_url)

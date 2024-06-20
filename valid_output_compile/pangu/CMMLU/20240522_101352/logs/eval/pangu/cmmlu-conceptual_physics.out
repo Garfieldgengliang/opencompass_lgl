@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:40 - OpenCompass - INFO - Task [pangu/cmmlu-conceptual_physics]: {'accuracy': 57.14285714285714}
+05/23 09:43:40 - OpenCompass - INFO - time elapsed: 7.33s

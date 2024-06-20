@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:22 - OpenCompass - INFO - Task [pangu/bbh-dyck_languages]: {'score': 0.4}
+05/22 01:56:22 - OpenCompass - INFO - time elapsed: 9.82s

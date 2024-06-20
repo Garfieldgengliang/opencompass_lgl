@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:03 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-legal_and_moral_basis]: {'accuracy': 96.26168224299066}
+05/16 12:00:03 - OpenCompass - INFO - time elapsed: 5.65s

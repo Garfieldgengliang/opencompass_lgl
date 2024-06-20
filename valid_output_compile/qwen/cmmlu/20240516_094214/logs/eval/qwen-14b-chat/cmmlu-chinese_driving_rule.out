@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 11:58:31 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-chinese_driving_rule]: {'accuracy': 86.25954198473282}
+05/16 11:58:31 - OpenCompass - INFO - time elapsed: 4.76s

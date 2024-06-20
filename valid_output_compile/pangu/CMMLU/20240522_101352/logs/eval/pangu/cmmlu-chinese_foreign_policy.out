@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:11 - OpenCompass - INFO - Task [pangu/cmmlu-chinese_foreign_policy]: {'accuracy': 56.074766355140184}
+05/23 09:43:11 - OpenCompass - INFO - time elapsed: 5.63s

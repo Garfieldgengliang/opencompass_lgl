@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:34 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-international_law]: {'accuracy': 58.91891891891892}
+05/16 12:00:34 - OpenCompass - INFO - time elapsed: 6.07s

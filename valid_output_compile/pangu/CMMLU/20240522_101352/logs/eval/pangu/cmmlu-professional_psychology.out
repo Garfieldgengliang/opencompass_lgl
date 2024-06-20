@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:06 - OpenCompass - INFO - Task [pangu/cmmlu-professional_psychology]: {'accuracy': 57.327586206896555}
+05/23 09:45:06 - OpenCompass - INFO - time elapsed: 8.00s

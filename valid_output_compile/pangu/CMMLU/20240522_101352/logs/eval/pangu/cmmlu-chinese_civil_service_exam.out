@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:42:49 - OpenCompass - INFO - Task [pangu/cmmlu-chinese_civil_service_exam]: {'accuracy': 36.875}
+05/23 09:42:49 - OpenCompass - INFO - time elapsed: 6.60s

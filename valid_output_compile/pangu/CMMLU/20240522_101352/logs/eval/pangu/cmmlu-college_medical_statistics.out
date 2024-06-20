@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:54 - OpenCompass - INFO - Task [pangu/cmmlu-college_medical_statistics]: {'accuracy': 48.113207547169814}
+05/23 09:43:54 - OpenCompass - INFO - time elapsed: 6.04s

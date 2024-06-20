@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:21 - OpenCompass - INFO - Task [pangu/bbh-sports_understanding]: {'score': 80.4}
+05/22 01:56:21 - OpenCompass - INFO - time elapsed: 9.89s

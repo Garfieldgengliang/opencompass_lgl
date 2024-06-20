@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:44:37 - OpenCompass - INFO - Task [pangu/cmmlu-high_school_physics]: {'accuracy': 33.63636363636363}
+05/23 09:44:37 - OpenCompass - INFO - time elapsed: 7.20s

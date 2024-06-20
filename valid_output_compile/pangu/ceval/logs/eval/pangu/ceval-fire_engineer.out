@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:42:11 - OpenCompass - INFO - Task [pangu/ceval-fire_engineer]: {'accuracy': 19.35483870967742}
+05/17 13:42:11 - OpenCompass - INFO - time elapsed: 3.84s

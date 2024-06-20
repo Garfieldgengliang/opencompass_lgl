@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/17 13:40:55 - OpenCompass - INFO - Task [pangu/ceval-operating_system]: {'accuracy': 47.368421052631575}
+05/17 13:40:55 - OpenCompass - INFO - time elapsed: 3.29s

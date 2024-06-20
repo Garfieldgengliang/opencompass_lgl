@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:46 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-traditional_chinese_medicine]: {'accuracy': 65.94594594594595}
+05/16 12:00:46 - OpenCompass - INFO - time elapsed: 5.79s

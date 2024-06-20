@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 12:00:00 - OpenCompass - INFO - Task [qwen-14b-chat/cmmlu-food_science]: {'accuracy': 66.43356643356644}
+05/16 12:00:00 - OpenCompass - INFO - time elapsed: 5.38s

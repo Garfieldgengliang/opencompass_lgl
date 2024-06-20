@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:05 - OpenCompass - INFO - Task [pangu/cmmlu-professional_medicine]: {'accuracy': 34.57446808510639}
+05/23 09:45:05 - OpenCompass - INFO - time elapsed: 7.94s

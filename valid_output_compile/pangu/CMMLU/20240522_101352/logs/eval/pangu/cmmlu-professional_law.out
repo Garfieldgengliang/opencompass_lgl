@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:05 - OpenCompass - INFO - Task [pangu/cmmlu-professional_law]: {'accuracy': 39.81042654028436}
+05/23 09:45:05 - OpenCompass - INFO - time elapsed: 7.97s

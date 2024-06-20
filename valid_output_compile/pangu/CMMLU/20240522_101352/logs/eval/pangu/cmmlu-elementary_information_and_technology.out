@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:43:51 - OpenCompass - INFO - Task [pangu/cmmlu-elementary_information_and_technology]: {'accuracy': 74.36974789915966}
+05/23 09:43:51 - OpenCompass - INFO - time elapsed: 6.95s

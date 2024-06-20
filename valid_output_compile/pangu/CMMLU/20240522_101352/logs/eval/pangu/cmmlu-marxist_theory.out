@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/23 09:45:02 - OpenCompass - INFO - Task [pangu/cmmlu-marxist_theory]: {'accuracy': 62.43386243386243}
+05/23 09:45:02 - OpenCompass - INFO - time elapsed: 8.20s

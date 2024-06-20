@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/22 01:56:21 - OpenCompass - INFO - Task [pangu/bbh-formal_fallacies]: {'score': 49.2}
+05/22 01:56:21 - OpenCompass - INFO - time elapsed: 11.57s
