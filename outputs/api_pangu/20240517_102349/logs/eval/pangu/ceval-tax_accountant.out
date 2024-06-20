@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:31 - OpenCompass - INFO - Task [pangu/ceval-tax_accountant]: {'accuracy': 55.10204081632652}
+05/24 10:51:31 - OpenCompass - INFO - time elapsed: 3.61s

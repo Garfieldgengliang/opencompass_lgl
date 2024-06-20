@@ -1,0 +1,149 @@
+05/14 14:59:03 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-110b-chat/ceval-marxism]
+05/14 14:59:03 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-110b-chat/ceval-marxism]
+  0%|                                                                                                  | 0/19 [00:00<?, ?it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 19/19 [00:00<?, ?it/s]
+[2024-05-14 14:59:03,444] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                   | 0/3 [00:00<?, ?it/s]================================================================================================================================
+D
+================================================================================================================================
+C
+================================================================================================================================
+C
+================================================================================================================================
+C
+{"status_code": 429, "request_id": "2ef0d834-b687-9498-b079-456b29009b5c", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9aa81bb4-961d-9fb4-af41-c0c9bdb9b3bd", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9e7d5153-8687-9554-bc8b-3322968eaaaf", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a4613b8c-adbf-9a27-b0e5-fd878f9de5a0", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "1c387cf7-874f-99d4-afb1-5ac0a7345378", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "95147c00-ba67-99e1-a756-5269a78936ed", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "67dc0c7a-517b-9f99-98ee-5e572c6a1c87", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "999ac6e5-e499-9786-92f4-67daae392287", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "55687e4a-7929-9019-853f-43059b089e91", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "f99819c0-e4dd-9ef8-bfde-daf789de00ef", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d93ce1c8-2f56-9962-a56f-8885fdb53c74", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "ce565690-46f3-98cf-ac8a-0d1f8c8f34a6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "556b3ac1-4ee9-9310-bb0d-8658ec98aa0c", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d53613ae-8dd6-9731-bf4e-49af185c510f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "129268a7-b1db-94b9-8c53-011350c2d124", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "43ef9174-52da-9d2e-9de1-60d2fd216f7f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a31da1f1-588d-9784-bacd-c4d6cc767b34", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "17b66ab4-fb23-9dfb-867b-eb1cf00a1882", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0d47d5d1-f4c5-966f-9a72-279472b94b9e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "57b3b29f-6702-9607-ace1-3be687c9cbe5", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "8fac7a15-f3bc-913c-907d-5beff744364b", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "3eb9551a-5e29-9486-bfc7-7a475e81920b", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "b89972e9-9da6-956f-8bc7-04c4ceaec4aa", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "faeda4a7-c17a-9de7-a94a-d8af0e835e2f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "8b49462b-8e0a-9155-baa2-e0a2731b7094", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "42a22d50-6fd6-9fa0-b942-edb94cb21633", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "8632b9f3-fd73-9a22-bf26-9d024874d0ca", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "12c90706-bf55-9e67-bc65-f29ae966fbe8", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d1e8ecfb-8b98-9407-98a5-a898e7a07aeb", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "dffb80eb-8ac6-9cfc-9a63-5451161503bf", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "cdda1425-393d-90f5-949a-85bcf8b6e1df", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6c6a8655-e724-978a-a8e9-1a94cd082098", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "251a1868-9456-9232-b9c0-85f3b031e96b", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2c2cc8d6-60be-9177-b7b4-cef7af128d21", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a0b7cc6b-32e4-9466-92b6-a9ea0f0235e3", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "27299ed3-7202-99c8-b1c2-06754fdc1108", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "7ed39c49-1fe0-9b57-9079-c47e904a84cd", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6899fe2f-bbe5-9955-89e3-00b56a032253", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "fb92f98c-f347-99f8-b336-106a7c7eb8f9", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "cd4df440-e274-9a11-9742-5a9731e9d728", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "1eecbfee-446c-96b6-be03-b3c37207762e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "1b0aa03a-be89-9336-9543-c105db666552", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0b71a2a5-5db4-9849-9f53-40edcdd0f637", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6ac82997-a63c-93c5-a9d1-c42121da687c", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2096aab2-d0f8-9292-896b-d297eadea1ac", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "865bc7c1-794d-93eb-9c14-46f0fa715917", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9b4af55e-af52-9d70-973e-4c63d6a93ad2", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d4f67d62-1af0-9de7-a89f-904ac10bc142", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9f1fbc8f-ad4a-9067-9ec5-42e38c8ef1f2", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0ed0078c-9f33-96d8-a9bd-a59eab7b40e0", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "be07b94f-182a-9791-b16e-c22bc1de854f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "7329ca22-5fc6-95f2-a338-90cf8ab774e0", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "dd97ff38-ffa5-921c-87d3-444378b34141", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a20de0e3-2c4c-9bec-8381-745606d365e1", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2d07a7df-6d4e-9030-9d2c-a089c5ba549d", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "7d3c1773-dc41-995d-aff7-089632b92e0a", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0fac6120-61ce-9fb9-aade-1bf785a5bd5b", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "44c39219-046f-93ff-a56c-5b6deaeca54d", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "7e1bcb58-ff28-98e9-90b4-a55e99f1e064", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a58da8c4-e893-94fc-b536-00a44a93f279", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6b478f0d-e952-965f-ac66-daff3e8c98ae", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "4a584acb-5d35-941e-8dbd-ee5bd04ba732", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0d4ac411-5718-9f08-8fee-e903304f2c07", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9e4d0d9b-cea1-9039-9198-f10081234bfa", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "c786b377-ec99-9ddb-bdc4-2fc9f2883baa", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "bfafeba0-7180-9461-9cee-ee8c24383a82", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "4ec91c28-ccc2-9a33-8edc-4bb15174d06e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "cced4072-d37e-92fd-b2ce-aca802a5ebc6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0dc89244-e970-99b8-bae0-d6a6a4881d22", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+A
+================================================================================================================================
+A
+ 33%|██████████████████████████████▎                                                            | 1/3 [00:56<01:53, 56.96s/it]================================================================================================================================
+C
+================================================================================================================================
+B
+================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+A
+================================================================================================================================
+A
+{"status_code": 429, "request_id": "675c7448-81fa-9979-a15f-9aff623681d7", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "f224b118-38ef-975e-9294-fcb87f4781c9", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "8604c94c-705d-9d87-b089-73952fe12313", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "77e76d00-feee-9252-992a-d83268f85460", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "f4ee562a-7658-9824-9235-8941130ca2fb", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "748f5c38-08d0-9d9a-882a-177ddc61303f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "cab27c8e-a44c-9e0c-98f7-1a853e287484", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0b9a6ef8-0614-9789-92dc-ef73f1314b37", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "8ab826e3-88bb-9d96-baa2-01d3ffa890c8", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "0b67af2e-ce9f-91a8-a37d-ff257cb8440c", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "659d2c6e-784c-9c7b-8b0b-2774bb0c6158", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "5401aa3c-8e5f-9ac6-a584-726e6c8f9198", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "1120aeb2-96d8-9e49-8afe-9289d7a9ff34", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "37e5c878-34dc-938a-8568-e472b2447254", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "539ddf6f-e926-915d-bffb-933f562b3712", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d132dcf9-af85-9ad1-9342-f4bcfb146a4e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "f23f9cf6-7033-90ee-84fe-975088661d86", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "5380e07f-2625-9e7c-aa47-1b1282f20239", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "bf7b3bd1-4209-972d-9a3b-44d622b51392", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "29db3a4a-418e-98e6-9321-7d4183311d58", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "dec72cd7-4ffc-9f28-880d-a515fc6eaed6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "594f598e-127e-9c2c-9864-0dd01e6686b5", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "06cca33b-cbee-91e0-8b7f-cccfc7449886", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "744ee562-f810-9608-b4af-d90b395d5374", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "be83baf7-7167-96be-ab7d-05cdb197e424", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "e9f99b03-f935-9675-bbb0-6eb424d30cd6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "3ebf2658-b134-96ba-8357-43db16a0efee", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "ba4c4139-d751-96a7-99a5-33123aef66fa", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "542b43ad-ad2e-90f1-9a18-bf587f41ca95", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "ac3fa73e-b353-9818-b066-47738ee77420", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "862076f2-4f8e-9bf8-9b65-133eff12911f", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2248c3e6-0f88-9307-86ad-5149349758b4", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "5a67fc0f-69b1-9b25-ba1f-7fb2d0e69575", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a01b58bd-24f8-94af-b864-07b1da0bf815", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d191f2b8-575c-9f0a-9294-0fc26be9a2f8", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "56b3c98f-f7c4-91b1-9141-72979b9711f4", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+C
+================================================================================================================================
+B
+ 67%|████████████████████████████████████████████████████████████▋                              | 2/3 [01:54<00:57, 57.48s/it]================================================================================================================================
+D
+================================================================================================================================
+C
+================================================================================================================================
+A
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 3/3 [01:57<00:00, 32.52s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████| 3/3 [01:57<00:00, 39.21s/it]
+05/14 15:01:01 - OpenCompass - [4m[97mINFO[0m - time elapsed: 117.68s

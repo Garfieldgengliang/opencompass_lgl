@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:10 - OpenCompass - INFO - Task [Spark-v1-1/ceval-college_chemistry]: {'accuracy': 50.0}
+05/28 18:15:10 - OpenCompass - INFO - time elapsed: 3.14s

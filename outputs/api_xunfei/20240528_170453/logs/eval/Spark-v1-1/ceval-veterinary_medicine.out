@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:35 - OpenCompass - INFO - Task [Spark-v1-1/ceval-veterinary_medicine]: {'accuracy': 82.6086956521739}
+05/28 18:15:35 - OpenCompass - INFO - time elapsed: 3.13s

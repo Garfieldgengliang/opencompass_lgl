@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:46:41 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-plant_protection]: {'accuracy': 72.72727272727273}
+05/16 16:46:41 - OpenCompass - INFO - time elapsed: 3.72s

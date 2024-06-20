@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:10:04 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-human_sexuality]: {'accuracy': 77.77777777777779}
+05/28 20:10:04 - OpenCompass - INFO - time elapsed: 3.17s

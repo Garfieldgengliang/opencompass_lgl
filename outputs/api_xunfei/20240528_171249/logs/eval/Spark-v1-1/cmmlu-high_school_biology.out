@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:47 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-high_school_biology]: {'accuracy': 76.92307692307693}
+05/28 20:09:47 - OpenCompass - INFO - time elapsed: 4.00s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:46:17 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-fire_engineer]: {'accuracy': 35.483870967741936}
+05/14 17:46:17 - OpenCompass - INFO - time elapsed: 4.63s

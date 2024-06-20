@@ -1,0 +1,5 @@
+05/15 09:46:14 - OpenCompass - [4m[97mINFO[0m - Task [qwen-14b-chat/lukaemon_mmlu_high_school_geography]
+05/15 09:46:14 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen-14b-chat/lukaemon_mmlu_high_school_geography]
+  0%|                                                                                                 | 0/198 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████| 198/198 [00:00<?, ?it/s]
+[2024-05-15 09:46:14,836] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                  | 0/99 [00:00<?, ?it/s]

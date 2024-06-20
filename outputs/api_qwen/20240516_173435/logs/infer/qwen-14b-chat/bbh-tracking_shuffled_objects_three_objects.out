@@ -1,0 +1,4 @@
+05/16 17:34:48 - OpenCompass - [4m[97mINFO[0m - Task [qwen-14b-chat/bbh-tracking_shuffled_objects_three_objects]
+05/16 17:34:48 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen-14b-chat/bbh-tracking_shuffled_objects_three_objects]
+[2024-05-16 17:34:48,163] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                          | 0/125 [00:00<?, ?it/s]  0%|                                                                                          | 0/125 [08:53<?, ?it/s]

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:01:37 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_human_sexuality]: {'accuracy': 71.7557251908397}
+05/20 13:01:37 - OpenCompass - INFO - time elapsed: 3.13s

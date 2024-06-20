@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:16:12 - OpenCompass - INFO - Task [Spark-v1-1/ceval-plant_protection]: {'accuracy': 81.81818181818183}
+05/28 18:16:12 - OpenCompass - INFO - time elapsed: 5.64s

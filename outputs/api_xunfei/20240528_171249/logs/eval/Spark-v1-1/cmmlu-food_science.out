@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:46 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-food_science]: {'accuracy': 71.32867132867133}
+05/28 20:09:46 - OpenCompass - INFO - time elapsed: 4.15s

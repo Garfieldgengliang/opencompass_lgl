@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:23 - OpenCompass - INFO - Task [pangu/ceval-legal_professional]: {'accuracy': 47.82608695652174}
+05/24 10:51:23 - OpenCompass - INFO - time elapsed: 5.14s

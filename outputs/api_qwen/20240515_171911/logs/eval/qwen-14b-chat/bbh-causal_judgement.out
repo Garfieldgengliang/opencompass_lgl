@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 16:26:23 - OpenCompass - INFO - Task [qwen-14b-chat/bbh-causal_judgement]: {'score': 58.288770053475936}
+05/24 16:26:23 - OpenCompass - INFO - time elapsed: 4.55s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:50:57 - OpenCompass - INFO - Task [pangu/ceval-teacher_qualification]: {'accuracy': 29.545454545454547}
+05/24 10:50:57 - OpenCompass - INFO - time elapsed: 3.26s

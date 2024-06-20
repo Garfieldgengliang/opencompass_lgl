@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:01:06 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_abstract_algebra]: {'accuracy': 32.0}
+05/20 13:01:06 - OpenCompass - INFO - time elapsed: 3.42s

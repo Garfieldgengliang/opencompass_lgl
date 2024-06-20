@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:47 - OpenCompass - INFO - Task [Spark-v1-1/ceval-modern_chinese_history]: {'accuracy': 86.95652173913044}
+05/28 18:15:47 - OpenCompass - INFO - time elapsed: 3.04s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:10:31 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-modern_chinese]: {'accuracy': 63.793103448275865}
+05/28 20:10:31 - OpenCompass - INFO - time elapsed: 3.49s

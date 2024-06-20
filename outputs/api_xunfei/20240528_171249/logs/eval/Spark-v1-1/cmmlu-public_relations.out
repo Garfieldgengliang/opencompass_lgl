@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:10:44 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-public_relations]: {'accuracy': 71.26436781609196}
+05/28 20:10:44 - OpenCompass - INFO - time elapsed: 3.63s

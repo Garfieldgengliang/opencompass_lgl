@@ -1,0 +1,40 @@
+05/17 09:52:33 - OpenCompass - [4m[97mINFO[0m - Task [pangu/ceval-middle_school_biology]
+05/17 09:52:33 - OpenCompass - [4m[97mINFO[0m - Start inferencing [pangu/ceval-middle_school_biology]
+  0%|                                                                                           | 0/21 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:00<?, ?it/s]
+[2024-05-17 09:52:33,695] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                           | 0/21 [00:00<?, ?it/s]  5%|███▉                                                                               | 1/21 [00:07<02:26,  7.31s/it] 10%|███████▉                                                                           | 2/21 [00:15<02:25,  7.65s/it] 10%|███████▉                                                                           | 2/21 [00:29<04:43, 14.95s/it]
+Process SpawnPoolWorker-3:
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 144, in submit
+    res = launch(task, tokens)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 122, in launch
+    inferencer.run(inferencer, tokens)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 52, in monkey_run
+    self._inference()
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_infer.py", line 140, in _inference
+    inferencer.inference(retriever,
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py", line 146, in inference
+    results = self.model.generate_from_template(
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\base.py", line 165, in generate_from_template
+    return self.generate(inputs, max_out_len=max_out_len, **kwargs)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\pangu_api_lgl.py", line 80, in generate
+    result = self._generate(input_i, max_out_len)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\pangu_api_lgl.py", line 172, in _generate
+    self.acquire()
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\base_api.py", line 94, in acquire
+    self.tokens.acquire()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\managers.py", line 1048, in acquire
+    return self._callmethod('acquire', args)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\managers.py", line 818, in _callmethod
+    kind, result = conn.recv()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\multiprocessing\connection.py", line 305, in _recv_bytes
+    waitres = _winapi.WaitForMultipleObjects(
+KeyboardInterrupt

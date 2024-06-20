@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:29 - OpenCompass - INFO - Task [pangu/ceval-urban_and_rural_planner]: {'accuracy': 54.347826086956516}
+05/24 10:51:29 - OpenCompass - INFO - time elapsed: 4.09s

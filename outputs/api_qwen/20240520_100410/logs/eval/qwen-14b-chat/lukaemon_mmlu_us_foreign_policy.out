@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:02:09 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_us_foreign_policy]: {'accuracy': 87.0}
+05/20 13:02:09 - OpenCompass - INFO - time elapsed: 4.84s

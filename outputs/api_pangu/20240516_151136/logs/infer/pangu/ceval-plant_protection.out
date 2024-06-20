@@ -1,0 +1,61 @@
+05/16 17:32:28 - OpenCompass - [4m[97mINFO[0m - Task [pangu/ceval-plant_protection]
+05/16 17:32:28 - OpenCompass - [4m[97mINFO[0m - Start inferencing [pangu/ceval-plant_protection]
+  0%|                                                                                           | 0/22 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████| 22/22 [00:00<?, ?it/s]
+[2024-05-16 17:32:28,335] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                           | 0/22 [00:00<?, ?it/s]  5%|███▊                                                                               | 1/22 [00:07<02:43,  7.80s/it]  9%|███████▌                                                                           | 2/22 [00:13<02:14,  6.73s/it] 14%|███████████▎                                                                       | 3/22 [00:21<02:15,  7.14s/it] 18%|███████████████                                                                    | 4/22 [00:23<01:35,  5.30s/it] 23%|██████████████████▊                                                                | 5/22 [00:39<02:30,  8.85s/it] 27%|██████████████████████▋                                                            | 6/22 [00:46<02:15,  8.50s/it] 32%|██████████████████████████▍                                                        | 7/22 [00:48<01:32,  6.14s/it] 36%|██████████████████████████████▏                                                    | 8/22 [00:52<01:17,  5.53s/it] 41%|█████████████████████████████████▉                                                 | 9/22 [01:03<01:35,  7.33s/it] 45%|█████████████████████████████████████▎                                            | 10/22 [01:06<01:11,  5.93s/it] 50%|█████████████████████████████████████████                                         | 11/22 [01:09<00:55,  5.07s/it] 55%|████████████████████████████████████████████▋                                     | 12/22 [01:21<01:12,  7.21s/it] 59%|████████████████████████████████████████████████▍                                 | 13/22 [01:32<01:14,  8.23s/it] 64%|████████████████████████████████████████████████████▏                             | 14/22 [01:40<01:06,  8.30s/it] 64%|████████████████████████████████████████████████████▏                             | 14/22 [02:51<01:37, 12.24s/it]
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\http\client.py", line 1375, in getresponse
+    response.begin()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\http\client.py", line 287, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=9999): Max retries exceeded with url: http://10.83.8.91:8080/v1/da6/deployments/3dc/chat/completions (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 122, in launch
+    inferencer.run(inferencer, tokens)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 52, in monkey_run
+    self._inference()
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_infer.py", line 140, in _inference
+    inferencer.inference(retriever,
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py", line 146, in inference
+    results = self.model.generate_from_template(
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\base.py", line 165, in generate_from_template
+    return self.generate(inputs, max_out_len=max_out_len, **kwargs)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\pangu_api_lgl.py", line 80, in generate
+    result = self._generate(input_i, max_out_len)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\pangu_api_lgl.py", line 174, in _generate
+    response = requests.request(method="POST", url=self.url, data=payload_json, headers=headers, verify=False)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPConnectionPool(host='127.0.0.1', port=9999): Max retries exceeded with url: http://10.83.8.91:8080/v1/da6/deployments/3dc/chat/completions (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))

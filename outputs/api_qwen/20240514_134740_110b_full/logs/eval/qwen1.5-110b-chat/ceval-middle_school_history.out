@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:26:09 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-middle_school_history]: {'accuracy': 100.0}
+05/14 16:26:09 - OpenCompass - INFO - time elapsed: 5.83s

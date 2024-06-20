@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:14:53 - OpenCompass - INFO - Task [Spark-v1-1/ceval-middle_school_physics]: {'accuracy': 94.73684210526315}
+05/28 18:14:53 - OpenCompass - INFO - time elapsed: 2.84s

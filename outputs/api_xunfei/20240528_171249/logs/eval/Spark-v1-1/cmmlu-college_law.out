@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:45 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-college_law]: {'accuracy': 74.07407407407408}
+05/28 20:09:45 - OpenCompass - INFO - time elapsed: 4.23s

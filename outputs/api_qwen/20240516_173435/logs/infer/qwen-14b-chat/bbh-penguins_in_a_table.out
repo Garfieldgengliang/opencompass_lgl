@@ -1,0 +1,4 @@
+05/16 17:34:57 - OpenCompass - [4m[97mINFO[0m - Task [qwen-14b-chat/bbh-penguins_in_a_table]
+05/16 17:34:57 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen-14b-chat/bbh-penguins_in_a_table]
+[2024-05-16 17:34:57,155] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                           | 0/73 [00:00<?, ?it/s]  0%|                                                                                           | 0/73 [08:44<?, ?it/s]

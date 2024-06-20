@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:57 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-elementary_mathematics]: {'accuracy': 51.30434782608696}
+05/28 20:09:57 - OpenCompass - INFO - time elapsed: 3.55s

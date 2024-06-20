@@ -1,0 +1,95 @@
+05/14 14:42:35 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-110b-chat/ceval-middle_school_biology]
+05/14 14:42:35 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-110b-chat/ceval-middle_school_biology]
+  0%|                                                                                                  | 0/21 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:00<00:00, 21021.57it/s]
+[2024-05-14 14:42:35,448] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                   | 0/3 [00:00<?, ?it/s]================================================================================================================================
+C
+================================================================================================================================
+B
+================================================================================================================================
+B
+================================================================================================================================
+C
+================================================================================================================================
+A
+================================================================================================================================
+B
+================================================================================================================================
+A
+================================================================================================================================
+C. ①③④
+
+动物在生物圈中具有重要作用，主要包括：
+
+1. **维持生态平衡**：动物作为食物链中的重要组成部分，通过捕食与被捕食的关系，调节不同物种的数量，维持生态系统的平衡状态。
+
+2. **帮助植物传粉、传播种子**：许多昆虫、鸟类等动物在采蜜、食用果实的过程中，促进了植物的传粉和种子的散布，有助于植物种群的繁衍和扩散。
+
+3. **促进物质循环**：动物通过呼吸作用释放二氧化碳，死亡后的尸体被分解者分解，这些过程都是自然界物质循环的重要环节。
+
+选项中的“②消灭病虫害”并不是动物在生物圈中普遍扮演的角色，而且这个表述也不准确，因为某些动物虽然可以帮助控制害虫数量，但说“消灭病虫害”太过绝对且不全面。因此，正确的选项是 **C. ①③④**。
+ 33%|██████████████████████████████▎                                                            | 1/3 [00:18<00:36, 18.32s/it]================================================================================================================================
+B
+{"status_code": 429, "request_id": "bb04e9fe-1e5a-946e-98fe-4637d0cc2c08", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "480aed79-bfc3-9bca-a067-c2d9e44aac49", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "e10b2655-9e9a-973f-b017-fa3c8d44f3c6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+D
+================================================================================================================================
+C
+================================================================================================================================
+A
+================================================================================================================================
+A
+================================================================================================================================
+B
+================================================================================================================================
+B
+================================================================================================================================
+B
+ 67%|████████████████████████████████████████████████████████████▋                              | 2/3 [00:29<00:13, 13.95s/it]================================================================================================================================
+C
+================================================================================================================================
+D
+================================================================================================================================
+D
+{"status_code": 429, "request_id": "3945fa2c-bf50-9676-a697-e8328efdbac6", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "328791d1-4797-97eb-854f-a28c0570a393", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "196185ce-6bb0-9985-83b9-d6beca47e204", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "03cc7bdd-21c5-9e4f-b798-94831040b3bd", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "dd198e2f-7621-933a-bace-5cc7fe5cbd72", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "5fc8551a-dc59-9428-8c53-f436df657f0a", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d349b60f-d45f-9099-a133-83c2dc2e0319", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "919a643d-bc21-9af7-9774-51a9fb5f5604", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d4a64a92-4978-93c2-b08c-60f698d18df7", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "594d4b79-a775-9a76-b470-74b2812e6ca4", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6c26971d-7016-97a6-8b4c-c581776f4e9c", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "4d047d2f-075a-91c0-ac35-8125e4abf94e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "887f9e77-94b5-9d5b-b722-c409718dcded", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "cbd2e3f9-08b7-9734-aa39-2902fd50b7e2", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a18ccbb0-28fc-97b3-92c3-c139300bd49e", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "82d8e8d5-7448-98ba-a39a-c272d8d618d7", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "17b141b3-c1cc-9892-b682-5838a8a09c73", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2c319b5b-0269-91cb-ad74-16bdc9a676db", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "294c818e-b909-9909-bfe0-f6193b4591fd", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "255a7e83-a45b-9ca6-94a3-a2b61762184a", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "24ad2551-8c4f-9ce1-af13-a316a9257d42", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "824f3192-0997-9cea-9ebc-e065e6ed35e5", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "47783958-45fd-9755-9289-5ea2730feaf3", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "d47b23e4-7b90-9615-abc4-421ca660b36d", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "92e9955e-6d77-9c1d-89b6-e0496a4d529d", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "7117137f-4fde-9983-965d-be39b1a7382a", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "ceca7194-7daf-9ef0-b1b8-16795400eef8", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "74ea07c4-ce87-9d81-b458-7694f836b9bb", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "693bf45c-036c-97a2-ad36-e84b9b0371c2", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2361db5f-aa65-9283-b25a-310dc331c640", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "da9d25af-27a3-98e4-bdf4-13e901c8c6e5", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "a24a4d6b-de38-9d71-8146-4391560f9c23", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "9514fc0a-a43d-91a1-9447-2e2cc7a10a59", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "2d00d668-64bf-99c9-ac86-02f35b161ed4", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+C
+================================================================================================================================
+A
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 3/3 [01:24<00:00, 32.69s/it]100%|███████████████████████████████████████████████████████████████████████████████████████████| 3/3 [01:24<00:00, 28.07s/it]
+05/14 14:43:59 - OpenCompass - [4m[97mINFO[0m - time elapsed: 84.31s

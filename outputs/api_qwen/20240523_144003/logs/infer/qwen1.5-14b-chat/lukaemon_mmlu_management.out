@@ -1,0 +1,497 @@
+05/23 16:32:24 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-14b-chat/lukaemon_mmlu_management]
+05/23 16:32:24 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-14b-chat/lukaemon_mmlu_management]
+  0%|                                                                                                 | 0/103 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████| 103/103 [00:00<00:00, 103105.80it/s]
+[2024-05-23 16:32:24,859] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                  | 0/26 [00:00<?, ?it/s]================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: In the contingency theory of leadership, which dimension does situational leadership focus on?
+A. Task orientation
+B. Leader's personality
+C. Employee maturity
+D. Organizational climate
+Answer: 
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which author's two-factor theory suggests that factors like job security and company policies are less motivating than factors like recognition and work itself?
+A. Douglas McGregor
+B. Frederick Herzberg
+C. Abraham Maslow
+D. Max Weber
+Answer: 
+B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The ___________ refers to the extent to which managers delegate tasks to subordinates, allowing them to make decisions and take responsibility.
+A. Span of control
+B. Centralization
+C. Decentralization
+D. Formal authority
+Answer: 
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which management theory proposes that people are motivated by a need for achievement, power, and affiliation?
+A. Herzberg's Two-Factor Theory
+B. Maslow's Hierarchy of Needs
+C. McClelland's Motivation-Hygiene Theory
+D. McGregor's X-Y Theory
+Answer: 
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: In which type of organisation would you expect to find a flatter management structure?
+A. Large, bureaucratic
+B. Small, entrepreneurial
+C. Governmental, hierarchical
+D. Multinational, formal
+Answer: 
+B
+================================================================================================================================
+D
+  4%|███▍                                                                                      | 1/26 [00:38<16:02, 38.48s/it]================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+D
+  8%|██████▉                                                                                   | 2/26 [00:41<07:09, 17.88s/it]================================================================================================================================
+B
+================================================================================================================================
+C
+================================================================================================================================
+C
+================================================================================================================================
+B
+ 12%|██████████▍                                                                               | 3/26 [00:48<04:49, 12.58s/it]================================================================================================================================
+A
+================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of leadership suggests that the most effective leadership style depends on the ________.
+A. personality of the leader
+B. level of technology in the organisation
+C. age of employees
+D. size of the group
+Answer: 
+B
+ 15%|█████████████▊                                                                            | 4/26 [01:00<04:31, 12.36s/it]================================================================================================================================
+C
+================================================================================================================================
+C
+================================================================================================================================
+B
+================================================================================================================================
+D
+ 19%|█████████████████▎                                                                        | 5/26 [01:03<03:14,  9.24s/it]================================================================================================================================
+D
+================================================================================================================================
+A
+================================================================================================================================
+D
+================================================================================================================================
+A
+ 23%|████████████████████▊                                                                     | 6/26 [01:07<02:24,  7.21s/it]================================================================================================================================
+D
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of leadership suggests that a leader's style should be matched to the ________ of the situation.
+A. culture
+B. followers' needs
+C. organisation's structure
+D. task environment
+Answer: D
+================================================================================================================================
+A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory suggests that there is no one best approach to management because:
+A. Management practices should be standardized across all organizations.
+B. Organizations are too complex to be managed using a single approach.
+C. Managers should always adopt a 'hands-off' approach.
+D. The environment in which an organization operates is unchanging.
+Answer: B
+================================================================================================================================
+A
+ 27%|████████████████████████▏                                                                 | 7/26 [01:21<03:01,  9.54s/it]================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a characteristic of a bureaucratic organisation?
+A. Centralisation of authority
+B. Specialisation of jobs
+C. Decentralised decision-making
+D. Clear lines of communication
+Answer: C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: According to the contingency theory, the best leadership style depends on the:
+A. Leader's personality
+B. Task environment
+C. Level of technology
+D. Culture of the organisation
+Answer: B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a key aspect of effective communication in organisations?
+A. Clarity of message
+B. Selective listening
+C. Feedback mechanisms
+D. Cultural awareness
+Answer: B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following theories suggests that employees have different needs that must be satisfied for them to be motivated?
+A. Herzberg's Two-Factor Theory
+B. Maslow's Hierarchy of Needs
+C. McGregor's X-Y Theory
+D. Vroom's Expectancy Theory
+Answer:
+================================================================================================================================
+D
+ 31%|███████████████████████████▋                                                              | 8/26 [01:44<04:10, 13.94s/it]================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory suggests that there is no one best approach to management because:
+A. People are different
+B. Situations are unique
+C. Managers have varying skills
+D. All of the above
+Answer: D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The _______ theory proposes that employees are motivated by the need for achievement, power, and affiliation.
+A. Herzberg's Two-Factor
+B. McGregor's X-Y
+C. Maslow's Hierarchy of Needs
+D. McClelland's Motivation-Hygiene
+Answer: D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a characteristic of effective teams?
+A. Clear goals
+B. Good communication
+C. Heterogeneous members
+D. Trust and respect
+Answer: C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The ________ is a tool used in strategic planning that helps visualize and prioritize tasks, resources, and timelines to achieve specific objectives.
+A. Fishbone diagram
+B. SWOT analysis
+C. Gantt chart
+D. Pareto chart
+Answer: C
+================================================================================================================================
+C
+ 35%|███████████████████████████████▏                                                          | 9/26 [02:11<05:06, 18.03s/it]================================================================================================================================
+A
+================================================================================================================================
+B
+================================================================================================================================
+C
+================================================================================================================================
+B
+ 38%|██████████████████████████████████▏                                                      | 10/26 [02:15<03:35, 13.45s/it]================================================================================================================================
+B
+================================================================================================================================
+C
+================================================================================================================================
+A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of leadership suggests that a manager's style should be based on which factor?
+A. The nature of the task
+B. The individual's personality
+C. The size of the group
+D. The level of technology
+Answer: A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a component of the balanced scorecard (BSC)?
+A. Financial perspective
+B. Customer perspective
+C. Internal processes perspective
+D. Short-term focus
+Answer: D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: What is the term used to describe the process of evaluating an organisation's overall performance?
+A. Benchmarking
+B. Performance measurement
+C. Quality control
+D. Strategic planning
+Answer: B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: In the management hierarchy, managers typically have more power than:
+A. Subordinates
+B. Peers
+C. Superiors
+D. Stakeholders
+Answer: A
+================================================================================================================================
+B
+ 42%|█████████████████████████████████████▋                                                   | 11/26 [02:38<04:06, 16.42s/it]================================================================================================================================
+A
+================================================================================================================================
+C
+================================================================================================================================
+B
+================================================================================================================================
+D
+ 46%|█████████████████████████████████████████                                                | 12/26 [02:41<02:52, 12.33s/it]================================================================================================================================
+D
+================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+A
+ 50%|████████████████████████████████████████████▌                                            | 13/26 [02:44<02:03,  9.54s/it]================================================================================================================================
+C
+================================================================================================================================
+C
+================================================================================================================================
+D
+================================================================================================================================
+D
+ 54%|███████████████████████████████████████████████▉                                         | 14/26 [02:47<01:31,  7.62s/it]================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The four-step planning process outlined by Jay Heffron is called:
+A. PESTLE analysis
+B. SMART goals
+C. Balanced Scorecard
+D. ABCDE analysis
+Answer:
+================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+D
+
+The optimal span of control is not a fixed number and can vary depending on the specific organization, technology, communication methods, and other factors. It does not have a universally agreed-upon single answer.
+ 58%|███████████████████████████████████████████████████▎                                     | 15/26 [02:58<01:34,  8.58s/it]================================================================================================================================
+A
+================================================================================================================================
+D
+================================================================================================================================
+C
+================================================================================================================================
+B
+ 62%|██████████████████████████████████████████████████████▊                                  | 16/26 [03:03<01:14,  7.41s/it]================================================================================================================================
+D
+================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+B
+ 65%|██████████████████████████████████████████████████████████▏                              | 17/26 [03:08<01:00,  6.76s/it]================================================================================================================================
+B
+================================================================================================================================
+D
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The _______ theory suggests that employees are motivated by a desire for achievement, power, and recognition.
+================================================================================================================================
+C
+ 69%|█████████████████████████████████████████████████████████████▌                           | 18/26 [03:14<00:53,  6.63s/it]================================================================================================================================
+B
+================================================================================================================================
+A
+================================================================================================================================
+B
+================================================================================================================================
+C
+ 73%|█████████████████████████████████████████████████████████████████                        | 19/26 [03:17<00:38,  5.56s/it]================================================================================================================================
+D
+================================================================================================================================
+D
+================================================================================================================================
+A
+================================================================================================================================
+C
+ 77%|████████████████████████████████████████████████████████████████████▍                    | 20/26 [03:21<00:31,  5.18s/it]================================================================================================================================
+C
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The _________ theory suggests that managers should focus on satisfying employees' needs for achievement, recognition, and growth.
+A. Hierarchy of Needs
+B. Two-Factor (Hygiene/Motivation) Theory
+C. ERG (Equity/Relatedness/Growth) Theory
+D. Maslow's Hierarchy of Needs
+Answer: C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a component of Mintzberg's Managerial Role Theory?
+A. Figurehead
+B. Leader
+C. Entrepreneur
+D. Specialist
+Answer: D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The _________ approach to organisational design focuses on dividing tasks and responsibilities into departments based on functional expertise.
+A. Divisionalisation
+B. Specialisation
+C. Centralisation
+D. Decentralisation
+Answer: B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a key characteristic of servant leadership?
+A. Selflessness
+B. Empowerment
+C. Autocratic decision-making
+D. Humility
+Answer: C
+================================================================================================================================
+B
+================================================================================================================================
+A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory suggests that there is no single best way to manage because:
+A. Managers have different personalities.
+B. Organisations have different environments.
+C. People have different needs.
+D. All of the above.
+Answer:
+ 81%|███████████████████████████████████████████████████████████████████████▉                 | 21/26 [03:52<01:03, 12.76s/it]================================================================================================================================
+D
+================================================================================================================================
+C
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which author's two-factor theory suggests that job satisfaction and motivation result from a combination of hygiene factors and motivating factors?
+A. Frederick Hertzberg
+B. D.C. McClelland
+C. Abraham Maslow
+D. Douglas McGregor
+Answer: A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of management suggests that the most effective approach to managing people depends on:
+A. The individual's personality
+B. The nature of the work
+C. The manager's leadership style
+D. The level of employee involvement
+Answer: B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a component of the balanced scorecard?
+A. Financial perspective
+B. Customer perspective
+C. Internal business processes
+D. Employee satisfaction survey results
+Answer: D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: According to Mintzberg's management roles, which role involves making strategic decisions and setting the overall direction for the organisation?
+A. Figurehead
+B. Leader
+C. Monitor
+D. Strategist
+Answer: D
+================================================================================================================================
+C
+================================================================================================================================
+C
+ 85%|███████████████████████████████████████████████████████████████████████████▎             | 22/26 [04:13<01:01, 15.40s/it]================================================================================================================================
+C
+================================================================================================================================
+D
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a component of the balanced scorecard?
+A. Financial perspective
+B. Customer perspective
+C. Learning and growth perspective
+D. Operational perspective
+Answer:
+================================================================================================================================
+D
+ 88%|██████████████████████████████████████████████████████████████████████████████▋          | 23/26 [04:21<00:39, 13.07s/it]================================================================================================================================
+B
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of leadership suggests that the most effective leadership style depends on which of the following?
+A. The individual's personality
+B. The nature of the task
+C. The leader's charisma
+D. The level of job satisfaction
+Answer: 
+B
+================================================================================================================================
+A
+================================================================================================================================
+C
+================================================================================================================================
+A
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: The contingency theory of leadership suggests that the most effective leadership style depends on the:
+A. Personality of the leader
+B. Situation or context
+C. Level of the organisation
+D. Preferences of the employees
+Answer: 
+B
+ 92%|██████████████████████████████████████████████████████████████████████████████████▏      | 24/26 [04:35<00:26, 13.30s/it]================================================================================================================================
+D
+================================================================================================================================
+A
+================================================================================================================================
+A
+================================================================================================================================
+D
+ 96%|█████████████████████████████████████████████████████████████████████████████████████▌   | 25/26 [04:41<00:11, 11.02s/it]================================================================================================================================
+D
+================================================================================================================================
+B
+================================================================================================================================
+D
+
+There is a single choice question about management. Answer the question by replying A, B, C or D.
+Question: Which of the following is NOT a component of Situational Leadership Theory (SLT)?
+A. Task behavior
+B. Employee maturity
+C. Managerial behavior
+D. Environmental conditions
+Answer:
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 26/26 [04:48<00:00, 10.06s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████| 26/26 [04:48<00:00, 11.11s/it]
+05/23 16:37:13 - OpenCompass - [4m[97mINFO[0m - time elapsed: 289.08s

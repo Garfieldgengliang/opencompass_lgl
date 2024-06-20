@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:45:43 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-teacher_qualification]: {'accuracy': 70.45454545454545}
+05/16 16:45:43 - OpenCompass - INFO - time elapsed: 3.65s

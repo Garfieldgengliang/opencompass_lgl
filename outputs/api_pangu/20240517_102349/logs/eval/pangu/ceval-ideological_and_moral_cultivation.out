@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:50:57 - OpenCompass - INFO - Task [pangu/ceval-ideological_and_moral_cultivation]: {'accuracy': 63.1578947368421}
+05/24 10:50:57 - OpenCompass - INFO - time elapsed: 3.25s

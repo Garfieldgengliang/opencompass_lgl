@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:50:32 - OpenCompass - INFO - Task [pangu/ceval-mao_zedong_thought]: {'accuracy': 62.5}
+05/24 10:50:32 - OpenCompass - INFO - time elapsed: 3.37s

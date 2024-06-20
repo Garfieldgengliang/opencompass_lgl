@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:45:16 - OpenCompass - ERROR - C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_eval.py - _score - 241 - Task [pangu/lukaemon_mmlu_high_school_european_history]: No predictions found.
+05/24 04:45:16 - OpenCompass - INFO - time elapsed: 3.08s

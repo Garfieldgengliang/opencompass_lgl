@@ -1,0 +1,1651 @@
+05/23 08:52:13 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-14b-chat/bbh-tracking_shuffled_objects_three_objects]
+05/23 08:52:13 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-14b-chat/bbh-tracking_shuffled_objects_three_objects]
+[2024-05-23 08:52:13,828] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                 | 0/250 [00:00<?, ?it/s]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: Frankenstein, Claire: Lolita.
+(1) Claire and Bob swap: Claire: Ulysses, Bob: Lolita, Alice: Frankenstein.
+(2) Bob and Alice swap: Claire: Ulysses, Alice: Lolita, Bob: Frankenstein.
+(3) Claire and Bob swap again: Claire: Frankenstein, Bob: Ulysses, Alice: Lolita.
+At the end of the semester, Bob has Ulysses. So the answer is (A).
+  0%|▎                                                                                        | 1/250 [00:09<37:34,  9.05s/it]================================================================================================================================
+(0) At the start: Alice: Hound of the Baskervilles, Bob: The Odyssey, Claire: Catch-22.
+(1) Claire and Alice swap: Alice: Catch-22, Bob: The Odyssey, Claire: Hound of the Baskervilles.
+(2) Bob and Claire swap: Alice: Catch-22, Bob: Hound of the Baskervilles, Claire: The Odyssey.
+(3) Alice and Bob swap: Alice: The Odyssey, Bob: Catch-22, Claire: Hound of the Baskervilles.
+At the end of the semester, Alice has The Odyssey. So the answer is (B).
+  1%|▋                                                                                      | 2/250 [00:31<1:09:25, 16.80s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: Catch-22, Claire: Ulysses.
+(1) Bob and Alice swap: Alice: Catch-22, Bob: Frankenstein, Claire: Ulysses.
+(2) Alice and Claire swap: Alice: Ulysses, Bob: Frankenstein, Claire: Catch-22.
+(3) Claire and Bob swap: Alice: Ulysses, Bob: Catch-22, Claire: Frankenstein.
+At the end of the semester, Alice has Ulysses. So the answer is (C).
+  1%|█                                                                                      | 3/250 [00:57<1:26:28, 21.00s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Lola, Claire: Ophelia.
+(1) Alice and Bob switch partners: Alice: Lola, Bob: Helga, Claire: Ophelia.
+(2) Bob and Claire switch partners: Alice: Lola, Bob: Ophelia, Claire: Helga.
+(3) Alice and Bob switch partners again: Alice: Ophelia, Bob: Lola, Claire: Helga.
+
+At the end of the dance, Alice is dancing with Ophelia. So the answer is (C).
+  2%|█▍                                                                                     | 4/250 [01:25<1:37:30, 23.78s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Odyssey, Claire: Lolita.
+(1) Alice and Claire swap: Alice: Lolita, Bob: The Odyssey, Claire: Frankenstein.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: Lolita, Claire: Frankenstein.
+(3) Claire and Bob swap: Alice: The Odyssey, Bob: Frankenstein, Claire: Lolita.
+At the end of the semester, Bob has Frankenstein. So the answer is (A).
+  2%|█▋                                                                                     | 5/250 [01:58<1:50:41, 27.11s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Moby Dick, Claire: The Great Gatsby.
+(1) Claire and Bob swap: Alice: Catch-22, Bob: The Great Gatsby, Claire: Moby Dick.
+(2) Claire and Alice swap: Alice: The Great Gatsby, Bob: Moby Dick, Claire: Catch-22.
+(3) Bob and Claire swap: Alice: The Great Gatsby, Bob: Catch-22, Claire: Moby Dick.
+At the end of the semester, Alice has The Great Gatsby. So the answer is (C).
+  2%|██                                                                                     | 6/250 [02:29<1:56:27, 28.64s/it]================================================================================================================================
+(0) Start: Alice: Izzi, Bob: Melissa, Claire: Lola.
+(1) Claire and Alice switch: Alice: Lola, Bob: Melissa, Claire: Izzi.
+(2) Bob and Claire switch: Alice: Lola, Bob: Izzi, Claire: Melissa.
+(3) Alice and Bob switch: Alice: Melissa, Bob: Lola, Claire: Izzi.
+
+At the end of the dance, Alice is dancing with Melissa. So the answer is (B).
+  3%|██▍                                                                                    | 7/250 [03:03<2:03:08, 30.41s/it]================================================================================================================================
+(0) At the start: Alice: The Great Gatsby, Bob: The Odyssey, Claire: Lolita.
+(1) Alice and Bob swap: Alice: The Odyssey, Bob: The Great Gatsby, Claire: Lolita.
+(2) Alice and Claire swap: Alice: Lolita, Bob: The Great Gatsby, Claire: The Odyssey.
+(3) Bob and Claire swap: Alice: Lolita, Bob: The Odyssey, Claire: The Great Gatsby.
+At the end of the semester, Claire has The Great Gatsby. So the answer is (A).
+  3%|██▊                                                                                    | 8/250 [03:26<1:52:05, 27.79s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: red, Claire: white.
+(1) Claire and Bob swap: Alice: brown, Bob: white, Claire: red.
+(2) Bob and Alice swap: Alice: red, Bob: brown, Claire: white.
+(3) Claire and Alice swap: Alice: white, Bob: brown, Claire: red.
+
+At the end of the game, Bob has the brown ball. So the answer is (A).
+  4%|███▏                                                                                   | 9/250 [03:48<1:44:32, 26.03s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: brown, Claire: green.
+(1) Bob and Claire swap: Alice: yellow, Bob: green, Claire: brown.
+(2) Bob and Alice swap: Alice: brown, Bob: yellow, Claire: green.
+(3) Bob and Claire swap again: Alice: green, Bob: yellow (which was Alice's original ball), Claire: brown.
+
+So, at the end of the game, Alice has the green ball. The answer is (C).
+  4%|███▍                                                                                  | 10/250 [04:14<1:44:36, 26.15s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: orange, Claire: white.
+(1) Claire and Alice swap: Alice: white, Bob: orange, Claire: yellow.
+(2) Alice and Bob swap: Alice: orange, Bob: yellow, Claire: white.
+(3) Bob and Claire swap: Alice: orange, Bob: white, Claire: yellow.
+At the end of the game, Bob has the white ball. So the answer is (C).
+  4%|███▊                                                                                  | 11/250 [04:35<1:37:55, 24.58s/it]================================================================================================================================
+(0) Start: Alice: Karl, Bob: Rodrigo, Claire: Helga.
+(1) Bob and Alice switch: Alice: Rodrigo, Bob: Karl, Claire: Helga.
+(2) Alice and Claire switch: Alice: Rodrigo, Bob: Karl, Claire: Alice (since Alice had previously danced with Karl).
+(3) Alice and Bob switch again: Alice: Karl, Bob: Rodrigo, Claire: Alice.
+
+At the end of the dance, Alice is dancing with Karl. So the answer is (A).
+  5%|████▏                                                                                 | 12/250 [05:07<1:45:48, 26.67s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: black, Claire: white.
+(1) Bob and Alice swap: Alice: black, Bob: red, Claire: white.
+(2) Claire and Bob swap: Alice: black, Bob: white, Claire: red.
+(3) Alice and Claire swap: Alice: white, Bob: red, Claire: black.
+At the end of the event, Bob has the red present. So the answer is (A).
+  5%|████▍                                                                                 | 13/250 [05:35<1:47:10, 27.13s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: purple, Claire: red.
+(1) Claire and Bob swap: Alice: orange, Bob: red, Claire: purple.
+(2) Alice and Bob swap: Alice: purple, Bob: orange, Claire: red.
+(3) Claire and Alice swap: Alice: red, Bob: orange, Claire: purple.
+At the end of the event, Claire has the purple present. So the answer is (B).
+  6%|████▊                                                                                 | 14/250 [06:04<1:49:02, 27.72s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: red, Claire: yellow.
+(1) Claire and Bob swap: Alice: blue, Bob: yellow, Claire: red.
+(2) Claire and Alice swap: Alice: yellow, Bob: yellow, Claire: blue.
+(3) Bob and Claire swap: Alice: yellow, Bob: blue, Claire: red.
+
+At the end of the game, Claire has the red ball. So the answer is (B).
+  6%|█████▏                                                                                | 15/250 [06:26<1:42:11, 26.09s/it]================================================================================================================================
+(0) Start: Alice: Ophelia, Bob: Jamie, Claire: Rodrigo.
+(1) Bob and Claire switch: Alice: Ophelia, Bob: Rodrigo, Claire: Jamie.
+(2) Alice and Bob switch: Alice: Rodrigo, Bob: Ophelia, Claire: Jamie.
+(3) Bob and Claire switch again: Alice: Rodrigo, Bob: Jamie, Claire: Ophelia.
+
+At the end of the dance, Bob is dancing with Jamie. So the answer is (B).
+  6%|█████▌                                                                                | 16/250 [06:49<1:38:11, 25.18s/it]================================================================================================================================
+(0) Start: Alice: Frankenstein, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Alice and Bob swap: Alice: Moby Dick, Bob: Frankenstein, Claire: The Fellowship of the Ring.
+(2) Alice and Claire swap: Alice: The Fellowship of the Ring, Bob: Frankenstein, Claire: Moby Dick.
+(3) Bob and Claire swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: Frankenstein.
+
+At the end of the semester, Bob has Moby Dick. So the answer is (B).
+  7%|█████▊                                                                                | 17/250 [07:14<1:36:47, 24.92s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Winger, Claire: Center Midfielder.
+(1) Claire and Bob trade positions: Alice: Goalkeeper, Bob: Center Midfielder, Claire: Left Winger.
+(2) Alice and Bob trade positions: Alice: Center Midfielder, Bob: Goalkeeper, Claire: Left Winger.
+(3) Claire and Alice trade positions: Alice: Left Winger, Bob: Goalkeeper, Claire: Center Midfielder.
+At the end of the match, Alice is playing left winger. So the answer is (B).
+  7%|██████▏                                                                               | 18/250 [07:55<1:55:56, 29.99s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Right Winger, Claire: Benchwarmer.
+(1) Alice and Claire trade: Alice: Benchwarmer, Bob: Right Winger, Claire: Cheerleader.
+(2) Bob and Claire trade: Alice: Benchwarmer, Bob: Cheerleader, Claire: Right Winger.
+(3) Alice and Bob trade: Alice: Right Winger, Bob: Benchwarmer, Claire: Cheerleader.
+
+At the end of the match, Alice is playing right winger. So the answer is (B).
+  8%|██████▌                                                                               | 19/250 [08:21<1:50:15, 28.64s/it]================================================================================================================================
+(0) At the start: Alice: The Great Gatsby, Bob: Frankenstein, Claire: Ulysses.
+(1) Alice and Claire swap books: Alice: Ulysses, Bob: Frankenstein, Claire: The Great Gatsby.
+(2) Bob and Claire swap books: Alice: Ulysses, Bob: The Great Gatsby, Claire: Frankenstein.
+(3) Claire and Alice swap books: Alice: Frankenstein, Bob: Ulysses, Claire: The Great Gatsby.
+At the end of the semester, Alice has Frankenstein. So the answer is (B).
+  8%|██████▉                                                                               | 20/250 [08:47<1:46:59, 27.91s/it]================================================================================================================================
+(0) Start: Alice: Ophelia, Bob: Lola, Claire: Izzi.
+(1) Bob and Claire switch partners: Alice: Ophelia, Bob: Izzi, Claire: Lola.
+(2) Claire and Alice switch partners: Alice: Izzi, Bob: Lola, Claire: Ophelia.
+(3) Alice and Bob switch partners: Alice: Lola, Bob: Ophelia, Claire: Izzi.
+At the end of the dance, Alice is dancing with Lola. So the answer is (B).
+  8%|███████▏                                                                              | 21/250 [09:12<1:43:14, 27.05s/it]================================================================================================================================
+(0) At the start: Alice: Right Midfielder, Bob: Center Midfielder, Claire: Striker.
+(1) Alice and Bob trade positions: Alice: Center Midfielder, Bob: Right Midfielder, Claire: Striker.
+(2) Alice and Claire trade positions: Alice: Right Midfielder, Bob: Right Midfielder (since they both had the same position), Claire: Center Midfielder.
+(3) Bob and Claire trade positions: Alice: Right Midfielder, Bob: Striker, Claire: Right Midfielder (since Bob took Claire's position).
+
+At the end of the match, Claire is playing right midfielder. So the answer is (A).
+  9%|███████▌                                                                              | 22/250 [09:42<1:46:08, 27.93s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Patrick, Claire: Sam.
+(1) Claire and Alice switch: Alice: Sam, Bob: Patrick, Claire: Helga.
+(2) Claire and Bob switch: Alice: Sam, Bob: Helga, Claire: Patrick.
+(3) Alice and Bob switch: Alice: Patrick, Bob: Sam, Claire: Helga.
+
+At the end of the dance, Alice is dancing with Patrick. So the answer is (B).
+  9%|███████▉                                                                              | 23/250 [10:05<1:39:17, 26.24s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: yellow, Claire: orange.
+(1) Claire and Bob swap: Alice: purple, Bob: orange, Claire: yellow.
+(2) Bob and Alice swap: Alice: orange, Bob: purple, Claire: yellow.
+(3) Claire and Bob swap again: Alice: orange, Bob: yellow, Claire: purple.
+
+At the end of the game, Claire has the purple ball. So the answer is (A).
+ 10%|████████▎                                                                             | 24/250 [10:35<1:43:39, 27.52s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Ulysses.
+(1) Alice and Bob swap books: Alice: The Great Gatsby, Bob: Frankenstein, Claire: Ulysses.
+(2) Claire and Bob swap books: Alice: The Great Gatsby, Bob: Ulysses, Claire: Frankenstein.
+(3) Bob and Alice swap books: Alice: Ulysses, Bob: Frankenstein, Claire: The Great Gatsby.
+At the end of the semester, Alice has Ulysses. So the answer is (C).
+ 10%|████████▌                                                                             | 25/250 [10:59<1:39:39, 26.58s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Pearl, Claire: The Fellowship of the Ring.
+(1) Bob and Claire swap: Bob: The Fellowship of the Ring, Claire: The Pearl, Alice: Frankenstein.
+(2) Bob and Alice swap: Bob: Frankenstein, Claire: The Pearl, Alice: The Fellowship of the Ring.
+(3) Claire and Alice swap: Bob: Frankenstein, Claire: Alice's book (The Fellowship of the Ring), Alice: Bob's book (Frankenstein), The Pearl stays with Claire.
+
+At the end of the semester, Bob has Frankenstein. So the answer is (A).
+ 10%|████████▉                                                                             | 26/250 [11:26<1:38:46, 26.46s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: orange ball, Claire: white present.
+(1) Bob and Claire swap: Bob: white present, Claire: orange ball, Alice: pink ball.
+(2) Alice and Claire swap: Bob: white present, Claire: pink ball, Alice: orange ball.
+(3) Bob and Claire swap again: Bob: pink ball, Claire: orange ball, Alice: white present.
+
+At the end of the event, Bob has the pink ball. So the answer is (A).
+ 11%|█████████▎                                                                            | 27/250 [11:52<1:38:35, 26.53s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: white, Claire: blue.
+(1) Bob and Claire swap: Alice: pink, Bob: blue, Claire: white.
+(2) Claire and Alice swap: Alice: blue, Bob: white, Claire: pink.
+(3) Claire and Bob swap again: Alice: blue, Bob: pink, Claire: white.
+
+At the end of the event, Alice has the blue present. So the answer is (C).
+ 11%|█████████▋                                                                            | 28/250 [12:26<1:46:27, 28.77s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Ulysses.
+(1) Alice and Bob swap: Alice: The Great Gatsby, Bob: Frankenstein, Claire: Ulysses.
+(2) Claire and Bob swap: Alice: The Great Gatsby, Bob: Ulysses, Claire: Frankenstein.
+(3) Bob and Alice swap again: Alice: Ulysses, Bob: Frankenstein, Claire: The Great Gatsby.
+At the end of the semester, Claire has Frankenstein. So the answer is (A).
+ 12%|█████████▉                                                                            | 29/250 [12:53<1:44:11, 28.29s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Rodrigo, Claire: Patrick.
+(1) Claire and Alice switch partners: Alice: Patrick, Bob: Rodrigo, Claire: Karl.
+(2) Bob and Alice switch partners: Alice: Rodrigo, Bob: Karl, Claire: Patrick.
+(3) Alice and Claire switch partners: Alice: Karl, Bob: Rodrigo, Claire: Patrick.
+
+At the end of the dance, Claire is dancing with Karl. So the answer is (A).
+ 12%|██████████▎                                                                           | 30/250 [13:24<1:46:10, 28.96s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: orange, Claire: green.
+(1) Claire and Bob swap: Alice: yellow, Bob: green, Claire: orange.
+(2) Alice and Claire swap: Alice: green, Bob: orange, Claire: yellow.
+(3) Bob and Alice swap: Alice: orange, Bob: yellow, Claire: green.
+At the end of the event, Alice has the orange ball. So the answer is (B).
+ 12%|██████████▋                                                                           | 31/250 [14:00<1:53:43, 31.16s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Patrick, Claire: Melissa.
+(1) Claire and Bob switch partners: Alice: Jamie, Bob: Melissa, Claire: Patrick.
+(2) Bob and Alice switch partners: Alice: Patrick, Bob: Melissa, Claire: Jamie.
+(3) Alice and Claire switch partners: Alice: Melissa, Bob: Jamie, Claire: Patrick.
+At the end of the dance, Claire is dancing with Patrick. So the answer is (B).
+ 13%|███████████                                                                           | 32/250 [14:27<1:48:45, 29.93s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Sam, Claire: Lola.
+(1) Claire and Bob switch: Alice: Rodrigo, Bob: Lola, Claire: Sam.
+(2) Bob and Alice switch: Alice: Lola, Bob: Sam, Claire: Rodrigo.
+(3) Claire and Alice switch: Alice: Sam, Bob: Rodrigo, Claire: Lola.
+
+At the end of the dance, Claire is dancing with Sam. So the answer is (B).
+ 13%|███████████▎                                                                          | 33/250 [14:52<1:42:30, 28.35s/it]================================================================================================================================
+(0) At the start: Alice: white, Bob: pink, Claire: black.
+(1) Alice and Claire swap: Alice: black, Bob: pink, Claire: white.
+(2) Alice and Bob swap: Alice: pink, Bob: white, Claire: black.
+(3) Claire and Alice swap: Alice: black, Bob: white, Claire: pink.
+
+At the end of the event, Claire has the pink ball. So the answer is (B).
+ 14%|███████████▋                                                                          | 34/250 [15:18<1:39:50, 27.73s/it]================================================================================================================================
+(0) At the start: Alice: Hound of the Baskervilles, Bob: Frankenstein, Claire: The Odyssey.
+(1) Bob and Claire swap: Alice: Hound of the Baskervilles, Bob: The Odyssey, Claire: Frankenstein.
+(2) Alice and Bob swap: Alice: Frankenstein, Bob: Hound of the Baskervilles, Claire: The Odyssey.
+(3) Alice and Claire swap: Alice: The Odyssey, Bob: Hound of the Baskervilles, Claire: Frankenstein.
+At the end of the semester, Alice has The Odyssey. So the answer is (C).
+ 14%|████████████                                                                          | 35/250 [15:46<1:39:02, 27.64s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: purple, Claire: blue.
+(1) Alice and Claire swap: Alice: blue, Bob: purple, Claire: yellow.
+(2) Bob and Claire swap: Alice: blue, Bob: yellow, Claire: purple.
+(3) Alice and Claire swap again: Alice: purple, Bob: yellow, Claire: blue.
+
+At the end of the game, Alice has the purple ball. So the answer is (B).
+ 14%|████████████▍                                                                         | 36/250 [16:16<1:41:32, 28.47s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: yellow, Claire: white.
+(1) Claire and Bob swap: Alice: pink, Bob: white, Claire: yellow.
+(2) Alice and Bob swap: Alice: white, Bob: pink, Claire: yellow.
+(3) Claire and Bob swap again: Alice: white, Bob: yellow, Claire: pink.
+
+At the end of the game, Alice has the white ball. So the answer is (C).
+ 15%|████████████▋                                                                         | 37/250 [16:58<1:55:29, 32.53s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: purple, Claire: blue.
+(1) Claire and Bob swap: Alice: orange, Bob: blue, Claire: purple.
+(2) Claire and Alice swap: Alice: blue, Bob: purple, Claire: orange.
+(3) Bob and Alice swap: Alice: purple, Bob: orange, Claire: blue.
+
+At the end of the event, Alice has the purple present. So the answer is (B).
+ 15%|█████████████                                                                         | 38/250 [17:27<1:51:35, 31.58s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: brown, Claire: orange.
+(1) Claire and Alice swap: Alice: orange, Bob: brown, Claire: pink.
+(2) Alice and Bob swap: Alice: brown, Bob: pink, Claire: orange.
+(3) Bob and Claire swap: Alice: brown, Bob: orange, Claire: pink.
+At the end of the game, Alice has the brown ball. So the answer is (B).
+ 16%|█████████████▍                                                                        | 39/250 [17:53<1:45:05, 29.88s/it]================================================================================================================================
+(0) At the start: Alice: Lola, Bob: Patrick, Claire: Melissa.
+(1) Alice and Claire switch partners: Alice: Melissa, Bob: Patrick, Claire: Lola.
+(2) Bob and Claire switch partners: Alice: Melissa, Bob: Lola, Claire: Patrick.
+(3) Claire and Alice switch partners again: Alice: Patrick, Bob: Melissa, Claire: Lola.
+At the end of the dance, Bob is dancing with Melissa. So the answer is (C).
+ 16%|█████████████▊                                                                        | 40/250 [18:20<1:41:33, 29.02s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: red, Claire: green.
+(1) Alice and Bob swap: Alice: red, Bob: blue, Claire: green.
+(2) Claire and Bob swap: Alice: red, Bob: green, Claire: blue.
+(3) Alice and Claire swap: Alice: green, Bob: green (since both now have green), Claire: red.
+
+At the end of the event, Claire has the red present. So the answer is (B).
+ 16%|██████████████                                                                        | 41/250 [18:49<1:40:35, 28.88s/it]================================================================================================================================
+(0) At the start: Alice: fullback, Bob: goalkeeper, Claire: right winger.
+(1) Claire and Bob trade positions: Alice: fullback, Bob: right winger, Claire: goalkeeper.
+(2) Alice and Claire trade positions: Alice: right winger, Bob: goalkeeper, Claire: fullback.
+(3) Alice and Bob trade positions: Alice: goalkeeper, Bob: fullback, Claire: right winger.
+At the end of the match, Claire is playing fullback. So the answer is (A).
+ 17%|██████████████▍                                                                       | 42/250 [19:12<1:34:21, 27.22s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Benchwarmer, Claire: Left Winger.
+(1) Claire and Bob trade positions: Alice: Cheerleader, Bob: Left Winger, Claire: Benchwarmer.
+(2) Claire and Alice trade positions: Alice: Benchwarmer, Bob: Left Winger, Claire: Cheerleader.
+(3) Claire and Bob trade positions again: Alice: Benchwarmer, Bob: Cheerleader, Claire: Left Winger.
+
+At the end of the match, Claire is playing left winger. So the answer is (C).
+ 17%|██████████████▊                                                                       | 43/250 [19:47<1:41:40, 29.47s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: green, Claire: blue.
+(1) Alice and Bob swap: Alice: green, Bob: yellow, Claire: blue.
+(2) Alice and Claire swap: Alice: blue, Bob: yellow, Claire: green.
+(3) Claire and Bob swap: Alice: blue, Bob: green, Claire: yellow.
+At the end of the game, Bob has the yellow ball. So the answer is (A).
+ 18%|███████████████▏                                                                      | 44/250 [20:28<1:53:15, 32.99s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Moby Dick, Claire: The Great Gatsby.
+(1) Claire and Bob swap books: Alice: Catch-22, Bob: The Great Gatsby, Claire: Moby Dick.
+(2) Claire and Alice swap books: Alice: The Great Gatsby, Bob: Moby Dick, Claire: Catch-22.
+(3) Bob and Claire swap books: Alice: The Great Gatsby, Bob: Catch-22, Claire: Moby Dick.
+At the end of the semester, Claire has Moby Dick. So the answer is (B).
+ 18%|███████████████▍                                                                      | 45/250 [20:56<1:47:12, 31.38s/it]================================================================================================================================
+(0) Start: Alice: black ball, Bob: purple, Claire: blue.
+(1) Claire and Alice swap: Alice: blue, Bob: purple, Claire: black.
+(2) Bob and Claire swap: Alice: blue, Bob: black, Claire: purple.
+(3) Alice and Bob swap: Alice: purple, Bob: blue, Claire: black.
+At the end of the event, Claire has the black ball. So the answer is (A).
+ 18%|███████████████▊                                                                      | 46/250 [21:23<1:42:35, 30.17s/it]================================================================================================================================
+(0) Start: Alice: white, Bob: blue, Claire: pink.
+(1) Alice and Claire swap: Alice: pink, Bob: blue, Claire: white.
+(2) Claire and Bob swap: Alice: pink, Bob: white, Claire: blue.
+(3) Bob and Alice swap: Alice: blue, Bob: pink, Claire: white.
+At the end of the event, Bob has the pink ball. So the answer is (C).
+ 19%|████████████████▏                                                                     | 47/250 [22:03<1:52:20, 33.21s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Odyssey, Claire: The Great Gatsby.
+(1) Alice and Claire swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: Frankenstein.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: Frankenstein, Claire: The Great Gatsby.
+(3) Alice and Claire swap again: Alice: The Great Gatsby, Bob: Frankenstein, Claire: The Odyssey.
+
+At the end of the semester, Claire has The Odyssey. So the answer is (B).
+ 19%|████████████████▌                                                                     | 48/250 [22:30<1:44:45, 31.12s/it]================================================================================================================================
+(0) At the start: Alice: left midfielder, Bob: right midfielder, Claire: goalkeeper.
+(1) Bob and Alice trade positions: Alice: right midfielder, Bob: left midfielder, Claire: goalkeeper.
+(2) Alice and Claire trade positions: Alice: left midfielder, Bob: left midfielder, Claire: right midfielder.
+(3) Bob and Alice trade positions again: Alice: right midfielder, Bob: goalkeeper, Claire: left midfielder.
+At the end of the match, Claire is playing left midfielder. So the answer is (A).
+ 20%|████████████████▊                                                                     | 49/250 [23:10<1:53:03, 33.75s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: black, Claire: purple.
+(1) Bob and Claire swap: Bob: purple, Claire: black, Alice: pink.
+(2) Alice and Claire swap: Alice: black, Claire: pink, Bob: purple.
+(3) Claire and Bob swap: Alice: black, Bob: purple, Claire: pink.
+At the end of the event, Claire has the pink ball. So the answer is (A).
+ 20%|█████████████████▏                                                                    | 50/250 [23:38<1:46:50, 32.05s/it]================================================================================================================================
+(0) At the start: Alice: The Fellowship of the Ring, Bob: Frankenstein, Claire: The Great Gatsby.
+(1) Alice and Claire swap: Alice: The Great Gatsby, Bob: Frankenstein, Claire: The Fellowship of the Ring.
+(2) Alice and Bob swap: Alice: Frankenstein, Bob: The Great Gatsby, Claire: The Fellowship of the Ring.
+(3) Claire and Bob swap: Alice: Frankenstein, Bob: The Fellowship of the Ring, Claire: The Great Gatsby.
+At the end of the semester, Alice has Frankenstein. So the answer is (B).
+ 20%|█████████████████▌                                                                    | 51/250 [24:14<1:50:36, 33.35s/it]================================================================================================================================
+(0) Start: Alice: black, Bob: brown, Claire: blue.
+(1) Bob and Claire swap: Alice: black, Bob: blue, Claire: brown.
+(2) Alice and Bob swap: Alice: brown, Bob: black, Claire: blue.
+(3) Claire and Bob swap again: Alice: brown, Bob: blue, Claire: black.
+
+At the end of the game, Claire has the black ball. So the answer is (A).
+ 21%|█████████████████▉                                                                    | 52/250 [24:40<1:43:01, 31.22s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: blue, Claire: purple.
+(1) Bob and Alice swap: Alice: blue, Bob: brown, Claire: purple.
+(2) Alice and Claire swap: Alice: purple, Bob: brown, Claire: blue.
+(3) Bob and Claire swap: Alice: purple, Bob: blue, Claire: brown.
+At the end of the game, Alice has the purple ball. So the answer is (C).
+ 21%|██████████████████▏                                                                   | 53/250 [25:10<1:41:13, 30.83s/it]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: Frankenstein, Claire: Catch-22.
+(1) Bob and Claire swap books: Alice: Ulysses, Bob: Catch-22, Claire: Frankenstein.
+(2) Claire and Alice swap books: Alice: Frankenstein, Bob: Catch-22, Claire: Ulysses.
+(3) Alice and Bob swap books: Alice: Frankenstein, Bob: Ulysses, Claire: Catch-22.
+At the end of the semester, Alice has Frankenstein. So the answer is (B).
+ 22%|██████████████████▌                                                                   | 54/250 [25:36<1:35:56, 29.37s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Karl, Claire: Helga.
+(1) Alice and Claire switch partners: Alice: Helga, Bob: Karl, Claire: Sam.
+(2) Alice and Bob switch partners: Alice: Karl, Bob: Helga, Claire: Sam.
+(3) Claire and Bob switch partners: Alice: Karl, Bob: Sam, Claire: Helga.
+
+At the end of the dance, Alice is dancing with Karl. So the answer is (B).
+ 22%|██████████████████▉                                                                   | 55/250 [26:04<1:33:55, 28.90s/it]================================================================================================================================
+(0) Start: Alice: black, Bob: brown, Claire: blue.
+(1) Bob and Claire swap: Alice: black, Bob: blue, Claire: brown.
+(2) Alice and Bob swap: Alice: blue, Bob: black, Claire: brown.
+(3) Claire and Alice swap: Alice: brown, Bob: black, Claire: blue.
+At the end of the game, Claire has the blue ball. So the answer is (C).
+ 22%|███████████████████▎                                                                  | 56/250 [26:29<1:29:16, 27.61s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Benchwarmer, Claire: Center Midfielder.
+(1) Alice and Bob trade positions: Alice: Benchwarmer, Bob: Striker, Claire: Center Midfielder.
+(2) Alice and Claire trade positions: Alice: Center Midfielder, Bob: Striker, Claire: Striker (since Alice was already a benchwarmer, she takes Claire's position as both were strikers).
+(3) Claire and Bob trade positions: Alice: Center Midfielder, Bob: Center Midfielder (Claire takes Bob's position since he was already a striker), Claire: Benchwarmer.
+
+At the end of the match, Claire is playing benchwarmer. So the answer is (B).
+ 23%|███████████████████▌                                                                  | 57/250 [27:03<1:35:33, 29.71s/it]================================================================================================================================
+(0) Start: Alice: Yellow, Bob: Blue, Claire: Pink.
+(1) Claire and Alice swap: Alice: Pink, Bob: Blue, Claire: Yellow.
+(2) Alice and Bob swap: Alice: Blue, Bob: Yellow, Claire: Pink.
+(3) Claire and Bob swap: Alice: Pink, Bob: Yellow, Claire: Blue.
+
+At the end of the game, Alice has the pink ball. So the answer is (C).
+ 23%|███████████████████▉                                                                  | 58/250 [27:33<1:35:32, 29.86s/it]================================================================================================================================
+(0) Start: Alice: Hound of the Baskervilles, Bob: Frankenstein, Claire: Lolita.
+(1) Bob and Claire swap: Alice: Hound of the Baskervilles, Bob: Lolita, Claire: Frankenstein.
+(2) Alice and Claire swap: Alice: Lolita, Bob: Frankenstein, Claire: Hound of the Baskervilles.
+(3) Claire and Bob swap: Alice: Lolita, Bob: Hound of the Baskervilles, Claire: Frankenstein.
+
+At the end of the semester, Bob has Hound of the Baskervilles. So the answer is (A).
+ 24%|████████████████████▎                                                                 | 59/250 [28:02<1:33:25, 29.35s/it]================================================================================================================================
+(0) At the start: Alice: left midfielder, Bob: right midfielder, Claire: goalkeeper.
+(1) Bob and Alice trade positions: Alice: right midfielder, Bob: left midfielder, Claire: goalkeeper.
+(2) Alice and Claire trade positions: Alice: right midfielder, Bob: left midfielder, Claire: left winger (assuming the goalkeeper position is not swapped).
+(3) Bob and Alice trade positions again: Alice: left winger, Bob: right midfielder, Claire: left midfielder.
+At the end of the match, Bob is playing right midfielder. So the answer is (B).
+ 24%|████████████████████▋                                                                 | 60/250 [28:24<1:26:00, 27.16s/it]================================================================================================================================
+(0) At the start: Alice: Lolita, Bob: Catch-22, Claire: The Great Gatsby.
+(1) Alice and Claire swap books: Alice: The Great Gatsby, Bob: Catch-22, Claire: Lolita.
+(2) Bob and Alice swap books: Alice: Catch-22, Bob: The Great Gatsby, Claire: Lolita.
+(3) Claire and Alice swap books: Alice: Lolita, Bob: The Great Gatsby, Claire: Catch-22.
+At the end of the semester, Bob has The Great Gatsby. So the answer is (B).
+ 24%|████████████████████▉                                                                 | 61/250 [28:50<1:25:14, 27.06s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Lola, Claire: Karl.
+(1) Bob and Alice switch: Alice: Lola, Bob: Sam, Claire: Karl.
+(2) Bob and Claire switch: Alice: Lola, Bob: Karl, Claire: Sam.
+(3) Alice and Bob switch again: Alice: Karl, Bob: Lola, Claire: Sam.
+
+At the end of the dance, Claire is dancing with Sam. So the answer is (A).
+ 25%|█████████████████████▎                                                                | 62/250 [29:19<1:25:46, 27.37s/it]================================================================================================================================
+(0) At the start: Alice: left midfielder, Bob: center midfielder, Claire: benchwarmer.
+(1) Alice and Bob trade positions: Alice: center midfielder, Bob: left midfielder, Claire: benchwarmer.
+(2) Alice and Claire trade positions: Alice: benchwarmer, Bob: left midfielder, Claire: left midfielder.
+(3) Alice and Bob trade positions again: Alice: left midfielder, Bob: benchwarmer, Claire: center midfielder.
+
+At the end of the match, Claire is playing center midfielder. So the answer is (B).
+ 25%|█████████████████████▋                                                                | 63/250 [29:50<1:29:21, 28.67s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Midfielder, Claire: Fullback.
+(1) Claire and Alice trade positions: Alice: Fullback, Bob: Left Midfielder, Claire: Goalkeeper.
+(2) Alice and Bob trade positions: Alice: Left Midfielder, Bob: Goalkeeper, Claire: Fullback.
+(3) Bob and Claire trade positions: Alice: Left Midfielder, Bob: Fullback, Claire: Goalkeeper.
+At the end of the match, Claire is playing goalkeeper. So the answer is (A).
+ 26%|██████████████████████                                                                | 64/250 [30:22<1:31:49, 29.62s/it]================================================================================================================================
+(0) At the start: Alice: Left Winger, Bob: Fullback, Claire: Right Winger.
+(1) Alice and Claire trade positions: Alice: Right Winger, Bob: Fullback, Claire: Left Winger.
+(2) Alice and Bob trade positions: Alice: Fullback, Bob: Right Winger, Claire: Left Winger.
+(3) Claire and Alice trade positions: Alice: Right Winger, Bob: Left Winger, Claire: Fullback.
+At the end of the match, Claire is playing fullback. So the answer is (B).
+ 26%|██████████████████████▎                                                               | 65/250 [30:54<1:33:30, 30.33s/it]================================================================================================================================
+(0) Start: Alice: red, Bob: orange, Claire: green.
+(1) Alice and Bob swap: Alice: orange, Bob: red, Claire: green.
+(2) Bob and Claire swap: Alice: orange, Bob: green, Claire: red.
+(3) Alice and Bob swap again: Alice: green, Bob: orange, Claire: red.
+
+At the end of the game, Claire has the red ball. So the answer is (A).
+ 26%|██████████████████████▋                                                               | 66/250 [31:35<1:42:21, 33.38s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: blue, Claire: black.
+(1) Claire and Bob swap: Alice: purple, Bob: black, Claire: blue.
+(2) Bob and Alice swap: Alice: blue, Bob: purple, Claire: black.
+(3) Claire and Alice swap: Alice: black, Bob: purple, Claire: blue.
+
+At the end of the game, Alice has the black ball. So the answer is (C).
+ 27%|███████████████████████                                                               | 67/250 [31:59<1:33:33, 30.67s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: brown, Claire: blue.
+(1) Bob and Alice swap: Alice: brown, Bob: yellow, Claire: blue.
+(2) Claire and Alice swap: Alice: blue, Bob: yellow, Claire: brown.
+(3) Bob and Alice swap again: Alice: yellow (since they swapped back to their original colors), Bob: blue, Claire: brown.
+
+At the end of the event, Claire has the brown present. So the answer is (B).
+ 27%|███████████████████████▍                                                              | 68/250 [32:30<1:33:42, 30.89s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: blue, Claire: brown.
+(1) Claire and Alice swap: Alice: brown, Bob: blue, Claire: pink.
+(2) Bob and Alice swap: Alice: blue, Bob: pink ball, Claire: brown.
+(3) Alice and Claire swap again: Alice: pink ball, Bob: brown, Claire: blue.
+
+At the end of the event, Alice has the pink ball. So the answer is (A).
+ 28%|███████████████████████▋                                                              | 69/250 [33:01<1:33:00, 30.83s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Right Winger, Claire: Fullback.
+(1) Claire and Alice trade positions: Alice: Fullback, Bob: Right Winger, Claire: Cheerleader.
+(2) Bob and Claire trade positions: Alice: Fullback, Bob: Cheerleader, Claire: Right Winger.
+(3) Claire and Alice trade positions again: Alice: Right Winger, Bob: Fullback, Claire: Cheerleader.
+
+At the end of the match, Claire is playing cheerleader. So the answer is (A).
+ 28%|████████████████████████                                                              | 70/250 [33:30<1:30:28, 30.16s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: brown, Claire: orange.
+(1) Claire and Alice swap: Alice: orange, Bob: brown, Claire: pink.
+(2) Alice and Bob swap: Alice: brown, Bob: pink, Claire: orange.
+(3) Bob and Claire swap: Alice: brown, Bob: orange, Claire: pink.
+
+At the end of the game, Claire has the pink ball. So the answer is (A).
+ 28%|████████████████████████▍                                                             | 71/250 [33:54<1:24:55, 28.47s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Karl, Claire: Patrick.
+(1) Alice and Bob switch partners: Alice: Karl, Bob: Melissa, Claire: Patrick.
+(2) Claire and Alice switch partners: Alice: Karl, Bob: Melissa, Claire: Melissa.
+(3) Alice and Bob switch partners again: Alice: Melissa, Bob: Karl, Claire: Melissa.
+
+At the end of the dance, Claire is dancing with Melissa. So the answer is (A).
+ 29%|████████████████████████▊                                                             | 72/250 [34:22<1:23:29, 28.14s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: purple, Claire: blue.
+(1) Alice and Claire swap: Alice: blue, Bob: purple, Claire: yellow.
+(2) Bob and Claire swap: Alice: blue, Bob: yellow, Claire: purple.
+(3) Alice and Claire swap again: Alice: purple, Bob: yellow, Claire: blue.
+
+At the end of the game, Bob has the yellow ball. So the answer is (A).
+ 29%|█████████████████████████                                                             | 73/250 [34:50<1:23:40, 28.36s/it]================================================================================================================================
+(0) Alice: Frankenstein, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Alice and Bob swap: Alice: Moby Dick, Bob: Frankenstein, Claire: The Fellowship of the Ring.
+(2) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Frankenstein, Claire: Moby Dick.
+(3) Bob and Claire swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: Frankenstein.
+
+At the end of the semester, Alice has The Fellowship of the Ring. So the answer is (C).
+ 30%|█████████████████████████▍                                                            | 74/250 [35:23<1:27:08, 29.71s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: black ball, Claire: purple present.
+(1) Bob and Claire swap: Bob: purple, Claire: black, Alice: pink ball.
+(2) Alice and Claire swap: Alice: black, Claire: pink ball, Bob: purple.
+(3) Claire and Bob swap: Alice: black, Bob: purple, Claire: pink ball.
+At the end of the event, Alice has the black ball. So the answer is (B).
+ 30%|█████████████████████████▊                                                            | 75/250 [36:07<1:39:11, 34.01s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: yellow, Claire: orange.
+(1) Bob and Claire swap: Bob: orange, Claire: yellow, Alice: pink.
+(2) Alice and Claire swap: Bob: orange, Alice: yellow, Claire: pink.
+(3) Bob and Claire swap again: Bob: yellow, Alice: orange, Claire: pink.
+
+At the end of the event, Bob has the yellow present. So the answer is (B).
+ 30%|██████████████████████████▏                                                           | 76/250 [36:41<1:38:28, 33.96s/it]================================================================================================================================
+(0) Start: Alice: black ball, Bob: orange ball, Claire: white present.
+(1) Claire and Bob swap: Alice: black ball, Bob: white present, Claire: orange ball.
+(2) Bob and Alice swap: Alice: orange ball, Bob: white present, Claire: black ball.
+(3) Bob and Claire swap again: Alice: orange ball, Bob: black ball, Claire: white present.
+
+At the end of the event, Claire has the white present. So the answer is (C).
+ 31%|██████████████████████████▍                                                           | 77/250 [37:19<1:40:53, 34.99s/it]================================================================================================================================
+(0) At the start: Alice: The Odyssey, Bob: The Fellowship of the Ring, Claire: Hound of the Baskervilles.
+(1) Bob and Alice swap: Alice: The Fellowship of the Ring, Bob: The Odyssey, Claire: Hound of the Baskervilles.
+(2) Claire and Bob swap: Alice: The Odyssey, Bob: Hound of the Baskervilles, Claire: The Fellowship of the Ring.
+(3) Alice and Claire swap: Alice: The Fellowship of the Ring, Bob: The Odyssey, Claire: The Odyssey.
+
+At the end of the semester, Bob has The Odyssey. So the answer is (A).
+ 31%|██████████████████████████▊                                                           | 78/250 [38:00<1:45:52, 36.93s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: brown, Claire: orange.
+(1) Claire and Alice swap: Alice: orange, Bob: brown, Claire: pink.
+(2) Alice and Bob swap: Alice: brown, Bob: orange, Claire: pink.
+(3) Bob and Claire swap: Alice: brown, Bob: pink, Claire: orange.
+
+At the end of the game, Bob has the pink ball. So the answer is (A).
+ 32%|███████████████████████████▏                                                          | 79/250 [38:29<1:38:46, 34.66s/it]================================================================================================================================
+(0) At the start: Alice: The Odyssey, Bob: Lolita, Claire: The Great Gatsby.
+(1) Bob and Alice swap: Alice: Lolita, Bob: The Odyssey, Claire: The Great Gatsby.
+(2) Alice and Claire swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: Lolita.
+(3) Bob and Alice swap again: Alice: The Odyssey, Bob: Lolita, Claire: The Great Gatsby.
+
+At the end of the semester, Alice has The Odyssey. So the answer is (A).
+ 32%|███████████████████████████▌                                                          | 80/250 [38:58<1:33:25, 32.97s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Ophelia, Claire: Sam.
+(1) Bob and Alice switch partners: Alice: Ophelia, Bob: Helga, Claire: Sam.
+(2) Claire and Bob switch partners: Alice: Ophelia, Bob: Sam, Claire: Helga.
+(3) Claire and Alice switch partners: Alice: Helga, Bob: Sam, Claire: Ophelia.
+
+At the end of the dance, Claire is dancing with Ophelia. So the answer is (B).
+ 32%|███████████████████████████▊                                                          | 81/250 [39:29<1:30:37, 32.17s/it]================================================================================================================================
+(0) At the start: Alice: Center Midfielder, Bob: Right Midfielder, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Center Midfielder, Bob: Goalkeeper, Claire: Right Midfielder.
+(2) Claire and Alice trade positions: Alice: Goalkeeper, Bob: Right Midfielder, Claire: Center Midfielder.
+(3) Bob and Claire trade positions: Alice: Goalkeeper, Bob: Center Midfielder, Claire: Right Midfielder.
+At the end of the match, Claire is playing right midfielder. So the answer is (B).
+ 33%|████████████████████████████▏                                                         | 82/250 [39:56<1:25:41, 30.61s/it]================================================================================================================================
+(0) At the start: Alice: Left Winger, Bob: Fullback, Claire: Right Winger.
+(1) Alice and Claire trade positions: Alice: Right Winger, Bob: Fullback, Claire: Left Winger.
+(2) Alice and Bob trade positions: Alice: Fullback, Bob: Right Winger, Claire: Left Winger.
+(3) Claire and Alice trade positions: Alice: Right Winger, Bob: Left Winger, Claire: Fullback.
+At the end of the match, Bob is playing left winger. So the answer is (A).
+ 33%|████████████████████████████▌                                                         | 83/250 [40:22<1:21:42, 29.36s/it]================================================================================================================================
+(0) At the start: Alice: center midfielder, Bob: left midfielder, Claire: left winger.
+(1) Alice and Claire trade positions: Alice: left winger, Bob: left midfielder, Claire: center midfielder.
+(2) Claire and Bob trade positions: Alice: left winger, Bob: center midfielder, Claire: left midfielder.
+(3) Bob and Alice trade positions: Alice: left midfielder, Bob: left winger, Claire: center midfielder.
+
+At the end of the match, Claire is playing center midfielder. So the answer is (A).
+ 34%|████████████████████████████▉                                                         | 84/250 [40:58<1:26:23, 31.23s/it]================================================================================================================================
+(0) At the start: Alice: Patrick, Bob: Karl, Claire: Izzi.
+(1) Bob and Claire switch partners: Alice: Patrick, Bob: Izzi, Claire: Karl.
+(2) Claire and Alice switch partners: Alice: Karl, Bob: Izzi, Claire: Patrick.
+(3) Claire and Bob switch partners again: Alice: Karl, Bob: Patrick, Claire: Izzi.
+At the end of the dance, Alice is dancing with Karl. So the answer is (B).
+ 34%|█████████████████████████████▏                                                        | 85/250 [41:28<1:25:04, 30.94s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: orange, Claire: white.
+(1) Bob and Claire swap: Alice: pink, Bob: white, Claire: orange.
+(2) Claire and Alice swap: Alice: orange, Bob: white, Claire: pink.
+(3) Alice and Bob swap: Alice: white, Bob: pink, Claire: orange.
+
+At the end of the game, Alice has the white ball. So the answer is (C).
+ 34%|█████████████████████████████▌                                                        | 86/250 [41:55<1:21:45, 29.91s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: Catch-22.
+(2) Alice and Bob swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Catch-22.
+(3) Claire and Bob swap: Alice: Moby Dick, Bob: Catch-22, Claire: The Fellowship of the Ring.
+At the end of the semester, Alice has Moby Dick. So the answer is (B).
+ 35%|█████████████████████████████▉                                                        | 87/250 [42:27<1:22:44, 30.46s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Midfielder, Claire: Striker.
+(1) Bob and Claire trade positions: Alice: Goalkeeper, Bob: Striker, Claire: Left Midfielder.
+(2) Bob and Alice trade positions: Alice: Left Midfielder, Bob: Goalkeeper, Claire: Striker.
+(3) Claire and Alice trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Left Midfielder.
+At the end of the match, Alice is playing striker. So the answer is (C).
+ 35%|██████████████████████████████▎                                                       | 88/250 [42:59<1:23:40, 30.99s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Odyssey, Claire: Ulysses.
+(1) Claire and Alice swap: Alice: Ulysses, Bob: The Odyssey, Claire: Frankenstein.
+(2) Claire and Bob swap: Alice: Ulysses, Bob: Frankenstein, Claire: The Odyssey.
+(3) Bob and Alice swap: Alice: The Odyssey, Bob: Ulysses, Claire: Frankenstein.
+At the end of the semester, Claire has Frankenstein. So the answer is (A).
+ 36%|██████████████████████████████▌                                                       | 89/250 [43:36<1:27:32, 32.62s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: green, Claire: brown.
+(1) Alice and Bob swap: Alice: green, Bob: black ball, Claire: brown.
+(2) Claire and Bob swap: Alice: green, Bob: brown, Claire: black ball.
+(3) Alice and Claire swap: Alice: brown, Bob: green, Claire: black ball.
+At the end of the event, Alice has the brown present. So the answer is (C).
+ 36%|██████████████████████████████▉                                                       | 90/250 [44:02<1:22:10, 30.81s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: black, Claire: blue.
+(1) Bob and Alice swap: Alice: black, Bob: green, Claire: blue.
+(2) Claire and Alice swap: Alice: blue, Bob: green, Claire: black.
+(3) Alice and Bob swap: Alice: black, Bob: blue, Claire: green.
+
+At the end of the game, Bob has the blue ball. So the answer is (C).
+ 36%|███████████████████████████████▎                                                      | 91/250 [44:33<1:21:39, 30.81s/it]================================================================================================================================
+(0) At the start: Alice: center midfielder, Bob: benchwarmer, Claire: fullback.
+(1) Alice and Claire trade positions: Alice: fullback, Bob: benchwarmer, Claire: center midfielder.
+(2) Alice and Bob trade positions: Alice: benchwarmer, Bob: center midfielder, Claire: fullback.
+(3) Alice and Claire trade positions again: Alice: fullback, Bob: fullback (since Claire was already playing fullback after the second trade), Claire: benchwarmer.
+
+At the end of the match, Bob is playing fullback. So the answer is (C).
+ 37%|███████████████████████████████▋                                                      | 92/250 [45:04<1:21:13, 30.85s/it]================================================================================================================================
+(0) At the start: Alice: fullback, Bob: goalkeeper, Claire: left midfielder.
+(1) Claire and Alice trade positions: Alice: left midfielder, Bob: goalkeeper, Claire: fullback.
+(2) Bob and Claire trade positions: Alice: left midfielder, Bob: fullback, Claire: goalkeeper.
+(3) Alice and Claire trade positions again: Alice: goalkeeper, Bob: fullback, Claire: left midfielder.
+
+At the end of the match, Alice is playing goalkeeper. So the answer is (B).
+ 37%|███████████████████████████████▉                                                      | 93/250 [45:34<1:19:48, 30.50s/it]================================================================================================================================
+(0) At the start: Alice: right winger, Bob: left midfielder, Claire: center midfielder.
+(1) Claire and Alice trade positions: Alice: center midfielder, Bob: left midfielder, Claire: right winger.
+(2) Bob and Alice trade positions: Alice: left midfielder, Bob: right winger, Claire: center midfielder.
+(3) Claire and Bob trade positions: Alice: center midfielder, Bob: center midfielder, Claire: right winger.
+At the end of the match, Alice is playing center midfielder. So the answer is (C).
+ 38%|████████████████████████████████▎                                                     | 94/250 [46:05<1:19:47, 30.69s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: white, Claire: purple.
+(1) Alice and Bob swap: Alice: white, Bob: yellow, Claire: purple.
+(2) Bob and Claire swap: Alice: white, Bob: purple, Claire: yellow.
+(3) Bob and Alice swap again: Alice: purple, Bob: white, Claire: yellow.
+At the end of the event, Bob has the white present. So the answer is (B).
+ 38%|████████████████████████████████▋                                                     | 95/250 [46:30<1:15:08, 29.08s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Rodrigo, Claire: Karl.
+(1) Bob and Claire switch partners: Alice: Ophelia, Bob: Karl, Claire: Rodrigo.
+(2) Alice and Bob switch partners: Alice: Karl, Bob: Ophelia, Claire: Rodrigo.
+(3) Bob and Claire switch partners again: Alice: Karl, Bob: Rodrigo, Claire: Ophelia.
+At the end of the dance, Alice is dancing with Karl. So the answer is (C).
+ 38%|█████████████████████████████████                                                     | 96/250 [47:05<1:19:02, 30.80s/it]================================================================================================================================
+(0) At the start: Alice: The Fellowship of the Ring, Bob: Catch-22, Claire: Moby Dick.
+(1) Bob and Alice swap: Alice: Catch-22, Bob: The Fellowship of the Ring, Claire: Moby Dick.
+(2) Alice and Claire swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Catch-22.
+(3) Bob and Claire swap: Alice: Moby Dick, Bob: Catch-22, Claire: The Fellowship of the Ring.
+At the end of the semester, Claire has The Fellowship of the Ring. So the answer is (A).
+ 39%|█████████████████████████████████▎                                                    | 97/250 [47:53<1:31:37, 35.93s/it]================================================================================================================================
+(0) At the start: Alice: The Fellowship of the Ring, Bob: The Odyssey, Claire: The Great Gatsby.
+(1) Alice and Claire swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: The Fellowship of the Ring.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: The Great Gatsby, Claire: The Fellowship of the Ring.
+(3) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: The Odyssey.
+At the end of the semester, Claire has The Odyssey. So the answer is (B).
+ 39%|█████████████████████████████████▋                                                    | 98/250 [48:26<1:28:52, 35.08s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: blue, Claire: brown.
+(1) Claire and Alice swap: Alice: brown, Bob: blue, Claire: green.
+(2) Claire and Bob swap: Alice: brown, Bob: green, Claire: blue.
+(3) Alice and Claire swap: Alice: blue, Bob: brown, Claire: green.
+
+At the end of the event, Claire has the green present. So the answer is (A).
+ 40%|██████████████████████████████████                                                    | 99/250 [48:56<1:24:33, 33.60s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Pearl, Claire: The Odyssey.
+(1) Bob and Alice swap: Alice: The Pearl, Bob: Frankenstein, Claire: The Odyssey.
+(2) Bob and Claire swap: Alice: The Pearl, Bob: The Odyssey, Claire: Frankenstein.
+(3) Bob and Alice swap again: Alice: The Odyssey, Bob: Frankenstein, Claire: The Pearl.
+At the end of the semester, Alice has The Odyssey. So the answer is (C).
+ 40%|██████████████████████████████████                                                   | 100/250 [49:27<1:21:29, 32.60s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: green, Claire: white.
+(1) Claire and Alice swap: Alice: white, Bob: green, Claire: pink.
+(2) Alice and Bob swap: Alice: green, Bob: pink, Claire: white.
+(3) Bob and Claire swap: Alice: green, Bob: white, Claire: pink.
+
+At the end of the game, Claire has the pink ball. So the answer is (A).
+ 40%|██████████████████████████████████▎                                                  | 101/250 [50:11<1:29:55, 36.21s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Helga, Claire: Karl.
+(1) Claire and Alice switch: Alice: Karl, Bob: Helga, Claire: Sam.
+(2) Bob and Alice switch: Alice: Helga, Bob: Karl, Claire: Sam.
+(3) Claire and Bob switch: Alice: Helga, Bob: Sam, Claire: Karl.
+
+At the end of the dance, Alice is dancing with Helga. So the answer is (B).
+ 41%|██████████████████████████████████▋                                                  | 102/250 [50:44<1:26:28, 35.06s/it]================================================================================================================================
+(0) Start: Alice: Jamie, Bob: Patrick, Claire: Melissa.
+(1) Claire and Bob switch: Alice: Jamie, Bob: Melissa, Claire: Patrick.
+(2) Bob and Alice switch: Alice: Melissa, Bob: Claire, Jamie: Patrick.
+(3) Alice and Claire switch: Alice: Patrick, Bob: Melissa, Claire: Jamie.
+
+At the end of the dance, Bob is dancing with Melissa. So the answer is (C).
+ 41%|███████████████████████████████████                                                  | 103/250 [51:12<1:20:42, 32.94s/it]================================================================================================================================
+(0) At the start: Alice: white, Bob: blue, Claire: yellow.
+(1) Alice and Bob swap: Alice: blue, Bob: white, Claire: yellow.
+(2) Alice and Claire swap: Alice: yellow, Bob: white, Claire: blue.
+(3) Bob and Alice swap again: Alice: blue, Bob: yellow, Claire: white.
+At the end of the event, Bob has the yellow present. So the answer is (C).
+ 42%|███████████████████████████████████▎                                                 | 104/250 [51:40<1:16:52, 31.59s/it]================================================================================================================================
+(0) Start: Alice: orange, Bob: white, Claire: blue.
+(1) Alice and Bob swap: Alice: white, Bob: orange, Claire: blue.
+(2) Bob and Claire swap: Alice: white, Bob: blue, Claire: orange.
+(3) Alice and Bob swap again: Alice: blue, Bob: orange, Claire: white.
+
+At the end of the game, Claire has the white ball. So the answer is (B).
+ 42%|███████████████████████████████████▋                                                 | 105/250 [52:11<1:16:10, 31.52s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Sam, Claire: Jamie.
+(1) Bob and Alice switch partners: Alice: Sam, Bob: Helga, Claire: Jamie.
+(2) Bob and Claire switch partners: Alice: Sam, Bob: Jamie, Claire: Helga.
+(3) Alice and Claire switch partners: Alice: Jamie, Bob: Helga, Claire: Sam.
+
+At the end of the dance, Bob is dancing with Helga. So the answer is (A).
+ 42%|████████████████████████████████████                                                 | 106/250 [52:49<1:19:46, 33.24s/it]================================================================================================================================
+(0) Start: Alice: orange, Bob: white, Claire: purple.
+(1) Bob and Claire swap: Alice: orange, Bob: purple, Claire: white.
+(2) Alice and Bob swap: Alice: purple, Bob: orange, Claire: white.
+(3) Claire and Bob swap again: Alice: purple, Bob: white, Claire: orange.
+
+At the end of the game, Claire has the orange ball. So the answer is (A).
+ 43%|████████████████████████████████████▍                                                | 107/250 [53:23<1:19:49, 33.49s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: purple, Claire: blue.
+(1) Claire and Alice swap: Alice: blue, Bob: purple, Claire: orange.
+(2) Alice and Bob swap: Alice: purple, Bob: orange, Claire: blue.
+(3) Bob and Claire swap: Alice: purple, Bob: blue, Claire: orange.
+At the end of the event, Alice has the purple present. So the answer is (B).
+ 43%|████████████████████████████████████▋                                                | 108/250 [53:52<1:16:02, 32.13s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: white, Claire: red.
+(1) Claire and Bob swap: Alice: blue, Bob: red, Claire: white.
+(2) Alice and Bob swap: Alice: white, Bob: red, Claire: blue.
+(3) Claire and Bob swap again: Alice: white, Bob: blue, Claire: red.
+
+At the end of the game, Alice has the white ball. So the answer is (B).
+ 44%|█████████████████████████████████████                                                | 109/250 [54:22<1:14:12, 31.58s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: green, Claire: purple.
+(1) Bob and Alice swap: Alice: green, Bob: yellow, Claire: purple.
+(2) Alice and Claire swap: Alice: purple, Bob: yellow, Claire: green.
+(3) Alice and Bob swap again: Alice: yellow, Bob: green, Claire: purple.
+
+At the end of the event, Alice has the yellow present. So the answer is (A).
+ 44%|█████████████████████████████████████▍                                               | 110/250 [54:50<1:11:21, 30.58s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: Catch-22, Claire: Ulysses.
+(1) Bob and Alice swap: Alice: Catch-22, Bob: Frankenstein, Claire: Ulysses.
+(2) Alice and Claire swap: Alice: Ulysses, Bob: Frankenstein, Claire: Catch-22.
+(3) Claire and Bob swap: Alice: Ulysses, Bob: Catch-22, Claire: Frankenstein.
+At the end of the semester, Claire has Frankenstein. So the answer is (A).
+ 44%|█████████████████████████████████████▋                                               | 111/250 [55:28<1:15:48, 32.72s/it]================================================================================================================================
+(0) At the start: Alice: right midfielder, Bob: goalkeeper, Claire: left winger.
+(1) Claire and Alice trade positions: Alice: left winger, Bob: goalkeeper, Claire: right midfielder.
+(2) Bob and Claire trade positions: Alice: left winger, Bob: right midfielder, Claire: goalkeeper.
+(3) Alice and Claire trade positions again: Alice: goalkeeper, Bob: left winger, Claire: right midfielder.
+At the end of the match, Alice is playing goalkeeper. So the answer is (B).
+ 45%|██████████████████████████████████████                                               | 112/250 [55:57<1:12:58, 31.73s/it]================================================================================================================================
+(0) At the start: Alice: The Odyssey, Bob: Frankenstein, Claire: The Pearl.
+(1) Bob and Alice swap books: Alice: Frankenstein, Bob: The Odyssey, Claire: The Pearl.
+(2) Alice and Claire swap books: Alice: The Pearl, Bob: The Odyssey, Claire: Frankenstein.
+(3) Bob and Alice swap books again: Alice: The Odyssey, Bob: Frankenstein, Claire: The Pearl.
+
+At the end of the semester, Claire has Frankenstein. So the answer is (B).
+ 45%|██████████████████████████████████████▍                                              | 113/250 [56:21<1:07:04, 29.37s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: black, Claire: blue.
+(1) Alice and Claire swap: Alice: blue, Bob: black, Claire: green.
+(2) Claire and Bob swap: Alice: blue, Bob: green, Claire: black.
+(3) Alice and Bob swap: Alice: black, Bob: blue, Claire: green.
+At the end of the event, Claire has the green present. So the answer is (A).
+ 46%|██████████████████████████████████████▊                                              | 114/250 [56:52<1:07:40, 29.86s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: purple present, Claire: blue present.
+(1) Claire and Alice swap: Alice: blue present, Bob: purple present, Claire: black ball.
+(2) Bob and Claire swap: Alice: blue present, Bob: black ball, Claire: purple present.
+(3) Alice and Bob swap: Alice: purple present, Bob: blue present, Claire: black ball.
+At the end of the event, Bob has the blue present. So the answer is (C).
+ 46%|███████████████████████████████████████                                              | 115/250 [57:25<1:09:12, 30.76s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: purple, Claire: blue.
+(1) Claire and Alice swap: Alice: blue, Bob: purple, Claire: black ball.
+(2) Bob and Claire swap: Alice: blue, Bob: black ball, Claire: purple.
+(3) Alice and Bob swap: Alice: black ball, Bob: blue, Claire: purple.
+
+At the end of the event, Alice has the black ball. So the answer is (A).
+ 46%|███████████████████████████████████████▍                                             | 116/250 [57:59<1:10:44, 31.68s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: black, Claire: purple.
+(1) Bob and Alice swap: Alice: black, Bob: green, Claire: purple.
+(2) Claire and Alice swap: Alice: purple, Bob: green, Claire: black.
+(3) Bob and Alice swap again: Alice: black, Bob: purple, Claire: green.
+
+At the end of the game, Alice has the black ball. So the answer is (B).
+ 47%|███████████████████████████████████████▊                                             | 117/250 [58:26<1:07:20, 30.38s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Midfielder, Claire: Striker.
+(1) Bob and Claire trade positions: Alice: Goalkeeper, Bob: Striker, Claire: Left Midfielder.
+(2) Bob and Alice trade positions: Alice: Left Midfielder, Bob: Goalkeeper, Claire: Striker.
+(3) Claire and Alice trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Left Midfielder.
+At the end of the match, Bob is playing Goalkeeper. So the answer is (A).
+ 47%|████████████████████████████████████████                                             | 118/250 [59:02<1:10:39, 32.12s/it]================================================================================================================================
+(0) At the start: Alice: Patrick, Bob: Izzi, Claire: Karl.
+(1) Claire and Bob switch partners: Alice: Patrick, Bob: Claire, Izzi: Karl.
+(2) Alice and Bob switch partners: Alice: Karl, Bob: Izzi, Claire: Patrick.
+(3) Bob and Claire switch partners: Alice: Karl, Bob: Patrick, Claire: Izzi.
+At the end of the dance, Alice is dancing with Karl. So the answer is (C).
+ 48%|████████████████████████████████████████▍                                            | 119/250 [59:44<1:16:32, 35.06s/it]================================================================================================================================
+(0) Start: Alice: orange, Bob: red, Claire: black.
+(1) Alice and Bob swap: Alice: red, Bob: orange, Claire: black.
+(2) Claire and Bob swap: Alice: red, Bob: black, Claire: orange.
+(3) Alice and Claire swap: Alice: black, Bob: red, Claire: orange.
+
+At the end of the game, Claire has the orange ball. So the answer is (A).
+ 48%|███████████████████████████████████████▊                                           | 120/250 [1:00:11<1:10:36, 32.59s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Lolita, Claire: Hound of the Baskervilles.
+(1) Bob and Alice swap: Alice: Lolita, Bob: Catch-22, Claire: Hound of the Baskervilles.
+(2) Bob and Claire swap: Alice: Lolita, Bob: Hound of the Baskervilles, Claire: Catch-22.
+(3) Alice and Claire swap: Alice: Hound of the Baskervilles, Bob: Hound of the Baskervilles, Claire: Lolita.
+
+At the end of the semester, Alice has Hound of the Baskervilles. So the answer is (C).
+ 48%|████████████████████████████████████████▏                                          | 121/250 [1:00:42<1:08:45, 31.98s/it]================================================================================================================================
+(0) At the start: Alice: left midfielder, Bob: goalkeeper, Claire: right winger.
+(1) Claire and Bob trade positions: Alice: left midfielder, Bob: right winger, Claire: goalkeeper.
+(2) Claire and Alice trade positions: Alice: right winger, Bob: goalkeeper, Claire: left midfielder.
+(3) Alice and Bob trade positions: Alice: goalkeeper, Bob: left midfielder, Claire: right winger.
+At the end of the match, Bob is playing left midfielder. So the answer is (A).
+ 49%|████████████████████████████████████████▌                                          | 122/250 [1:01:15<1:08:52, 32.29s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Sam, Claire: Karl.
+(1) Bob and Alice switch: Alice: Sam, Bob: Melissa, Claire: Karl.
+(2) Claire and Alice switch: Alice: Karl, Bob: Melissa, Claire: Sam.
+(3) Bob and Alice switch again: Alice: Melissa, Bob: Karl, Claire: Sam.
+
+At the end of the dance, Alice is dancing with Melissa. So the answer is (A).
+ 49%|████████████████████████████████████████▊                                          | 123/250 [1:01:44<1:06:27, 31.39s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: red, Claire: green.
+(1) Claire and Bob swap: Alice: pink, Bob: green, Claire: red.
+(2) Alice and Claire swap: Alice: green, Bob: red, Claire: pink.
+(3) Claire and Bob swap again: Alice: green, Bob: pink, Claire: red.
+
+At the end of the game, Bob has the pink ball. So the answer is (A).
+ 50%|█████████████████████████████████████████▏                                         | 124/250 [1:02:19<1:08:16, 32.52s/it]================================================================================================================================
+(0) At the start: Alice: right midfielder, Bob: goalkeeper, Claire: left winger.
+(1) Claire and Alice trade positions: Alice: left winger, Bob: goalkeeper, Claire: right midfielder.
+(2) Bob and Claire trade positions: Alice: left winger, Bob: right midfielder, Claire: goalkeeper.
+(3) Alice and Claire trade positions again: Alice: goalkeeper, Bob: left winger, Claire: right midfielder.
+At the end of the match, Claire is playing right midfielder. So the answer is (A).
+ 50%|█████████████████████████████████████████▌                                         | 125/250 [1:02:56<1:10:43, 33.94s/it]================================================================================================================================
+(0) At the start: Alice: Center Midfielder, Bob: Right Midfielder, Claire: Right Winger.
+(1) Claire and Alice trade positions: Alice: Right Winger, Bob: Right Midfielder, Claire: Center Midfielder.
+(2) Alice and Bob trade positions: Alice: Right Midfielder, Bob: Center Midfielder, Claire: Right Winger.
+(3) Claire and Bob trade positions: Alice: Right Winger, Bob: Right Midfielder, Claire: Center Midfielder.
+
+At the end of the match, Claire is playing center midfielder. So the answer is (A).
+ 50%|█████████████████████████████████████████▊                                         | 126/250 [1:03:35<1:13:11, 35.41s/it]================================================================================================================================
+(0) At the start: Alice: Lolita, Bob: The Great Gatsby, Claire: The Odyssey.
+(1) Claire and Alice swap: Alice: The Odyssey, Bob: The Great Gatsby, Claire: Lolita.
+(2) Alice and Bob swap: Alice: The Great Gatsby, Bob: Lolita, Claire: The Odyssey.
+(3) Claire and Alice swap again: Alice: The Odyssey, Bob: Lolita, Claire: The Great Gatsby.
+
+At the end of the semester, Alice has The Odyssey. So the answer is (C).
+ 51%|██████████████████████████████████████████▏                                        | 127/250 [1:04:13<1:13:43, 35.96s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: white, Claire: purple.
+(1) Alice and Bob swap: Alice: white, Bob: yellow, Claire: purple.
+(2) Bob and Claire swap: Alice: white, Bob: purple, Claire: yellow.
+(3) Bob and Alice swap again: Alice: purple, Bob: yellow, Claire: white.
+At the end of the event, Alice has the purple present. So the answer is (C).
+ 51%|██████████████████████████████████████████▍                                        | 128/250 [1:04:53<1:15:55, 37.34s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Fullback, Claire: Left Winger.
+(1) Claire and Bob trade positions: Alice: Goalkeeper, Bob: Left Winger, Claire: Fullback.
+(2) Bob and Alice trade positions: Alice: Left Winger, Bob: Goalkeeper, Claire: Fullback.
+(3) Bob and Claire trade positions: Alice: Fullback, Bob: Left Winger, Claire: Goalkeeper.
+At the end of the match, Claire is playing goalkeeper. So the answer is (A).
+ 52%|██████████████████████████████████████████▊                                        | 129/250 [1:05:24<1:11:27, 35.44s/it]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: Frankenstein, Claire: Catch-22.
+(1) Bob and Claire swap books: Alice: Ulysses, Bob: Catch-22, Claire: Frankenstein.
+(2) Claire and Alice swap books: Alice: Frankenstein, Bob: Catch-22, Claire: Ulysses.
+(3) Alice and Bob swap books: Alice: Frankenstein, Bob: Ulysses, Claire: Catch-22.
+At the end of the semester, Bob has Ulysses. So the answer is (A).
+ 52%|███████████████████████████████████████████▏                                       | 130/250 [1:06:09<1:16:33, 38.28s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: blue present, Claire: brown present.
+(1) Claire and Alice swap: Alice: brown present, Bob: blue present, Claire: pink ball.
+(2) Bob and Alice swap: Alice: blue present, Bob: pink ball, Claire: brown present.
+(3) Alice and Claire swap: Alice: brown present, Bob: pink ball, Claire: blue present.
+
+At the end of the event, Bob has the pink ball. So the answer is (A).
+ 52%|███████████████████████████████████████████▍                                       | 131/250 [1:06:42<1:13:00, 36.81s/it]================================================================================================================================
+(0) At the start: Alice: Lolita, Bob: Hound of the Baskervilles, Claire: The Fellowship of the Ring.
+(1) Claire and Bob swap books: Alice: Lolita, Bob: The Fellowship of the Ring, Claire: Hound of the Baskervilles.
+(2) Alice and Bob swap books: Alice: Hound of the Baskervilles, Bob: Lolita, Claire: The Fellowship of the Ring.
+(3) Claire and Bob swap books again: Alice: Hound of the Baskervilles, Bob: The Fellowship of the Ring, Claire: Lolita.
+
+At the end of the semester, Claire has Lolita. So the answer is (A).
+ 53%|███████████████████████████████████████████▊                                       | 132/250 [1:07:21<1:13:37, 37.44s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: red, Claire: orange.
+(1) Claire and Bob swap: Alice: blue, Bob: orange, Claire: red.
+(2) Alice and Claire swap: Alice: orange, Bob: red, Claire: blue.
+(3) Bob and Alice swap: Alice: red, Bob: blue, Claire: orange.
+
+At the end of the event, Claire has the red present. So the answer is (B).
+ 53%|████████████████████████████████████████████▏                                      | 133/250 [1:07:54<1:10:09, 35.98s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: white present, Claire: pink ball.
+(1) Alice and Bob swap: Alice: white present, Bob: black ball, Claire: pink ball.
+(2) Bob and Claire swap: Alice: white present, Bob: pink ball, Claire: black ball.
+(3) Alice and Bob swap again: Alice: pink ball, Bob: black ball, Claire: white present.
+At the end of the event, Bob has the black ball. So the answer is (A).
+ 54%|████████████████████████████████████████████▍                                      | 134/250 [1:08:30<1:09:48, 36.11s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: white present, Claire: orange ball.
+(1) Bob and Alice swap: Alice: white present, Bob: pink ball, Claire: orange ball.
+(2) Claire and Bob swap: Alice: white present, Bob: orange ball, Claire: pink ball.
+(3) Alice and Claire swap: Alice: orange ball, Bob: white present, Claire: pink ball.
+At the end of the event, Claire has the pink ball. So the answer is (A).
+ 54%|████████████████████████████████████████████▊                                      | 135/250 [1:09:02<1:06:52, 34.89s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Jamie, Claire: Melissa.
+(1) Alice and Claire switch partners: Alice: Melissa, Bob: Jamie, Claire: Ophelia.
+(2) Bob and Alice switch partners: Alice: Jamie, Bob: Melissa, Claire: Ophelia.
+(3) Claire and Bob switch partners: Alice: Jamie, Bob: Ophelia, Claire: Melissa.
+At the end of the dance, Claire is dancing with Ophelia. So the answer is (A).
+ 54%|█████████████████████████████████████████████▏                                     | 136/250 [1:09:40<1:07:55, 35.75s/it]================================================================================================================================
+(0) At the start: Alice: The Odyssey, Bob: The Fellowship of the Ring, Claire: The Pearl.
+(1) Bob and Claire swap: Bob: The Pearl, Claire: The Fellowship of the Ring, Alice: The Odyssey.
+(2) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: The Pearl, Claire: The Odyssey.
+(3) Bob and Claire swap again: Alice: The Odyssey, Bob: The Odyssey (since Claire now has Alice's original book), Claire: The Fellowship of the Ring.
+
+At the end of the semester, Claire has The Fellowship of the Ring. So the answer is (B).
+ 55%|█████████████████████████████████████████████▍                                     | 137/250 [1:10:15<1:06:38, 35.38s/it]================================================================================================================================
+(0) Start: Alice: Izzi, Bob: Jamie, Claire: Rodrigo.
+(1) Bob and Alice switch: Alice: Jamie, Bob: Izzi, Claire: Rodrigo.
+(2) Alice and Claire switch: Alice: Rodrigo, Bob: Izzi, Claire: Jamie.
+(3) Claire and Bob switch: Alice: Rodrigo, Bob: Jamie, Claire: Izzi.
+
+At the end of the dance, Alice is dancing with Rodrigo. The answer is (C).
+ 55%|█████████████████████████████████████████████▊                                     | 138/250 [1:10:43<1:02:18, 33.38s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: blue, Claire: brown.
+(1) Claire and Bob swap: Alice: green, Bob: brown, Claire: blue.
+(2) Alice and Claire swap: Alice: brown, Bob: blue, Claire: green.
+(3) Alice and Bob swap again: Alice: blue, Bob: green, Claire: brown.
+
+At the end of the game, Bob has the green ball. So the answer is (A).
+ 56%|██████████████████████████████████████████████▏                                    | 139/250 [1:11:16<1:01:29, 33.24s/it]================================================================================================================================
+(0) At the start: Alice: center midfielder, Bob: right midfielder, Claire: goalkeeper.
+(1) Claire and Bob trade positions: Alice: center midfielder, Bob: goalkeeper, Claire: right midfielder.
+(2) Claire and Alice trade positions: Alice: goalkeeper, Bob: right midfielder, Claire: center midfielder.
+(3) Bob and Claire trade positions: Alice: right midfielder, Bob: center midfielder, Claire: goalkeeper.
+At the end of the match, Alice is playing right midfielder. So the answer is (B).
+ 56%|███████████████████████████████████████████████▌                                     | 140/250 [1:11:42<56:41, 30.92s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Odyssey, Claire: The Great Gatsby.
+(1) Alice and Claire swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: Frankenstein.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: Frankenstein, Claire: The Great Gatsby.
+(3) Alice and Claire swap again: Alice: The Great Gatsby, Bob: Frankenstein, Claire: The Odyssey.
+
+At the end of the semester, Alice has The Great Gatsby. So the answer is (C).
+ 56%|███████████████████████████████████████████████▉                                     | 141/250 [1:12:07<53:12, 29.29s/it]================================================================================================================================
+(0) At the start: Alice: right winger, Bob: striker, Claire: fullback.
+(1) Bob and Alice trade positions: Alice: striker, Bob: right winger, Claire: fullback.
+(2) Alice and Claire trade positions: Alice: fullback, Bob: right winger, Claire: striker.
+(3) Claire and Bob trade positions: Alice: fullback, Bob: striker, Claire: right winger.
+At the end of the match, Claire is playing right winger. So the answer is (A).
+ 57%|████████████████████████████████████████████████▎                                    | 142/250 [1:12:34<51:07, 28.40s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Center Midfielder, Claire: Benchwarmer.
+(1) Claire and Bob trade positions: Alice: Goalkeeper, Bob: Benchwarmer, Claire: Center Midfielder.
+(2) Alice and Bob trade positions: Alice: Benchwarmer, Bob: Goalkeeper, Claire: Center Midfielder.
+(3) Bob and Claire trade positions: Alice: Benchwarmer, Bob: Center Midfielder, Claire: Goalkeeper.
+At the end of the match, Bob is playing center midfielder. So the answer is (B).
+ 57%|████████████████████████████████████████████████▌                                    | 143/250 [1:13:04<51:45, 29.02s/it]================================================================================================================================
+(0) At the start: Alice: white, Bob: purple, Claire: pink.
+(1) Bob and Alice swap: Alice: purple, Bob: white, Claire: pink.
+(2) Bob and Claire swap: Alice: purple, Bob: pink, Claire: white.
+(3) Bob and Alice swap again: Alice: pink, Bob: purple, Claire: white.
+
+At the end of the game, Bob has the purple ball. So the answer is (B).
+ 58%|████████████████████████████████████████████████▉                                    | 144/250 [1:13:36<52:53, 29.94s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Sam.
+(1) Bob and Alice switch: Alice: Jamie, Bob: Rodrigo, Claire: Sam.
+(2) Bob and Claire switch: Alice: Jamie, Bob: Sam, Claire: Rodrigo.
+(3) Alice and Claire switch: Alice: Jamie, Bob: Sam, Claire: Rodrigo.
+
+At the end of the dance, Claire is dancing with Rodrigo. So the answer is (A).
+ 58%|█████████████████████████████████████████████████▎                                   | 145/250 [1:14:09<54:03, 30.89s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: yellow, Claire: white.
+(1) Claire and Bob swap: Alice: pink, Bob: white, Claire: yellow.
+(2) Alice and Bob swap: Alice: white, Bob: pink, Claire: yellow.
+(3) Claire and Bob swap again: Alice: white, Bob: yellow, Claire: pink.
+At the end of the game, Bob has the yellow ball. So the answer is (B).
+ 58%|█████████████████████████████████████████████████▋                                   | 146/250 [1:14:47<57:10, 32.99s/it]================================================================================================================================
+(0) Start: Alice: pink ball, Bob: brown, Claire: yellow.
+(1) Bob and Claire swap: Alice: pink, Bob: yellow, Claire: brown.
+(2) Bob and Alice swap: Alice: brown, Bob: pink, Claire: yellow.
+(3) Claire and Alice swap: Alice: yellow, Bob: pink, Claire: brown.
+
+At the end of the event, Claire has the brown present. So the answer is (B).
+ 59%|█████████████████████████████████████████████████▉                                   | 147/250 [1:15:15<54:00, 31.46s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: brown, Claire: white.
+(1) Claire and Alice swap: Alice: white, Bob: brown, Claire: blue.
+(2) Bob and Claire swap: Alice: white, Bob: blue, Claire: brown.
+(3) Alice and Bob swap: Alice: brown, Bob: white, Claire: blue.
+At the end of the event, Claire has the blue present. So the answer is (A).
+ 59%|█████████████████████████████████████████████████▏                                 | 148/250 [1:16:02<1:01:24, 36.12s/it]================================================================================================================================
+(0) Start: Alice: fullback, Bob: cheerleader, Claire: left winger.
+(1) Alice and Claire trade: Alice: left winger, Bob: cheerleader, Claire: fullback.
+(2) Bob and Alice trade: Alice: cheerleader, Bob: fullback, Claire: left winger.
+(3) Bob and Claire trade: Alice: cheerleader, Bob: left winger, Claire: fullback.
+At the end of the match, Claire is playing fullback. So the answer is (A).
+ 60%|██████████████████████████████████████████████████▋                                  | 149/250 [1:16:35<59:12, 35.17s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Lolita, Claire: Hound of the Baskervilles.
+(1) Bob and Alice swap books: Alice: Lolita, Bob: Catch-22, Claire: Hound of the Baskervilles.
+(2) Bob and Claire swap books: Alice: Lolita, Bob: Hound of the Baskervilles, Claire: Catch-22.
+(3) Alice and Claire swap books: Alice: Hound of the Baskervilles, Bob: Lolita, Claire: Catch-22.
+
+At the end of the semester, Bob has the book he started with, which is Lolita. So the answer is (B).
+ 60%|█████████████████████████████████████████████████▊                                 | 150/250 [1:17:18<1:02:42, 37.63s/it]================================================================================================================================
+(0) At the start: Alice: white, Bob: pink, Claire: black.
+(1) Alice and Claire swap: Alice: black, Bob: pink, Claire: white.
+(2) Alice and Bob swap: Alice: pink, Bob: white, Claire: black.
+(3) Claire and Alice swap again: Alice: black, Bob: white, Claire: pink.
+
+At the end of the event, Alice has the black ball. So the answer is (C).
+ 60%|██████████████████████████████████████████████████▏                                | 151/250 [1:17:53<1:00:32, 36.69s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Benchwarmer, Claire: Center Midfielder.
+(1) Alice and Bob trade positions: Alice: Benchwarmer, Bob: Striker, Claire: Center Midfielder.
+(2) Alice and Claire trade positions: Alice: Center Midfielder, Bob: Striker, Claire: Striker (since both were already playing striker after the first swap).
+(3) Claire and Bob trade positions: Alice: Center Midfielder, Bob: Benchwarmer, Claire: Striker (Bob's original position).
+
+At the end of the match, Bob is playing benchwarmer. So the answer is (B).
+ 61%|██████████████████████████████████████████████████▍                                | 152/250 [1:18:47<1:08:42, 42.07s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: green, Claire: purple.
+(1) Bob and Alice swap: Alice: green, Bob: yellow, Claire: purple.
+(2) Claire and Alice swap: Alice: purple, Bob: yellow, Claire: green.
+(3) Alice and Bob swap again: Alice: yellow, Bob: purple, Claire: green.
+
+At the end of the event, Claire has the green present. So the answer is (B).
+ 61%|██████████████████████████████████████████████████▊                                | 153/250 [1:19:21<1:04:05, 39.65s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: pink, Claire: blue.
+(1) Claire and Bob swap: Alice: brown, Bob: blue, Claire: pink.
+(2) Claire and Alice swap: Alice: pink, Bob: blue, Claire: brown.
+(3) Bob and Claire swap: Alice: pink, Bob: brown, Claire: blue.
+
+At the end of the game, Claire has the blue ball. So the answer is (C).
+ 62%|███████████████████████████████████████████████████▏                               | 154/250 [1:19:54<1:00:03, 37.54s/it]================================================================================================================================
+(0) Start: Alice: Patrick, Bob: Izzi, Claire: Karl.
+(1) Claire and Bob switch partners: Alice: Patrick, Bob: Karl, Claire: Izzi.
+(2) Alice and Bob switch partners: Alice: Karl, Bob: Izzi, Claire: Patrick.
+(3) Bob and Claire switch partners: Alice: Karl, Bob: Patrick, Claire: Izzi.
+
+At the end of the dance, Bob is dancing with Patrick. So the answer is (A).
+ 62%|███████████████████████████████████████████████████▍                               | 155/250 [1:20:42<1:04:27, 40.71s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Right Winger, Claire: Goalkeeper.
+(1) Alice and Claire swap: Alice: Goalkeeper, Bob: Right Winger, Claire: Cheerleader.
+(2) Bob and Alice swap: Alice: Right Winger, Bob: Goalkeeper, Claire: Cheerleader.
+(3) Claire and Bob swap: Alice: Right Winger, Bob: Cheerleader, Claire: Goalkeeper.
+At the end of the match, Claire is playing as the goalkeeper. So the answer is (C).
+ 62%|███████████████████████████████████████████████████▊                               | 156/250 [1:21:17<1:01:05, 39.00s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Odyssey, Claire: Ulysses.
+(1) Claire and Alice swap: Alice: Ulysses, Bob: The Odyssey, Claire: Frankenstein.
+(2) Claire and Bob swap: Alice: Ulysses, Bob: Frankenstein, Claire: The Odyssey.
+(3) Bob and Alice swap: Alice: The Odyssey, Bob: Ulysses, Claire: Frankenstein.
+At the end of the semester, Bob has Ulysses. So the answer is (C).
+ 63%|█████████████████████████████████████████████████████▍                               | 157/250 [1:21:52<58:25, 37.70s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Right Winger, Claire: Fullback.
+(1) Claire and Alice trade: Alice: Fullback, Bob: Right Winger, Claire: Cheerleader.
+(2) Bob and Claire trade: Alice: Fullback, Bob: Cheerleader, Claire: Right Winger.
+(3) Claire and Alice trade again: Alice: Right Winger, Bob: Fullback, Claire: Cheerleader.
+At the end of the match, Alice is playing right winger. So the answer is (B).
+ 63%|████████████████████████████████████████████████████▍                              | 158/250 [1:22:37<1:01:02, 39.81s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: Catch-22.
+(2) Alice and Bob swap: Alice: Moby Dick, Bob: Catch-22, Claire: The Fellowship of the Ring.
+(3) Claire and Bob swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Catch-22.
+At the end of the semester, Claire has Catch-22. So the answer is (A).
+ 64%|██████████████████████████████████████████████████████                               | 159/250 [1:23:09<57:09, 37.69s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: green, Claire: blue.
+(1) Alice and Bob swap: Alice: green, Bob: yellow, Claire: blue.
+(2) Alice and Claire swap: Alice: blue, Bob: yellow, Claire: green.
+(3) Claire and Bob swap: Alice: blue, Bob: green, Claire: yellow.
+At the end of the game, Alice has the blue ball. So the answer is (C).
+ 64%|██████████████████████████████████████████████████████▍                              | 160/250 [1:23:45<55:51, 37.24s/it]================================================================================================================================
+(0) At the start: Alice: Right Winger, Bob: Right Midfielder, Claire: Fullback.
+(1) Bob and Alice trade positions: Alice: Right Midfielder, Bob: Right Winger, Claire: Fullback.
+(2) Alice and Claire trade positions: Alice: Right Winger, Bob: Right Winger (since Alice kept her position), Claire: Right Midfielder.
+(3) Bob and Claire trade positions: Alice: Right Winger, Bob: Fullback, Claire: Right Midfielder.
+
+At the end of the match, Claire is playing right midfielder. So the answer is (B).
+ 64%|██████████████████████████████████████████████████████▋                              | 161/250 [1:24:13<51:05, 34.44s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Winger, Claire: Left Midfielder.
+(1) Alice and Claire trade positions: Alice: Left Midfielder, Bob: Left Winger, Claire: Goalkeeper.
+(2) Alice and Bob trade positions: Alice: Left Winger, Bob: Goalkeeper, Claire: Goalkeeper (since both were already goalkeepers).
+(3) Claire and Alice trade positions again: Alice: Goalkeeper, Bob: Goalkeeper (since Claire was also a goalkeeper), Claire: Left Winger.
+
+At the end of the match, Bob is playing as a goalkeeper. So the answer is (A).
+ 65%|███████████████████████████████████████████████████████                              | 162/250 [1:24:54<53:17, 36.33s/it]================================================================================================================================
+(0) Start: Alice: red, Bob: orange, Claire: black.
+(1) Alice and Bob swap: Alice: orange, Bob: red, Claire: black.
+(2) Alice and Claire swap: Alice: black, Bob: red, Claire: orange.
+(3) Claire and Bob swap: Alice: black, Bob: orange, Claire: red.
+
+At the end of the game, Bob has the red ball. So the answer is (A).
+ 65%|███████████████████████████████████████████████████████▍                             | 163/250 [1:25:29<52:04, 35.91s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: red, Claire: green.
+(1) Alice and Claire swap: Alice: green, Bob: red, Claire: purple.
+(2) Alice and Bob swap: Alice: red, Bob: purple, Claire: green.
+(3) Claire and Alice swap again: Alice: purple, Bob: green, Claire: red.
+
+At the end of the game, Alice has the purple ball. So the answer is (A).
+ 66%|███████████████████████████████████████████████████████▊                             | 164/250 [1:26:11<54:08, 37.77s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: brown, Claire: white.
+(1) Alice and Claire swap: Alice: white, Bob: brown, Claire: pink.
+(2) Bob and Claire swap: Alice: white, Bob: pink, Claire: brown.
+(3) Claire and Alice swap: Alice: pink, Bob: brown, Claire: white.
+
+At the end of the game, Alice has the pink ball. So the answer is (A).
+ 66%|████████████████████████████████████████████████████████                             | 165/250 [1:26:52<54:40, 38.60s/it]================================================================================================================================
+(0) Start: Alice: orange, Bob: red, Claire: pink.
+(1) Bob and Claire swap: Alice: orange, Bob: pink, Claire: red.
+(2) Alice and Bob swap: Alice: pink, Bob: orange, Claire: red.
+(3) Claire and Bob swap: Alice: pink, Bob: red, Claire: orange.
+
+At the end of the game, Claire has the orange ball. So the answer is (A).
+ 66%|████████████████████████████████████████████████████████▍                            | 166/250 [1:27:20<49:45, 35.54s/it]================================================================================================================================
+(0) At the start: Alice: The Great Gatsby, Bob: The Pearl, Claire: The Odyssey.
+(1) Alice and Claire swap: Alice: The Odyssey, Bob: The Pearl, Claire: The Great Gatsby.
+(2) Bob and Alice swap: Alice: The Pearl, Bob: The Odyssey, Claire: The Great Gatsby.
+(3) Alice and Claire swap again: Alice: The Great Gatsby, Bob: The Odyssey, Claire: The Pearl.
+
+At the end of the semester, Bob has The Odyssey. So the answer is (C).
+ 67%|████████████████████████████████████████████████████████▊                            | 167/250 [1:27:56<49:26, 35.74s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Lola, Claire: Izzi.
+(1) Alice and Bob switch partners: Alice: Lola, Bob: Melissa, Claire: Izzi.
+(2) Alice and Claire switch partners: Alice: Izzi, Bob: Melissa, Claire: Lola.
+(3) Bob and Alice switch partners: Alice: Melissa, Bob: Lola, Claire: Izzi.
+
+At the end of the dance, Alice is dancing with Melissa. So the answer is (A).
+ 67%|█████████████████████████████████████████████████████████                            | 168/250 [1:28:35<50:02, 36.62s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Izzi.
+(1) Bob and Alice switch partners: Alice: Jamie, Bob: Rodrigo, Claire: Izzi.
+(2) Claire and Alice switch partners: Alice: Jamie, Bob: Rodrigo, Claire: Rodrigo (since Claire now has Alice's original partner).
+(3) Bob and Claire switch partners: Alice: Jamie, Bob: Izzi, Claire: Rodrigo.
+
+At the end of the dance, Claire is dancing with Rodrigo. So the answer is (A).
+ 68%|█████████████████████████████████████████████████████████▍                           | 169/250 [1:29:07<47:22, 35.09s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Benchwarmer, Claire: Striker.
+(1) Bob and Alice trade positions: Alice: Benchwarmer, Bob: Right Winger, Claire: Striker.
+(2) Bob and Claire trade positions: Alice: Benchwarmer, Bob: Striker, Claire: Right Winger.
+(3) Claire and Alice trade positions: Alice: Striker, Bob: Right Winger, Claire: Benchwarmer.
+At the end of the match, Claire is playing benchwarmer. So the answer is (B).
+ 68%|█████████████████████████████████████████████████████████▊                           | 170/250 [1:29:52<51:01, 38.27s/it]================================================================================================================================
+(0) Start: Alice: Cheerleader, Bob: Right Winger, Claire: Goalkeeper.
+(1) Alice and Claire trade positions: Alice: Goalkeeper, Bob: Right Winger, Claire: Cheerleader.
+(2) Bob and Alice trade positions: Alice: Right Winger, Bob: Goalkeeper, Claire: Cheerleader.
+(3) Claire and Bob trade positions: Alice: Right Winger, Bob: Cheerleader, Claire: Goalkeeper.
+
+At the end of the match, Alice is playing right winger. So the answer is (B).
+ 68%|██████████████████████████████████████████████████████████▏                          | 171/250 [1:30:20<46:17, 35.16s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Pearl, Claire: The Fellowship of the Ring.
+(1) Bob and Claire swap: Bob: The Fellowship of the Ring, Claire: The Pearl, Alice: Frankenstein.
+(2) Bob and Alice swap: Bob: Frankenstein, Claire: The Pearl, Alice: The Fellowship of the Ring.
+(3) Claire and Alice swap: Bob: Frankenstein, Claire: Frankenstein, Alice: The Pearl.
+At the end of the semester, Claire has Frankenstein. So the answer is (A).
+ 69%|██████████████████████████████████████████████████████████▍                          | 172/250 [1:30:50<43:41, 33.61s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: red, Claire: black.
+(1) Claire and Bob swap: Alice: blue, Bob: black, Claire: red.
+(2) Bob and Alice swap: Alice: red, Bob: black, Claire: blue.
+(3) Claire and Bob swap again: Alice: red, Bob: blue, Claire: black.
+
+At the end of the event, Bob has the blue present. So the answer is (A).
+ 69%|██████████████████████████████████████████████████████████▊                          | 173/250 [1:31:36<47:40, 37.15s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Right Winger, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Right Winger.
+(2) Bob and Alice trade positions: Alice: Goalkeeper, Bob: Right Winger, Claire: Striker.
+(3) Alice and Claire trade positions: Alice: Right Winger, Bob: Striker, Claire: Goalkeeper.
+At the end of the match, Bob is playing striker. So the answer is (A).
+ 70%|███████████████████████████████████████████████████████████▏                         | 174/250 [1:32:09<45:40, 36.06s/it]================================================================================================================================
+(0) At the start: Alice: right midfielder, Bob: center midfielder, Claire: striker.
+(1) Alice and Bob trade positions: Alice: center midfielder, Bob: right midfielder, Claire: striker.
+(2) Alice and Claire trade positions: Alice: striker, Bob: right midfielder, Claire: center midfielder.
+(3) Bob and Claire trade positions: Alice: striker, Bob: center midfielder, Claire: right midfielder.
+At the end of the match, Alice is playing striker. So the answer is (C).
+ 70%|███████████████████████████████████████████████████████████▍                         | 175/250 [1:32:35<41:15, 33.01s/it]================================================================================================================================
+(0) Start: Alice: Ophelia, Bob: Rodrigo, Claire: Patrick.
+(1) Bob and Alice switch: Alice: Rodrigo, Bob: Ophelia, Claire: Patrick.
+(2) Claire and Bob switch: Alice: Rodrigo, Bob: Patrick, Claire: Ophelia.
+(3) Claire and Alice switch: Alice: Patrick, Bob: Ophelia, Claire: Rodrigo.
+
+At the end of the dance, Alice is dancing with Patrick. So the answer is (C).
+ 70%|███████████████████████████████████████████████████████████▊                         | 176/250 [1:33:06<40:03, 32.47s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: yellow, Claire: orange.
+(1) Claire and Bob swap: Alice: purple, Bob: orange, Claire: yellow.
+(2) Bob and Alice swap: Alice: orange, Bob: yellow, Claire: purple.
+(3) Claire and Bob swap again: Alice: yellow, Bob: purple, Claire: orange.
+
+At the end of the game, Alice has the yellow ball. So the answer is (B).
+ 71%|████████████████████████████████████████████████████████████▏                        | 177/250 [1:33:41<40:23, 33.19s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Left Winger, Claire: Benchwarmer.
+(1) Claire and Alice trade positions: Alice: Benchwarmer, Bob: Left Winger, Claire: Striker.
+(2) Alice and Bob trade positions: Alice: Left Winger, Bob: Striker, Claire: Benchwarmer.
+(3) Claire and Alice trade positions again: Alice: Benchwarmer, Bob: Striker, Claire: Left Winger.
+
+At the end of the match, Alice is playing benchwarmer. So the answer is (C).
+ 71%|████████████████████████████████████████████████████████████▌                        | 178/250 [1:34:23<42:56, 35.78s/it]================================================================================================================================
+(0) Start: Alice: pink, Bob: orange, Claire: white.
+(1) Bob and Claire swap: Bob: white, Claire: orange, Alice: pink.
+(2) Claire and Alice swap: Bob: white, Alice: orange, Claire: pink.
+(3) Alice and Bob swap: Bob: pink, Alice: white, Claire: orange.
+
+At the end of the game, Bob has the pink ball. So the answer is (A).
+ 72%|████████████████████████████████████████████████████████████▊                        | 179/250 [1:34:50<39:15, 33.17s/it]================================================================================================================================
+(0) At the start: Alice: The Fellowship of the Ring, Bob: The Odyssey, Claire: The Great Gatsby.
+(1) Alice and Claire swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: The Fellowship of the Ring.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: The Great Gatsby, Claire: The Fellowship of the Ring.
+(3) Claire and Alice swap: Alice: The Great Gatsby, Bob: The Odyssey, Claire: The Odyssey (since Alice received the Odyssey back from Bob).
+
+At the end of the semester, Alice has The Odyssey. So the answer is (B).
+ 72%|█████████████████████████████████████████████████████████████▏                       | 180/250 [1:35:25<39:13, 33.62s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Lola, Claire: Patrick.
+(1) Bob and Claire switch: Alice: Melissa, Bob: Patrick, Claire: Lola.
+(2) Claire and Alice switch: Alice: Patrick, Bob: Lola, Claire: Melissa.
+(3) Bob and Alice switch: Alice: Lola, Bob: Melissa, Claire: Patrick.
+
+At the end of the dance, Alice is dancing with Lola. So the answer is (B).
+ 72%|█████████████████████████████████████████████████████████████▌                       | 181/250 [1:36:00<39:15, 34.14s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: white, Claire: black.
+(1) Alice and Bob swap: Alice: white, Bob: green, Claire: black.
+(2) Claire and Bob swap: Alice: white, Bob: black, Claire: green.
+(3) Bob and Alice swap again: Alice: black, Bob: green, Claire: white.
+
+At the end of the event, Bob has the green present. So the answer is (A).
+ 73%|█████████████████████████████████████████████████████████████▉                       | 182/250 [1:36:25<35:34, 31.39s/it]================================================================================================================================
+(0) At the start: Alice: The Odyssey, Bob: The Pearl, Claire: Frankenstein.
+(1) Claire and Bob swap: Alice: The Odyssey, Bob: Frankenstein, Claire: The Pearl.
+(2) Claire and Alice swap: Alice: Frankenstein, Bob: The Pearl, Claire: The Odyssey.
+(3) Bob and Claire swap: Alice: Frankenstein, Bob: The Odyssey, Claire: The Pearl.
+At the end of the semester, Bob has The Odyssey. So the answer is (A).
+ 73%|██████████████████████████████████████████████████████████████▏                      | 183/250 [1:36:51<33:19, 29.85s/it]================================================================================================================================
+(0) At the start: Alice: Hound of the Baskervilles, Bob: The Pearl, Claire: The Odyssey.
+(1) Bob and Claire swap books: Alice: Hound of the Baskervilles, Bob: The Odyssey, Claire: The Pearl.
+(2) Claire and Alice swap books: Alice: The Odyssey, Bob: The Pearl, Claire: Hound of the Baskervilles.
+(3) Bob and Alice swap books: Alice: The Pearl, Bob: Hound of the Baskervilles, Claire: The Odyssey.
+At the end of the semester, Claire has The Odyssey. So the answer is (C).
+ 74%|██████████████████████████████████████████████████████████████▌                      | 184/250 [1:37:24<33:42, 30.64s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Jamie, Claire: Melissa.
+(1) Alice and Claire switch: Alice: Melissa, Bob: Jamie, Claire: Sam.
+(2) Claire and Bob switch: Alice: Melissa, Bob: Sam, Claire: Jamie.
+(3) Alice and Bob switch: Alice: Jamie, Bob: Melissa, Claire: Sam.
+
+At the end of the dance, Alice is dancing with Jamie. So the answer is (B).
+ 74%|██████████████████████████████████████████████████████████████▉                      | 185/250 [1:38:00<35:12, 32.50s/it]================================================================================================================================
+(0) Start: Alice: Izzi, Bob: Jamie, Claire: Rodrigo.
+(1) Bob and Alice switch: Alice: Jamie, Bob: Izzi, Claire: Rodrigo.
+(2) Alice and Claire switch: Alice: Jamie, Bob: Izzi, Claire: Alice (since Alice had Jamie after the first swap).
+(3) Claire and Bob switch: Alice: Jamie, Bob: Alice (since Claire had Alice after the second swap), Claire: Izzi.
+
+At the end of the dance, Claire is dancing with Izzi. So the answer is (A).
+ 74%|███████████████████████████████████████████████████████████████▏                     | 186/250 [1:38:34<35:03, 32.86s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Jamie, Claire: Melissa.
+(1) Alice and Claire switch partners: Alice: Sam, Bob: Jamie, Claire: Alice.
+(2) Claire and Bob switch partners: Alice: Sam, Bob: Claire, Claire: Alice (since they just switched back).
+(3) Alice and Bob switch partners: Alice: Claire, Bob: Sam, Claire: Alice (since Bob and Claire already swapped earlier).
+
+At the end of the dance, Claire is dancing with Alice. The options don't match the correct answer, as there is no option for Alice. However, if we consider that the question might be asking for Claire's final partner before or after the dance (not necessarily at the end), we can deduce that since she initially danced with Melissa and then swapped with Alice and Bob, her final partner would be Melissa. So the closest answer would be (C) Melissa.
+
+If the question was asking specifically for the partner at the very end of the dance sequence, there would be no correct answer among the given options.
+ 75%|███████████████████████████████████████████████████████████████▌                     | 187/250 [1:39:15<36:51, 35.10s/it]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: The Fellowship of the Ring, Claire: The Pearl.
+(1) Alice and Claire swap: Alice: The Pearl, Bob: The Fellowship of the Ring, Claire: Ulysses.
+(2) Bob and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: The Fellowship of the Ring.
+(3) Alice and Bob swap: Alice: The Fellowship of the Ring, Bob: The Pearl, Claire: Ulysses.
+At the end of the semester, Bob has The Pearl. So the answer is (C).
+ 75%|███████████████████████████████████████████████████████████████▉                     | 188/250 [1:39:43<34:08, 33.04s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Winger, Claire: Right Midfielder.
+(1) Claire and Alice trade positions: Alice: Right Midfielder, Bob: Left Winger, Claire: Goalkeeper.
+(2) Bob and Claire trade positions: Alice: Right Midfielder, Bob: Goalkeeper, Claire: Left Winger.
+(3) Alice and Bob trade positions: Alice: Left Winger, Bob: Right Midfielder, Claire: Goalkeeper.
+
+At the end of the match, Claire is playing goalkeeper. So the answer is (A).
+ 76%|████████████████████████████████████████████████████████████████▎                    | 189/250 [1:40:15<33:24, 32.86s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: green.
+(1) Claire and Bob swap: Alice: orange, Bob: green, Claire: black.
+(2) Bob and Alice swap: Alice: black, Bob: orange, Claire: green.
+(3) Bob and Claire swap: Alice: black, Bob: green, Claire: orange.
+At the end of the event, Bob has the green present. So the answer is (C).
+ 76%|████████████████████████████████████████████████████████████████▌                    | 190/250 [1:40:46<32:15, 32.25s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Midfielder, Claire: Fullback.
+(1) Claire and Alice trade positions: Alice: Fullback, Bob: Left Midfielder, Claire: Goalkeeper.
+(2) Alice and Bob trade positions: Alice: Fullback, Bob: Goalkeeper, Claire: Left Midfielder.
+(3) Bob and Claire trade positions: Alice: Fullback, Bob: Left Midfielder, Claire: Goalkeeper.
+
+At the end of the match, Bob is playing left midfielder. So the answer is (B).
+ 76%|████████████████████████████████████████████████████████████████▉                    | 191/250 [1:41:19<31:47, 32.32s/it]================================================================================================================================
+(0) At the start: Alice: Lolita, Bob: Moby Dick, Claire: The Odyssey.
+(1) Bob and Alice swap books: Alice: Moby Dick, Bob: Lolita, Claire: The Odyssey.
+(2) Alice and Claire swap books: Alice: The Odyssey, Bob: Lolita, Claire: Moby Dick.
+(3) Claire and Bob swap books: Alice: The Odyssey, Bob: Moby Dick, Claire: Lolita.
+At the end of the semester, Bob has Moby Dick. So the answer is (B).
+ 77%|█████████████████████████████████████████████████████████████████▎                   | 192/250 [1:41:51<31:17, 32.38s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: black, Claire: brown.
+(1) Alice and Claire swap: Alice: brown, Bob: black, Claire: blue.
+(2) Claire and Bob swap: Alice: brown, Bob: blue, Claire: black.
+(3) Alice and Claire swap again: Alice: black, Bob: blue, Claire: brown.
+
+At the end of the game, Claire has the black ball. So the answer is (B).
+ 77%|█████████████████████████████████████████████████████████████████▌                   | 193/250 [1:42:23<30:40, 32.28s/it]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: Moby Dick, Claire: Frankenstein.
+(1) Bob and Alice swap: Alice: Moby Dick, Bob: Ulysses, Claire: Frankenstein.
+(2) Bob and Claire swap: Alice: Moby Dick, Bob: Frankenstein, Claire: Ulysses.
+(3) Alice and Bob swap again: Alice: Frankenstein, Bob: Ulysses, Claire: Moby Dick.
+At the end of the semester, Claire has Moby Dick. So the answer is (B).
+ 78%|█████████████████████████████████████████████████████████████████▉                   | 194/250 [1:42:56<30:21, 32.53s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: purple, Claire: green.
+(1) Claire and Alice swap: Alice: green, Bob: purple, Claire: yellow.
+(2) Bob and Claire swap: Alice: green, Bob: yellow, Claire: purple.
+(3) Alice and Bob swap: Alice: purple, Bob: green, Claire: yellow.
+At the end of the event, Claire has the yellow present. So the answer is (A).
+ 78%|██████████████████████████████████████████████████████████████████▎                  | 195/250 [1:43:30<30:06, 32.85s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: blue, Claire: brown.
+(1) Claire and Alice swap: Alice: brown, Bob: blue, Claire: green.
+(2) Claire and Bob swap: Alice: brown, Bob: green, Claire: blue.
+(3) Alice and Claire swap: Alice: blue, Bob: green, Claire: brown.
+
+At the end of the event, Alice has the blue present. So the answer is (B).
+ 78%|██████████████████████████████████████████████████████████████████▋                  | 196/250 [1:43:56<27:42, 30.78s/it]================================================================================================================================
+(0) At the start: Alice: Ulysses, Bob: Moby Dick, Claire: Frankenstein.
+(1) Bob and Alice swap: Alice: Moby Dick, Bob: Ulysses, Claire: Frankenstein.
+(2) Bob and Claire swap: Alice: Moby Dick, Bob: Frankenstein, Claire: Ulysses.
+(3) Alice and Bob swap again: Alice: Frankenstein, Bob: Moby Dick, Claire: Ulysses.
+At the end of the semester, Alice has Frankenstein. So the answer is (C).
+ 79%|██████████████████████████████████████████████████████████████████▉                  | 197/250 [1:44:29<27:48, 31.48s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Patrick, Claire: Izzi.
+(1) Alice and Bob switch partners: Alice: Patrick, Bob: Helga, Claire: Izzi.
+(2) Claire and Alice switch partners: Alice: Patrick, Bob: Izzi, Claire: Helga.
+(3) Alice and Bob switch partners again: Alice: Izzi, Bob: Helga, Claire: Patrick.
+
+At the end of the dance, Bob is dancing with Helga. So the answer is (A).
+ 79%|███████████████████████████████████████████████████████████████████▎                 | 198/250 [1:44:58<26:40, 30.78s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Alice and Bob swap: Alice: Moby Dick, Bob: Frankenstein, Claire: The Fellowship of the Ring.
+(2) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Frankenstein, Claire: Moby Dick.
+(3) Bob and Claire swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: Frankenstein.
+At the end of the semester, Claire has Frankenstein. So the answer is (A).
+ 80%|███████████████████████████████████████████████████████████████████▋                 | 199/250 [1:45:27<25:40, 30.21s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Patrick, Claire: Sam.
+(1) Claire and Alice switch: Alice: Sam, Bob: Patrick, Claire: Helga.
+(2) Claire and Bob switch: Alice: Sam, Bob: Helga, Claire: Patrick.
+(3) Alice and Bob switch: Alice: Patrick, Bob: Sam, Claire: Helga.
+
+At the end of the dance, Bob is dancing with Sam. So the answer is (C).
+ 80%|████████████████████████████████████████████████████████████████████                 | 200/250 [1:45:51<23:46, 28.53s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Lola.
+(1) Claire and Alice switch: Alice: Lola, Bob: Jamie, Claire: Rodrigo.
+(2) Bob and Claire switch: Alice: Lola, Bob: Rodrigo, Claire: Jamie.
+(3) Claire and Alice switch again: Alice: Jamie, Bob: Rodrigo, Claire: Lola.
+
+At the end of the dance, Claire is dancing with Jamie. So the answer is (B).
+ 80%|████████████████████████████████████████████████████████████████████▎                | 201/250 [1:46:21<23:30, 28.78s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: black, Claire: purple.
+(1) Bob and Alice swap: Alice: black, Bob: green, Claire: purple.
+(2) Claire and Alice swap: Alice: purple, Bob: green, Claire: black.
+(3) Bob and Alice swap again: Alice: green, Bob: purple, Claire: black.
+
+At the end of the game, Bob has the purple ball. So the answer is (C).
+ 81%|████████████████████████████████████████████████████████████████████▋                | 202/250 [1:46:45<21:47, 27.25s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: yellow, Claire: orange.
+(1) Bob and Claire swap: Bob: orange, Claire: yellow, Alice: pink.
+(2) Alice and Claire swap: Alice: yellow, Bob: orange, Claire: pink.
+(3) Bob and Claire swap again: Bob: pink, Alice: orange, Claire: yellow.
+
+At the end of the event, Claire has the yellow present. So the answer is (B).
+ 81%|█████████████████████████████████████████████████████████████████████                | 203/250 [1:47:10<20:56, 26.73s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Right Midfielder, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Right Midfielder.
+(2) Claire and Alice trade positions: Alice: Goalkeeper, Bob: Right Midfielder, Claire: Striker.
+(3) Bob and Claire trade positions: Alice: Goalkeeper, Bob: Striker, Claire: Right Midfielder.
+At the end of the match, Claire is playing right midfielder. So the answer is (B).
+ 82%|█████████████████████████████████████████████████████████████████████▎               | 204/250 [1:47:38<20:47, 27.11s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: blue, Claire: yellow.
+(1) Alice and Claire swap: Alice: yellow, Bob: blue, Claire: red.
+(2) Bob and Claire swap: Alice: yellow, Bob: red, Claire: blue.
+(3) Claire and Alice swap again: Alice: blue, Bob: yellow, Claire: red.
+At the end of the event, Bob has the yellow present. So the answer is (C).
+ 82%|█████████████████████████████████████████████████████████████████████▋               | 205/250 [1:48:09<21:08, 28.19s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Lola, Claire: Izzi.
+(1) Alice and Bob switch partners: Alice: Lola, Bob: Melissa, Claire: Izzi.
+(2) Alice and Claire switch partners: Alice: Lola, Bob: Melissa, Claire: Alice.
+(3) Bob and Alice switch partners: Alice: Melissa, Bob: Lola, Claire: Alice.
+At the end of the dance, Claire is dancing with Melissa. So the answer is (A).
+ 82%|██████████████████████████████████████████████████████████████████████               | 206/250 [1:48:55<24:40, 33.64s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: green present, Claire: brown present.
+(1) Alice and Bob swap: Alice: green present, Bob: black ball, Claire: brown present.
+(2) Claire and Bob swap: Alice: green present, Bob: brown present, Claire: black ball.
+(3) Alice and Claire swap: Alice: brown present, Bob: black ball, Claire: green present.
+At the end of the event, Bob has the black ball. So the answer is (A).
+ 83%|██████████████████████████████████████████████████████████████████████▍              | 207/250 [1:49:24<23:03, 32.17s/it]================================================================================================================================
+(0) At the start: Alice: Goalkeeper, Bob: Left Midfielder, Claire: Striker.
+(1) Claire and Alice trade positions: Alice: Striker, Bob: Left Midfielder, Claire: Goalkeeper.
+(2) Alice and Bob trade positions: Alice: Left Midfielder, Bob: Goalkeeper, Claire: Striker.
+(3) Bob and Claire trade positions: Alice: Striker, Bob: Striker, Claire: Left Midfielder.
+At the end of the match, Alice is playing striker. So the answer is (C).
+ 83%|██████████████████████████████████████████████████████████████████████▋              | 208/250 [1:49:46<20:24, 29.16s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Right Winger, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Right Winger.
+(2) Bob and Alice trade positions: Alice: Goalkeeper, Bob: Right Winger, Claire: Striker.
+(3) Alice and Claire trade positions: Alice: Right Winger, Bob: Striker, Claire: Goalkeeper.
+At the end of the match, Alice is playing right winger. So the answer is (B).
+ 84%|███████████████████████████████████████████████████████████████████████              | 209/250 [1:50:27<22:18, 32.64s/it]================================================================================================================================
+(0) Start: Alice: red, Bob: orange, Claire: black.
+(1) Alice and Bob swap: Alice: orange, Bob: red, Claire: black.
+(2) Alice and Claire swap: Alice: black, Bob: red, Claire: orange.
+(3) Claire and Bob swap: Alice: black, Bob: orange, Claire: red.
+
+At the end of the game, Claire has the red ball. So the answer is (A).
+ 84%|███████████████████████████████████████████████████████████████████████▍             | 210/250 [1:50:57<21:11, 31.78s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Right Winger, Claire: Right Midfielder.
+(1) Alice and Claire trade positions: Alice: Right Midfielder, Bob: Right Winger, Claire: Striker.
+(2) Bob and Alice trade positions: Alice: Right Winger, Bob: Striker, Claire: Right Midfielder.
+(3) Alice and Claire trade positions again: Alice: Right Midfielder, Bob: Right Midfielder, Claire: Striker.
+
+At the end of the match, Bob is playing right midfielder. So the answer is (C).
+ 84%|███████████████████████████████████████████████████████████████████████▋             | 211/250 [1:51:28<20:32, 31.59s/it]================================================================================================================================
+(0) Start: Alice: Izzi, Bob: Patrick, Claire: Ophelia.
+(1) Alice and Bob switch: Alice: Patrick, Bob: Izzi, Claire: Ophelia.
+(2) Claire and Bob switch: Alice: Patrick, Bob: Ophelia, Claire: Izzi.
+(3) Claire and Alice switch: Alice: Ophelia, Bob: Patrick, Claire: Izzi.
+
+At the end of the dance, Bob is dancing with Ophelia. So the answer is (C).
+ 85%|████████████████████████████████████████████████████████████████████████             | 212/250 [1:52:17<23:23, 36.93s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: red, Claire: white.
+(1) Alice and Claire swap: Alice: white, Bob: red, Claire: yellow.
+(2) Alice and Bob swap: Alice: red, Bob: yellow, Claire: white.
+(3) Alice and Claire swap again: Alice: yellow, Bob: white, Claire: red.
+
+At the end of the event, Claire has the red present. So the answer is (B).
+ 85%|████████████████████████████████████████████████████████████████████████▍            | 213/250 [1:52:59<23:43, 38.46s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: yellow, Claire: orange.
+(1) Claire and Bob swap: Alice: purple, Bob: orange, Claire: yellow.
+(2) Bob and Alice swap: Alice: yellow, Bob: purple, Claire: orange.
+(3) Claire and Bob swap again: Alice: yellow, Bob: orange, Claire: purple.
+
+At the end of the game, Bob has the orange ball. So the answer is (C).
+ 86%|████████████████████████████████████████████████████████████████████████▊            | 214/250 [1:53:24<20:41, 34.48s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: brown.
+(1) Alice and Claire swap: Alice: brown, Bob: black, Claire: orange.
+(2) Bob and Claire swap: Alice: brown, Bob: orange, Claire: black.
+(3) Claire and Alice swap: Alice: black, Bob: brown, Claire: orange.
+At the end of the event, Alice has the black ball. So the answer is (B).
+ 86%|█████████████████████████████████████████████████████████████████████████            | 215/250 [1:53:54<19:16, 33.05s/it]================================================================================================================================
+(0) Start: Alice: red, Bob: pink, Claire: black.
+(1) Claire and Alice swap: Alice: black, Bob: pink, Claire: red.
+(2) Alice and Bob swap: Alice: pink, Bob: black, Claire: red.
+(3) Alice and Claire swap: Alice: black, Bob: red, Claire: pink.
+
+At the end of the game, Claire has the pink ball. So the answer is (B).
+ 86%|█████████████████████████████████████████████████████████████████████████▍           | 216/250 [1:54:34<19:56, 35.20s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Sam.
+(1) Bob and Alice switch: Alice: Jamie, Bob: Rodrigo, Claire: Sam.
+(2) Bob and Claire switch: Alice: Jamie, Bob: Sam, Claire: Rodrigo.
+(3) Alice and Claire switch: Alice: Sam, Bob: Rodrigo, Claire: Jamie.
+
+At the end of the dance, Alice is dancing with Sam. So the answer is (C).
+ 87%|█████████████████████████████████████████████████████████████████████████▊           | 217/250 [1:55:16<20:25, 37.14s/it]================================================================================================================================
+(0) Start: Alice: Izzi, Bob: Patrick, Claire: Ophelia.
+(1) Alice and Bob switch: Alice: Patrick, Bob: Izzi, Claire: Ophelia.
+(2) Claire and Bob switch: Alice: Patrick, Bob: Ophelia, Claire: Izzi.
+(3) Claire and Alice switch: Alice: Ophelia, Bob: Ophelia (since Claire took Alice's spot), Claire: Patrick.
+
+At the end of the dance, Alice is dancing with Ophelia. So the answer is (C).
+ 87%|██████████████████████████████████████████████████████████████████████████           | 218/250 [1:55:55<20:02, 37.59s/it]================================================================================================================================
+(0) At the start: Alice: Frankenstein, Bob: The Pearl, Claire: The Odyssey.
+(1) Bob and Alice swap: Alice: The Pearl, Bob: Frankenstein, Claire: The Odyssey.
+(2) Bob and Claire swap: Alice: The Pearl, Bob: The Odyssey, Claire: Frankenstein.
+(3) Bob and Alice swap again: Alice: The Odyssey, Bob: Frankenstein, Claire: The Pearl.
+At the end of the semester, Bob has Frankenstein. So the answer is (A).
+ 88%|██████████████████████████████████████████████████████████████████████████▍          | 219/250 [1:56:19<17:27, 33.78s/it]================================================================================================================================
+(0) At the start: Alice: fullback, Bob: cheerleader, Claire: left winger.
+(1) Alice and Claire trade positions: Alice: left winger, Bob: cheerleader, Claire: fullback.
+(2) Bob and Alice trade positions: Alice: cheerleader, Bob: fullback, Claire: left winger.
+(3) Bob and Claire trade positions: Alice: fullback, Bob: left winger, Claire: cheerleader.
+At the end of the match, Bob is playing fullback. So the answer is (A).
+ 88%|██████████████████████████████████████████████████████████████████████████▊          | 220/250 [1:56:58<17:33, 35.12s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: purple, Claire: red.
+(1) Claire and Bob swap: Alice: orange, Bob: red, Claire: purple.
+(2) Alice and Bob swap: Alice: purple, Bob: orange, Claire: red.
+(3) Claire and Alice swap: Alice: red, Bob: orange, Claire: purple.
+At the end of the event, Alice has the red present. So the answer is (C).
+ 88%|███████████████████████████████████████████████████████████████████████████▏         | 221/250 [1:57:33<17:00, 35.18s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: white, Claire: red.
+(1) Claire and Bob swap: Alice: blue, Bob: red, Claire: white.
+(2) Alice and Bob swap: Alice: red, Bob: blue, Claire: white.
+(3) Claire and Bob swap again: Alice: red, Bob: white, Claire: blue.
+
+At the end of the game, Claire has the blue ball. So the answer is (A).
+ 89%|███████████████████████████████████████████████████████████████████████████▍         | 222/250 [1:58:05<16:00, 34.31s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: red, Claire: green.
+(1) Alice and Bob swap: Alice: red, Bob: blue, Claire: green.
+(2) Claire and Bob swap: Alice: red, Bob: green, Claire: blue.
+(3) Alice and Claire swap: Alice: green, Bob: green (since both now have green), Claire: red.
+
+At the end of the event, Alice has the green present. So the answer is (C).
+ 89%|███████████████████████████████████████████████████████████████████████████▊         | 223/250 [1:58:34<14:37, 32.50s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: black, Claire: pink.
+(1) Bob and Claire swap: Alice: blue, Bob: pink, Claire: black.
+(2) Bob and Alice swap: Alice: pink, Bob: blue, Claire: black.
+(3) Alice and Claire swap: Alice: pink, Bob: blue, Claire: blue.
+
+At the end of the game, Claire has the blue ball. So the answer is (A).
+ 90%|████████████████████████████████████████████████████████████████████████████▏        | 224/250 [1:59:07<14:13, 32.83s/it]================================================================================================================================
+(0) At the start: Alice: Patrick, Bob: Karl, Claire: Izzi.
+(1) Bob and Claire switch partners: Alice: Patrick, Bob: Izzi, Claire: Karl.
+(2) Claire and Alice switch partners: Alice: Karl, Bob: Izzi, Claire: Patrick.
+(3) Claire and Bob switch partners again: Alice: Karl, Bob: Patrick, Claire: Izzi.
+At the end of the dance, Bob is dancing with Patrick. So the answer is (A).
+ 90%|████████████████████████████████████████████████████████████████████████████▌        | 225/250 [1:59:42<13:57, 33.49s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Lola.
+(1) Claire and Alice switch: Alice: Lola, Bob: Jamie, Claire: Rodrigo.
+(2) Bob and Claire switch: Alice: Lola, Bob: Rodrigo, Claire: Jamie.
+(3) Claire and Alice switch again: Alice: Jamie, Bob: Lola, Claire: Rodrigo.
+
+At the end of the dance, Bob is dancing with Lola. So the answer is (C).
+ 90%|████████████████████████████████████████████████████████████████████████████▊        | 226/250 [2:00:11<12:48, 32.01s/it]================================================================================================================================
+(0) Start: Alice: Jamie, Bob: Sam, Claire: Izzi.
+(1) Bob and Claire switch: Alice: Jamie, Bob: Izzi, Claire: Sam.
+(2) Claire and Alice switch: Alice: Sam, Bob: Izzi, Claire: Jamie.
+(3) Claire and Bob switch again: Alice: Sam, Bob: Jamie, Claire: Izzi.
+
+At the end of the dance, Claire is dancing with Izzi. So the answer is (C).
+ 91%|█████████████████████████████████████████████████████████████████████████████▏       | 227/250 [2:00:39<11:52, 30.97s/it]================================================================================================================================
+(0) Start: Alice: white, Bob: blue, Claire: pink.
+(1) Alice and Claire swap: Alice: pink, Bob: blue, Claire: white.
+(2) Claire and Bob swap: Alice: pink, Bob: white, Claire: blue.
+(3) Bob and Alice swap: Alice: blue, Bob: pink, Claire: white.
+
+At the end of the event, Claire has the white present. So the answer is (A).
+ 91%|█████████████████████████████████████████████████████████████████████████████▌       | 228/250 [2:01:22<12:39, 34.50s/it]================================================================================================================================
+(0) At the start: Alice: black ball, Bob: green present, Claire: brown present.
+(1) Alice and Bob swap gifts: Alice: green present, Bob: black ball, Claire: brown present.
+(2) Claire and Bob swap gifts: Alice: green present, Bob: brown present, Claire: black ball.
+(3) Alice and Claire swap gifts: Alice: brown present, Bob: black ball, Claire: green present.
+At the end of the event, Claire has the green present. So the answer is (B).
+ 92%|█████████████████████████████████████████████████████████████████████████████▊       | 229/250 [2:01:52<11:34, 33.08s/it]================================================================================================================================
+(0) Start: Alice: red, Bob: blue, Claire: yellow.
+(1) Alice and Claire swap: Alice: yellow, Bob: blue, Claire: red.
+(2) Bob and Claire swap: Alice: yellow, Bob: red, Claire: blue.
+(3) Claire and Alice swap again: Alice: blue, Bob: red, Claire: yellow.
+
+At the end of the event, Claire has the yellow present. So the answer is (C).
+ 92%|██████████████████████████████████████████████████████████████████████████████▏      | 230/250 [2:02:24<10:57, 32.86s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: green, Claire: red.
+(1) Bob and Alice swap: Alice: green, Bob: orange, Claire: red.
+(2) Bob and Claire swap: Alice: green, Bob: red, Claire: orange.
+(3) Alice and Claire swap: Alice: red, Bob: orange, Claire: green.
+
+At the end of the event, Alice has the red present. So the answer is (C).
+ 92%|██████████████████████████████████████████████████████████████████████████████▌      | 231/250 [2:02:52<09:53, 31.23s/it]================================================================================================================================
+(0) At the start: Alice: RM (Right Midfielder), Bob: CM (Center Midfielder), Claire: Striker.
+(1) Alice and Bob trade positions: Alice: CM, Bob: RM, Claire: Striker.
+(2) Alice and Claire trade positions: Alice: RM, Bob: RM (since Alice kept her new position), Claire: CM.
+(3) Bob and Claire trade positions: Alice: RM, Bob: Striker, Claire: CM.
+
+At the end of the match, Bob is playing striker. So the answer is (C).
+ 93%|██████████████████████████████████████████████████████████████████████████████▉      | 232/250 [2:03:18<08:57, 29.89s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: purple, Claire: blue.
+(1) Bob and Alice swap: Alice: purple, Bob: green, Claire: blue.
+(2) Claire and Bob swap: Alice: purple, Bob: blue, Claire: green.
+(3) Bob and Alice swap again: Alice: blue, Bob: purple, Claire: green.
+
+At the end of the game, Bob has the purple ball. So the answer is (B).
+ 93%|███████████████████████████████████████████████████████████████████████████████▏     | 233/250 [2:03:44<08:09, 28.78s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Karl, Claire: Patrick.
+(1) Alice and Bob switch partners: Alice: Karl, Bob: Melissa, Claire: Patrick.
+(2) Claire and Alice switch partners: Alice: Patrick, Bob: Melissa, Claire: Karl.
+(3) Alice and Bob switch partners again: Alice: Melissa, Bob: Karl, Claire: Patrick.
+
+At the end of the dance, Bob is dancing with Melissa. So the answer is (A).
+ 94%|███████████████████████████████████████████████████████████████████████████████▌     | 234/250 [2:04:15<07:47, 29.19s/it]================================================================================================================================
+(0) At the start: Alice: Hound of the Baskervilles, Bob: The Pearl, Claire: The Odyssey.
+(1) Bob and Claire swap: Alice: Hound of the Baskervilles, Bob: The Odyssey, Claire: The Pearl.
+(2) Claire and Alice swap: Alice: The Odyssey, Bob: The Pearl, Claire: Hound of the Baskervilles.
+(3) Bob and Alice swap: Alice: The Pearl, Bob: Hound of the Baskervilles, Claire: The Odyssey.
+
+At the end of the semester, Alice has The Pearl. So the answer is (B).
+ 94%|███████████████████████████████████████████████████████████████████████████████▉     | 235/250 [2:04:45<07:24, 29.64s/it]================================================================================================================================
+(0) At the start: Alice: Lolita, Bob: Catch-22, Claire: Moby Dick.
+(1) Claire and Alice swap: Alice: Moby Dick, Bob: Catch-22, Claire: Lolita.
+(2) Bob and Claire swap: Alice: Moby Dick, Bob: Lolita, Claire: Catch-22.
+(3) Claire and Alice swap again: Alice: Catch-22, Bob: Moby Dick, Claire: Lolita.
+At the end of the semester, Claire has Lolita. So the answer is (A).
+ 94%|████████████████████████████████████████████████████████████████████████████████▏    | 236/250 [2:05:09<06:29, 27.85s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Ophelia, Claire: Sam.
+(1) Bob and Alice switch partners: Alice: Ophelia, Bob: Helga, Claire: Sam.
+(2) Claire and Bob switch partners: Alice: Ophelia, Bob: Sam, Claire: Helga.
+(3) Claire and Alice switch partners: Alice: Sam, Bob: Helga, Claire: Ophelia.
+
+At the end of the dance, Bob is dancing with Helga. So the answer is (A).
+ 95%|████████████████████████████████████████████████████████████████████████████████▌    | 237/250 [2:05:43<06:27, 29.78s/it]================================================================================================================================
+(0) At the start: Alice: Lola, Bob: Patrick, Claire: Melissa.
+(1) Alice and Claire switch partners: Alice: Melissa, Bob: Patrick, Claire: Lola.
+(2) Bob and Claire switch partners: Alice: Melissa, Bob: Lola, Claire: Patrick.
+(3) Claire and Alice switch partners again: Alice: Patrick, Bob: Lola, Claire: Melissa.
+
+At the end of the dance, Alice is dancing with Patrick. So the answer is (B).
+ 95%|████████████████████████████████████████████████████████████████████████████████▉    | 238/250 [2:06:20<06:24, 32.00s/it]================================================================================================================================
+(0) At the start: Alice: Striker, Bob: Right Midfielder, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Striker, Bob: Goalkeeper, Claire: Right Midfielder.
+(2) Claire and Alice trade positions: Alice: Goalkeeper, Bob: Right Midfielder, Claire: Striker.
+(3) Bob and Claire trade positions: Alice: Right Midfielder, Bob: Striker, Claire: Goalkeeper.
+At the end of the match, Bob is playing as a striker. So the answer is (A).
+ 96%|█████████████████████████████████████████████████████████████████████████████████▎   | 239/250 [2:07:01<06:21, 34.69s/it]================================================================================================================================
+(0) At the start: Alice: right midfielder, Bob: goalkeeper, Claire: left winger.
+(1) Claire and Alice trade positions: Alice: left winger, Bob: goalkeeper, Claire: right midfielder.
+(2) Bob and Claire trade positions: Alice: left winger, Bob: right midfielder, Claire: goalkeeper.
+(3) Alice and Claire trade positions again: Alice: goalkeeper, Bob: left winger, Claire: right midfielder.
+At the end of the match, Bob is playing left winger. So the answer is (C).
+ 96%|█████████████████████████████████████████████████████████████████████████████████▌   | 240/250 [2:07:31<05:30, 33.07s/it]================================================================================================================================
+(0) At the start: Alice: The Great Gatsby, Bob: The Odyssey, Claire: Lolita.
+(1) Alice and Bob swap: Alice: The Odyssey, Bob: The Great Gatsby, Claire: Lolita.
+(2) Alice and Claire swap: Alice: Lolita, Bob: The Great Gatsby, Claire: The Odyssey.
+(3) Bob and Claire swap: Alice: Lolita, Bob: The Odyssey, Claire: The Great Gatsby.
+
+At the end of the semester, Bob has The Odyssey. So the answer is (B).
+ 96%|█████████████████████████████████████████████████████████████████████████████████▉   | 241/250 [2:07:59<04:44, 31.60s/it]================================================================================================================================
+(0) Start: Alice: Benchwarmer, Bob: Fullback, Claire: Goalkeeper.
+(1) Claire and Bob trade positions: Alice: Benchwarmer, Bob: Goalkeeper, Claire: Fullback.
+(2) Alice and Claire trade positions: Alice: Goalkeeper, Bob: Goalkeeper (since both were goalkeepers), Claire: Benchwarmer.
+(3) Bob and Alice trade positions: Alice: Fullback, Bob: Benchwarmer, Claire: Goalkeeper (since both were goalkeepers).
+
+At the end of the match, Alice is playing fullback. So the answer is (B).
+ 97%|██████████████████████████████████████████████████████████████████████████████████▎  | 242/250 [2:08:28<04:06, 30.82s/it]================================================================================================================================
+(0) Start: Alice: blue, Bob: black, Claire: pink.
+(1) Claire and Bob swap: Alice: blue, Bob: pink, Claire: black.
+(2) Bob and Alice swap: Alice: pink, Bob: black, Claire: blue.
+(3) Claire and Alice swap: Alice: black, Bob: blue, Claire: pink.
+
+At the end of the game, Alice has the black ball. So the answer is (B).
+ 97%|██████████████████████████████████████████████████████████████████████████████████▌  | 243/250 [2:08:59<03:36, 30.89s/it]================================================================================================================================
+(0) Start: Alice: Lola, Bob: Rodrigo, Claire: Patrick.
+(1) Alice and Bob switch: Alice: Rodrigo, Bob: Lola, Claire: Patrick.
+(2) Claire and Bob switch: Alice: Rodrigo, Bob: Patrick, Claire: Lola.
+(3) Bob and Alice switch: Alice: Lola, Bob: Patrick, Claire: Rodrigo.
+
+At the end of the dance, Claire is dancing with Rodrigo. So the answer is (B).
+ 98%|██████████████████████████████████████████████████████████████████████████████████▉  | 244/250 [2:09:30<03:05, 30.83s/it]================================================================================================================================
+(0) At the start: Alice: The Great Gatsby, Bob: Moby Dick, Claire: The Fellowship of the Ring.
+(1) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Moby Dick, Claire: The Great Gatsby.
+(2) Bob and Claire swap: Alice: The Great Gatsby, Bob: The Fellowship of the Ring, Claire: Moby Dick.
+(3) Alice and Claire swap again: Alice: Moby Dick, Bob: The Great Gatsby, Claire: The Fellowship of the Ring.
+
+At the end of the semester, Bob has The Great Gatsby. So the answer is (A).
+ 98%|███████████████████████████████████████████████████████████████████████████████████▎ | 245/250 [2:10:06<02:42, 32.55s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: brown, Claire: blue.
+(1) Bob and Alice swap: Alice: brown, Bob: yellow, Claire: blue.
+(2) Alice and Claire swap: Alice: blue, Bob: yellow, Claire: yellow (Alice now has the yellow present).
+(3) Bob and Alice swap again: Alice: yellow (since she kept it after swapping with Claire), Bob: brown, Claire: yellow.
+
+At the end of the event, Bob has the brown present. So the answer is (B).
+ 98%|███████████████████████████████████████████████████████████████████████████████████▋ | 246/250 [2:10:37<02:08, 32.12s/it]================================================================================================================================
+(0) At the start: Alice: Catch-22, Bob: Moby Dick, Claire: The Great Gatsby.
+(1) Claire and Bob swap books: Alice: Catch-22, Bob: The Great Gatsby, Claire: Moby Dick.
+(2) Claire and Alice swap books: Alice: The Great Gatsby, Bob: Moby Dick, Claire: Catch-22.
+(3) Bob and Claire swap books: Alice: The Great Gatsby, Bob: Catch-22, Claire: Moby Dick.
+At the end of the semester, Bob has Catch-22. So the answer is (A).
+ 99%|███████████████████████████████████████████████████████████████████████████████████▉ | 247/250 [2:11:18<01:44, 34.71s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Jamie, Claire: Lola.
+(1) Claire and Alice switch: Alice: Lola, Bob: Jamie, Claire: Rodrigo.
+(2) Bob and Claire switch: Alice: Lola, Bob: Rodrigo, Claire: Jamie.
+(3) Claire and Alice switch again: Alice: Jamie, Bob: Rodrigo, Claire: Lola.
+
+At the end of the dance, Alice is dancing with Jamie. So the answer is (B).
+ 99%|████████████████████████████████████████████████████████████████████████████████████▎| 248/250 [2:11:44<01:04, 32.07s/it]================================================================================================================================
+(0) Start: Alice: right winger, Bob: cheerleader, Claire: striker.
+(1) Alice and Claire trade positions: Alice: striker, Bob: cheerleader, Claire: right winger.
+(2) Claire and Bob trade positions: Alice: striker, Bob: right winger, Claire: cheerleader.
+(3) Bob and Alice trade positions: Alice: cheerleader, Bob: striker, Claire: right winger.
+At the end of the match, Alice is playing cheerleader. So the answer is (B).
+100%|████████████████████████████████████████████████████████████████████████████████████▋| 249/250 [2:12:14<00:31, 31.39s/it]================================================================================================================================
+(0) Start: Alice: right winger, Bob: cheerleader, Claire: striker.
+(1) Alice and Claire trade positions: Alice: striker, Bob: cheerleader, Claire: right winger.
+(2) Claire and Bob trade positions: Alice: striker, Bob: right winger, Claire: cheerleader.
+(3) Bob and Alice trade positions: Alice: cheerleader, Bob: striker, Claire: right winger.
+At the end of the match, Claire is playing cheerleader. So the answer is (B).
+100%|█████████████████████████████████████████████████████████████████████████████████████| 250/250 [2:12:53<00:00, 33.67s/it]100%|█████████████████████████████████████████████████████████████████████████████████████| 250/250 [2:12:53<00:00, 31.89s/it]
+05/23 11:05:07 - OpenCompass - [4m[97mINFO[0m - time elapsed: 7973.39s

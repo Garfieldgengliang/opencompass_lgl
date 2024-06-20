@@ -1,0 +1,58 @@
+05/16 17:34:47 - OpenCompass - [4m[97mINFO[0m - Task [qwen-14b-chat/bbh-temporal_sequences]
+05/16 17:34:47 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen-14b-chat/bbh-temporal_sequences]
+[2024-05-16 17:34:48,042] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                          | 0/125 [00:00<?, ?it/s]  0%|                                                                                          | 0/125 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 776, in urlopen
+    self._prepare_proxy(conn)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 1045, in _prepare_proxy
+    conn.connect()
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connection.py", line 625, in connect
+    self._tunnel()  # type: ignore[attr-defined]
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\http\client.py", line 925, in _tunnel
+    raise OSError(f"Tunnel connection failed: {code} {message.strip()}")
+OSError: Tunnel connection failed: 503 Not Connected
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Not Connected'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='acv-gydn.baocloud.cn', port=443): Max retries exceeded with url: /acv-service/service/api/6000002067298078/v1/predict/openaiapi/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Not Connected')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 122, in launch
+    inferencer.run(inferencer, tokens)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 52, in monkey_run
+    self._inference()
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_infer.py", line 135, in _inference
+    inferencer.inference(retriever,
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py", line 146, in inference
+    results = self.model.generate_from_template(
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\base.py", line 165, in generate_from_template
+    return self.generate(inputs, max_out_len=max_out_len, **kwargs)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\qwen_api_lgl.py", line 78, in generate
+    result = self._generate(input_i, max_out_len)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\qwen_api_lgl.py", line 154, in _generate
+    response = requests.post(self.requesturl, json=data, headers=headers)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ShuttleChaser\anaconda3\envs\opencompass\lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='acv-gydn.baocloud.cn', port=443): Max retries exceeded with url: /acv-service/service/api/6000002067298078/v1/predict/openaiapi/v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Not Connected')))

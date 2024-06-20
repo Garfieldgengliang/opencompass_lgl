@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:25:54 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-high_school_chinese]: {'accuracy': 89.47368421052632}
+05/14 16:25:54 - OpenCompass - INFO - time elapsed: 3.42s

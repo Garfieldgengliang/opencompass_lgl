@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:16:11 - OpenCompass - INFO - Task [Spark-v1-1/ceval-high_school_chinese]: {'accuracy': 57.89473684210527}
+05/28 18:16:11 - OpenCompass - INFO - time elapsed: 5.57s

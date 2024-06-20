@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:00:56 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_high_school_geography]: {'accuracy': 83.33333333333334}
+05/20 13:00:56 - OpenCompass - INFO - time elapsed: 3.29s

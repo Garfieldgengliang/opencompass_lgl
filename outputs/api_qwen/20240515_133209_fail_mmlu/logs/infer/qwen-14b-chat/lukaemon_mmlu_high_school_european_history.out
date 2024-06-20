@@ -1,0 +1,61 @@
+05/15 15:42:32 - OpenCompass - [4m[97mINFO[0m - Task [qwen-14b-chat/lukaemon_mmlu_high_school_european_history]
+05/15 15:42:32 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen-14b-chat/lukaemon_mmlu_high_school_european_history]
+  0%|                                                                                                 | 0/165 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████| 165/165 [00:00<?, ?it/s]
+[2024-05-15 15:42:33,701] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                  | 0/83 [00:00<?, ?it/s]status_code: 404, errormessage: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>
+
+status_code: 404, errormessage: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>
+
+status_code: 404, errormessage: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>
+
+status_code: 404, errormessage: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>
+
+status_code: 404, errormessage: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.17.8</center>
+</body>
+</html>
+
+  0%|                                                                                                  | 0/83 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 122, in launch
+    inferencer.run(inferencer, tokens)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\runners\local_api.py", line 52, in monkey_run
+    self._inference()
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_infer.py", line 129, in _inference
+    inferencer.inference(retriever,
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\openicl\icl_inferencer\icl_gen_inferencer.py", line 146, in inference
+    results = self.model.generate_from_template(
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\base.py", line 165, in generate_from_template
+    return self.generate(inputs, max_out_len=max_out_len, **kwargs)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\qwen_api_lgl.py", line 78, in generate
+    result = self._generate(input_i, max_out_len)
+  File "C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\models\qwen_api_lgl.py", line 164, in _generate
+    raise RuntimeError(response.status_code)
+RuntimeError: 404

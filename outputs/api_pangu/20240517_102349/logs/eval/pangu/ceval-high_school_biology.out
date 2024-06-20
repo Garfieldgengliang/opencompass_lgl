@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:50:21 - OpenCompass - INFO - Task [pangu/ceval-high_school_biology]: {'accuracy': 36.84210526315789}
+05/24 10:50:21 - OpenCompass - INFO - time elapsed: 4.64s

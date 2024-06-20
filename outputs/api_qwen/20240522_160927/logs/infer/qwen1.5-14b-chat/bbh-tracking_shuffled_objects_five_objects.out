@@ -1,0 +1,1780 @@
+05/22 20:43:57 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-14b-chat/bbh-tracking_shuffled_objects_five_objects]
+05/22 20:43:57 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-14b-chat/bbh-tracking_shuffled_objects_five_objects]
+[2024-05-22 20:43:57,539] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                 | 0/250 [00:00<?, ?it/s]================================================================================================================================
+(0) At the start: Alice: Patrick, Bob: Sam, Claire: Jamie, Dave: Lola, Eve: Melissa.
+(1) Dave and Eve switch partners: Alice: Patrick, Bob: Sam, Claire: Jamie, Dave: Melissa, Eve: Lola.
+(2) Dave and Alice switch partners: Alice: Melissa, Bob: Sam, Claire: Jamie, Dave: Lola, Eve: Lola (since Eve had to switch back after swapping with Dave).
+(3) Eve and Alice switch partners: Alice: Lola, Bob: Sam, Claire: Jamie, Dave: Melissa, Eve: Patrick (since Eve had to switch back after swapping with Dave).
+(4) Claire and Bob switch partners: Alice: Lola, Bob: Jamie, Claire: Sam, Dave: Melissa, Eve: Patrick.
+(5) Dave and Alice switch partners again: Alice: Jamie, Bob: Jamie, Claire: Sam, Dave: Melissa, Eve: Patrick (Dave and Alice switched back to their original partners before Eve got involved).
+
+At the end of the dance, Alice is dancing with Jamie. So the answer is (C).
+  0%|▎                                                                                      | 1/250 [00:54<3:47:09, 54.74s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Jamie, Claire: Melissa, Dave: Rodrigo, Eve: Patrick.
+(1) Claire and Bob switch partners: Alice: Ophelia, Bob: Melissa, Claire: Jamie, Dave: Rodrigo, Eve: Patrick.
+(2) Claire and Eve switch partners: Alice: Ophelia, Bob: Melissa, Claire: Patrick, Dave: Rodrigo, Eve: Jamie.
+(3) Claire and Bob switch partners again: Alice: Ophelia, Bob: Patrick, Claire: Jamie, Dave: Rodrigo, Eve: Melissa.
+(4) Eve and Dave switch partners: Alice: Ophelia, Bob: Patrick, Claire: Jamie, Dave: Melissa, Eve: Rodrigo.
+(5) Claire and Alice switch partners: Alice: Jamie, Bob: Patrick, Claire: Ophelia, Dave: Melissa, Eve: Rodrigo.
+
+At the end of the dance, Alice is dancing with Jamie. So the answer is (B).
+  1%|▋                                                                                      | 2/250 [01:47<3:41:09, 53.51s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Lola, Claire: Izzi, Dave: Rodrigo, Eve: Ophelia.
+(1) Bob and Eve switch partners: Alice: Jamie, Bob: Eve, Claire: Izzi, Dave: Rodrigo, Eve: Ophelia.
+(2) Alice and Bob switch partners: Alice: Lola, Bob: Eve, Claire: Izzi, Dave: Rodrigo, Eve: Jamie.
+(3) Dave and Alice switch partners: Alice: Eve, Bob: Eve, Claire: Izzi, Dave: Lola, Eve: Jamie.
+(4) Dave and Claire switch partners: Alice: Eve, Bob: Eve, Claire: Rodrigo, Dave: Lola, Eve: Jamie.
+(5) Bob and Claire switch partners: Alice: Eve, Bob: Eve, Claire: Lola, Dave: Lola, Eve: Jamie.
+At the end of the dance, Claire is dancing with Eve. However, that option isn't in the provided choices. The closest we have is (E) Ophelia, which could be a typo or an error in the options given. If it should be Ophelia instead of Eve, then Claire is dancing with Ophelia. If not, there might be an issue with the question.
+
+Given the available information, the most likely answer is:
+(E) Ophelia
+
+If there's a mistake in the question and the intended answer is actually (E), please confirm for a correct response.
+  1%|█                                                                                      | 3/250 [02:51<3:59:46, 58.25s/it]================================================================================================================================
+(0) Start: Alice: Catch-22, Bob: Hound of the Baskervilles, Claire: Frankenstein, Dave: The Pearl, Eve: The Fellowship of the Ring.
+(1) Eve and Alice swap: Alice: The Fellowship of the Ring, Eve: Catch-22, others unchanged.
+(2) Alice and Claire swap: Alice: Frankenstein, Eve: Catch-22, Bob: Hound of the Baskervilles, Claire: Alice's old book (The Pearl), Dave: The Pearl.
+(3) Alice and Bob swap: Alice: Hound of the Baskervilles, Eve: Catch-22, Bob: Frankenstein, Claire: The Pearl, Dave: The Pearl.
+(4) Dave and Alice swap: Alice: The Pearl, Eve: Catch-22, Bob: Frankenstein, Claire: The Pearl, Dave: Hound of the Baskervilles.
+(5) Dave and Claire swap: Alice: The Pearl, Eve: Catch-22, Bob: Frankenstein, Claire: Hound of the Baskervilles, Dave: Frankenstein.
+
+At the end of the semester, Dave has Frankenstein. So the answer is (C).
+  2%|█▍                                                                                     | 4/250 [03:42<3:48:05, 55.63s/it]================================================================================================================================
+(0) Start: Alice: Moby Dick, Bob: Ulysses, Claire: The Fellowship of the Ring, Dave: Lolita, Eve: Catch-22.
+
+(1) Claire and Bob swap: Claire: Ulysses, Bob: The Fellowship of the Ring, rest remain the same.
+
+(2) Claire and Dave swap: Claire: Lolita, Bob: The Fellowship of the Ring, Dave: Ulysses, rest remain the same.
+
+(3) Dave and Alice swap: Alice: Lolita, Claire: Ulysses, Dave: Moby Dick, Bob: The Fellowship of the Ring, Eve: Catch-22.
+
+(4) Dave and Bob swap: Alice: Lolita, Claire: Ulysses, Bob: Moby Dick, Dave: The Fellowship of the Ring, Eve: Catch-22.
+
+(5) Eve and Dave swap: Alice: Lolita, Claire: Ulysses, Bob: Moby Dick, Dave: Catch-22, Eve: The Fellowship of the Ring.
+
+At the end of the semester, Claire has Ulysses. So the answer is (B).
+  2%|█▋                                                                                     | 5/250 [04:39<3:48:48, 56.03s/it]================================================================================================================================
+(0) Start: Alice: G, Bob: LM, Claire: RW, Dave: S, Eve: CM.
+(1) Alice and Claire swap: Alice: RW, Bob: LM, Claire: G, Dave: S, Eve: CM.
+(2) Alice and Bob swap: Alice: LM, Bob: G, Claire: RW, Dave: S, Eve: CM.
+(3) Dave and Bob swap: Alice: LM, Bob: S, Claire: RW, Dave: G, Eve: CM.
+(4) Bob and Eve swap: Alice: LM, Bob: CM, Claire: RW, Dave: G, Eve: S.
+(5) Dave and Eve swap: Alice: LM, Bob: CM, Claire: RW, Dave: S, Eve: G.
+
+At the end of the match, Eve is playing goalkeeper. So the answer is (A).
+  2%|██                                                                                     | 6/250 [05:29<3:39:54, 54.08s/it]================================================================================================================================
+(0) At the start: Alice: Helga, Bob: Jamie, Claire: Ophelia, Dave: Karl, Eve: Rodrigo.
+
+(1) Eve and Bob switch partners: Alice: Helga, Bob: Eve, Claire: Ophelia, Dave: Karl, Eve: Jamie.
+(2) Dave and Claire switch partners: Alice: Helga, Bob: Eve, Claire: Dave, Dave: Karl, Eve: Jamie.
+(3) Claire and Bob switch partners: Alice: Helga, Bob: Dave, Claire: Jamie, Dave: Karl, Eve: Jamie.
+(4) Dave and Alice switch partners: Alice: Jamie, Bob: Dave, Claire: Jamie, Dave: Helga, Eve: Jamie.
+(5) Claire and Eve switch partners: Alice: Jamie, Bob: Dave, Claire: Eve, Dave: Helga, Eve: Karl.
+
+At the end of the dance, Claire is dancing with Eve. So the answer is (E).
+  3%|██▍                                                                                    | 7/250 [06:26<3:41:50, 54.77s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: purple, Claire: blue, Dave: black, Eve: white.
+(1) Eve and Bob swap: Alice: green, Bob: white, Claire: blue, Dave: black, Eve: purple.
+(2) Claire and Alice swap: Alice: blue, Bob: white, Claire: green, Dave: black, Eve: purple.
+(3) Bob and Eve swap: Alice: blue, Bob: purple, Claire: green, Dave: black, Eve: white.
+(4) Dave and Claire swap: Alice: blue, Bob: purple, Claire: black, Dave: green, Eve: white.
+(5) Alice and Eve swap: Alice: black, Bob: purple, Claire: blue, Dave: green, Eve: green.
+
+At the end of the event, Claire has the green present. So the answer is (A).
+  3%|██▊                                                                                    | 8/250 [07:24<3:45:14, 55.84s/it]================================================================================================================================
+(0) Start: Alice: Fellowship, Bob: Odyssey, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+(1) Alice and Claire swap: Alice: Frankenstein, Bob: Odyssey, Claire: Fellowship, Dave: Hound, Eve: Ulysses.
+(2) Alice and Eve swap: Alice: Ulysses, Bob: Odyssey, Claire: Fellowship, Dave: Hound, Eve: Frankenstein.
+(3) Dave and Claire swap: Alice: Ulysses, Bob: Odyssey, Claire: Hound, Dave: Frankenstein, Eve: Fellowship.
+(4) Dave and Bob swap: Alice: Ulysses, Bob: Hound, Claire: Frankenstein, Dave: Odyssey, Eve: Fellowship.
+(5) Dave and Alice swap: Alice: Hound, Bob: Odyssey, Claire: Frankenstein, Dave: Ulysses, Eve: Fellowship.
+At the end of the semester, Alice has the Hound of the Baskervilles. So the answer is (D).
+  4%|███▏                                                                                   | 9/250 [08:20<3:45:04, 56.03s/it]================================================================================================================================
+(0) Start: Alice (benchwarmer), Bob (left midfielder), Claire (left winger), Dave (center midfielder), Eve (striker)
+
+(1) Eve and Dave trade: Eve (center midfielder), Dave (striker), Alice (benchwarmer), Bob (left midfielder), Claire (left winger)
+(2) Dave and Alice trade: Eve (striker), Dave (benchwarmer), Alice (center midfielder), Bob (left midfielder), Claire (left winger)
+(3) Claire and Bob trade: Eve (striker), Dave (benchwarmer), Alice (center midfielder), Bob (left winger), Claire (left midfielder)
+(4) Bob and Eve trade: Eve (left midfielder), Dave (benchwarmer), Alice (center midfielder), Bob (striker), Claire (left winger)
+(5) Alice and Dave trade: Eve (left midfielder), Dave (benchwarmer), Alice (left winger), Bob (striker), Claire (center midfielder)
+
+At the end of the match, Eve is playing left midfielder. So the answer is (B).
+  4%|███▍                                                                                  | 10/250 [09:08<3:33:32, 53.38s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: black, Claire: blue, Dave: yellow, Eve: brown.
+(1) Claire and Eve swap: Claire: brown, Eve: blue.
+(2) Alice and Bob swap: Alice: black, Bob: red, Claire: brown, Dave: yellow.
+(3) Eve and Dave swap: Alice: black, Bob: red, Claire: brown, Dave: blue.
+(4) Claire and Dave swap: Alice: black, Bob: red, Claire: yellow, Dave: brown.
+(5) Claire and Alice swap: Alice: yellow, Bob: red, Claire: black, Dave: brown.
+
+At the end of the game, Claire has the black ball. So the answer is (B).
+  4%|███▊                                                                                  | 11/250 [09:53<3:22:39, 50.87s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: red, Dave: pink, Eve: blue.
+(1) Claire and Bob swap: Alice: brown, Bob: red, Claire: black, Dave: pink, Eve: blue.
+(2) Claire and Eve swap: Alice: brown, Bob: red, Claire: blue, Dave: pink, Eve: black.
+(3) Bob and Claire swap: Alice: brown, Bob: blue, Claire: red, Dave: pink, Eve: black.
+(4) Dave and Claire swap: Alice: brown, Bob: blue, Claire: pink, Dave: red, Eve: black.
+(5) Alice and Dave swap: Alice: pink, Bob: blue, Claire: red, Dave: brown, Eve: black.
+At the end of the game, Claire has the red ball. So the answer is (C).
+  5%|████▏                                                                                 | 12/250 [10:47<3:25:33, 51.82s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Jamie, Claire: Melissa, Dave: Lola, Eve: Ophelia.
+
+(1) Bob and Claire switch partners: Alice: Karl, Bob: Melissa, Claire: Jamie, Dave: Lola, Eve: Ophelia.
+(2) Alice and Dave switch partners: Alice: Lola, Bob: Melissa, Claire: Jamie, Dave: Karl, Eve: Ophelia.
+(3) Bob and Alice switch partners: Alice: Melissa, Bob: Lola, Claire: Jamie, Dave: Karl, Eve: Ophelia.
+(4) Claire and Eve switch partners: Alice: Melissa, Bob: Lola, Claire: Ophelia, Dave: Karl, Eve: Jamie.
+(5) Eve and Alice switch partners: Alice: Jamie, Bob: Lola, Claire: Ophelia, Dave: Karl, Eve: Melissa.
+
+At the end of the dance, Claire is dancing with Ophelia. So the answer is (E).
+  5%|████▍                                                                                 | 13/250 [11:53<3:42:06, 56.23s/it]================================================================================================================================
+(0) Start: Alice (RW), Bob (Benchwarmer), Claire (RM), Dave (GK), Eve (Cheerleader)
+
+(1) Bob and Alice swap: Alice (Benchwarmer), Bob (RW), Claire (RM), Dave (GK), Eve (Cheerleader)
+(2) Dave and Claire swap: Alice (Benchwarmer), Bob (RW), Claire (GK), Dave (RM), Eve (Cheerleader)
+(3) Alice and Claire swap: Alice (RM), Bob (RW), Claire (Benchwarmer), Dave (GK), Eve (Cheerleader)
+(4) Eve and Alice swap: Alice (Cheerleader), Bob (RW), Claire (Benchwarmer), Dave (GK), Eve (RM)
+(5) Dave and Bob swap: Alice (Cheerleader), Bob (GK), Claire (Benchwarmer), Dave (RW), Eve (RM)
+
+At the end of the match, Claire is playing benchwarmer. So the answer is (B).
+  6%|████▊                                                                                 | 14/250 [12:53<3:45:20, 57.29s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Izzi, Claire: Lola, Dave: Sam, Eve: Melissa.
+
+(1) Claire and Bob switch: Alice: Ophelia, Bob: Lola, Claire: Izzi, Dave: Sam, Eve: Melissa.
+(2) Claire and Eve switch: Alice: Ophelia, Bob: Lola, Claire: Melissa, Dave: Sam, Eve: Izzi.
+(3) Bob and Dave switch: Alice: Ophelia, Bob: Sam, Claire: Melissa, Dave: Lola, Eve: Izzi.
+(4) Claire and Eve switch again: Alice: Ophelia, Bob: Sam, Claire: Izzi, Dave: Melissa, Eve: Lola.
+(5) Alice and Eve switch: Alice: Sam, Bob: Sam, Claire: Izzi, Dave: Melissa, Eve: Ophelia.
+
+At the end of the dance, Dave is dancing with Melissa. So the answer is (E).
+  6%|█████▏                                                                                | 15/250 [13:57<3:52:34, 59.38s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: brown, Claire: black, Dave: orange, Eve: yellow.
+(1) Claire and Alice swap: Alice: black, Bob: brown, Claire: pink, Dave: orange, Eve: yellow.
+(2) Dave and Bob swap: Alice: black, Bob: orange, Claire: pink, Dave: brown, Eve: yellow.
+(3) Eve and Bob swap: Alice: black, Bob: yellow, Claire: pink, Dave: brown, Eve: orange.
+(4) Bob and Alice swap: Alice: yellow, Bob: black, Claire: pink, Dave: brown, Eve: orange.
+(5) Eve and Claire swap: Alice: yellow, Bob: black, Claire: orange, Dave: brown, Eve: pink.
+
+At the end of the game, Alice has the yellow ball. So the answer is (E).
+  6%|█████▌                                                                                | 16/250 [14:40<3:32:36, 54.52s/it]================================================================================================================================
+(0) Start: Alice: Left Winger, Bob: Goalkeeper, Claire: Right Winger, Dave: Fullback, Eve: Right Midfielder.
+(1) Claire and Alice trade: Alice: Right Winger, Bob: Goalkeeper, Claire: Left Winger, Dave: Fullback, Eve: Right Midfielder.
+(2) Claire and Dave trade: Alice: Right Winger, Bob: Goalkeeper, Claire: Fullback, Dave: Left Winger, Eve: Right Midfielder.
+(3) Bob and Claire trade: Alice: Right Winger, Bob: Left Winger, Claire: Goalkeeper, Dave: Fullback, Eve: Right Midfielder.
+(4) Eve and Alice trade: Alice: Left Winger, Bob: Goalkeeper, Claire: Fullback, Dave: Right Winger, Eve: Right Midfielder.
+(5) Claire and Bob trade: Alice: Left Winger, Bob: Fullback, Claire: Goalkeeper, Dave: Right Winger, Eve: Right Midfielder.
+At the end of the match, Eve is playing right midfielder. So the answer is (E).
+  7%|█████▊                                                                                | 17/250 [15:30<3:26:05, 53.07s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: Frankenstein, Claire: Moby Dick, Dave: The Fellowship of the Ring, Eve: Catch-22.
+(1) Alice and Bob swap: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Moby Dick, Dave: The Fellowship of the Ring, Eve: Catch-22.
+(2) Dave and Eve swap: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Catch-22, Eve: The Fellowship of the Ring.
+(3) Eve and Alice swap: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Catch-22, Eve: Frankenstein.
+(4) Dave and Eve swap again: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Frankenstein, Eve: Catch-22.
+(5) Claire and Dave swap: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Catch-22, Dave: Frankenstein, Eve: Moby Dick.
+
+At the end of the semester, Eve has Moby Dick. So the answer is (C).
+  7%|██████▏                                                                               | 18/250 [16:27<3:29:19, 54.13s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Goalkeeper, Claire: Benchwarmer, Dave: Center Midfielder, Eve: Left Midfielder.
+(1) Claire and Eve trade: Alice: Right Winger, Bob: Goalkeeper, Claire: Left Midfielder, Dave: Center Midfielder, Eve: Benchwarmer.
+(2) Claire and Alice trade: Alice: Benchwarmer, Bob: Goalkeeper, Claire: Right Winger, Dave: Center Midfielder, Eve: Left Midfielder.
+(3) Alice and Dave trade: Alice: Center Midfielder, Bob: Goalkeeper, Claire: Right Winger, Dave: Right Winger, Eve: Left Midfielder.
+(4) Bob and Eve trade: Alice: Center Midfielder, Bob: Left Midfielder, Claire: Right Winger, Dave: Right Winger, Eve: Goalkeeper.
+(5) Alice and Claire trade: Alice: Right Winger, Bob: Left Midfielder, Claire: Center Midfielder, Dave: Right Winger, Eve: Goalkeeper.
+
+At the end of the match, Claire is playing center midfielder. So the answer is (D).
+  8%|██████▌                                                                               | 19/250 [17:13<3:19:35, 51.84s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: orange, Claire: purple, Dave: yellow, Eve: white.
+(1) Bob and Eve swap: Bob: white, Eve: orange.
+(2) Bob and Claire swap: Bob: purple, Eve: white, Claire: orange.
+(3) Dave and Alice swap: Bob: purple, Eve: white, Claire: orange, Dave: brown, Alice: yellow.
+(4) Bob and Eve swap again: Bob: white, Eve: purple, Claire: orange, Dave: brown, Alice: yellow.
+(5) Alice and Bob swap: Bob: yellow, Eve: purple, Claire: orange, Dave: brown, Alice: white.
+
+At the end of the event, Bob has the yellow present. So the answer is (D).
+  8%|██████▉                                                                               | 20/250 [18:04<3:17:52, 51.62s/it]================================================================================================================================
+(0) Start: Alice: Ulysses, Bob: Moby Dick, Claire: The Pearl, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(1) Alice and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: Ulysses, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(2) Eve and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Ulysses.
+(3) Claire and Bob swap: Alice: The Pearl, Bob: Ulysses, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Moby Dick.
+(4) Dave and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: The Odyssey, Dave: The Fellowship of the Ring, Eve: Moby Dick.
+(5) Bob and Dave swap: Alice: The Pearl, Bob: The Fellowship of the Ring, Claire: The Odyssey, Dave: Ulysses, Eve: Moby Dick.
+
+At the end of the semester, Dave has Ulysses. So the answer is (A).
+  8%|███████▏                                                                              | 21/250 [18:53<3:14:02, 50.84s/it]================================================================================================================================
+(0) Start: Alice: Moby Dick, Bob: Lolita, Claire: The Great Gatsby, Dave: Catch-22, Eve: Ulysses.
+(1) Claire and Dave swap: Claire: Catch-22, Dave: The Great Gatsby.
+(2) Bob and Claire swap: Bob: Catch-22, Claire: Lolita, Dave: The Great Gatsby, Eve: Ulysses.
+(3) Dave and Alice swap: Alice: The Great Gatsby, Bob: Catch-22, Claire: Lolita, Dave: Moby Dick, Eve: Ulysses.
+(4) Dave and Claire swap: Alice: The Great Gatsby, Bob: Catch-22, Claire: Moby Dick, Dave: Lolita, Eve: Ulysses.
+(5) Claire and Eve swap: Alice: The Great Gatsby, Bob: Catch-22, Claire: Ulysses, Dave: Lolita, Eve: Moby Dick.
+
+At the end of the semester, Eve has Moby Dick. So the answer is (A).
+  9%|███████▌                                                                              | 22/250 [19:47<3:16:26, 51.69s/it]================================================================================================================================
+(0) Start: Alice: Frankenstein, Bob: Ulysses, Claire: Lolita, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+
+(1) Eve and Dave swap: Eve: The Odyssey, Dave: The Fellowship of the Ring, others remain same.
+
+(2) Claire and Alice swap: Eve: The Odyssey, Dave: The Fellowship of the Ring, Alice: Lolita, Bob: Ulysses, Claire: Frankenstein.
+
+(3) Dave and Eve swap back: Eve: The Fellowship of the Ring, Dave: The Odyssey, Alice: Lolita, Bob: Ulysses, Claire: Frankenstein.
+
+(4) Bob and Claire swap: Eve: The Fellowship of the Ring, Dave: The Odyssey, Alice: Lolita, Bob: Frankenstein, Claire: Ulysses.
+
+(5) Alice and Claire swap again: Eve: The Fellowship of the Ring, Dave: The Odyssey, Alice: Ulysses, Bob: Frankenstein, Claire: Lolita.
+
+At the end of the semester, Eve has The Fellowship of the Ring. So the answer is (E).
+  9%|███████▉                                                                              | 23/250 [20:35<3:11:02, 50.49s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: purple, Claire: black, Dave: green, Eve: yellow.
+(1) Claire and Alice swap: Alice: black, Bob: purple, Claire: brown, Dave: green, Eve: yellow.
+(2) Bob and Alice swap: Alice: purple, Bob: brown, Claire: black, Dave: green, Eve: yellow.
+(3) Eve and Dave swap: Alice: purple, Bob: brown, Claire: black, Dave: yellow, Eve: green.
+(4) Dave and Claire swap: Alice: purple, Bob: brown, Claire: yellow, Dave: black, Eve: green.
+(5) Alice and Bob swap: Alice: brown, Bob: purple, Claire: yellow, Dave: black, Eve: green.
+At the end of the game, Claire has the yellow ball. So the answer is (E).
+ 10%|████████▎                                                                             | 24/250 [21:28<3:13:33, 51.39s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Lola, Claire: Ophelia, Dave: Melissa, Eve: Sam.
+(1) Alice and Dave switch: Alice: Melissa, Dave: Karl, Bob: Lola, Claire: Ophelia, Eve: Sam.
+(2) Alice and Claire switch: Alice: Melissa, Dave: Karl, Bob: Lola, Claire: Alice, Eve: Sam.
+(3) Alice and Eve switch: Alice: Melissa, Dave: Karl, Bob: Lola, Claire: Alice, Eve: Dave.
+(4) Bob and Dave switch: Alice: Melissa, Dave: Lola, Bob: Karl, Claire: Alice, Eve: Dave.
+(5) Dave and Claire switch: Alice: Melissa, Dave: Lola, Bob: Karl, Claire: Dave, Eve: Alice.
+
+At the end of the dance, Eve is dancing with Alice. However, since Eve was originally dancing with Sam, the correct answer is (E) Sam. The answer got switched in the last step due to the last partner swap involving Eve and Alice.
+ 10%|████████▌                                                                             | 25/250 [22:16<3:08:12, 50.19s/it]================================================================================================================================
+(0) Start: Alice: GK, Bob: LW, Claire: Benchwarmer, Dave: Cheerleader, Eve: LM.
+(1) Eve and Alice trade: Alice: LM, Eve: GK, Bob: LW, Claire: Benchwarmer, Dave: Cheerleader.
+(2) Bob and Eve trade: Alice: LM, Eve: LW, Bob: GK, Claire: Benchwarmer, Dave: Cheerleader.
+(3) Alice and Dave trade: Alice: LM, Eve: LW, Bob: GK, Dave: LM, Claire: Benchwarmer.
+(4) Bob and Eve trade again: Alice: LM, Eve: Benchwarmer, Bob: GK, Dave: LM, Claire: LW.
+(5) Eve and Claire trade: Alice: LM, Eve: Benchwarmer, Bob: GK, Dave: LM, Claire: LM.
+
+At the end of the match, Bob is playing goalkeeper. So the answer is (A).
+ 10%|████████▉                                                                             | 26/250 [23:12<3:14:04, 51.98s/it]================================================================================================================================
+(0) At the start: Alice: pink ball, Bob: red, Claire: green, Dave: orange, Eve: black.
+(1) Alice and Dave swap: Alice: orange, Dave: pink ball, Bob: red, Claire: green, Eve: black.
+(2) Dave and Eve swap: Alice: orange, Dave: black, Eve: pink ball, Bob: red, Claire: green.
+(3) Dave and Alice swap back: Alice: pink ball, Dave: black, Eve: orange, Bob: red, Claire: green.
+(4) Bob and Claire swap: Alice: pink ball, Dave: black, Eve: orange, Bob: green, Claire: red.
+(5) Bob and Eve swap: Alice: pink ball, Dave: black, Eve: red, Bob: orange, Claire: green.
+
+At the end of the event, Bob has the orange ball. So the answer is (D).
+ 11%|█████████▎                                                                            | 27/250 [23:49<2:56:38, 47.53s/it]================================================================================================================================
+(0) Start: Alice (benchwarmer), Bob (midfielder), Claire (cheerleader), Dave (striker), Eve (winger).
+
+(1) Alice and Eve trade: Alice (winger), Eve (benchwarmer), Bob (midfielder), Claire (cheerleader), Dave (striker).
+
+(2) Claire and Alice trade: Alice (cheerleader), Eve (benchwarmer), Bob (midfielder), Claire (winger), Dave (striker).
+
+(3) Eve and Alice trade again: Alice (benchwarmer), Eve (winger), Bob (midfielder), Claire (cheerleader), Dave (striker).
+
+(4) Bob and Dave trade: Alice (benchwarmer), Eve (winger), Bob (striker), Claire (cheerleader), Dave (midfielder).
+
+(5) Dave and Eve trade: Alice (benchwarmer), Eve (midfielder), Bob (striker), Claire (cheerleader), Dave (winger).
+
+At the end of the match, Claire is still playing cheerleader. So the answer is (C).
+ 11%|█████████▋                                                                            | 28/250 [25:02<3:24:48, 55.35s/it]================================================================================================================================
+(0) At the start: Alice: purple, Bob: black, Claire: red, Dave: yellow, Eve: brown.
+(1) Alice and Dave swap: Alice: yellow, Bob: black, Claire: red, Dave: purple, Eve: brown.
+(2) Dave and Eve swap: Alice: yellow, Bob: black, Claire: red, Dave: brown, Eve: purple.
+(3) Bob and Dave swap: Alice: yellow, Bob: purple, Claire: red, Dave: brown, Eve: pink.
+(4) Dave and Claire swap: Alice: yellow, Bob: purple, Claire: brown, Dave: red, Eve: pink.
+(5) Eve and Claire swap: Alice: yellow, Bob: purple, Claire: brown, Dave: red, Eve: red.
+
+At the end of the game, Alice has the yellow ball. So the answer is (D).
+ 12%|█████████▉                                                                            | 29/250 [25:56<3:21:34, 54.73s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Left Midfielder, Claire: Right Midfielder, Dave: Striker, Eve: Fullback.
+
+(1) Eve and Claire trade: Eve: Right Midfielder, Claire: Fullback, Alice: Right Winger, Bob: Left Midfielder, Dave: Striker.
+
+(2) Dave and Bob trade: Eve: Right Midfielder, Claire: Fullback, Alice: Right Winger, Dave: Left Midfielder, Bob: Striker.
+
+(3) Eve and Dave trade: Eve: Right Midfielder, Claire: Fullback, Alice: Right Winger, Bob: Striker, Dave: Left Midfielder.
+
+(4) Alice and Claire trade: Eve: Right Midfielder, Alice: Fullback, Claire: Right Winger, Bob: Striker, Dave: Left Midfielder.
+
+(5) Bob and Eve trade: Eve: Striker, Claire: Right Winger, Alice: Fullback, Bob: Right Midfielder, Dave: Left Midfielder.
+
+At the end of the match, Claire is playing right winger. So the answer is (A).
+ 12%|██████████▎                                                                           | 30/250 [27:13<3:45:57, 61.63s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Patrick, Claire: Karl, Dave: Helga, Eve: Izzi.
+(1) Claire and Alice switch: Alice: Karl, Bob: Patrick, Claire: Jamie, Dave: Helga, Eve: Izzi.
+(2) Alice and Dave switch: Alice: Helga, Bob: Patrick, Claire: Jamie, Dave: Karl, Eve: Izzi.
+(3) Alice and Bob switch: Alice: Patrick, Bob: Helga, Claire: Jamie, Dave: Karl, Eve: Izzi.
+(4) Bob and Eve switch: Alice: Patrick, Bob: Izzi, Claire: Jamie, Dave: Karl, Eve: Helga.
+(5) Dave and Bob switch: Alice: Patrick, Bob: Karl, Claire: Jamie, Dave: Izzi, Eve: Helga.
+
+At the end of the dance, Eve is dancing with Karl. So the answer is (C).
+ 12%|██████████▋                                                                           | 31/250 [28:05<3:33:23, 58.46s/it]================================================================================================================================
+(0) Start: Alice: Catch-22, Bob: The Fellowship of the Ring, Claire: Lolita, Dave: Frankenstein, Eve: The Odyssey.
+
+(1) Alice and Bob swap: Alice: The Fellowship of the Ring, Bob: Catch-22, Claire: Lolita, Dave: Frankenstein, Eve: The Odyssey.
+(2) Alice and Dave swap: Alice: Frankenstein, Bob: Catch-22, Claire: Lolita, Dave: The Fellowship of the Ring, Eve: The Odyssey.
+(3) Alice and Claire swap: Alice: Frankenstein, Bob: Catch-22, Claire: Catch-22 (Alice's original book), Dave: The Fellowship of the Ring, Eve: The Odyssey.
+(4) Bob and Eve swap: Alice: Frankenstein, Bob: The Odyssey, Claire: Catch-22, Dave: The Fellowship of the Ring, Eve: Catch-22 (Bob's original book).
+(5) Alice and Dave swap again: Alice: The Odyssey, Bob: The Fellowship of the Ring, Claire: Catch-22, Dave: Frankenstein, Eve: Catch-22.
+
+At the end of the semester, Claire has Catch-22. So the answer is (A).
+ 13%|███████████                                                                           | 32/250 [29:04<3:33:32, 58.77s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: green, Dave: purple, Eve: yellow.
+(1) Bob and Dave swap: Bob: purple, Dave: black, others unchanged.
+(2) Bob and Eve swap: Bob: yellow, Dave: black, others unchanged.
+(3) Dave and Claire swap: Bob: yellow, Dave: green, Claire: purple, Eve: black.
+(4) Dave and Bob swap again: Bob: green, Dave: yellow, others unchanged.
+(5) Alice and Dave swap: Bob: green, Dave: brown, Alice: yellow, others unchanged.
+At the end of the event, Bob has the green present. So the answer is (C).
+ 13%|███████████▎                                                                          | 33/250 [29:53<3:21:59, 55.85s/it]================================================================================================================================
+(0) At the start: Alice: Lola, Bob: Melissa, Claire: Sam, Dave: Karl, Eve: Helga.
+(1) Dave and Alice switch: Alice: Karl, Dave: Lola.
+(2) Claire and Dave switch: Alice: Karl, Dave: Claire, Eve: Helga.
+(3) Alice and Dave switch back: Alice: Lola, Dave: Claire, Eve: Helga.
+(4) Bob and Eve switch: Alice: Lola, Bob: Helga, Dave: Claire.
+(5) Bob and Alice switch: Alice: Helga, Bob: Lola, Dave: Claire.
+
+At the end of the dance, Bob is dancing with Lola. So the answer is (A).
+ 14%|███████████▋                                                                          | 34/250 [30:46<3:18:12, 55.06s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: yellow, Claire: black, Dave: purple, Eve: red.
+(1) Bob and Claire swap: Alice: blue, Bob: black, Claire: yellow, Dave: purple, Eve: red.
+(2) Dave and Eve swap: Alice: blue, Bob: black, Claire: yellow, Dave: red, Eve: purple.
+(3) Bob and Claire swap again: Alice: blue, Bob: yellow, Claire: black, Dave: red, Eve: purple.
+(4) Claire and Alice swap: Alice: black, Bob: yellow, Claire: blue, Dave: red, Eve: purple.
+(5) Eve and Dave swap: Alice: black, Bob: yellow, Claire: blue, Dave: purple, Eve: red.
+
+At the end of the event, Bob has the yellow present. So the answer is (B).
+ 14%|████████████                                                                          | 35/250 [31:45<3:21:33, 56.25s/it]================================================================================================================================
+(0) Start: Alice: Ulysses, Bob: Moby Dick, Claire: The Pearl, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(1) Alice and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: Ulysses, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(2) Eve and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Ulysses.
+(3) Claire and Bob swap: Alice: The Pearl, Bob: Ulysses, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Moby Dick.
+(4) Dave and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: The Odyssey, Dave: The Fellowship of the Ring, Eve: Moby Dick.
+(5) Bob and Dave swap: Alice: The Pearl, Bob: The Fellowship of the Ring, Claire: The Odyssey, Dave: Ulysses, Eve: Moby Dick.
+
+At the end of the semester, Eve has Moby Dick. So the answer is (B).
+ 14%|████████████▍                                                                         | 36/250 [32:43<3:22:32, 56.79s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: blue, Claire: orange, Dave: pink, Eve: white.
+(1) Eve and Bob swap: Eve: blue, Bob: white, others remain same.
+(2) Dave and Bob swap: Eve: blue, Bob: pink, Dave: white, others remain same.
+(3) Dave and Alice swap: Eve: blue, Bob: pink, Dave: black, others remain same.
+(4) Eve and Claire swap: Eve: orange, Bob: pink, Dave: black, Claire: blue, Alice remains same.
+(5) Claire and Alice swap: Eve: orange, Bob: pink, Dave: black, Alice: blue, Claire: black.
+
+At the end of the game, Eve has the orange ball. So the answer is (C).
+ 15%|████████████▋                                                                         | 37/250 [33:44<3:25:17, 57.83s/it]================================================================================================================================
+(0) Start: Alice: Frankenstein, Bob: The Pearl, Claire: Hound of the Baskervilles, Dave: Ulysses, Eve: The Great Gatsby.
+(1) Dave and Claire swap: Dave: Hound of the Baskervilles, Claire: Ulysses, others remain the same.
+(2) Bob and Claire swap: Alice: Frankenstein, Bob: Ulysses, Claire: The Pearl, Dave: Hound of the Baskervilles, Eve: The Great Gatsby.
+(3) Claire and Eve swap: Alice: Frankenstein, Bob: Ulysses, Claire: The Great Gatsby, Dave: Hound of the Baskervilles, Eve: The Pearl.
+(4) Bob and Claire swap again: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Ulysses, Dave: Hound of the Baskervilles, Eve: The Pearl.
+(5) Alice and Claire swap: Alice: Ulysses, Bob: The Great Gatsby, Claire: Frankenstein, Dave: Hound of the Baskervilles, Eve: The Pearl.
+
+At the end of the semester, Dave has Hound of the Baskervilles. So the answer is (C).
+ 15%|█████████████                                                                         | 38/250 [34:31<3:13:26, 54.75s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: yellow, Claire: orange, Dave: white, Eve: brown.
+(1) Eve and Dave swap: Eve: white, Dave: brown, others unchanged.
+(2) Dave and Alice swap: Alice: brown, Dave: green, others unchanged.
+(3) Bob and Dave swap: Alice: brown, Bob: green, Dave: yellow, others unchanged.
+(4) Eve and Claire swap: Alice: brown, Bob: green, Dave: yellow, Eve: orange, Claire: white.
+(5) Eve and Alice swap: Alice: orange, Eve: brown, others unchanged.
+
+At the end of the event, Dave has the brown present. So the answer is (E).
+ 16%|█████████████▍                                                                        | 39/250 [35:18<3:04:21, 52.42s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: The Pearl, Claire: Ulysses, Dave: Hound of the Baskervilles, Eve: Moby Dick.
+(1) Dave and Claire swap: Dave: Ulysses, Claire: Hound of the Baskervilles, others remain the same.
+(2) Claire and Eve swap: Claire: Moby Dick, Eve: Hound of the Baskervilles, Dave: Ulysses, others remain the same.
+(3) Alice and Claire swap: Alice: Hound of the Baskervilles, Claire: The Great Gatsby, others remain the same.
+(4) Claire and Bob swap: Claire: The Pearl, Bob: Hound of the Baskervilles, Alice: Hound of the Baskervilles (Alice keeps the book she got from Alice), Eve: Moby Dick.
+(5) Dave and Eve swap: Dave: Moby Dick, Eve: Ulysses, Claire: The Pearl, Bob: Hound of the Baskervilles, Alice: Hound of the Baskervilles.
+
+At the end of the semester, Claire has The Pearl. So the answer is (B).
+ 16%|█████████████▊                                                                        | 40/250 [36:27<3:20:19, 57.24s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: pink, Dave: white, Eve: red.
+(1) Alice and Dave swap: Alice: white, Bob: black, Claire: pink, Dave: orange, Eve: red.
+(2) Bob and Claire swap: Alice: white, Bob: pink, Claire: black, Dave: orange, Eve: red.
+(3) Claire and Dave swap: Alice: white, Bob: pink, Claire: orange, Dave: black, Eve: red.
+(4) Dave and Bob swap: Alice: white, Bob: black, Claire: orange, Dave: pink, Eve: red.
+(5) Alice and Eve swap: Alice: red, Bob: black, Claire: orange, Dave: pink, Eve: white.
+
+At the end of the game, Eve has the white ball. So the answer is (D).
+ 16%|██████████████                                                                        | 41/250 [37:08<3:02:48, 52.48s/it]================================================================================================================================
+(0) Start: Alice: Moby Dick, Bob: Ulysses, Claire: The Fellowship of the Ring, Dave: Lolita, Eve: Catch-22.
+(1) Claire and Bob swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Ulysses, Dave: Lolita, Eve: Catch-22.
+(2) Claire and Dave swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Lolita, Dave: Ulysses, Eve: Catch-22.
+(3) Dave and Alice swap: Alice: Ulysses, Bob: The Fellowship of the Ring, Claire: Lolita, Dave: Moby Dick, Eve: Catch-22.
+(4) Dave and Bob swap: Alice: Ulysses, Bob: Moby Dick, Claire: Lolita, Dave: The Fellowship of the Ring, Eve: Catch-22.
+(5) Eve and Dave swap: Alice: Ulysses, Bob: Moby Dick, Claire: Lolita, Dave: Catch-22, Eve: The Fellowship of the Ring.
+
+At the end of the semester, Dave has The Fellowship of the Ring. So the answer is (C).
+ 17%|██████████████▍                                                                       | 42/250 [38:02<3:03:58, 53.07s/it]================================================================================================================================
+(0) Start: Alice: CM, Bob: FB, Claire: GK, Dave: LW, Eve: RW.
+(1) Eve and Claire: Eve: GK, Claire: RW, others remain the same.
+(2) Alice and Dave: Alice: LW, Dave: CM, others remain the same.
+(3) Claire and Bob: Alice: LW, Bob: CM, Eve: GK, Dave: RW, Claire: FB.
+(4) Eve and Alice: Eve: CM, Alice: RW, others remain the same.
+(5) Claire and Eve: Eve: CM, Alice: RW, Claire: RW, Dave: FB, Bob: LW.
+
+At the end of the match, Claire is playing as a right winger. So the answer is (E).
+ 17%|██████████████▊                                                                       | 43/250 [38:54<3:01:57, 52.74s/it]================================================================================================================================
+(0) Start: Alice: The Fellowship of the Ring, Bob: The Odyssey, Claire: Catch-22, Dave: The Great Gatsby, Eve: Lolita.
+(1) Alice and Eve swap: Alice: Lolita, Eve: The Fellowship of the Ring, Bob: The Odyssey, Claire: Catch-22, Dave: The Great Gatsby.
+(2) Claire and Eve swap: Alice: Lolita, Eve: Catch-22, Bob: The Odyssey, Claire: The Fellowship of the Ring, Dave: The Great Gatsby.
+(3) Alice and Eve swap again: Alice: Catch-22, Eve: Lolita, Bob: The Odyssey, Claire: The Fellowship of the Ring, Dave: The Great Gatsby.
+(4) Eve and Dave swap: Alice: Catch-22, Eve: The Great Gatsby, Bob: The Odyssey, Claire: The Fellowship of the Ring, Dave: Lolita.
+(5) Alice and Bob swap: Alice: The Odyssey, Eve: The Great Gatsby, Bob: Catch-22, Claire: The Fellowship of the Ring, Dave: Lolita.
+
+At the end of the semester, Bob has Catch-22. So the answer is (C).
+ 18%|███████████████▏                                                                      | 44/250 [39:44<2:57:31, 51.70s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Rodrigo, Claire: Melissa, Dave: Patrick, Eve: Jamie.
+
+(1) Eve and Bob switch: Eve: Rodrigo, Bob: Jamie, Alice: Helga, Claire: Melissa, Dave: Patrick.
+(2) Alice and Bob switch: Eve: Rodrigo, Bob: Helga, Alice: Jamie, Claire: Melissa, Dave: Patrick.
+(3) Dave and Eve switch: Eve: Rodrigo, Bob: Helga, Alice: Jamie, Claire: Melissa, Dave: Jamie.
+(4) Eve and Claire switch: Eve: Rodrigo, Bob: Helga, Alice: Jamie, Claire: Patrick, Dave: Jamie.
+(5) Alice and Claire switch: Eve: Rodrigo, Bob: Helga, Alice: Patrick, Claire: Jamie, Dave: Jamie.
+
+At the end of the dance, Eve is dancing with Bob, which corresponds to option (B).
+ 18%|███████████████▍                                                                      | 45/250 [40:40<3:01:29, 53.12s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: purple, Claire: green, Dave: brown, Eve: orange.
+(1) Bob and Claire swap: Alice: blue, Bob: green, Claire: purple, Dave: brown, Eve: orange.
+(2) Dave and Bob swap: Alice: blue, Bob: brown, Claire: purple, Dave: green, Eve: orange.
+(3) Claire and Bob swap: Alice: blue, Bob: purple, Claire: brown, Dave: green, Eve: orange.
+(4) Bob and Alice swap: Alice: purple, Bob: brown, Claire: green, Dave: blue, Eve: orange.
+(5) Eve and Bob swap: Alice: purple, Bob: orange, Claire: green, Dave: blue, Eve: brown.
+
+At the end of the game, Bob has the orange ball. So the answer is (E).
+ 18%|███████████████▊                                                                      | 46/250 [41:32<2:59:40, 52.85s/it]================================================================================================================================
+(0) Start: Alice: Ophelia, Bob: Jamie, Claire: Sam, Dave: Melissa, Eve: Rodrigo.
+
+(1) Eve and Dave switch: Eve: Melissa, Dave: Rodrigo.
+(2) Alice and Bob switch: Alice: Jamie, Bob: Ophelia, Eve: Melissa, Dave: Rodrigo.
+(3) Dave and Bob switch: Alice: Jamie, Bob: Rodrigo, Eve: Melissa, Dave: Ophelia.
+(4) Bob and Alice switch again: Alice: Rodrigo, Bob: Jamie, Eve: Melissa, Dave: Ophelia.
+(5) Alice and Claire switch: Alice: Rodrigo, Bob: Jamie, Eve: Melissa, Dave: Ophelia, Claire: Jamie.
+
+At the end of the dance, Bob is dancing with Jamie. So the answer is (B).
+ 19%|████████████████▏                                                                     | 47/250 [42:37<3:10:53, 56.42s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: purple, Claire: orange, Dave: pink, Eve: blue.
+(1) Claire and Eve swap: Eve: orange, Claire: blue.
+(2) Claire and Bob swap: Eve: blue, Bob: orange, Claire: purple.
+(3) Alice and Dave swap: Eve: blue, Alice: pink, Dave: orange, Bob: purple.
+(4) Bob and Claire swap: Eve: blue, Alice: pink, Dave: orange, Bob: purple, Claire: orange.
+(5) Bob and Alice swap: Eve: blue, Dave: orange, Alice: purple, Bob: pink.
+
+At the end of the event, Eve has the blue present. So the answer is (E).
+ 19%|████████████████▌                                                                     | 48/250 [43:31<3:07:29, 55.69s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Rodrigo, Claire: Patrick, Dave: Izzi, Eve: Melissa.
+(1) Dave and Eve switch partners: Alice: Jamie, Bob: Rodrigo, Claire: Patrick, Dave: Melissa, Eve: Izzi.
+(2) Bob and Claire switch partners: Alice: Jamie, Dave: Melissa, Bob: Patrick, Eve: Izzi, Claire: Rodrigo.
+(3) Bob and Eve switch partners: Alice: Jamie, Dave: Melissa, Bob: Izzi, Eve: Patrick, Claire: Rodrigo.
+(4) Claire and Alice switch partners: Alice: Rodrigo, Dave: Melissa, Bob: Izzi, Eve: Patrick, Claire: Jamie.
+(5) Claire and Bob switch partners: Alice: Rodrigo, Dave: Melissa, Bob: Jamie, Eve: Patrick, Claire: Izzi.
+
+At the end of the dance, Dave is dancing with Melissa. So the answer is (E).
+ 20%|████████████████▊                                                                     | 49/250 [44:23<3:03:04, 54.65s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: purple, Claire: blue, Dave: black, Eve: white.
+(1) Eve and Bob swap: Eve: purple, Bob: white, Alice: green, Claire: blue, Dave: black.
+(2) Claire and Alice swap: Eve: purple, Alice: blue, Bob: white, Claire: green, Dave: black.
+(3) Bob and Eve swap: Eve: purple, Bob: green, Alice: blue, Claire: white, Dave: black.
+(4) Dave and Claire swap: Eve: purple, Bob: green, Alice: blue, Dave: blue, Claire: white.
+(5) Alice and Eve swap: Eve: green, Bob: blue, Alice: purple, Dave: blue, Claire: white.
+
+At the end of the event, Dave has the purple present. So the answer is (B).
+ 20%|█████████████████▏                                                                    | 50/250 [45:13<2:57:22, 53.21s/it]================================================================================================================================
+(0) Start: Alice: Catch-22, Bob: The Odyssey, Claire: Moby Dick, Dave: Lolita, Eve: Frankenstein.
+(1) Claire and Eve swap: Claire: Frankenstein, Eve: Moby Dick.
+(2) Alice and Bob swap: Alice: The Odyssey, Bob: Catch-22, Claire: Frankenstein, Dave: Lolita, Eve: Moby Dick.
+(3) Bob and Eve swap: Alice: The Odyssey, Bob: Moby Dick, Claire: Frankenstein, Dave: Lolita, Eve: Catch-22.
+(4) Eve and Alice swap: Alice: Moby Dick, Bob: Frankenstein, Claire: The Odyssey, Dave: Lolita, Eve: Catch-22.
+(5) Bob and Dave swap: Alice: Moby Dick, Bob: Lolita, Claire: The Odyssey, Dave: Frankenstein, Eve: Catch-22.
+At the end of the semester, Claire has The Odyssey. So the answer is (B).
+ 20%|█████████████████▌                                                                    | 51/250 [46:11<3:00:39, 54.47s/it]================================================================================================================================
+(0) Start: Alice (LW), Bob (FB), Claire (Bench), Dave (GK), Eve (LM)
+(1) Bob and Claire trade: Alice (LW), Bob (Bench), Claire (FB), Dave (GK), Eve (LM)
+(2) Bob and Dave trade: Alice (LW), Bob (GK), Claire (FB), Dave (Bench), Eve (LM)
+(3) Eve and Dave trade: Alice (LW), Bob (GK), Claire (FB), Dave (LM), Eve (Bench)
+(4) Dave and Claire trade: Alice (LW), Bob (GK), Claire (LM), Dave (FB), Eve (Bench)
+(5) Alice and Dave trade: Alice (GK), Bob (GK), Claire (LM), Dave (LW), Eve (Bench)
+
+At the end of the match, Claire is playing left midfielder. So the answer is (E).
+ 21%|█████████████████▉                                                                    | 52/250 [47:02<2:56:59, 53.64s/it]================================================================================================================================
+(0) Start: Alice (RM), Bob (Bench), Claire (LM), Dave (RW), Eve (Striker).
+(1) Alice and Bob swap: Alice (Bench), Bob (RM), Claire (LM), Dave (RW), Eve (Striker).
+(2) Eve and Claire swap: Alice (Bench), Bob (RM), Eve (LM), Dave (RW), Claire (Striker).
+(3) Eve and Bob swap: Alice (Bench), Eve (RM), Bob (LM), Dave (RW), Claire (Striker).
+(4) Dave and Bob swap: Alice (Bench), Eve (RM), Dave (LM), Bob (RW), Claire (Striker).
+(5) Claire and Alice swap: Eve (RM), Alice (LM), Dave (RW), Bob (Bench), Claire (Striker).
+
+At the end of the match, Eve is playing right midfielder. So the answer is (A).
+ 21%|██████████████████▏                                                                   | 53/250 [47:55<2:55:21, 53.41s/it]================================================================================================================================
+(0) Start: Alice: CM, Bob: FB, Claire: GK, Dave: LW, Eve: RW.
+(1) Eve and Claire swap: Alice: CM, Bob: FB, Eve: GK, Dave: LW, Claire: RW.
+(2) Alice and Dave swap: Alice: LW, Bob: FB, Eve: GK, Dave: CM, Claire: RW.
+(3) Claire and Bob swap: Alice: LW, Bob: RW, Eve: GK, Dave: CM, Claire: FB.
+(4) Eve and Alice swap: Alice: RW, Bob: FB, Eve: CM, Dave: LW, Claire: FB.
+(5) Claire and Eve swap: Alice: RW, Bob: FB, Eve: LW, Dave: CM, Claire: CM.
+
+At the end of the match, Eve is playing left winger. So the answer is (D).
+ 22%|██████████████████▌                                                                   | 54/250 [48:46<2:51:55, 52.63s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: blue, Claire: brown, Dave: yellow, Eve: black.
+(1) Alice and Bob swap: Alice: blue, Bob: purple, Claire: brown, Dave: yellow, Eve: black.
+(2) Bob and Dave swap: Alice: blue, Bob: yellow, Claire: brown, Dave: purple, Eve: black.
+(3) Claire and Bob swap: Alice: blue, Bob: brown, Claire: purple, Dave: yellow, Eve: black.
+(4) Dave and Alice swap: Alice: brown, Bob: purple, Claire: yellow, Dave: blue, Eve: black.
+(5) Dave and Eve swap: Alice: brown, Bob: purple, Claire: yellow, Dave: black, Eve: blue.
+
+At the end of the event, Dave has the black ball. So the answer is (E).
+ 22%|██████████████████▉                                                                   | 55/250 [49:41<2:53:07, 53.27s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Left Midfielder, Claire: Right Midfielder, Dave: Striker, Eve: Fullback.
+
+(1) Eve and Claire trade: Alice: Right Winger, Bob: Left Midfielder, Claire: Fullback, Dave: Striker, Eve: Right Midfielder.
+(2) Dave and Bob trade: Alice: Right Winger, Bob: Striker, Claire: Fullback, Dave: Left Midfielder, Eve: Right Midfielder.
+(3) Eve and Dave trade: Alice: Right Winger, Bob: Striker, Claire: Fullback, Dave: Fullback, Eve: Left Midfielder.
+(4) Alice and Claire trade: Alice: Right Midfielder, Bob: Striker, Claire: Right Winger, Dave: Fullback, Eve: Left Midfielder.
+(5) Bob and Eve trade: Alice: Right Midfielder, Bob: Fullback, Claire: Right Winger, Dave: Fullback, Eve: Striker.
+
+At the end of the match, Eve is playing as a striker. So the answer is (D).
+ 22%|███████████████████▎                                                                  | 56/250 [50:36<2:54:17, 53.91s/it]================================================================================================================================
+(0) Start: Alice (benchwarmer), Bob (left midfielder), Claire (right midfielder), Dave (goalkeeper), Eve (center midfielder).
+(1) Dave and Bob trade: Alice, Bob (goalkeeper), Claire, Dave (left midfielder), Eve.
+(2) Dave and Claire trade: Alice, Bob (goalkeeper), Claire (benchwarmer), Dave (center midfielder), Eve.
+(3) Eve and Bob trade: Alice, Bob (center midfielder), Claire (benchwarmer), Dave (goalkeeper), Eve (left midfielder).
+(4) Alice and Dave trade: Alice (goalkeeper), Bob (center midfielder), Claire (benchwarmer), Dave (benchwarmer), Eve (left midfielder).
+(5) Eve and Claire trade: Alice (goalkeeper), Bob (center midfielder), Claire (left midfielder), Dave (benchwarmer), Eve (benchwarmer).
+
+At the end of the match, Bob is playing center midfielder. So the answer is (E).
+ 23%|███████████████████▌                                                                  | 57/250 [51:34<2:57:26, 55.16s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: brown, Claire: white, Dave: black, Eve: orange.
+(1) Dave and Claire swap: Alice: green, Bob: brown, Claire: black, Dave: white, Eve: orange.
+(2) Dave and Eve swap: Alice: green, Bob: brown, Claire: black, Dave: orange, Eve: white.
+(3) Alice and Claire swap: Alice: black, Bob: brown, Claire: green, Dave: orange, Eve: white.
+(4) Eve and Alice swap: Alice: black, Bob: brown, Claire: green, Dave: orange, Eve: green.
+(5) Bob and Dave swap: Alice: black, Bob: white, Claire: green, Dave: brown, Eve: green.
+At the end of the event, Eve has the green present. So the answer is (A).
+ 23%|███████████████████▉                                                                  | 58/250 [52:20<2:47:18, 52.28s/it]================================================================================================================================
+(0) Start: Alice: Rodrigo, Bob: Sam, Claire: Karl, Dave: Izzi, Eve: Jamie.
+(1) Eve and Bob switch: Alice: Rodrigo, Bob: Eve, Claire: Karl, Dave: Izzi, Eve: Sam.
+(2) Dave and Alice switch: Alice: Dave, Bob: Eve, Claire: Karl, Dave: Izzi, Eve: Sam.
+(3) Alice and Claire switch: Alice: Dave, Bob: Eve, Claire: Alice, Dave: Izzi, Eve: Sam.
+(4) Eve and Claire switch: Alice: Dave, Bob: Eve, Claire: Izzi, Dave: Alice, Eve: Sam.
+(5) Alice and Bob switch: Alice: Bob, Bob: Izzi, Claire: Izzi, Dave: Alice, Eve: Sam.
+At the end of the dance, Eve is dancing with Izzi. So the answer is (D).
+ 24%|████████████████████▎                                                                 | 59/250 [53:20<2:54:16, 54.75s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: green, Dave: purple, Eve: yellow.
+(1) Bob and Dave swap: Bob: purple, Dave: black, others remain the same.
+(2) Bob and Eve swap: Bob: yellow, Dave: purple, Eve: black, others remain the same.
+(3) Dave and Claire swap: Bob: yellow, Dave: green, Eve: black, Claire: purple.
+(4) Dave and Bob swap again: Bob: green, Dave: yellow, Eve: black, Claire: purple.
+(5) Alice and Dave swap: Alice: green, Bob: yellow, Dave: brown, Eve: black, Claire: purple.
+At the end of the event, Dave has the green present. So the answer is (C).
+ 24%|████████████████████▋                                                                 | 60/250 [54:13<2:51:22, 54.12s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Karl, Claire: Lola, Dave: Jamie, Eve: Izzi.
+
+(1) Claire and Alice switch partners: Alice: Lola, Bob: Karl, Claire: Ophelia, Dave: Jamie, Eve: Izzi.
+(2) Eve and Alice switch partners: Alice: Lola, Bob: Karl, Claire: Ophelia, Dave: Jamie, Eve: Ophelia.
+(3) Claire and Dave switch partners: Alice: Lola, Bob: Karl, Claire: Jamie, Dave: Ophelia, Eve: Ophelia.
+(4) Dave and Bob switch partners: Alice: Lola, Bob: Jamie, Claire: Jamie, Dave: Karl, Eve: Ophelia.
+(5) Claire and Alice switch partners again: Alice: Jamie, Bob: Jamie, Claire: Lola, Dave: Karl, Eve: Ophelia.
+
+At the end of the dance, Eve is dancing with Jamie. So the answer is (D).
+ 24%|████████████████████▉                                                                 | 61/250 [55:18<3:00:23, 57.27s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Patrick, Claire: Jamie, Dave: Rodrigo, Eve: Lola.
+
+(1) Eve and Claire switch partners: Alice: Karl, Bob: Patrick, Claire: Eve, Dave: Rodrigo, Eve: Lola.
+(2) Bob and Alice switch partners: Alice: Patrick, Bob: Karl, Claire: Eve, Dave: Rodrigo, Eve: Lola.
+(3) Dave and Bob switch partners: Alice: Patrick, Bob: Dave, Claire: Eve, Dave: Lola, Eve: Karl.
+(4) Dave and Eve switch partners: Alice: Patrick, Bob: Dave, Claire: Karl, Dave: Lola, Eve: Karl.
+(5) Claire and Eve switch partners: Alice: Patrick, Bob: Dave, Claire: Eve, Dave: Lola, Eve: Karl.
+
+At the end of the dance, Dave is dancing with Eve. Since Eve was previously dancing with Karl, Dave is now dancing with Karl. So the answer is (A) Karl.
+ 25%|█████████████████████▎                                                                | 62/250 [56:21<3:05:04, 59.07s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: green, Dave: brown, Eve: yellow.
+(1) Eve and Alice swap: Alice: yellow, Eve: orange, Bob: black, Claire: green, Dave: brown.
+(2) Claire and Bob swap: Alice: yellow, Eve: orange, Bob: green, Claire: black, Dave: brown.
+(3) Dave and Bob swap: Alice: yellow, Eve: orange, Bob: brown, Claire: black, Dave: green.
+(4) Alice and Eve swap again: Alice: orange, Eve: yellow, Bob: brown, Claire: black, Dave: green.
+(5) Dave and Claire swap: Alice: orange, Eve: yellow, Bob: brown, Claire: green, Dave: black.
+
+At the end of the game, Alice has the orange ball. So the answer is (A).
+ 25%|█████████████████████▋                                                                | 63/250 [57:28<3:11:18, 61.38s/it]================================================================================================================================
+(0) At the start: Alice: Sam, Bob: Karl, Claire: Izzi, Dave: Patrick, Eve: Helga.
+
+(1) Bob and Claire switch partners: Alice: Sam, Bob: Izzi, Claire: Karl, Dave: Patrick, Eve: Helga.
+(2) Eve and Dave switch partners: Alice: Sam, Bob: Izzi, Claire: Karl, Dave: Helga, Eve: Patrick.
+(3) Bob and Dave switch partners: Alice: Sam, Bob: Helga, Claire: Karl, Dave: Izzi, Eve: Patrick.
+(4) Alice and Bob switch partners: Alice: Helga, Bob: Sam, Claire: Karl, Dave: Izzi, Eve: Patrick.
+(5) Bob and Eve switch partners: Alice: Helga, Bob: Patrick, Claire: Karl, Dave: Izzi, Eve: Sam.
+
+At the end of the dance, Bob is dancing with Patrick. So the answer is (D).
+ 26%|██████████████████████                                                                | 64/250 [58:40<3:20:05, 64.54s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: brown, Claire: purple, Dave: white, Eve: blue.
+(1) Alice and Bob swap: Alice: brown, Bob: green, Claire: purple, Dave: white, Eve: blue.
+(2) Bob and Eve swap: Alice: brown, Bob: blue, Claire: purple, Dave: white, Eve: green.
+(3) Dave and Eve swap: Alice: brown, Bob: blue, Claire: purple, Dave: green, Eve: white.
+(4) Alice and Claire swap: Alice: purple, Bob: blue, Claire: green, Dave: green, Eve: white.
+(5) Bob and Eve swap again: Alice: purple, Bob: green, Claire: blue, Dave: green, Eve: white.
+
+At the end of the event, Dave has the green present. So the answer is (A).
+ 26%|██████████████████████▎                                                               | 65/250 [59:28<3:03:47, 59.61s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: Moby Dick, Claire: The Pearl, Dave: Lolita, Eve: The Odyssey.
+(1) Eve and Claire swap: Alice: The Great Gatsby, Bob: Moby Dick, Claire: The Odyssey, Dave: Lolita, Eve: The Pearl.
+(2) Dave and Alice swap: Alice: Lolita, Bob: Moby Dick, Claire: The Odyssey, Dave: The Great Gatsby, Eve: The Pearl.
+(3) Dave and Eve swap: Alice: Lolita, Bob: Moby Dick, Claire: The Odyssey, Dave: The Pearl, Eve: The Great Gatsby.
+(4) Alice and Dave swap: Alice: Moby Dick, Bob: The Odyssey, Claire: The Pearl, Dave: Lolita, Eve: The Great Gatsby.
+(5) Bob and Eve swap: Alice: Moby Dick, Bob: The Great Gatsby, Claire: The Pearl, Dave: Lolita, Eve: The Odyssey.
+
+At the end of the semester, Bob has The Great Gatsby. So the answer is (A).
+ 26%|██████████████████████▏                                                             | 66/250 [1:00:30<3:05:26, 60.47s/it]================================================================================================================================
+(0) Start: Alice (fullback), Bob (center midfielder), Claire (right midfielder), Dave (left winger), Eve (goalkeeper).
+(1) Dave and Eve swap: Eve (fullback), Dave (goalkeeper), rest remain the same.
+(2) Claire and Bob swap: Eve (fullback), Dave (goalkeeper), Bob (right midfielder), Claire (center midfielder), rest remain the same.
+(3) Alice and Bob swap: Eve (fullback), Dave (goalkeeper), Alice (center midfielder), Bob (right midfielder), Claire remains the same.
+(4) Eve and Dave swap back: Eve (left winger), Dave (fullback), Alice (center midfielder), Bob (right midfielder), Claire remains the same.
+(5) Bob and Alice swap again: Eve (left winger), Alice (goalkeeper), Bob (center midfielder), Claire (right midfielder), Dave remains the same.
+At the end of the match, Eve is playing as a left winger. So the answer is (D).
+ 27%|██████████████████████▌                                                             | 67/250 [1:01:22<2:56:20, 57.82s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Patrick, Claire: Jamie, Dave: Rodrigo, Eve: Lola.
+
+(1) Eve and Claire switch partners: Alice: Karl, Bob: Patrick, Claire: Eve, Dave: Rodrigo, Eve: Lola (Eve now dances with Lola).
+(2) Bob and Alice switch partners: Alice: Patrick, Bob: Karl, Claire: Eve, Dave: Rodrigo, Eve: Lola.
+(3) Dave and Bob switch partners: Alice: Patrick, Bob: Dave, Claire: Eve, Dave: Lola (Dave dances with Lola).
+(4) Dave and Eve switch partners: Alice: Patrick, Bob: Dave, Claire: Eve, Eve: Karl (Eve dances with Karl).
+(5) Claire and Eve switch partners: Alice: Patrick, Bob: Dave, Claire: Karl, Eve: Karl.
+
+At the end of the dance, Eve is dancing with Karl. So the answer is (A).
+ 27%|██████████████████████▊                                                             | 68/250 [1:02:16<2:52:12, 56.77s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: green, Claire: blue, Dave: pink, Eve: purple.
+(1) Dave and Alice swap: Alice: pink, Dave: orange, Bob: green, Claire: blue, Eve: purple.
+(2) Bob and Claire swap: Alice: pink, Dave: orange, Bob: blue, Claire: green, Eve: purple.
+(3) Bob and Alice swap: Alice: blue, Dave: orange, Bob: pink, Claire: green, Eve: purple.
+(4) Alice and Claire swap: Alice: green, Dave: orange, Bob: pink, Claire: blue, Eve: purple.
+(5) Eve and Bob swap: Alice: green, Dave: orange, Bob: purple, Claire: blue, Eve: pink.
+
+At the end of the game, Bob has the purple ball. So the answer is (E).
+ 28%|███████████████████████▏                                                            | 69/250 [1:03:19<2:56:30, 58.51s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Melissa, Claire: Lola, Dave: Sam, Eve: Izzi.
+
+(1) Claire and Dave switch: Alice: Karl, Bob: Melissa, Claire: Dave, Eve: Izzi, Dave: Lola.
+(2) Eve and Bob switch: Alice: Karl, Eve: Bob, Claire: Dave, Bob: Lola, Dave: Izzi.
+(3) Claire and Alice switch: Alice: Lola, Eve: Bob, Claire: Karl, Bob: Izzi, Dave: Lola.
+(4) Eve and Alice switch: Alice: Lola, Eve: Karl, Claire: Bob, Dave: Lola, Izzi: Bob.
+(5) Claire and Dave switch again: Alice: Lola, Eve: Karl, Claire: Dave, Bob: Lola, Izzi: Bob.
+
+At the end of the dance, Alice is dancing with Dave. So the answer is (D) Sam (since Dave was originally dancing with Sam before the last switch).
+ 28%|███████████████████████▌                                                            | 70/250 [1:04:19<2:57:35, 59.20s/it]================================================================================================================================
+(0) Start: Alice (cheerleader), Bob (goalkeeper), Claire (striker), Dave (left midfielder), Eve (right winger).
+(1) Claire and Eve trade: Claire (right winger), Eve (striker), rest unchanged.
+(2) Claire and Dave trade: Claire (left midfielder), Dave (right winger), rest unchanged.
+(3) Eve and Claire trade: Eve (left midfielder), Claire (right winger), rest unchanged.
+(4) Claire and Alice trade: Alice (left midfielder), Claire (cheerleader), rest unchanged.
+(5) Bob and Dave trade: Bob (right winger), Dave (goalkeeper), rest unchanged.
+
+At the end of the match, Dave is playing as a goalkeeper. So the answer is (B).
+ 28%|███████████████████████▊                                                            | 71/250 [1:05:11<2:49:38, 56.86s/it]================================================================================================================================
+(0) Start: Alice: fullback, Bob: right winger, Claire: center midfielder, Dave: striker, Eve: benchwarmer.
+(1) Alice and Bob trade: Alice: right winger, Bob: fullback, Claire: center midfielder, Dave: striker, Eve: benchwarmer.
+(2) Dave and Bob trade: Alice: right winger, Bob: striker, Claire: center midfielder, Dave: fullback, Eve: benchwarmer.
+(3) Alice and Claire trade: Alice: center midfielder, Bob: striker, Claire: right winger, Dave: fullback, Eve: benchwarmer.
+(4) Bob and Claire trade: Alice: center midfielder, Bob: fullback, Claire: striker, Dave: right winger, Eve: benchwarmer.
+(5) Alice and Eve trade: Alice: benchwarmer, Bob: fullback, Claire: striker, Dave: right winger, Eve: center midfielder.
+
+At the end of the match, Bob is playing fullback. So the answer is (A).
+ 29%|████████████████████████▏                                                           | 72/250 [1:06:08<2:49:11, 57.03s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: brown, Claire: blue, Dave: green, Eve: yellow.
+(1) Eve and Claire swap: Alice: black, Bob: brown, Claire: yellow, Dave: green, Eve: blue.
+(2) Bob and Dave swap: Alice: black, Bob: green, Claire: yellow, Dave: brown, Eve: blue.
+(3) Eve and Alice swap: Alice: green, Bob: green, Claire: yellow, Dave: brown, Eve: black.
+(4) Claire and Bob swap: Alice: green, Bob: yellow, Claire: green, Dave: brown, Eve: black.
+(5) Alice and Eve swap: Alice: yellow, Bob: yellow, Claire: green, Dave: brown, Eve: green.
+At the end of the game, Bob has the yellow ball. So the answer is (E).
+ 29%|████████████████████████▌                                                           | 73/250 [1:07:01<2:44:17, 55.69s/it]================================================================================================================================
+(0) Start: Alice (striker), Bob (right winger), Claire (goalkeeper), Dave (left winger), Eve (left midfielder).
+(1) Dave and Bob trade: Alice (striker), Bob (left winger), Claire (goalkeeper), Dave (right winger), Eve (left midfielder).
+(2) Alice and Bob trade: Alice (right winger), Bob (striker), Claire (goalkeeper), Dave (left winger), Eve (left midfielder).
+(3) Eve and Dave trade: Alice (right winger), Bob (striker), Claire (goalkeeper), Dave (left midfielder), Eve (left winger).
+(4) Bob and Dave trade: Alice (right winger), Bob (left midfielder), Claire (goalkeeper), Dave (left winger), Eve (striker).
+(5) Claire and Alice trade: Alice (left midfielder), Bob (left winger), Claire (right winger), Dave (left winger), Eve (striker).
+
+At the end of the match, Claire is playing right winger. So the answer is (B).
+ 30%|████████████████████████▊                                                           | 74/250 [1:07:41<2:29:21, 50.91s/it]================================================================================================================================
+(0) Start: Alice: Sam, Bob: Izzi, Claire: Karl, Dave: Helga, Eve: Ophelia.
+(1) Bob and Alice switch: Alice: Izzi, Bob: Sam, Claire: Karl, Dave: Helga, Eve: Ophelia.
+(2) Alice and Claire switch: Alice: Izzi, Bob: Sam, Claire: Alice, Dave: Helga, Eve: Ophelia.
+(3) Alice and Dave switch: Alice: Izzi, Bob: Sam, Claire: Dave, Dave: Alice, Eve: Ophelia.
+(4) Alice and Eve switch: Alice: Izzi, Bob: Sam, Claire: Dave, Dave: Eve, Eve: Alice.
+(5) Dave and Claire switch: Alice: Izzi, Bob: Sam, Claire: Eve, Dave: Helga, Eve: Ophelia.
+
+At the end of the dance, Claire is dancing with Eve. So the answer is (E).
+ 30%|█████████████████████████▏                                                          | 75/250 [1:08:27<2:24:12, 49.44s/it]================================================================================================================================
+(0) Start: Alice (R.W.), Bob (S), Claire (Bench), Dave (FB), Eve (LM).
+(1) Dave and Bob swap: Alice (R.W.), Bob (FB), Claire (Bench), Dave (S), Eve (LM).
+(2) Claire and Eve swap: Alice (R.W.), Bob (FB), Claire (LM), Dave (S), Eve (Bench).
+(3) Eve and Bob swap: Alice (R.W.), Bob (LM), Claire (Bench), Dave (S), Eve (FB).
+(4) Alice and Claire swap: Alice (Bench), Bob (LM), Claire (R.W.), Dave (S), Eve (FB).
+(5) Alice and Dave swap: Alice (FB), Bob (LM), Claire (R.W.), Dave (Bench), Eve (S).
+
+At the end of the match, Claire is playing right winger (R.W.). So the answer is (A).
+ 30%|█████████████████████████▌                                                          | 76/250 [1:09:08<2:16:31, 47.08s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: red, Dave: pink, Eve: blue.
+(1) Eve and Bob swap: Alice: orange, Bob: blue, Claire: red, Dave: pink, Eve: black.
+(2) Claire and Eve swap: Alice: orange, Bob: blue, Claire: black, Dave: pink, Eve: red.
+(3) Bob and Dave swap: Alice: orange, Bob: pink, Claire: black, Dave: blue, Eve: red.
+(4) Eve and Alice swap: Alice: pink, Bob: black, Claire: red, Dave: blue, Eve: orange.
+(5) Dave and Bob swap: Alice: pink, Bob: blue, Claire: red, Dave: black, Eve: orange.
+At the end of the game, Alice has the blue ball. So the answer is (E).
+ 31%|█████████████████████████▊                                                          | 77/250 [1:10:01<2:20:24, 48.70s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: brown, Claire: blue, Dave: white, Eve: green.
+(1) Dave and Eve swap: Alice: black, Bob: brown, Claire: blue, Dave: green, Eve: white.
+(2) Bob and Claire swap: Alice: black, Bob: blue, Claire: brown, Dave: green, Eve: white.
+(3) Claire and Alice swap: Alice: blue, Bob: brown, Claire: black, Dave: green, Eve: white.
+(4) Dave and Eve swap again: Alice: blue, Bob: brown, Claire: black, Dave: white, Eve: green.
+(5) Eve and Claire swap: Alice: blue, Bob: brown, Claire: green, Dave: white, Eve: black.
+
+At the end of the game, Alice has the blue ball. So the answer is (C).
+ 31%|██████████████████████████▏                                                         | 78/250 [1:10:39<2:11:07, 45.74s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Lola, Claire: Izzi, Dave: Karl, Eve: Jamie.
+
+(1) Bob and Claire switch partners: Alice: Ophelia, Bob: Izzi, Claire: Lola, Dave: Karl, Eve: Jamie.
+(2) Eve and Dave switch partners: Alice: Ophelia, Bob: Izzi, Claire: Lola, Dave: Jamie, Eve: Karl.
+(3) Eve and Claire switch partners: Alice: Ophelia, Bob: Izzi, Claire: Karl, Dave: Jamie, Eve: Lola.
+(4) Alice and Eve switch partners: Alice: Karl, Bob: Izzi, Claire: Lola, Dave: Jamie, Eve: Ophelia.
+(5) Alice and Bob switch partners: Alice: Izzi, Bob: Karl, Claire: Lola, Dave: Jamie, Eve: Ophelia.
+
+At the end of the dance, Alice is dancing with Izzi. So the answer is (C).
+ 32%|██████████████████████████▌                                                         | 79/250 [1:11:20<2:05:41, 44.10s/it]================================================================================================================================
+(0) Start: Alice: Hound, Bob: Moby, Claire: Ring, Dave: Catch-22, Eve: Frankenstein.
+(1) Claire and Dave swap: Claire: Catch-22, Dave: Ring.
+(2) Alice and Eve swap: Alice: Ring, Eve: Hound.
+(3) Bob and Eve swap: Bob: Hound, Eve: Moby.
+(4) Dave and Bob swap: Dave: Hound, Bob: Ring.
+(5) Alice and Dave swap: Alice: Moby, Dave: Ring.
+
+At the end of the semester, Dave has The Fellowship of the Ring. So the answer is (C).
+ 32%|██████████████████████████▉                                                         | 80/250 [1:11:57<1:59:14, 42.09s/it]================================================================================================================================
+(0) Start: Alice: RM (Right Midfielder), Bob: Benchwarmer, Claire: LM (Left Midfielder), Dave: RW (Right Winger), Eve: Striker.
+
+(1) Alice and Bob trade: Alice: Benchwarmer, Bob: RM.
+(2) Eve and Claire trade: Alice: Benchwarmer, Bob: RM, Eve: LM, Claire: Striker.
+(3) Eve and Bob trade: Alice: Benchwarmer, Eve: RM, Bob: LM, Claire: Striker.
+(4) Dave and Bob trade: Alice: Benchwarmer, Eve: RM, Dave: LM, Bob: RW, Claire: Striker.
+(5) Claire and Alice trade: Alice: LM, Eve: RM, Dave: LM, Bob: RW, Claire: Benchwarmer.
+
+At the end of the match, Bob is playing as a right winger. So the answer is (D).
+ 32%|███████████████████████████▏                                                        | 81/250 [1:12:39<1:58:37, 42.12s/it]================================================================================================================================
+(0) Start: Alice: Gatsby, Bob: Odyssey, Claire: Fellowship, Dave: Moby Dick, Eve: Lolita.
+(1) Alice and Bob swap: Alice: Odyssey, Bob: Gatsby, Claire: Fellowship, Dave: Moby Dick, Eve: Lolita.
+(2) Eve and Bob swap: Alice: Odyssey, Bob: Lolita, Claire: Fellowship, Dave: Moby Dick, Eve: Gatsby.
+(3) Bob and Claire swap: Alice: Odyssey, Bob: Fellowship, Claire: Lolita, Dave: Moby Dick, Eve: Gatsby.
+(4) Alice and Claire swap: Alice: Fellowship, Bob: Odyssey, Claire: Gatsby, Dave: Moby Dick, Eve: Lolita.
+(5) Dave and Claire swap: Alice: Fellowship, Bob: Odyssey, Claire: Moby Dick, Dave: Gatsby, Eve: Lolita.
+At the end of the semester, Dave has The Odyssey. So the answer is (B).
+ 33%|███████████████████████████▌                                                        | 82/250 [1:13:18<1:54:38, 40.95s/it]================================================================================================================================
+(0) At the start: Alice: Ophelia, Bob: Izzi, Claire: Helga, Dave: Patrick, Eve: Lola.
+
+(1) Eve and Claire switch partners: Alice: Ophelia, Bob: Izzi, Claire: Eve, Dave: Patrick, Eve: Lola (Claire's new partner).
+(2) Claire and Dave switch partners: Alice: Ophelia, Bob: Izzi, Claire: Dave, Eve: Lola (Dave's new partner), Dave: Eve (Claire's old partner).
+(3) Claire and Alice switch partners: Alice: Claire, Bob: Izzi, Claire: Dave, Eve: Lola, Dave: Eve.
+(4) Bob and Alice switch partners: Alice: Dave, Bob: Claire, Claire: Dave, Eve: Lola, Dave: Eve.
+(5) Dave and Claire switch partners: Alice: Dave, Bob: Claire, Claire: Eve, Eve: Lola (Dave's new partner), Dave: Alice (Claire's old partner).
+
+At the end of the dance, Dave is dancing with Eve. However, that option isn't in the provided options list. The closest option would be the person Eve was originally dancing with before any swaps, which was Lola. So the answer is (E) Lola.
+ 33%|███████████████████████████▉                                                        | 83/250 [1:13:59<1:54:00, 40.96s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: yellow, Claire: orange, Dave: white, Eve: brown.
+(1) Eve and Dave swap: Eve: white, Dave: brown, rest remain the same.
+(2) Dave and Alice swap: Alice: brown, Dave: green, rest remain the same.
+(3) Bob and Dave swap: Alice: brown, Bob: green, Dave: yellow, rest remain the same.
+(4) Eve and Claire swap: Alice: brown, Bob: green, Dave: yellow, Eve: orange, Claire: white.
+(5) Eve and Alice swap: Eve: green, Alice: orange, Bob: green, Dave: yellow, Claire: white.
+At the end of the event, Bob still has the green present. So the answer is (A).
+ 34%|████████████████████████████▏                                                       | 84/250 [1:14:41<1:54:28, 41.38s/it]================================================================================================================================
+(0) Start: Alice: Hound, Bob: Moby, Claire: Fellowship, Dave: Odyssey, Eve: Frankenstein.
+(1) Eve and Alice swap: Alice: Frankenstein, Eve: Hound, Bob: Moby, Claire: Fellowship, Dave: Odyssey.
+(2) Bob and Eve swap: Alice: Frankenstein, Eve: Odyssey, Bob: Hound, Claire: Fellowship, Dave: Moby.
+(3) Claire and Dave swap: Alice: Frankenstein, Eve: Odyssey, Bob: Hound, Claire: Moby, Dave: Fellowship.
+(4) Alice and Eve swap: Alice: Odyssey, Eve: Frankenstein, Bob: Hound, Claire: Moby, Dave: Fellowship.
+(5) Claire and Bob swap: Alice: Odyssey, Eve: Frankenstein, Bob: Fellowship, Claire: Hound, Dave: Moby.
+
+At the end of the semester, Claire has Hound of the Baskervilles. So the answer is (A).
+ 34%|████████████████████████████▌                                                       | 85/250 [1:15:27<1:57:39, 42.78s/it]================================================================================================================================
+(0) Start: Alice: LM, Bob: GK, Claire: FB, Dave: ST, Eve: LW.
+(1) Eve and Dave: Eve: ST, Dave: LW, Alice: LM, Bob: GK, Claire: FB.
+(2) Dave and Alice: Alice: LW, Dave: LM, Eve: ST, Bob: GK, Claire: FB.
+(3) Bob and Dave: Alice: LW, Bob: LM, Dave: FB, Eve: ST, Claire: GK.
+(4) Claire and Bob: Alice: LW, Bob: FB, Dave: LM, Eve: ST, Claire: GK.
+(5) Claire and Alice: Alice: FB, Bob: LW, Dave: LM, Eve: ST, Claire: GK.
+
+At the end of the match, Bob is playing left winger (LW). So the answer is (E).
+ 34%|████████████████████████████▉                                                       | 86/250 [1:16:16<2:02:16, 44.73s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: The Pearl, Claire: Hound of the Baskervilles, Dave: The Fellowship of the Ring, Eve: The Odyssey.
+
+(1) Claire and Eve swap: Eve gets Hound of the Baskervilles, Claire gets The Odyssey.
+(2) Alice and Dave swap: Alice gets The Fellowship of the Ring, Dave gets The Great Gatsby.
+(3) Eve and Alice swap: Eve gets The Great Gatsby, Alice gets Hound of the Baskervilles.
+(4) Dave and Bob swap: Dave gets The Pearl, Bob gets The Fellowship of the Ring.
+(5) Dave and Alice swap again: Alice gets The Pearl, Dave gets Hound of the Baskervilles.
+
+At the end of the semester, Eve has The Great Gatsby. So the answer is (A).
+ 35%|█████████████████████████████▏                                                      | 87/250 [1:16:54<1:55:39, 42.58s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: green, Claire: pink, Dave: yellow, Eve: black.
+
+(1) Bob and Dave swap: Bob: yellow, Dave: green, Alice: blue, Claire: pink, Eve: black.
+(2) Bob and Alice swap: Bob: blue, Dave: green, Alice: yellow, Claire: pink, Eve: black.
+(3) Eve and Dave swap: Bob: blue, Dave: black, Alice: yellow, Claire: pink, Eve: green.
+(4) Bob and Eve swap: Bob: black, Dave: yellow, Alice: yellow, Claire: pink, Eve: blue.
+(5) Eve and Claire swap: Bob: black, Dave: yellow, Alice: yellow, Claire: blue, Eve: pink.
+
+At the end of the event, Eve has the pink ball. So the answer is (C).
+ 35%|█████████████████████████████▌                                                      | 88/250 [1:17:31<1:50:50, 41.05s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Jamie, Claire: Ophelia, Dave: Karl, Eve: Rodrigo.
+(1) Eve and Bob switch: Alice: Helga, Bob: Eve, Claire: Ophelia, Dave: Karl, Eve: Jamie.
+(2) Dave and Claire switch: Alice: Helga, Bob: Eve, Claire: Dave, Dave: Karl, Eve: Jamie.
+(3) Claire and Bob switch: Alice: Helga, Bob: Dave, Claire: Jamie, Dave: Karl, Eve: Jamie.
+(4) Dave and Alice switch: Alice: Dave, Bob: Eve, Claire: Jamie, Dave: Helga, Eve: Jamie.
+(5) Claire and Eve switch: Alice: Dave, Bob: Jamie, Claire: Eve, Dave: Helga, Eve: Ophelia.
+
+At the end of the dance, Bob is dancing with Jamie. So the answer is (B).
+ 36%|█████████████████████████████▉                                                      | 89/250 [1:18:15<1:52:06, 41.78s/it]================================================================================================================================
+(0) Start: Alice (striker), Bob (fullback), Claire (cheerleader), Dave (benchwarmer), Eve (goalkeeper).
+(1) Alice and Eve swap: Alice (goalkeeper), Eve (striker), Bob (fullback), Claire (cheerleader), Dave (benchwarmer).
+(2) Alice and Claire swap: Alice (goalkeeper), Claire (striker), Bob (fullback), Dave (cheerleader), Eve (striker).
+(3) Dave and Bob swap: Alice (goalkeeper), Claire (striker), Dave (fullback), Bob (cheerleader), Eve (striker).
+(4) Alice and Dave swap: Alice (goalkeeper), Claire (striker), Bob (benchwarmer), Dave (fullback), Eve (striker).
+(5) Dave and Eve swap: Alice (goalkeeper), Claire (striker), Dave (goalkeeper), Bob (benchwarmer), Eve (striker).
+
+At the end of the match, Bob is playing as a benchwarmer. So the answer is (D).
+ 36%|██████████████████████████████▏                                                     | 90/250 [1:18:52<1:47:36, 40.35s/it]================================================================================================================================
+(0) At the start: Alice: Sam, Bob: Izzi, Claire: Jamie, Dave: Ophelia, Eve: Patrick.
+
+(1) Bob and Dave switch partners: Alice: Sam, Bob: Ophelia, Claire: Jamie, Dave: Izzi, Eve: Patrick.
+(2) Alice and Eve switch partners: Alice: Sam, Bob: Ophelia, Claire: Jamie, Dave: Izzi, Eve: Dave.
+(3) Claire and Dave switch partners: Alice: Sam, Bob: Ophelia, Claire: Izzi, Dave: Eve, Eve: Patrick.
+(4) Bob and Eve switch partners: Alice: Sam, Bob: Eve, Claire: Izzi, Dave: Patrick, Eve: Dave.
+(5) Alice and Bob switch partners: Alice: Eve, Bob: Sam, Claire: Izzi, Dave: Patrick, Eve: Dave.
+
+At the end of the dance, Bob is dancing with Eve. The answer is not listed in the options, so there might be an error or missing information in the question. However, based on the steps provided, the correct answer should be (E) Patrick, as Eve was dancing with Patrick before switching with Bob.
+ 36%|██████████████████████████████▌                                                     | 91/250 [1:19:30<1:45:18, 39.74s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: white, Claire: black, Dave: red, Eve: purple.
+(1) Bob and Claire swap: Alice: brown, Bob: black, Claire: white, Dave: red, Eve: purple.
+(2) Eve and Alice swap: Alice: purple, Bob: black, Claire: white, Dave: red, Eve: brown.
+(3) Bob and Claire swap again: Alice: purple, Bob: white, Claire: black, Dave: red, Eve: brown.
+(4) Claire and Dave swap: Alice: purple, Bob: white, Claire: red, Dave: black, Eve: brown.
+(5) Eve and Dave swap: Alice: purple, Bob: white, Claire: red, Dave: purple, Eve: black.
+
+At the end of the event, Eve has the black ball. So the answer is (C).
+ 37%|██████████████████████████████▉                                                     | 92/250 [1:20:06<1:41:39, 38.60s/it]================================================================================================================================
+(0) Start: Alice: pink ball, Bob: red, Claire: green, Dave: orange, Eve: black.
+(1) Alice and Dave swap: Alice: orange, Dave: pink ball.
+(2) Dave and Eve swap: Alice: orange, Dave: black, Eve: pink ball.
+(3) Dave and Alice swap again: Alice: black, Dave: orange, Eve: pink ball.
+(4) Bob and Claire swap: Alice: black, Dave: orange, Eve: pink ball, Bob: green, Claire: red.
+(5) Bob and Eve swap: Alice: black, Dave: orange, Eve: red, Bob: pink ball.
+
+At the end of the event, Dave has the red present. So the answer is (B).
+ 37%|███████████████████████████████▏                                                    | 93/250 [1:20:43<1:39:59, 38.22s/it]================================================================================================================================
+(0) At the start: Alice: Helga, Bob: Karl, Claire: Melissa, Dave: Ophelia, Eve: Sam.
+
+(1) Alice and Dave switch partners: Alice: Ophelia, Dave: Helga.
+(2) Eve and Alice switch partners: Alice: Eve, Dave: Ophelia, Eve: Sam.
+(3) Bob and Claire switch partners: Alice: Eve, Dave: Ophelia, Bob: Melissa, Eve: Sam.
+(4) Alice and Claire switch partners: Alice: Melissa, Dave: Ophelia, Bob: Eve, Eve: Sam.
+(5) Dave and Eve switch partners: Alice: Melissa, Dave: Sam, Bob: Eve.
+
+At the end of the dance, Dave is dancing with Sam. So the answer is (E).
+ 38%|███████████████████████████████▌                                                    | 94/250 [1:21:21<1:39:00, 38.08s/it]================================================================================================================================
+(0) Start: Alice: Melissa, Bob: Lola, Claire: Jamie, Dave: Patrick, Eve: Ophelia.
+
+(1) Bob and Dave switch partners: Alice: Melissa, Bob: Patrick, Claire: Jamie, Dave: Lola, Eve: Ophelia.
+(2) Claire and Eve switch partners: Alice: Melissa, Bob: Patrick, Claire: Ophelia, Dave: Lola, Eve: Jamie.
+(3) Dave and Alice switch partners: Alice: Patrick, Bob: Patrick, Claire: Ophelia, Dave: Melissa, Eve: Jamie.
+(4) Claire and Eve switch partners again: Alice: Patrick, Bob: Patrick, Claire: Jamie, Dave: Melissa, Eve: Ophelia.
+(5) Eve and Bob switch partners: Alice: Patrick, Bob: Ophelia, Claire: Jamie, Dave: Melissa, Eve: Patrick.
+
+At the end of the dance, Bob is dancing with Ophelia. So the answer is (E).
+ 38%|███████████████████████████████▉                                                    | 95/250 [1:22:11<1:47:10, 41.49s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: green, Claire: brown, Dave: red, Eve: white.
+(1) Eve and Claire swap: Eve: brown, Claire: white, others remain the same.
+(2) Claire and Bob swap: Eve: brown, Bob: white, Alice: green, Dave: red, Claire: purple.
+(3) Bob and Alice swap: Eve: brown, Alice: purple, Bob: green, Dave: red, Claire: white.
+(4) Eve and Alice swap: Eve: purple, Alice: brown, Bob: green, Dave: red, Claire: white.
+(5) Bob and Dave swap: Eve: purple, Alice: brown, Bob: red, Dave: green, Claire: white.
+
+At the end of the event, Eve has the purple present. So the answer is (A).
+ 38%|████████████████████████████████▎                                                   | 96/250 [1:22:59<1:51:48, 43.56s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: blue, Claire: orange, Dave: pink, Eve: white.
+(1) Dave and Alice swap: Alice: pink, Bob: blue, Claire: orange, Dave: brown, Eve: white.
+(2) Alice and Claire swap: Alice: pink, Bob: blue, Claire: brown, Dave: brown, Eve: white.
+(3) Claire and Bob swap: Alice: pink, Bob: brown, Claire: blue, Dave: brown, Eve: white.
+(4) Eve and Bob swap: Alice: pink, Bob: white, Claire: blue, Dave: brown, Eve: brown.
+(5) Alice and Dave swap: Alice: brown, Bob: white, Claire: blue, Dave: pink, Eve: brown.
+
+At the end of the game, Claire has the blue ball. So the answer is (B).
+ 39%|████████████████████████████████▌                                                   | 97/250 [1:23:38<1:47:52, 42.30s/it]================================================================================================================================
+(0) Start: Alice: Ulysses, Bob: Moby Dick, Claire: The Pearl, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(1) Alice and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: Ulysses, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+(2) Eve and Claire swap: Alice: The Pearl, Bob: Moby Dick, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Ulysses.
+(3) Claire and Bob swap: Alice: The Pearl, Bob: Ulysses, Claire: The Fellowship of the Ring, Dave: The Odyssey, Eve: Moby Dick.
+(4) Dave and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: The Odyssey, Dave: The Fellowship of the Ring, Eve: Moby Dick.
+(5) Bob and Dave swap: Alice: The Pearl, Bob: The Fellowship of the Ring, Claire: The Odyssey, Dave: Ulysses, Eve: Moby Dick.
+
+At the end of the semester, Alice has The Pearl. So the answer is (C).
+ 39%|████████████████████████████████▉                                                   | 98/250 [1:24:19<1:45:49, 41.77s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: Frankenstein, Claire: The Pearl, Dave: Catch-22, Eve: Ulysses.
+(1) Claire and Dave swap: Claire: Catch-22, Dave: The Pearl.
+(2) Bob and Alice swap: Alice: Frankenstein, Bob: Catch-22.
+(3) Dave and Alice swap: Alice: The Pearl, Dave: Frankenstein.
+(4) Bob and Claire swap: Alice: The Pearl, Bob: The Great Gatsby, Claire: Catch-22.
+(5) Dave and Eve swap: Eve: The Pearl, Dave: The Great Gatsby.
+
+At the end of the semester, Eve has The Pearl. So the answer is (C).
+ 40%|█████████████████████████████████▎                                                  | 99/250 [1:25:07<1:50:19, 43.83s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: brown, Claire: green, Dave: red, Eve: purple.
+(1) Claire and Bob swap: Claire: brown, Bob: green, Alice: pink, Dave: red, Eve: purple.
+(2) Claire and Dave swap: Claire: green, Dave: red, Bob: brown, Alice: pink, Eve: purple.
+(3) Bob and Alice swap: Claire: green, Dave: red, Bob: pink, Alice: brown, Eve: purple.
+(4) Alice and Eve swap: Claire: green, Dave: red, Bob: pink, Alice: purple, Eve: brown.
+(5) Dave and Alice swap: Claire: green, Dave: pink, Bob: purple, Alice: brown, Eve: red.
+
+At the end of the event, Claire has the green present. So the answer is (C).
+ 40%|█████████████████████████████████▏                                                 | 100/250 [1:25:47<1:46:28, 42.59s/it]================================================================================================================================
+(0) Start: Alice (LW), Bob (Benchwarmer), Claire (Striker), Dave (Fullback), Eve (CM)
+(1) Dave and Claire swap: Alice (LW), Bob (Benchwarmer), Dave (Striker), Eve (Fullback), Claire (CM)
+(2) Bob and Eve swap: Alice (LW), Eve (Benchwarmer), Dave (Striker), Fullback (??), Claire (CM)
+(3) Alice and Claire swap: Alice (CM), Eve (Benchwarmer), Dave (Striker), Fullback (??), Claire (LW)
+(4) Bob and Eve swap again: Alice (CM), Eve (Striker), Dave (Benchwarmer), Fullback (??), Claire (LW)
+(5) Claire and Bob swap: Alice (CM), Bob (Striker), Dave (Benchwarmer), Fullback (??), Eve (LW)
+
+At the end of the match, Claire is playing striker. So the answer is (C).
+ 40%|█████████████████████████████████▌                                                 | 101/250 [1:26:33<1:47:51, 43.43s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Melissa, Claire: Lola, Dave: Sam, Eve: Izzi.
+(1) Claire and Dave switch partners: Alice: Karl, Bob: Melissa, Claire: Dave, Eve: Izzi, Dave: Lola.
+(2) Eve and Bob switch partners: Alice: Karl, Bob: Eve, Claire: Dave, Dave: Lola, Eve: Melissa.
+(3) Claire and Alice switch partners: Alice: Lola, Bob: Eve, Claire: Karl, Dave: Lola, Eve: Melissa.
+(4) Eve and Alice switch partners: Alice: Lola, Bob: Eve, Claire: Karl, Dave: Lola, Eve: Karl.
+(5) Claire and Dave switch partners again: Alice: Lola, Bob: Eve, Claire: Dave, Dave: Sam, Eve: Karl.
+
+At the end of the dance, Bob is dancing with Eve. However, that option isn't listed in the provided choices. The closest match for Bob's partner would be the one he had before Eve and him switched, which was Melissa. So the answer is (B) Melissa.
+ 41%|█████████████████████████████████▊                                                 | 102/250 [1:27:20<1:50:23, 44.76s/it]================================================================================================================================
+(0) Start: Alice: Goalkeeper, Bob: Left Winger, Claire: Benchwarmer, Dave: Cheerleader, Eve: Left Midfielder.
+(1) Eve and Alice trade: Alice: Benchwarmer, Eve: Goalkeeper, Bob: Left Winger, Claire: Cheerleader, Dave: Left Midfielder.
+(2) Bob and Eve trade: Alice: Benchwarmer, Eve: Left Winger, Bob: Goalkeeper, Claire: Cheerleader, Dave: Left Midfielder.
+(3) Alice and Dave trade: Alice: Left Midfielder, Eve: Left Winger, Bob: Goalkeeper, Claire: Cheerleader, Dave: Benchwarmer.
+(4) Bob and Eve trade again: Alice: Left Midfielder, Eve: Goalkeeper, Bob: Left Winger, Claire: Cheerleader, Dave: Benchwarmer.
+(5) Eve and Claire trade: Alice: Left Midfielder, Eve: Goalkeeper, Bob: Left Winger, Claire: Benchwarmer, Dave: Benchwarmer.
+
+At the end of the match, Eve is playing Goalkeeper. So the answer is (A).
+ 41%|██████████████████████████████████▏                                                | 103/250 [1:28:03<1:48:02, 44.10s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: purple, Claire: black, Dave: blue, Eve: red.
+(1) Dave and Eve swap: Alice: green, Bob: purple, Claire: black, Dave: red, Eve: blue.
+(2) Bob and Alice swap: Alice: purple, Bob: green, Claire: black, Dave: red, Eve: blue.
+(3) Eve and Claire swap: Alice: purple, Bob: green, Claire: blue, Dave: red, Eve: black.
+(4) Bob and Dave swap: Alice: purple, Bob: blue, Claire: blue, Dave: red, Eve: black.
+(5) Dave and Claire swap: Alice: purple, Bob: blue, Claire: red, Dave: black, Eve: blue.
+
+At the end of the game, Claire has the red ball. So the answer is (E).
+ 42%|██████████████████████████████████▌                                                | 104/250 [1:28:48<1:47:46, 44.29s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: blue, Claire: black, Dave: white, Eve: purple.
+(1) Bob and Dave swap: Alice: orange, Bob: white, Claire: black, Dave: blue, Eve: purple.
+(2) Claire and Eve swap: Alice: orange, Bob: white, Claire: purple, Dave: blue, Eve: black.
+(3) Dave and Eve swap: Alice: orange, Bob: white, Claire: purple, Dave: black, Eve: blue.
+(4) Claire and Dave swap: Alice: orange, Bob: white, Claire: black, Dave: purple, Eve: blue.
+(5) Alice and Bob swap: Alice: blue, Bob: orange, Claire: black, Dave: purple, Eve: blue.
+At the end of the game, Dave has the blue ball. So the answer is (B).
+ 42%|██████████████████████████████████▊                                                | 105/250 [1:29:31<1:46:19, 44.00s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: green, Claire: brown, Dave: black, Eve: orange.
+(1) Claire and Alice swap: Alice: brown, Bob: green, Claire: red, Dave: black, Eve: orange.
+(2) Dave and Eve swap: Alice: brown, Bob: green, Claire: red, Dave: orange, Eve: black.
+(3) Claire and Eve swap: Alice: brown, Bob: green, Claire: orange, Dave: orange, Eve: red.
+(4) Bob and Claire swap: Alice: brown, Bob: red, Claire: green, Dave: orange, Eve: orange.
+(5) Alice and Claire swap: Alice: green, Bob: red, Claire: brown, Dave: orange, Eve: orange.
+At the end of the game, Alice has the green ball. So the answer is (B).
+ 42%|███████████████████████████████████▏                                               | 106/250 [1:30:09<1:41:14, 42.18s/it]================================================================================================================================
+(0) Start: Alice (benchwarmer), Bob (left midfielder), Claire (right midfielder), Dave (goalkeeper), Eve (center midfielder).
+(1) Dave and Bob trade: Alice, Bob (benchwarmer), Claire, Dave (left midfielder), Eve.
+(2) Dave and Claire trade: Alice, Bob (benchwarmer), Dave (right midfielder), Eve (left midfielder).
+(3) Eve and Bob trade: Alice, Eve (benchwarmer), Dave (right midfielder), Bob (center midfielder).
+(4) Alice and Dave trade: Eve (benchwarmer), Alice (right midfielder), Dave (center midfielder), Bob.
+(5) Eve and Claire trade: Eve (benchwarmer), Alice (right midfielder), Claire (center midfielder), Dave (right midfielder), Bob.
+
+At the end of the match, Claire is playing center midfielder. So the answer is (E).
+ 43%|███████████████████████████████████▌                                               | 107/250 [1:30:58<1:45:17, 44.18s/it]================================================================================================================================
+(0) Start: Alice (RM), Bob (Cheer), Claire (LM), Dave (LW), Eve (Bench).
+(1) Dave and Bob trade: Alice (RM), Bob (LW), Claire (LM), Dave (Cheer), Eve (Bench).
+(2) Claire and Dave trade: Alice (RM), Bob (Cheer), Claire (LW), Dave (RM), Eve (Bench).
+(3) Alice and Claire trade: Alice (LM), Bob (Cheer), Claire (RM), Dave (RM), Eve (Bench).
+(4) Claire and Dave trade again: Alice (LM), Bob (Cheer), Claire (RM), Dave (LM), Eve (Bench).
+(5) Eve and Alice trade: Alice (Bench), Bob (Cheer), Claire (RM), Dave (LM), Eve (LM).
+
+At the end of the match, Claire is playing right midfielder. So the answer is (A).
+ 43%|███████████████████████████████████▊                                               | 108/250 [1:31:46<1:47:41, 45.50s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: purple, Claire: green, Dave: brown, Eve: orange.
+(1) Bob and Claire swap: Alice: blue, Bob: green, Claire: purple, Dave: brown, Eve: orange.
+(2) Dave and Bob swap: Alice: blue, Bob: brown, Claire: purple, Dave: green, Eve: orange.
+(3) Claire and Bob swap: Alice: blue, Bob: purple, Claire: brown, Dave: green, Eve: orange.
+(4) Bob and Alice swap: Alice: purple, Bob: brown, Claire: green, Dave: blue, Eve: orange.
+(5) Eve and Bob swap: Alice: purple, Bob: orange, Claire: green, Dave: blue, Eve: brown.
+At the end of the game, Claire has the green ball. So the answer is (C).
+ 44%|████████████████████████████████████▏                                              | 109/250 [1:32:29<1:44:46, 44.58s/it]================================================================================================================================
+(0) Start: Alice (CM), Bob (LM), Claire (RM), Dave (Bench), Eve (LW)
+(1) Eve and Bob trade: Alice (CM), Bob (LW), Claire (RM), Dave (Bench), Eve (LM)
+(2) Alice and Bob trade: Alice (LM), Bob (RM), Claire (LM), Dave (Bench), Eve (CM)
+(3) Alice and Dave trade: Alice (RM), Bob (LM), Claire (LM), Dave (CM), Eve (CM)
+(4) Claire and Alice trade: Alice (RM), Bob (LM), Claire (CM), Dave (CM), Eve (CM)
+(5) Dave and Eve trade: Alice (RM), Bob (LM), Claire (CM), Dave (LM), Eve (CM)
+
+At the end of the match, Alice is playing left midfielder (LM). So the answer is (B).
+ 44%|████████████████████████████████████▌                                              | 110/250 [1:33:06<1:39:02, 42.45s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: red, Dave: pink, Eve: blue.
+(1) Eve and Bob swap: Alice: orange, Bob: blue, Claire: red, Dave: pink, Eve: black.
+(2) Claire and Eve swap: Alice: orange, Bob: blue, Claire: black, Dave: pink, Eve: red.
+(3) Bob and Dave swap: Alice: orange, Bob: pink, Claire: black, Dave: blue, Eve: red.
+(4) Eve and Alice swap: Alice: pink, Bob: black, Claire: red, Dave: blue, Eve: orange.
+(5) Dave and Bob swap: Alice: pink, Bob: blue, Claire: red, Dave: black, Eve: orange.
+At the end of the game, Bob has the blue ball. So the answer is (E).
+ 44%|████████████████████████████████████▊                                              | 111/250 [1:33:50<1:39:10, 42.81s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: orange, Claire: white, Dave: red, Eve: pink.
+(1) Eve and Alice swap: Alice: pink, Eve: green, Bob: orange, Claire: white, Dave: red.
+(2) Dave and Bob swap: Alice: pink, Eve: green, Bob: red, Claire: white, Dave: orange.
+(3) Claire and Dave swap: Alice: pink, Eve: green, Bob: red, Claire: orange, Dave: white.
+(4) Eve and Claire swap: Alice: pink, Eve: orange, Bob: red, Claire: green, Dave: white.
+(5) Bob and Dave swap: Alice: pink, Eve: orange, Bob: white, Claire: green, Dave: red.
+
+At the end of the event, Claire has the green present. So the answer is (A).
+ 45%|█████████████████████████████████████▏                                             | 112/250 [1:34:39<1:42:57, 44.76s/it]================================================================================================================================
+(0) At the start: Alice: Izzi, Bob: Lola, Claire: Sam, Dave: Patrick, Eve: Jamie.
+(1) Claire and Eve switch: Alice: Izzi, Bob: Lola, Claire: Jamie, Dave: Patrick, Eve: Sam.
+(2) Dave and Alice switch: Alice: Patrick, Bob: Lola, Claire: Jamie, Dave: Izzi, Eve: Sam.
+(3) Claire and Dave switch: Alice: Patrick, Bob: Lola, Claire: Izzi, Dave: Jamie, Eve: Sam.
+(4) Claire and Alice switch: Alice: Izzi, Bob: Lola, Claire: Patrick, Dave: Jamie, Eve: Sam.
+(5) Bob and Eve switch: Alice: Izzi, Bob: Jamie, Claire: Patrick, Dave: Jamie, Eve: Lola.
+
+At the end of the dance, Alice is dancing with Izzi. So the answer is (A).
+ 45%|█████████████████████████████████████▌                                             | 113/250 [1:35:16<1:36:54, 42.44s/it]================================================================================================================================
+(0) At the start: Alice: Melissa, Bob: Patrick, Claire: Izzi, Dave: Lola, Eve: Rodrigo.
+
+(1) Alice and Claire switch partners: Alice: Izzi, Bob: Patrick, Claire: Melissa, Dave: Lola, Eve: Rodrigo.
+(2) Dave and Eve switch partners: Alice: Izzi, Bob: Patrick, Claire: Melissa, Dave: Rodrigo, Eve: Lola.
+(3) Alice and Claire switch again: Alice: Melissa, Bob: Patrick, Claire: Izzi, Dave: Rodrigo, Eve: Lola.
+(4) Alice and Eve switch partners: Alice: Melissa, Bob: Patrick, Claire: Izzi, Dave: Lola, Eve: Rodrigo.
+(5) Dave and Bob switch partners: Alice: Melissa, Bob: Lola, Claire: Izzi, Dave: Rodrigo, Eve: Patrick.
+
+At the end of the dance, Bob is dancing with Lola. So the answer is (D).
+ 46%|█████████████████████████████████████▊                                             | 114/250 [1:35:52<1:31:20, 40.29s/it]================================================================================================================================
+(0) Start: Alice: Moby Dick, Bob: Catch-22, Claire: The Fellowship of the Ring, Dave: Ulysses, Eve: The Odyssey.
+(1) Claire and Bob swap: Alice: Moby Dick, Bob: The Fellowship of the Ring, Claire: Catch-22, Dave: Ulysses, Eve: The Odyssey.
+(2) Claire and Alice swap: Alice: The Fellowship of the Ring, Bob: Catch-22, Claire: Moby Dick, Dave: Ulysses, Eve: The Odyssey.
+(3) Dave and Claire swap: Alice: The Fellowship of the Ring, Bob: Catch-22, Claire: Ulysses, Dave: Moby Dick, Eve: The Odyssey.
+(4) Eve and Dave swap: Alice: The Fellowship of the Ring, Bob: Catch-22, Claire: Ulysses, Dave: The Odyssey, Eve: Moby Dick.
+(5) Eve and Alice swap: Alice: Ulysses, Bob: Catch-22, Claire: Ulysses, Dave: The Odyssey, Eve: Moby Dick.
+
+At the end of the semester, Eve has Moby Dick. So the answer is (A).
+ 46%|██████████████████████████████████████▏                                            | 115/250 [1:36:32<1:30:36, 40.27s/it]================================================================================================================================
+(0) Start: Alice: Hound, Bob: Fellowship, Claire: Ulysses, Dave: Lolita, Eve: Moby Dick.
+
+(1) Bob and Alice swap: Alice: Fellowship, Bob: Hound, Claire: Ulysses, Dave: Lolita, Eve: Moby Dick.
+
+(2) Claire and Eve swap: Alice: Fellowship, Bob: Hound, Claire: Moby Dick, Dave: Lolita, Eve: Ulysses.
+
+(3) Claire and Dave swap: Alice: Fellowship, Bob: Hound, Claire: Lolita, Dave: Moby Dick, Eve: Ulysses.
+
+(4) Bob and Dave swap: Alice: Fellowship, Bob: Moby Dick, Claire: Lolita, Dave: Hound, Eve: Ulysses.
+
+(5) Claire and Eve swap again: Alice: Fellowship, Bob: Moby Dick, Claire: Ulysses, Dave: Hound, Eve: Lolita.
+
+At the end of the semester, Claire has Ulysses. So the answer is (C).
+ 46%|██████████████████████████████████████▌                                            | 116/250 [1:37:15<1:31:58, 41.18s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: Catch-22, Claire: The Pearl, Dave: The Fellowship of the Ring, Eve: Hound of the Baskervilles.
+
+(1) Eve and Claire swap: Alice: The Great Gatsby, Bob: Catch-22, Claire: Hound of the Baskervilles, Dave: The Fellowship of the Ring, Eve: The Pearl.
+
+(2) Bob and Eve swap: Alice: The Great Gatsby, Bob: Hound of the Baskervilles, Claire: The Pearl, Dave: The Fellowship of the Ring, Eve: Catch-22.
+
+(3) Claire and Dave swap: Alice: The Great Gatsby, Bob: Hound of the Baskervilles, Claire: The Fellowship of the Ring, Dave: The Pearl, Eve: Catch-22.
+
+(4) Bob and Eve swap again: Alice: The Great Gatsby, Bob: The Pearl, Claire: The Fellowship of the Ring, Dave: Hound of the Baskervilles, Eve: Catch-22.
+
+(5) Alice and Bob swap: Alice: The Pearl, Bob: The Great Gatsby, Claire: The Fellowship of the Ring, Dave: Hound of the Baskervilles, Eve: Catch-22.
+
+At the end of the semester, Alice has The Pearl. So the answer is (C).
+ 47%|██████████████████████████████████████▊                                            | 117/250 [1:38:05<1:37:10, 43.84s/it]================================================================================================================================
+(0) Start: Alice: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+(1) Eve and Alice swap: Alice: Ulysses, Eve: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound.
+(2) Dave and Bob swap: Alice: Ulysses, Eve: Lolita, Bob: Hound, Claire: Frankenstein, Dave: Gatsby.
+(3) Eve and Claire swap: Alice: Ulysses, Eve: Frankenstein, Bob: Hound, Claire: Lolita, Dave: Gatsby.
+(4) Bob and Alice swap: Alice: Frankenstein, Eve: Ulysses, Bob: Lolita, Claire: Hound, Dave: Gatsby.
+(5) Claire and Dave swap: Alice: Frankenstein, Eve: Ulysses, Bob: Lolita, Claire: Gatsby, Dave: Hound.
+
+At the end of the semester, Alice has Frankenstein. So the answer is (C).
+ 47%|███████████████████████████████████████▏                                           | 118/250 [1:38:56<1:40:59, 45.90s/it]================================================================================================================================
+(0) At the start: Alice: Sam, Bob: Izzi, Claire: Jamie, Dave: Ophelia, Eve: Patrick.
+
+(1) Bob and Dave switch partners: Bob: Ophelia, Dave: Izzi.
+(2) Alice and Eve switch partners: Alice: Patrick, Eve: Sam.
+(3) Claire and Dave switch partners: Claire: Ophelia, Dave: Jamie.
+(4) Bob and Eve switch partners: Bob: Jamie, Eve: Ophelia.
+(5) Alice and Bob switch partners: Alice: Izzi, Bob: Patrick.
+
+At the end of the dance, Eve is dancing with Bob, who now has Jamie as his partner.
+
+So the answer is (C) Jamie.
+ 48%|███████████████████████████████████████▌                                           | 119/250 [1:39:38<1:37:33, 44.68s/it]================================================================================================================================
+(0) At the start: Alice: pink, Bob: white, Claire: red, Dave: purple, Eve: yellow.
+(1) Alice and Dave swap: Alice: purple, Bob: white, Claire: red, Dave: pink, Eve: yellow.
+(2) Claire and Eve swap: Alice: purple, Bob: white, Claire: yellow, Dave: pink, Eve: red.
+(3) Alice and Bob swap: Alice: white, Bob: purple, Claire: yellow, Dave: pink, Eve: red.
+(4) Dave and Claire swap: Alice: white, Bob: purple, Claire: pink, Dave: yellow, Eve: red.
+(5) Alice and Claire swap: Alice: pink, Bob: purple, Claire: white, Dave: yellow, Eve: red.
+At the end of the game, Eve has the red ball. So the answer is (C).
+ 48%|███████████████████████████████████████▊                                           | 120/250 [1:40:19<1:34:22, 43.56s/it]================================================================================================================================
+(0) Start: Alice (RW), Bob (GK), Claire (Bench), Dave (CM), Eve (LM)
+(1) Claire and Eve swap: Alice (RW), Bob (GK), Eve (Bench), Dave (CM), Claire (LM)
+(2) Claire and Alice swap: Alice (LM), Bob (GK), Eve (Bench), Dave (CM), Claire (RW)
+(3) Alice and Dave swap: Alice (CM), Bob (GK), Eve (Bench), Dave (RW), Claire (RW)
+(4) Bob and Eve swap: Alice (CM), Eve (GK), Bob (Bench), Dave (RW), Claire (RW)
+(5) Alice and Claire swap: Alice (Bench), Eve (GK), Bob (RW), Dave (CM), Claire (CM)
+
+At the end of the match, Dave is playing as a center midfielder. So the answer is (D).
+ 48%|████████████████████████████████████████▏                                          | 121/250 [1:41:05<1:35:34, 44.45s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Karl, Claire: Izzi, Dave: Sam, Eve: Melissa.
+(1) Bob and Alice switch: Alice: Karl, Bob: Helga, Claire: Izzi, Dave: Sam, Eve: Melissa.
+(2) Bob and Claire switch: Alice: Karl, Bob: Izzi, Claire: Helga, Dave: Sam, Eve: Melissa.
+(3) Dave and Claire switch: Alice: Karl, Bob: Izzi, Claire: Sam, Dave: Helga, Eve: Melissa.
+(4) Eve and Dave switch: Alice: Karl, Bob: Izzi, Claire: Sam, Dave: Melissa, Eve: Helga.
+(5) Bob and Alice switch again: Alice: Melissa, Bob: Karl, Claire: Sam, Dave: Melissa, Eve: Helga.
+
+At the end of the dance, Eve is dancing with Helga. So the answer is (A).
+ 49%|████████████████████████████████████████▌                                          | 122/250 [1:41:50<1:35:14, 44.65s/it]================================================================================================================================
+(0) Start: Alice (cheerleader), Bob (fullback), Claire (center midfielder), Dave (left midfielder), Eve (goalkeeper).
+(1) Dave and Alice trade: Alice (left midfielder), Bob (fullback), Claire (center midfielder), Dave (cheerleader), Eve (goalkeeper).
+(2) Alice and Bob trade: Alice (fullback), Bob (left midfielder), Claire (center midfielder), Dave (cheerleader), Eve (goalkeeper).
+(3) Dave and Eve trade: Alice (fullback), Bob (left midfielder), Claire (center midfielder), Dave (goalkeeper), Eve (cheerleader).
+(4) Bob and Dave trade: Alice (fullback), Dave (left midfielder), Claire (center midfielder), Eve (goalkeeper), Bob (cheerleader).
+(5) Alice and Claire trade: Alice (center midfielder), Dave (left midfielder), Claire (fullback), Eve (goalkeeper), Bob (cheerleader).
+
+At the end of the match, Claire is playing fullback. So the answer is (B).
+ 49%|████████████████████████████████████████▊                                          | 123/250 [1:42:32<1:32:51, 43.87s/it]================================================================================================================================
+(0) Start: Alice: fullback, Bob: right winger, Claire: center midfielder, Dave: striker, Eve: benchwarmer.
+(1) Alice and Bob trade: Alice: right winger, Bob: fullback, Claire: center midfielder, Dave: striker, Eve: benchwarmer.
+(2) Dave and Bob trade: Alice: right winger, Bob: striker, Claire: center midfielder, Dave: fullback, Eve: benchwarmer.
+(3) Alice and Claire trade: Alice: center midfielder, Bob: striker, Claire: right winger, Dave: fullback, Eve: benchwarmer.
+(4) Bob and Claire trade: Alice: center midfielder, Bob: fullback, Claire: striker, Dave: right winger, Eve: benchwarmer.
+(5) Alice and Eve trade: Alice: benchwarmer, Bob: fullback, Claire: striker, Dave: right winger, Eve: center midfielder.
+
+At the end of the match, Dave is playing fullback. So the answer is (A).
+ 50%|█████████████████████████████████████████▏                                         | 124/250 [1:43:11<1:28:59, 42.38s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: black, Claire: red, Dave: white, Eve: blue.
+(1) Alice and Dave swap: Alice: white, Bob: black, Claire: red, Dave: green, Eve: blue.
+(2) Dave and Eve swap: Alice: white, Bob: black, Claire: red, Dave: blue, Eve: green.
+(3) Bob and Eve swap: Alice: white, Bob: green, Claire: red, Dave: blue, Eve: black.
+(4) Bob and Dave swap: Alice: white, Bob: blue, Claire: red, Dave: green, Eve: black.
+(5) Bob and Claire swap: Alice: white, Bob: red, Claire: green, Dave: blue, Eve: black.
+
+At the end of the event, Bob has the red present. So the answer is (C).
+ 50%|█████████████████████████████████████████▌                                         | 125/250 [1:43:45<1:22:51, 39.77s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: white, Claire: black, Dave: orange, Eve: yellow.
+(1) Bob and Alice swap: Alice: white, Bob: green, Claire: black, Dave: orange, Eve: yellow.
+(2) Alice and Eve swap: Alice: yellow, Bob: green, Claire: black, Dave: orange, Eve: white.
+(3) Claire and Eve swap: Alice: yellow, Bob: green, Claire: white, Dave: orange, Eve: black.
+(4) Alice and Dave swap: Alice: orange, Bob: green, Claire: white, Dave: yellow, Eve: black.
+(5) Bob and Eve swap: Alice: orange, Bob: black, Claire: white, Dave: yellow, Eve: green.
+
+At the end of the event, Eve has the green present. So the answer is (A).
+ 50%|█████████████████████████████████████████▊                                         | 126/250 [1:44:40<1:31:31, 44.28s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: The Pearl, Claire: Hound of the Baskervilles, Dave: The Fellowship of the Ring, Eve: The Odyssey.
+
+(1) Claire and Eve swap: Eve: Hound of the Baskervilles, Claire: The Odyssey.
+(2) Alice and Dave swap: Alice: The Fellowship of the Ring, Dave: The Great Gatsby, Eve: Hound of the Baskervilles, Claire: The Odyssey, Bob: The Pearl.
+(3) Eve and Alice swap: Eve: The Great Gatsby, Alice: Hound of the Baskervilles, Dave: The Odyssey, Claire: The Pearl, Bob: The Pearl (Bob gets both The Pearl books).
+(4) Dave and Bob swap: Eve: The Great Gatsby, Alice: Hound of the Baskervilles, Dave: The Pearl, Claire: The Odyssey, Bob: The Fellowship of the Ring.
+(5) Dave and Alice swap again: Eve: The Great Gatsby, Alice: The Pearl, Dave: Hound of the Baskervilles, Claire: The Odyssey, Bob: The Fellowship of the Ring.
+
+At the end of the semester, Claire has The Odyssey. So the answer is (E).
+ 51%|██████████████████████████████████████████▏                                        | 127/250 [1:45:29<1:33:47, 45.75s/it]================================================================================================================================
+(0) At the start: Alice: Melissa, Bob: Lola, Claire: Jamie, Dave: Patrick, Eve: Ophelia.
+(1) Bob and Dave switch partners: Alice: Melissa, Bob: Patrick, Claire: Jamie, Dave: Lola, Eve: Ophelia.
+(2) Claire and Eve switch partners: Alice: Melissa, Bob: Patrick, Claire: Ophelia, Dave: Lola, Eve: Jamie.
+(3) Dave and Alice switch partners: Alice: Patrick, Bob: Patrick, Claire: Ophelia, Dave: Melissa, Eve: Jamie.
+(4) Claire and Eve switch partners again: Alice: Patrick, Bob: Patrick, Claire: Jamie, Dave: Melissa, Eve: Ophelia.
+(5) Eve and Bob switch partners: Alice: Patrick, Bob: Ophelia, Claire: Jamie, Dave: Melissa, Eve: Patrick.
+
+At the end of the dance, Claire is dancing with Jamie. So the answer is (C).
+ 51%|██████████████████████████████████████████▍                                        | 128/250 [1:46:05<1:27:24, 42.99s/it]================================================================================================================================
+(0) At the start: Alice: white, Bob: green, Claire: yellow, Dave: purple, Eve: pink.
+(1) Alice and Dave swap: Alice: purple, Bob: green, Claire: yellow, Dave: white, Eve: pink.
+(2) Claire and Dave swap: Alice: purple, Bob: green, Claire: white, Dave: yellow, Eve: pink.
+(3) Dave and Eve swap: Alice: purple, Bob: green, Claire: white, Dave: pink, Eve: yellow.
+(4) Bob and Dave swap: Alice: purple, Bob: pink, Claire: white, Dave: green, Eve: yellow.
+(5) Dave and Claire swap: Alice: purple, Bob: pink, Claire: green, Dave: white, Eve: yellow.
+At the end of the event, Alice has the purple present. So the answer is (D).
+ 52%|██████████████████████████████████████████▊                                        | 129/250 [1:46:44<1:24:12, 41.76s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: green, Claire: orange, Dave: yellow, Eve: red.
+(1) Alice and Eve swap: Alice: red, Eve: black, Bob: green, Claire: orange, Dave: yellow.
+(2) Dave and Claire swap: Alice: red, Eve: black, Bob: green, Claire: yellow, Dave: orange.
+(3) Dave and Eve swap: Alice: red, Eve: yellow, Bob: green, Claire: orange, Dave: black.
+(4) Claire and Eve swap: Alice: red, Eve: yellow, Bob: green, Claire: black, Dave: orange.
+(5) Bob and Eve swap: Alice: red, Eve: yellow, Bob: black, Claire: green, Dave: orange.
+At the end of the game, Bob has the black ball. So the answer is (A).
+ 52%|███████████████████████████████████████████▏                                       | 130/250 [1:47:34<1:28:07, 44.07s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: purple, Claire: green, Dave: brown, Eve: white.
+(1) Eve and Bob swap: Eve: purple, Bob: white, others unchanged.
+(2) Dave and Claire swap: Eve: purple, Bob: white, Dave: green, Claire: brown.
+(3) Dave and Alice swap: Eve: purple, Bob: white, Dave: black, Claire: brown.
+(4) Dave and Claire swap again: Eve: purple, Bob: white, Alice: brown, Dave: green, Claire: black.
+(5) Alice and Claire swap: Eve: purple, Bob: white, Alice: green, Dave: brown, Claire: black.
+At the end of the game, Bob has the white ball. So the answer is (E).
+ 52%|███████████████████████████████████████████▍                                       | 131/250 [1:48:17<1:26:40, 43.70s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: orange, Claire: pink, Dave: green, Eve: brown.
+(1) Bob and Eve swap: Bob: brown, Eve: orange, others unchanged.
+(2) Eve and Dave swap: Bob: brown, Eve: green, Dave: orange, others unchanged.
+(3) Dave and Alice swap: Bob: brown, Eve: green, Dave: Alice's blue (Alice: green), Claire: pink, others unchanged.
+(4) Alice and Claire swap: Bob: brown, Eve: green, Dave: pink (Dave: Alice's green), Alice: pink, Claire: green.
+(5) Bob and Claire swap: Bob: pink, Eve: green, Dave: pink, Alice: green, Claire: brown.
+
+At the end of the game, Bob has the pink ball. So the answer is (C).
+ 53%|███████████████████████████████████████████▊                                       | 132/250 [1:48:52<1:21:16, 41.33s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: green, Claire: brown, Dave: black, Eve: orange.
+(1) Claire and Alice swap: Alice: brown, Bob: green, Claire: red, Dave: black, Eve: orange.
+(2) Dave and Eve swap: Alice: brown, Bob: green, Claire: red, Dave: orange, Eve: black.
+(3) Claire and Eve swap: Alice: brown, Bob: green, Claire: orange, Dave: orange, Eve: black.
+(4) Bob and Claire swap: Alice: brown, Bob: red, Claire: orange, Dave: orange, Eve: black.
+(5) Alice and Claire swap: Alice: orange, Bob: red, Claire: brown, Dave: orange, Eve: black.
+
+At the end of the game, Eve has the black ball. So the answer is (D).
+ 53%|████████████████████████████████████████████▏                                      | 133/250 [1:49:32<1:19:29, 40.77s/it]================================================================================================================================
+(0) Start: Alice: The Odyssey, Bob: Moby Dick, Claire: Lolita, Dave: The Fellowship of the Ring, Eve: Frankenstein.
+
+(1) Eve and Bob swap: Eve: Moby Dick, Bob: Frankenstein, rest unchanged.
+(2) Dave and Alice swap: Alice: The Fellowship of the Ring, Dave: The Odyssey, rest unchanged.
+(3) Dave and Bob swap: Alice: The Odyssey, Dave: Frankenstein, Bob: The Fellowship of the Ring, rest unchanged.
+(4) Bob and Claire swap: Alice: The Odyssey, Dave: Frankenstein, Bob: Lolita, Claire: The Fellowship of the Ring, rest unchanged.
+(5) Alice and Dave swap: Alice: Frankenstein, Dave: The Odyssey, rest unchanged.
+
+At the end of the semester, Eve has Frankenstein. So the answer is (E).
+ 54%|████████████████████████████████████████████▍                                      | 134/250 [1:50:12<1:18:10, 40.44s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: white, Dave: yellow, Eve: purple.
+(1) Claire and Dave swap: Claire: yellow, Dave: white, Alice: brown, Bob: black, Eve: purple.
+(2) Alice and Eve swap: Alice: purple, Eve: brown, Dave: white, Bob: black, Claire: yellow.
+(3) Dave and Bob swap: Alice: purple, Eve: brown, Dave: black, Bob: white, Claire: yellow.
+(4) Alice and Eve swap again: Alice: black, Eve: brown, Dave: white, Bob: purple, Claire: yellow.
+(5) Claire and Eve swap: Alice: black, Eve: yellow, Dave: white, Bob: purple, Claire: brown.
+
+At the end of the game, Eve has the yellow ball. So the answer is (D).
+ 54%|████████████████████████████████████████████▊                                      | 135/250 [1:51:00<1:22:09, 42.87s/it]================================================================================================================================
+(0) Start: Alice: Fellowship, Bob: Moby Dick, Claire: Pearl, Dave: Ulysses, Eve: Frankenstein.
+
+(1) Dave and Eve swap: Eve: Ulysses, Dave: Frankenstein.
+
+(2) Bob and Dave swap: Eve: Ulysses, Dave: Moby Dick, Bob: Frankenstein.
+
+(3) Claire and Bob swap: Eve: Ulysses, Dave: Moby Dick, Bob: Pearl, Claire: Frankenstein.
+
+(4) Alice and Bob swap: Eve: Ulysses, Dave: Moby Dick, Alice: Pearl, Bob: Frankenstein.
+
+(5) Claire and Eve swap: Eve: Ulysses, Dave: Moby Dick, Alice: Pearl, Bob: Frankenstein, Claire: Frankenstein.
+
+At the end of the semester, Eve has Ulysses. So the answer is (D).
+ 54%|█████████████████████████████████████████████▏                                     | 136/250 [1:51:44<1:21:53, 43.10s/it]================================================================================================================================
+(0) Start: Alice: Frankenstein, Bob: Ulysses, Claire: Lolita, Dave: The Odyssey, Eve: The Fellowship of the Ring.
+
+(1) Eve and Dave swap: Eve: The Odyssey, Dave: The Fellowship of the Ring, rest remain the same.
+
+(2) Claire and Alice swap: Alice: Lolita, Bob: Ulysses, Claire: Frankenstein, Dave: The Fellowship of the Ring, Eve: The Odyssey.
+
+(3) Dave and Eve swap back: Alice: Lolita, Bob: Ulysses, Claire: Frankenstein, Eve: The Odyssey, Dave: The Fellowship of the Ring.
+
+(4) Bob and Claire swap: Alice: Lolita, Bob: Frankenstein, Claire: Ulysses, Eve: The Odyssey, Dave: The Fellowship of the Ring.
+
+(5) Alice and Claire swap again: Alice: Ulysses, Bob: Frankenstein, Claire: Lolita, Eve: The Odyssey, Dave: The Fellowship of the Ring.
+
+At the end of the semester, Alice has Ulysses. So the answer is (B).
+ 55%|█████████████████████████████████████████████▍                                     | 137/250 [1:52:25<1:20:02, 42.50s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: blue, Dave: orange, Eve: red.
+(1) Claire and Alice swap: Alice: blue, Claire: brown, Bob: black, Dave: orange, Eve: red.
+(2) Bob and Eve swap: Alice: blue, Claire: brown, Bob: red, Dave: orange, Eve: black.
+(3) Dave and Bob swap: Alice: blue, Claire: brown, Bob: orange, Dave: black, Eve: red.
+(4) Alice and Claire swap again: Alice: brown, Claire: blue, Bob: orange, Dave: black, Eve: red.
+(5) Eve and Dave swap: Alice: brown, Claire: blue, Bob: orange, Dave: red, Eve: black.
+
+At the end of the event, Claire has the blue present. So the answer is (C).
+ 55%|█████████████████████████████████████████████▊                                     | 138/250 [1:53:03<1:16:52, 41.19s/it]================================================================================================================================
+(0) Start: Alice (LW), Bob (Benchwarmer), Claire (Striker), Dave (Fullback), Eve (CM)
+(1) Dave and Claire swap: Alice (LW), Bob (Benchwarmer), Dave (Striker), Claire (Fullback), Eve (CM)
+(2) Bob and Eve swap: Alice (LW), Eve (Striker), Dave (Fullback), Claire (Benchwarmer), Bob (CM)
+(3) Alice and Claire swap: Alice (Striker), Eve (LW), Dave (Fullback), Claire (Bob), Bob (Benchwarmer)
+(4) Bob and Eve swap again: Alice (Striker), Eve (Benchwarmer), Dave (Fullback), Claire (Bob), Bob (LW)
+(5) Claire and Bob swap: Alice (Striker), Eve (Benchwarmer), Dave (Fullback), Claire (LW), Bob (Fullback)
+
+At the end of the match, Dave is playing fullback. So the answer is (D).
+ 56%|██████████████████████████████████████████████▏                                    | 139/250 [1:53:45<1:16:55, 41.58s/it]================================================================================================================================
+(0) At the start: Alice: Lola, Bob: Izzi, Claire: Sam, Dave: Patrick, Eve: Karl.
+
+(1) Claire and Bob switch partners: Alice: Lola, Bob: Sam, Claire: Izzi, Dave: Patrick, Eve: Karl.
+(2) Claire and Alice switch partners: Alice: Sam, Bob: Izzi, Claire: Lola, Dave: Patrick, Eve: Karl.
+(3) Bob and Claire switch partners: Alice: Sam, Bob: Lola, Claire: Izzi, Dave: Patrick, Eve: Karl.
+(4) Eve and Bob switch partners: Alice: Sam, Bob: Karl, Claire: Izzi, Dave: Patrick, Eve: Lola.
+(5) Dave and Claire switch partners: Alice: Sam, Bob: Karl, Claire: Patrick, Dave: Izzi, Eve: Lola.
+
+At the end of the dance, Claire is dancing with Patrick. So the answer is (D).
+ 56%|██████████████████████████████████████████████▍                                    | 140/250 [1:54:37<1:21:36, 44.51s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Ophelia, Claire: Patrick, Dave: Helga, Eve: Sam.
+
+(1) Claire and Eve switch partners: Alice: Karl, Bob: Ophelia, Claire: Eve, Dave: Helga, Eve: Patrick.
+(2) Alice and Claire switch partners: Alice: Eve, Bob: Ophelia, Claire: Karl, Dave: Helga, Eve: Patrick.
+(3) Bob and Dave switch partners: Alice: Eve, Bob: Helga, Claire: Karl, Dave: Ophelia, Eve: Patrick.
+(4) Alice and Eve switch partners again: Alice: Karl, Bob: Helga, Claire: Karl, Dave: Ophelia, Eve: Patrick.
+(5) Dave and Alice switch partners: Alice: Karl, Bob: Helga, Claire: Karl, Dave: Eve, Eve: Patrick.
+
+At the end of the dance, Alice is dancing with Karl. So the answer is (A).
+ 56%|██████████████████████████████████████████████▊                                    | 141/250 [1:55:21<1:20:49, 44.49s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: green, Dave: purple, Eve: yellow.
+(1) Bob and Dave swap: Bob: purple, Dave: black, Alice: brown, Claire: green, Eve: yellow.
+(2) Bob and Eve swap: Bob: yellow, Dave: black, Alice: brown, Claire: green, Eve: purple.
+(3) Dave and Claire swap: Bob: yellow, Dave: green, Alice: brown, Claire: purple, Eve: black.
+(4) Dave and Bob swap again: Bob: green, Dave: yellow, Alice: brown, Claire: purple, Eve: black.
+(5) Alice and Dave swap: Alice: green, Bob: yellow, Dave: brown, Claire: purple, Eve: black.
+
+At the end of the event, Claire has the green present. So the answer is (C).
+ 57%|███████████████████████████████████████████████▏                                   | 142/250 [1:56:06<1:20:08, 44.52s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: white, Claire: yellow, Dave: red, Eve: brown.
+(1) Eve and Dave swap: Eve: red, Dave: brown, others unchanged.
+(2) Alice and Dave swap: Alice: brown, Dave: orange, Bob: white, Claire: yellow, Eve: red.
+(3) Alice and Claire swap: Alice: yellow, Dave: orange, Bob: white, Claire: brown, Eve: red.
+(4) Dave and Bob swap: Alice: yellow, Dave: white, Bob: brown, Claire: orange, Eve: red.
+(5) Eve and Dave swap again: Eve: white, Dave: brown, Alice: yellow, Bob: orange, Claire: red.
+
+At the end of the game, Bob has the orange ball. So the answer is (A).
+ 57%|███████████████████████████████████████████████▍                                   | 143/250 [1:56:42<1:14:55, 42.02s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Midfielder, Claire: Left Winger, Dave: Cheerleader, Eve: Goalkeeper.
+(1) Dave and Bob trade: Alice: Right Winger, Bob: Cheerleader, Claire: Left Winger, Dave: Midfielder, Eve: Goalkeeper.
+(2) Dave and Eve trade: Alice: Right Winger, Bob: Cheerleader, Claire: Left Winger, Dave: Goalkeeper, Eve: Midfielder.
+(3) Alice and Bob trade: Alice: Midfielder, Bob: Right Winger, Claire: Left Winger, Dave: Goalkeeper, Eve: Midfielder.
+(4) Dave and Claire trade: Alice: Midfielder, Bob: Right Winger, Claire: Cheerleader, Dave: Goalkeeper, Eve: Midfielder.
+(5) Dave and Eve trade back: Alice: Midfielder, Bob: Right Winger, Claire: Cheerleader, Dave: Goalkeeper, Eve: Right Winger.
+
+At the end of the match, Eve is playing right winger. So the answer is (A).
+ 58%|███████████████████████████████████████████████▊                                   | 144/250 [1:57:26<1:15:28, 42.72s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Melissa, Claire: Patrick, Dave: Rodrigo, Eve: Karl.
+(1) Alice and Claire switch partners: Alice: Patrick, Bob: Melissa, Claire: Jamie, Dave: Rodrigo, Eve: Karl.
+(2) Dave and Claire switch partners: Alice: Patrick, Bob: Melissa, Claire: Rodrigo, Dave: Jamie, Eve: Karl.
+(3) Dave and Bob switch partners: Alice: Patrick, Bob: Jamie, Claire: Rodrigo, Dave: Melissa, Eve: Karl.
+(4) Dave and Claire switch partners again: Alice: Patrick, Bob: Jamie, Claire: Melissa, Dave: Karl, Eve: Rodrigo.
+(5) Dave and Eve switch partners: Alice: Patrick, Bob: Jamie, Claire: Melissa, Dave: Rodrigo, Eve: Karl.
+
+At the end of the dance, Bob is dancing with Jamie. So the answer is (A).
+ 58%|████████████████████████████████████████████████▏                                  | 145/250 [1:58:06<1:12:59, 41.71s/it]================================================================================================================================
+(0) Start: Alice (striker), Bob (fullback), Claire (cheerleader), Dave (benchwarmer), Eve (goalkeeper).
+(1) Alice and Eve swap: Alice (goalkeeper), Eve (striker), Bob (fullback), Claire (cheerleader), Dave (benchwarmer).
+(2) Alice and Claire swap: Alice (goalkeeper), Claire (striker), Eve (fullback), Dave (benchwarmer), Bob (cheerleader).
+(3) Dave and Bob swap: Alice (goalkeeper), Claire (striker), Eve (fullback), Bob (benchwarmer), Dave (cheerleader).
+(4) Alice and Dave swap: Alice (goalkeeper), Claire (striker), Eve (fullback), Dave (striker), Bob (benchwarmer).
+(5) Dave and Eve swap: Alice (goalkeeper), Claire (striker), Eve (benchwarmer), Dave (fullback), Bob (cheerleader).
+
+At the end of the match, Claire is playing fullback. So the answer is (B).
+ 58%|████████████████████████████████████████████████▍                                  | 146/250 [1:58:47<1:12:05, 41.59s/it]================================================================================================================================
+(0) Start: Alice: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+(1) Eve and Alice swap: Alice: Ulysses, Eve: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound.
+(2) Dave and Bob swap: Alice: Ulysses, Eve: Lolita, Bob: Hound, Claire: Frankenstein, Dave: Gatsby.
+(3) Eve and Claire swap: Alice: Ulysses, Eve: Frankenstein, Bob: Hound, Claire: Lolita, Dave: Gatsby.
+(4) Bob and Alice swap: Alice: Hound, Eve: Frankenstein, Bob: Ulysses, Claire: Lolita, Dave: Gatsby.
+(5) Claire and Dave swap: Alice: Hound, Eve: Frankenstein, Bob: Ulysses, Claire: Gatsby, Dave: Lolita.
+
+At the end of the semester, Eve has Frankenstein. So the answer is (C).
+ 59%|████████████████████████████████████████████████▊                                  | 147/250 [1:59:23<1:08:34, 39.94s/it]================================================================================================================================
+(0) Start: Alice: Helga, Bob: Karl, Claire: Izzi, Dave: Sam, Eve: Melissa.
+(1) Bob and Alice switch: Alice: Karl, Bob: Helga, Claire: Izzi, Dave: Sam, Eve: Melissa.
+(2) Bob and Claire switch: Alice: Karl, Bob: Izzi, Claire: Helga, Dave: Sam, Eve: Melissa.
+(3) Dave and Claire switch: Alice: Karl, Bob: Izzi, Claire: Sam, Dave: Helga, Eve: Melissa.
+(4) Eve and Dave switch: Alice: Karl, Bob: Izzi, Claire: Sam, Dave: Melissa, Eve: Helga.
+(5) Bob and Alice switch again: Alice: Izzi, Bob: Melissa, Claire: Sam, Dave: Helga, Eve: Karl.
+
+At the end of the dance, Dave is dancing with Helga. So the answer is (A).
+ 59%|█████████████████████████████████████████████████▏                                 | 148/250 [2:00:19<1:15:49, 44.60s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: black, Claire: brown, Dave: orange, Eve: red.
+(1) Bob and Dave swap: Bob: orange, Dave: black.
+(2) Alice and Dave swap: Alice: black, Dave: blue.
+(3) Eve and Claire swap: Eve: brown, Claire: red.
+(4) Alice and Bob swap: Alice: black (from step 2), Bob: brown (from step 3).
+(5) Dave and Claire swap: Dave: red, Claire: black (Bob's old gift).
+
+Now, we look at Alice's gift: Alice: black.
+
+So the answer is (B).
+ 60%|█████████████████████████████████████████████████▍                                 | 149/250 [2:00:56<1:11:19, 42.37s/it]================================================================================================================================
+(0) At the start: Alice: black, Bob: brown, Claire: red, Dave: white, Eve: green.
+(1) Bob and Alice swap: Alice: brown, Bob: black, Claire: red, Dave: white, Eve: green.
+(2) Alice and Claire swap: Alice: red, Bob: black, Claire: brown, Dave: white, Eve: green.
+(3) Eve and Alice swap: Alice: green, Bob: black, Claire: brown, Dave: white, Eve: red.
+(4) Claire and Bob swap: Alice: green, Bob: brown, Claire: black, Dave: white, Eve: red.
+(5) Claire and Dave swap: Alice: green, Bob: brown, Claire: black, Dave: brown, Eve: red.
+
+At the end of the game, Dave has the brown ball. So the answer is (B).
+ 60%|█████████████████████████████████████████████████▊                                 | 150/250 [2:01:36<1:09:21, 41.61s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: brown, Claire: purple, Dave: white, Eve: blue.
+(1) Alice and Bob swap: Alice: brown, Bob: green, Claire: purple, Dave: white, Eve: blue.
+(2) Bob and Eve swap: Alice: brown, Bob: blue, Claire: purple, Dave: white, Eve: green.
+(3) Dave and Eve swap: Alice: brown, Bob: blue, Claire: purple, Dave: blue, Eve: white.
+(4) Alice and Claire swap: Alice: purple, Bob: blue, Claire: green, Dave: blue, Eve: white.
+(5) Bob and Eve swap again: Alice: purple, Bob: green, Claire: blue, Dave: blue, Eve: white.
+
+At the end of the event, Claire has the blue present. So the answer is (E).
+ 60%|██████████████████████████████████████████████████▏                                | 151/250 [2:02:08<1:04:13, 38.92s/it]================================================================================================================================
+(0) Start: Alice: Fellowship, Bob: Odyssey, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+(1) Alice and Claire swap: Alice: Frankenstein, Claire: Fellowship, Bob: Odyssey, Dave: Hound, Eve: Ulysses.
+(2) Alice and Eve swap: Alice: Ulysses, Claire: Fellowship, Bob: Odyssey, Dave: Hound, Eve: Frankenstein.
+(3) Dave and Claire swap: Alice: Ulysses, Claire: Hound, Bob: Odyssey, Dave: Frankenstein, Eve: Frankenstein.
+(4) Dave and Bob swap: Alice: Ulysses, Claire: Hound, Bob: Frankenstein, Dave: Odyssey, Eve: Frankenstein.
+(5) Dave and Alice swap: Alice: Hound, Claire: Ulysses, Bob: Frankenstein, Dave: Odyssey, Eve: Frankenstein.
+At the end of the semester, Claire has Ulysses. So the answer is (E).
+ 61%|██████████████████████████████████████████████████▍                                | 152/250 [2:02:51<1:05:25, 40.05s/it]================================================================================================================================
+(0) Start: Alice: brown, Bob: white, Claire: black, Dave: red, Eve: purple.
+(1) Bob and Claire swap: Bob: black, Claire: white, Alice: brown, Dave: red, Eve: purple.
+(2) Eve and Alice swap: Alice: purple, Bob: black, Claire: white, Dave: red, Eve: brown.
+(3) Bob and Claire swap again: Bob: white, Claire: black, Alice: purple, Dave: red, Eve: brown.
+(4) Claire and Dave swap: Bob: white, Claire: red, Alice: purple, Dave: black, Eve: brown.
+(5) Eve and Dave swap: Bob: white, Dave: purple, Claire: red, Alice: purple, Eve: black.
+
+At the end of the event, Bob has the purple present. So the answer is (E).
+ 61%|██████████████████████████████████████████████████▊                                | 153/250 [2:03:25<1:02:04, 38.40s/it]================================================================================================================================
+(0) Start: Alice (striker), Bob (fullback), Claire (left winger), Dave (center midfielder), Eve (benchwarmer).
+(1) Claire and Bob swap: Alice (striker), Bob (left winger), Claire (fullback), Dave (center midfielder), Eve (benchwarmer).
+(2) Dave and Claire swap: Alice (striker), Bob (left winger), Claire (center midfielder), Dave (fullback), Eve (benchwarmer).
+(3) Alice and Bob swap: Alice (left winger), Bob (center midfielder), Claire (striker), Dave (fullback), Eve (benchwarmer).
+(4) Eve and Dave swap: Alice (left winger), Bob (center midfielder), Claire (striker), Dave (benchwarmer), Eve (fullback).
+(5) Alice and Dave swap: Alice (center midfielder), Bob (fullback), Claire (striker), Dave (benchwarmer), Eve (left winger).
+
+At the end of the match, Claire is playing striker. So the answer is (A).
+ 62%|████████████████████████████████████████████████████▎                                | 154/250 [2:04:01<59:51, 37.42s/it]================================================================================================================================
+(0) Start: Alice: G, Bob: S, Claire: C, Dave: CM, Eve: RM.
+(1) Eve and Dave trade: Alice: G, Bob: S, Claire: C, Dave: RM, Eve: CM.
+(2) Dave and Bob trade: Alice: G, Bob: CM, Claire: C, Dave: RM, Eve: S.
+(3) Dave and Claire trade: Alice: G, Bob: CM, Claire: RM, Dave: S, Eve: S.
+(4) Dave and Bob trade again: Alice: G, Bob: RM, Claire: RM, Dave: S, Eve: S.
+(5) Alice and Bob trade: Alice: RM, Bob: G, Claire: RM, Dave: S, Eve: S.
+At the end of the match, Claire is playing right midfielder (RM). So the answer is (E).
+ 62%|███████████████████████████████████████████████████▍                               | 155/250 [2:04:40<1:00:24, 38.15s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: pink, Claire: black, Dave: brown, Eve: purple.
+(1) Claire and Dave swap: Alice: red, Bob: pink, Claire: brown, Dave: black.
+(2) Eve and Dave swap: Alice: red, Bob: pink, Claire: black, Dave: purple, Eve: brown.
+(3) Eve and Claire swap: Alice: red, Bob: pink, Claire: purple, Dave: brown, Eve: black.
+(4) Dave and Bob swap: Alice: red, Bob: brown, Claire: purple, Dave: pink, Eve: black.
+(5) Alice and Claire swap: Alice: purple, Bob: brown, Claire: red, Dave: pink, Eve: black.
+
+At the end of the event, Alice has the purple present. So the answer is (E).
+ 62%|█████████████████████████████████████████████████████                                | 156/250 [2:05:17<58:54, 37.60s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: brown, Claire: green, Dave: white, Eve: red.
+(1) Bob and Claire swap: Alice: blue, Bob: green, Claire: brown, Dave: white, Eve: red.
+(2) Dave and Eve swap: Alice: blue, Bob: green, Claire: brown, Dave: red, Eve: white.
+(3) Alice and Eve swap: Alice: green, Bob: green, Claire: brown, Dave: red, Eve: blue.
+(4) Dave and Claire swap: Alice: green, Bob: brown, Claire: red, Dave: blue, Eve: white.
+(5) Bob and Dave swap: Alice: green, Bob: blue, Claire: red, Dave: brown, Eve: white.
+At the end of the game, Claire has the red ball. So the answer is (E).
+ 63%|█████████████████████████████████████████████████████▍                               | 157/250 [2:05:55<58:34, 37.79s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: yellow, Claire: green, Dave: pink, Eve: white.
+(1) Claire and Alice swap: Alice: green, Claire: red, Bob: yellow, Dave: pink, Eve: white.
+(2) Dave and Eve swap: Alice: green, Claire: red, Bob: yellow, Dave: white, Eve: pink.
+(3) Bob and Dave swap: Alice: green, Claire: red, Bob: pink, Dave: yellow, Eve: white.
+(4) Eve and Dave swap: Alice: green, Claire: red, Bob: pink, Dave: white, Eve: pink.
+(5) Dave and Alice swap: Alice: pink, Claire: red, Bob: pink, Dave: white, Eve: pink.
+At the end of the event, Claire has the red present. So the answer is (A).
+ 63%|████████████████████████████████████████████████████▍                              | 158/250 [2:06:39<1:00:39, 39.56s/it]================================================================================================================================
+(0) Start: Alice: right winger, Bob: striker, Claire: cheerleader, Dave: right midfielder, Eve: left midfielder.
+(1) Eve and Bob trade: Alice: right winger, Eve: striker, Dave: right midfielder, Bob: left midfielder, Claire: cheerleader.
+(2) Eve and Dave trade: Alice: right winger, Eve: right midfielder, Dave: striker, Bob: left midfielder, Claire: cheerleader.
+(3) Alice and Eve trade: Alice: right midfielder, Eve: striker, Dave: right winger, Bob: left midfielder, Claire: cheerleader.
+(4) Bob and Claire trade: Alice: right midfielder, Eve: striker, Dave: right winger, Bob: cheerleader, Claire: left midfielder.
+(5) Eve and Claire trade: Alice: right midfielder, Eve: striker, Dave: right winger, Bob: left midfielder, Claire: right midfielder.
+
+At the end of the match, Dave is playing right winger. So the answer is (A).
+ 64%|████████████████████████████████████████████████████▊                              | 159/250 [2:07:21<1:01:10, 40.33s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: blue, Claire: black, Dave: white, Eve: purple.
+(1) Bob and Dave swap: Alice: orange, Bob: white, Claire: black, Dave: blue, Eve: purple.
+(2) Claire and Eve swap: Alice: orange, Bob: white, Claire: purple, Dave: blue, Eve: black.
+(3) Dave and Eve swap: Alice: orange, Bob: white, Claire: purple, Dave: black, Eve: blue.
+(4) Claire and Dave swap: Alice: orange, Bob: white, Claire: black, Dave: purple, Eve: blue.
+(5) Alice and Bob swap: Alice: blue, Bob: orange, Claire: black, Dave: purple, Eve: blue.
+At the end of the game, Claire has the black ball. So the answer is (C).
+ 64%|██████████████████████████████████████████████████████▍                              | 160/250 [2:07:58<59:07, 39.42s/it]================================================================================================================================
+(0) At the start: Alice: brown, Bob: black, Claire: red, Dave: pink, Eve: blue.
+(1) Claire and Bob swap: Alice: brown, Bob: red, Claire: black, Dave: pink, Eve: blue.
+(2) Claire and Eve swap: Alice: brown, Bob: red, Claire: blue, Dave: pink, Eve: black.
+(3) Bob and Claire swap: Alice: brown, Bob: blue, Claire: red, Dave: pink, Eve: black.
+(4) Dave and Claire swap: Alice: brown, Bob: blue, Claire: pink, Dave: red, Eve: black.
+(5) Alice and Dave swap: Alice: pink, Bob: blue, Claire: pink, Dave: brown, Eve: black.
+
+At the end of the game, Eve has the black ball. So the answer is (B).
+ 64%|█████████████████████████████████████████████████████▍                             | 161/250 [2:08:42<1:00:19, 40.67s/it]================================================================================================================================
+(0) At the start: Alice: Karl, Bob: Ophelia, Claire: Patrick, Dave: Helga, Eve: Sam.
+(1) Claire and Eve switch partners: Alice: Karl, Bob: Ophelia, Claire: Sam, Dave: Helga, Eve: Patrick.
+(2) Alice and Claire switch partners: Alice: Patrick, Bob: Ophelia, Claire: Karl, Dave: Helga, Eve: Sam.
+(3) Bob and Dave switch partners: Alice: Patrick, Bob: Helga, Claire: Karl, Dave: Ophelia, Eve: Sam.
+(4) Alice and Eve switch partners: Alice: Patrick, Bob: Helga, Claire: Karl, Dave: Eve, Ophelia: Sam.
+(5) Dave and Alice switch partners: Alice: Helga, Bob: Helga, Claire: Karl, Dave: Patrick, Eve: Sam.
+At the end of the dance, Claire is dancing with Karl. So the answer is (A).
+ 65%|█████████████████████████████████████████████████████▊                             | 162/250 [2:09:29<1:02:26, 42.57s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: green, Claire: yellow, Dave: brown, Eve: black.
+(1) Claire and Bob swap: Alice: blue, Bob: yellow, Claire: green, Dave: brown, Eve: black.
+(2) Alice and Claire swap: Alice: yellow, Bob: yellow (since Claire had green), Claire: blue, Dave: brown, Eve: black.
+(3) Claire and Bob swap again: Alice: yellow, Bob: green, Claire: blue, Dave: brown, Eve: black.
+(4) Alice and Dave swap: Alice: green, Bob: green (since Alice had yellow), Claire: blue, Dave: blue (since he got Alice's yellow), Eve: black.
+(5) Dave and Eve swap: Alice: green, Bob: green, Claire: blue, Dave: black, Eve: blue (Dave got Alice's green).
+
+At the end of the game, Dave has the green ball. So the answer is (B).
+ 65%|███████████████████████████████████████████████████████▍                             | 163/250 [2:10:02<57:43, 39.81s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: green, Claire: brown, Dave: black, Eve: orange.
+(1) Claire and Alice swap: Alice: brown, Bob: green, Claire: red, Dave: black, Eve: orange.
+(2) Dave and Eve swap: Alice: brown, Bob: green, Claire: red, Dave: orange, Eve: black.
+(3) Claire and Eve swap: Alice: brown, Bob: green, Claire: orange, Dave: orange, Eve: red.
+(4) Bob and Claire swap: Alice: brown, Bob: red, Claire: green, Dave: orange, Eve: orange.
+(5) Alice and Claire swap: Alice: green, Bob: red, Claire: brown, Dave: orange, Eve: orange.
+At the end of the game, Claire has the green ball. So the answer is (B).
+ 66%|███████████████████████████████████████████████████████▊                             | 164/250 [2:10:46<58:41, 40.95s/it]================================================================================================================================
+(0) Start: Alice (cheerleader), Bob (right midfielder), Claire (left midfielder), Dave (left winger), Eve (goalkeeper).
+(1) Eve and Claire swap: Eve (left midfielder), Claire (goalkeeper), rest remain the same.
+(2) Alice and Dave swap: Alice (left winger), Dave (goalkeeper), rest remain the same.
+(3) Bob and Eve swap: Bob (goalkeeper), Eve (left winger), rest remain the same.
+(4) Dave and Bob swap: Bob (left winger), Dave (goalkeeper), rest remain the same.
+(5) Bob and Eve swap again: Bob (left winger), Eve (goalkeeper), Dave (rest remains the same).
+
+At the end of the match, Dave is playing as a goalkeeper. So the answer is (E).
+ 66%|████████████████████████████████████████████████████████                             | 165/250 [2:11:29<58:57, 41.62s/it]================================================================================================================================
+(0) At the start: Alice: green, Bob: yellow, Claire: orange, Dave: white, Eve: brown.
+(1) Eve and Dave swap: Eve: white, Dave: brown, rest remain the same.
+(2) Dave and Alice swap: Alice: brown, Dave: green, rest remain the same.
+(3) Bob and Dave swap: Alice: brown, Bob: green, Dave: yellow, rest remain the same.
+(4) Eve and Claire swap: Alice: brown, Bob: green, Dave: yellow, Eve: orange, Claire: white.
+(5) Eve and Alice swap: Eve: green, Alice: orange, Bob: green, Dave: yellow, Claire: white.
+At the end of the event, Claire has the white present. So the answer is (D).
+ 66%|███████████████████████████████████████████████████████                            | 166/250 [2:12:16<1:00:39, 43.33s/it]================================================================================================================================
+(0) Start: Alice: The Pearl, Bob: Frankenstein, Claire: Ulysses, Dave: Hound of the Baskervilles, Eve: Moby Dick.
+(1) Bob and Dave swap: Alice: The Pearl, Bob: Hound of the Baskervilles, Claire: Ulysses, Dave: Frankenstein, Eve: Moby Dick.
+(2) Bob and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: Hound of the Baskervilles, Dave: Frankenstein, Eve: Moby Dick.
+(3) Dave and Claire swap: Alice: The Pearl, Bob: Ulysses, Claire: Frankenstein, Dave: Hound of the Baskervilles, Eve: Moby Dick.
+(4) Claire and Bob swap: Alice: The Pearl, Bob: Hound of the Baskervilles, Claire: Frankenstein, Dave: Ulysses, Eve: Moby Dick.
+(5) Alice and Eve swap: Alice: Hound of the Baskervilles, Bob: Hound of the Baskervilles (since they both had it), Claire: Frankenstein, Dave: Ulysses, Eve: The Pearl.
+
+At the end of the semester, Dave has the Hound of the Baskervilles. So the answer is (D).
+ 67%|████████████████████████████████████████████████████████▊                            | 167/250 [2:12:58<59:29, 43.00s/it]================================================================================================================================
+(0) At the start: Alice: Izzi, Bob: Patrick, Claire: Helga, Dave: Rodrigo, Eve: Karl.
+
+(1) Claire and Eve switch partners: Claire: Karl, Eve: Dave.
+(2) Claire and Dave switch partners: Claire: Dave, Eve: Karl, Alice: Izzi, Bob: Patrick.
+(3) Alice and Claire switch partners: Alice: Helga, Claire: Izzi, Eve: Karl, Bob: Patrick.
+(4) Eve and Bob switch partners: Alice: Helga, Claire: Izzi, Eve: Patrick, Bob: Karl.
+(5) Claire and Eve switch partners again: Claire: Izzi, Eve: Karl, Alice: Helga, Bob: Patrick.
+
+At the end of the dance, Claire is dancing with Izzi. So the answer is (A).
+ 67%|███████████████████████████████████████████████████████▊                           | 168/250 [2:13:54<1:03:49, 46.71s/it]================================================================================================================================
+(0) Start: Alice: The Odyssey, Bob: Moby Dick, Claire: Lolita, Dave: The Fellowship of the Ring, Eve: Frankenstein.
+
+(1) Eve and Bob swap: Eve: Moby Dick, Bob: Frankenstein, others remain the same.
+(2) Dave and Alice swap: Alice: The Fellowship of the Ring, Dave: The Odyssey, others remain the same.
+(3) Dave and Bob swap: Alice: The Odyssey, Dave: Frankenstein, Bob: The Fellowship of the Ring, others remain the same.
+(4) Bob and Claire swap: Alice: The Odyssey, Dave: Frankenstein, Bob: Lolita, Claire: The Fellowship of the Ring, Eve: Moby Dick.
+(5) Alice and Dave swap: Alice: Frankenstein, Dave: The Odyssey, others remain the same.
+
+At the end of the semester, Alice has Frankenstein. So the answer is (E).
+ 68%|████████████████████████████████████████████████████████                           | 169/250 [2:14:35<1:00:47, 45.03s/it]================================================================================================================================
+(0) Start: Alice (LM), Bob (S), Claire (G), Dave (LW), Eve (C)
+(1) Dave and Claire trade: Alice (LM), Bob (S), Dave (G), Claire (LW), Eve (C)
+(2) Eve and Alice trade: Alice (C), Bob (S), Dave (G), Claire (LW), Eve (LM)
+(3) Claire and Alice trade: Eve (LM), Bob (S), Dave (G), Alice (LW), Claire (C)
+(4) Eve and Alice trade again: Eve (G), Bob (S), Dave (LW), Alice (LM), Claire (LM)
+(5) Eve and Bob trade: Eve (G), Claire (S), Dave (LW), Alice (LM), Bob (C)
+
+At the end of the match, Claire is playing as the striker. So the answer is (B).
+ 68%|█████████████████████████████████████████████████████████▊                           | 170/250 [2:15:19<59:48, 44.86s/it]================================================================================================================================
+(0) Start: Alice: Catch-22, Bob: Lolita, Claire: Ulysses, Dave: Frankenstein, Eve: The Pearl.
+(1) Bob and Claire swap: Alice: Catch-22, Bob: Ulysses, Claire: Lolita, Dave: Frankenstein, Eve: The Pearl.
+(2) Eve and Claire swap: Alice: Catch-22, Bob: Ulysses, Claire: The Pearl, Dave: Frankenstein, Eve: Lolita.
+(3) Bob and Eve swap: Alice: Catch-22, Bob: The Pearl, Claire: The Pearl, Dave: Frankenstein, Eve: Ulysses.
+(4) Dave and Alice swap: Alice: The Pearl, Bob: The Pearl, Claire: The Pearl, Dave: Catch-22, Eve: Ulysses.
+(5) Dave and Bob swap: Alice: The Pearl, Bob: Catch-22, Claire: The Pearl, Dave: Ulysses, Eve: Ulysses.
+
+At the end of the semester, Claire still has the book she started with, which is Ulysses. So the answer is (C).
+ 68%|██████████████████████████████████████████████████████████▏                          | 171/250 [2:16:05<59:24, 45.12s/it]================================================================================================================================
+(0) Start: Alice: Frankenstein, Bob: The Pearl, Claire: Hound of the Baskervilles, Dave: Ulysses, Eve: The Great Gatsby.
+(1) Dave and Claire swap: Alice: Frankenstein, Bob: The Pearl, Claire: Ulysses, Dave: Hound of the Baskervilles, Eve: The Great Gatsby.
+(2) Bob and Claire swap: Alice: Frankenstein, Bob: Ulysses, Claire: The Pearl, Dave: Hound of the Baskervilles, Eve: The Great Gatsby.
+(3) Claire and Eve swap: Alice: Frankenstein, Bob: Ulysses, Claire: The Great Gatsby, Dave: Hound of the Baskervilles, Eve: The Pearl.
+(4) Bob and Claire swap again: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Ulysses, Dave: Hound of the Baskervilles, Eve: The Pearl.
+(5) Alice and Claire swap: Alice: Ulysses, Bob: The Great Gatsby, Claire: Frankenstein, Dave: Hound of the Baskervilles, Eve: The Pearl.
+
+At the end of the semester, Alice has Ulysses. So the answer is (D).
+ 69%|██████████████████████████████████████████████████████████▍                          | 172/250 [2:16:46<57:10, 43.98s/it]================================================================================================================================
+(0) At the start: Alice: Jamie, Bob: Patrick, Claire: Karl, Dave: Helga, Eve: Izzi.
+(1) Claire and Alice switch: Alice: Karl, Bob: Patrick, Claire: Jamie, Dave: Helga, Eve: Izzi.
+(2) Alice and Dave switch: Alice: Karl, Bob: Patrick, Claire: Jamie, Dave: Helga, Eve: Izzi.
+(3) Alice and Bob switch: Alice: Karl, Bob: Jamie, Claire: Jamie, Dave: Helga, Eve: Izzi.
+(4) Bob and Eve switch: Alice: Karl, Bob: Eve, Claire: Jamie, Dave: Helga, Eve: Izzi.
+(5) Dave and Bob switch: Alice: Karl, Bob: Helga, Claire: Jamie, Dave: Eve, Eve: Izzi.
+At the end of the dance, Claire is dancing with Jamie. So the answer is (A).
+ 69%|██████████████████████████████████████████████████████████▊                          | 173/250 [2:17:17<51:19, 39.99s/it]================================================================================================================================
+(0) Start: Alice (cheerleader), Bob (center midfielder), Claire (right winger), Dave (left winger), Eve (fullback).
+(1) Eve and Bob trade: Alice, Bob (new position), Claire, Dave, Eve (new position).
+(2) Claire and Alice trade: Alice (new position), Bob, Claire (new position), Dave, Eve.
+(3) Alice and Dave trade: Alice (new position), Bob, Claire, Dave (new position), Eve.
+(4) Alice and Bob trade: Alice (new position), Claire, Dave, Bob (new position), Eve.
+(5) Alice and Dave trade again: Alice (new position), Claire, Dave (new position), Bob, Eve.
+
+At the end of the match, Eve is playing the position she started with, which is fullback. So the answer is (E).
+ 70%|███████████████████████████████████████████████████████████▏                         | 174/250 [2:18:01<52:01, 41.07s/it]================================================================================================================================
+(0) Start: Alice: Left Winger, Bob: Striker, Claire: Benchwarmer, Dave: Left Midfielder, Eve: Cheerleader.
+(1) Dave and Alice swap: Alice: Left Midfielder, Bob: Striker, Claire: Benchwarmer, Dave: Left Winger, Eve: Cheerleader.
+(2) Bob and Eve swap: Alice: Left Midfielder, Bob: Cheerleader, Claire: Benchwarmer, Dave: Left Winger, Eve: Striker.
+(3) Alice and Bob swap: Alice: Striker, Bob: Left Midfielder, Claire: Benchwarmer, Dave: Left Winger, Eve: Cheerleader.
+(4) Claire and Alice swap: Alice: Benchwarmer, Bob: Left Midfielder, Claire: Striker, Dave: Left Winger, Eve: Cheerleader.
+(5) Claire and Eve swap: Alice: Benchwarmer, Bob: Left Midfielder, Claire: Cheerleader, Dave: Left Winger, Eve: Striker.
+
+At the end of the match, Claire is playing cheerleader. So the answer is (E).
+ 70%|███████████████████████████████████████████████████████████▍                         | 175/250 [2:18:43<51:47, 41.43s/it]================================================================================================================================
+(0) Start: Alice: green, Bob: purple, Claire: blue, Dave: black, Eve: red.
+(1) Dave and Claire swap: Alice: green, Bob: purple, Claire: black, Dave: blue, Eve: red.
+(2) Bob and Alice swap: Alice: purple, Bob: green, Claire: black, Dave: blue, Eve: red.
+(3) Eve and Bob swap: Alice: purple, Bob: red, Claire: black, Dave: blue, Eve: green.
+(4) Bob and Dave swap: Alice: purple, Bob: blue, Claire: black, Dave: red, Eve: green.
+(5) Bob and Eve swap again: Alice: purple, Bob: red, Claire: black, Dave: green, Eve: blue.
+
+At the end of the event, Eve has the blue present. So the answer is (C).
+ 70%|███████████████████████████████████████████████████████████▊                         | 176/250 [2:19:17<48:30, 39.34s/it]================================================================================================================================
+(0) Start: Alice: Gatsby, Bob: Odyssey, Claire: Fellowship, Dave: Moby Dick, Eve: Lolita.
+(1) Alice and Bob swap: Alice: Odyssey, Bob: Gatsby, Claire: Fellowship, Dave: Moby Dick, Eve: Lolita.
+(2) Eve and Bob swap: Alice: Odyssey, Bob: Lolita, Claire: Fellowship, Dave: Moby Dick, Eve: Gatsby.
+(3) Bob and Claire swap: Alice: Odyssey, Bob: Fellowship, Claire: Lolita, Dave: Moby Dick, Eve: Gatsby.
+(4) Alice and Claire swap: Alice: Fellowship, Bob: Odyssey, Claire: Gatsby, Dave: Moby Dick, Eve: Lolita.
+(5) Dave and Claire swap: Alice: Fellowship, Bob: Odyssey, Claire: Moby Dick, Dave: Gatsby, Eve: Lolita.
+At the end of the semester, Bob has The Odyssey. So the answer is (B).
+ 71%|████████████████████████████████████████████████████████████▏                        | 177/250 [2:19:56<47:38, 39.16s/it]================================================================================================================================
+(0) At the start: Alice: yellow, Bob: red, Claire: green, Dave: orange, Eve: black.
+(1) Claire and Dave swap: Claire: orange, Dave: green.
+(2) Bob and Claire swap: Bob: green, Claire: red, Dave: orange.
+(3) Claire and Dave swap back: Claire: green, Dave: orange, Bob: red.
+(4) Alice and Eve swap: Alice: black, Eve: yellow, Dave: orange, Bob: green, Claire: green (since Claire got her original green present back).
+(5) Claire and Bob swap again: Bob: yellow, Alice: black, Dave: orange, Claire: red.
+
+At the end of the event, Bob has the yellow present. So the answer is (A).
+ 71%|████████████████████████████████████████████████████████████▌                        | 178/250 [2:20:31<45:25, 37.86s/it]================================================================================================================================
+(0) Start: Alice: yellow, Bob: orange, Claire: red, Dave: purple, Eve: green.
+(1) Alice and Eve swap: Alice: green, Eve: yellow.
+(2) Bob and Dave swap: Alice: green, Bob: purple, Dave: orange, Eve: yellow.
+(3) Bob and Eve swap: Alice: green, Bob: yellow, Dave: orange, Eve: purple.
+(4) Claire and Eve swap: Alice: green, Bob: yellow, Dave: orange, Eve: red.
+(5) Dave and Alice swap: Alice: purple, Bob: yellow, Dave: green, Eve: red.
+
+At the end of the event, Eve has the purple present. So the answer is (D).
+ 72%|████████████████████████████████████████████████████████████▊                        | 179/250 [2:21:11<45:25, 38.39s/it]================================================================================================================================
+(0) Start: Alice: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+
+(1) Eve and Alice swap: Alice: Ulysses, Eve: Lolita, Bob: Gatsby, Claire: Frankenstein, Dave: Hound.
+
+(2) Dave and Bob swap: Alice: Ulysses, Eve: Lolita, Bob: Hound, Claire: Frankenstein, Dave: Gatsby.
+
+(3) Eve and Claire swap: Alice: Ulysses, Eve: Frankenstein, Bob: Hound, Claire: Lolita, Dave: Gatsby.
+
+(4) Bob and Alice swap: Alice: Hound, Eve: Frankenstein, Bob: Ulysses, Claire: Lolita, Dave: Gatsby.
+
+(5) Claire and Dave swap: Alice: Hound, Eve: Frankenstein, Bob: Ulysses, Claire: Gatsby, Dave: Lolita.
+
+At the end of the semester, Claire has The Great Gatsby. So the answer is (B).
+ 72%|█████████████████████████████████████████████████████████████▏                       | 180/250 [2:21:54<46:37, 39.96s/it]================================================================================================================================
+(0) At the start: Alice: red, Bob: black, Claire: pink, Dave: orange, Eve: brown.
+(1) Claire and Alice swap: Alice: pink, Bob: black, Claire: red, Dave: orange, Eve: brown.
+(2) Claire and Dave swap: Alice: pink, Bob: black, Claire: orange, Dave: red, Eve: brown.
+(3) Alice and Bob swap: Alice: black, Bob: pink, Claire: orange, Dave: red, Eve: brown.
+(4) Eve and Dave swap: Alice: black, Bob: pink, Claire: orange, Dave: brown, Eve: red.
+(5) Bob and Claire swap: Alice: black, Bob: orange, Claire: red, Dave: brown, Eve: red.
+
+At the end of the event, Claire has the red present. So the answer is (A).
+ 72%|█████████████████████████████████████████████████████████████▌                       | 181/250 [2:22:36<46:29, 40.43s/it]================================================================================================================================
+(0) At the start: Alice: orange, Bob: black, Claire: red, Dave: pink, Eve: blue.
+(1) Eve and Bob swap: Alice: orange, Bob: blue, Claire: red, Dave: pink, Eve: black.
+(2) Claire and Eve swap: Alice: orange, Bob: blue, Claire: black, Dave: pink, Eve: red.
+(3) Bob and Dave swap: Alice: orange, Bob: pink, Claire: black, Dave: blue, Eve: red.
+(4) Eve and Alice swap: Alice: pink, Bob: pink, Claire: black, Dave: blue, Eve: red.
+(5) Dave and Bob swap: Alice: pink, Bob: blue, Claire: black, Dave: pink, Eve: red.
+At the end of the game, Claire has the black ball. So the answer is (B).
+ 73%|█████████████████████████████████████████████████████████████▉                       | 182/250 [2:23:16<45:46, 40.40s/it]================================================================================================================================
+(0) Start: Alice: Right Winger, Bob: Midfielder, Claire: Left Winger, Dave: Cheerleader, Eve: Goalkeeper.
+(1) Dave and Bob trade: Alice: Right Winger, Bob: Cheerleader, Claire: Left Winger, Dave: Midfielder, Eve: Goalkeeper.
+(2) Dave and Eve trade: Alice: Right Winger, Bob: Midfielder, Claire: Left Winger, Dave: Goalkeeper, Eve: Cheerleader.
+(3) Alice and Bob trade: Alice: Midfielder, Bob: Right Winger, Claire: Left Winger, Dave: Goalkeeper, Eve: Cheerleader.
+(4) Dave and Claire trade: Alice: Midfielder, Bob: Right Winger, Claire: Cheerleader, Dave: Goalkeeper, Eve: Left Winger.
+(5) Dave and Eve trade back: Alice: Midfielder, Bob: Right Winger, Claire: Left Winger, Dave: Cheerleader, Eve: Goalkeeper.
+
+At the end of the match, Bob is playing right winger. So the answer is (A).
+ 73%|██████████████████████████████████████████████████████████████▏                      | 183/250 [2:23:56<45:03, 40.36s/it]================================================================================================================================
+(0) Start: Alice: Lola, Bob: Rodrigo, Claire: Melissa, Dave: Helga, Eve: Jamie.
+(1) Dave and Eve switch: Alice: Lola, Bob: Rodrigo, Claire: Melissa, Dave: Jamie, Eve: Helga.
+(2) Alice and Claire switch: Alice: Melissa, Bob: Rodrigo, Claire: Lola, Dave: Jamie, Eve: Helga.
+(3) Dave and Bob switch: Alice: Melissa, Bob: Helga, Claire: Lola, Dave: Jamie, Eve: Rodrigo.
+(4) Alice and Eve switch: Alice: Helga, Bob: Melissa, Claire: Lola, Dave: Jamie, Eve: Rodrigo.
+(5) Eve and Dave switch back: Alice: Helga, Bob: Melissa, Claire: Lola, Dave: Eve, Eve: Rodrigo (since Eve switches back with herself, she remains with Dave).
+
+At the end of the dance, Alice is dancing with Helga. So the answer is (D).
+ 74%|██████████████████████████████████████████████████████████████▌                      | 184/250 [2:24:31<42:20, 38.50s/it]================================================================================================================================
+(0) Start: Alice (RM), Bob (FB), Claire (ST), Dave (GK), Eve (Bench)
+(1) Eve and Bob trade: Alice (RM), Bob (Bench), Claire (ST), Dave (GK), Eve (FB)
+(2) Bob and Claire trade: Alice (RM), Eve (FB), Claire (RM), Dave (GK), Bob (ST)
+(3) Dave and Alice trade: Alice (GK), Eve (FB), Claire (RM), Dave (RM), Bob (ST)
+(4) Eve and Claire trade: Alice (GK), Eve (RM), Claire (Bench), Dave (RM), Bob (ST)
+(5) Alice and Bob trade: Alice (RM), Eve (FB), Claire (Bench), Dave (RM), Bob (GK)
+
+At the end of the match, Alice is playing right midfielder. So the answer is (A).
+ 74%|██████████████████████████████████████████████████████████████▉                      | 185/250 [2:25:19<44:51, 41.40s/it]================================================================================================================================
+(0) Start: Alice: Fellowship, Bob: Odyssey, Claire: Frankenstein, Dave: Hound, Eve: Ulysses.
+(1) Alice and Claire swap: Alice: Frankenstein, Bob: Odyssey, Claire: Fellowship, Dave: Hound, Eve: Ulysses.
+(2) Alice and Eve swap: Alice: Odyssey, Bob: Odyssey, Claire: Fellowship, Dave: Hound, Eve: Frankenstein.
+(3) Dave and Claire swap: Alice: Odyssey, Bob: Odyssey, Claire: Hound, Dave: Fellowship, Eve: Frankenstein.
+(4) Dave and Bob swap: Alice: Odyssey, Bob: Hound, Claire: Hound, Dave: Odyssey, Eve: Frankenstein.
+(5) Dave and Alice swap: Alice: Hound, Bob: Hound, Claire: Hound, Dave: Odyssey, Eve: Frankenstein.
+At the end of the semester, Dave has the Odyssey. So the answer is (B).
+ 74%|███████████████████████████████████████████████████████████████▏                     | 186/250 [2:25:55<42:41, 40.02s/it]================================================================================================================================
+(0) At the start: Alice: Melissa, Bob: Rodrigo, Claire: Lola, Dave: Patrick, Eve: Jamie.
+(1) Claire and Bob switch partners: Alice: Melissa, Bob: Lola, Claire: Rodrigo, Dave: Patrick, Eve: Jamie.
+(2) Claire and Eve switch partners: Alice: Melissa, Bob: Lola, Claire: Jamie, Dave: Patrick, Eve: Rodrigo.
+(3) Eve and Dave switch partners: Alice: Melissa, Bob: Lola, Claire: Jamie, Dave: Rodrigo, Eve: Patrick.
+(4) Claire and Alice switch partners: Alice: Lola, Bob: Lola, Claire: Jamie, Dave: Rodrigo, Eve: Patrick.
+(5) Bob and Eve switch partners: Alice: Lola, Bob: Patrick, Claire: Jamie, Dave: Rodrigo, Eve: Lola.
+At the end of the dance, Alice is dancing with Patrick. So the answer is (D).
+ 75%|███████████████████████████████████████████████████████████████▌                     | 187/250 [2:26:37<42:35, 40.57s/it]================================================================================================================================
+(0) Start: Alice (LW), Bob (S), Claire (LM), Dave (C), Eve (G).
+(1) Claire and Bob trade: Alice (LW), Claire (S), Bob (LM), Dave (C), Eve (G).
+(2) Claire and Dave trade: Alice (LW), Claire (LM), Bob (LM), Dave (S), Eve (G).
+(3) Alice and Bob trade: Alice (LM), Claire (LM), Bob (LW), Dave (S), Eve (G).
+(4) Bob and Dave trade: Alice (LM), Claire (LM), Dave (LW), Bob (S), Eve (G).
+(5) Eve and Bob trade: Alice (LM), Claire (LM), Dave (LW), Bob (G), Eve (S).
+
+At the end of the match, Dave is playing as a goalkeeper. So the answer is (E).
+ 75%|███████████████████████████████████████████████████████████████▉                     | 188/250 [2:27:14<40:36, 39.30s/it]================================================================================================================================
+(0) Start: Alice: The Great Gatsby, Bob: Frankenstein, Claire: Moby Dick, Dave: The Fellowship of the Ring, Eve: Catch-22.
+(1) Alice and Bob swap: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Moby Dick, Dave: The Fellowship of the Ring, Eve: Catch-22.
+(2) Dave and Eve swap: Alice: Frankenstein, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Catch-22, Eve: The Fellowship of the Ring.
+(3) Eve and Alice swap: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Catch-22, Eve: Frankenstein.
+(4) Dave and Eve swap again: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Moby Dick, Dave: Frankenstein, Eve: Catch-22.
+(5) Claire and Dave swap: Alice: The Fellowship of the Ring, Bob: The Great Gatsby, Claire: Catch-22, Dave: Moby Dick, Eve: Frankenstein.
+
+At the end of the semester, Dave has Moby Dick. So the answer is (C).
+ 76%|████████████████████████████████████████████████████████████████▎                    | 189/250 [2:27:55<40:25, 39.76s/it]================================================================================================================================
+(0) Start: Alice: purple, Bob: brown, Claire: white, Dave: blue, Eve: orange.
+(1) Eve and Alice swap: Alice: orange, Eve: purple, Bob: brown, Claire: white, Dave: blue.
+(2) Bob and Dave swap: Alice: orange, Eve: purple, Bob: blue, Claire: white, Dave: brown.
+(3) Bob and Alice swap: Alice: blue, Eve: purple, Bob: orange, Claire: white, Dave: brown.
+(4) Claire and Eve swap: Alice: blue, Eve: purple, Bob: orange, Claire: orange, Dave: brown.
+(5) Alice and Eve swap: Alice: purple, Eve: blue, Bob: orange, Claire: orange, Dave: brown.
+
+At the end of the event, Dave has the blue present. So the answer is (D).
+ 76%|████████████████████████████████████████████████████████████████▌                    | 190/250 [2:28:30<38:36, 38.61s/it]================================================================================================================================
+(0) Start: Alice (fullback), Bob (center midfielder), Claire (right midfielder), Dave (left winger), Eve (goalkeeper).
+(1) Dave and Eve swap: Alice (fullback), Bob (center midfielder), Claire (right midfielder), Eve (left winger), Dave (goalkeeper).
+(2) Claire and Bob swap: Alice (fullback), Claire (center midfielder), Bob (right midfielder), Eve (left winger), Dave (goalkeeper).
+(3) Alice and Bob swap: Alice (center midfielder), Claire (right midfielder), Bob (fullback), Eve (left winger), Dave (goalkeeper).
+(4) Eve and Dave swap: Alice (center midfielder), Claire (right midfielder), Bob (fullback), Eve (goalkeeper), Dave (left winger).
+(5) Bob and Alice swap: Alice (right midfielder), Claire (fullback), Bob (center midfielder), Eve (goalkeeper), Dave (left winger).
+
+At the end of the match, Alice is playing right midfielder. So the answer is (C).
+ 76%|████████████████████████████████████████████████████████████████▉                    | 191/250 [2:29:16<40:00, 40.69s/it]================================================================================================================================
+(0) At the start: Alice: blue, Bob: yellow, Claire: black, Dave: purple, Eve: red.
+(1) Bob and Claire swap: Alice: blue, Bob: black, Claire: yellow, Dave: purple, Eve: red.
+(2) Dave and Eve swap: Alice: blue, Bob: black, Claire: yellow, Dave: red, Eve: purple.
+(3) Bob and Claire swap again: Alice: blue, Bob: yellow, Claire: black, Dave: red, Eve: purple.
+(4) Claire and Alice swap: Alice: black, Bob: yellow, Claire: blue, Dave: red, Eve: purple.
+(5) Eve and Dave swap: Alice: black, Bob: yellow, Claire: blue, Dave: purple, Eve: red.
+
+At the end of the event, Claire has the blue present. So the answer is (A).
+ 77%|█████████████████████████████████████████████████████████████████▎                   | 192/250 [2:29:54<38:39, 39.98s/it]

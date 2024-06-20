@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:34 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-chinese_foreign_policy]: {'accuracy': 87.85046728971963}
+05/28 20:09:34 - OpenCompass - INFO - time elapsed: 3.47s

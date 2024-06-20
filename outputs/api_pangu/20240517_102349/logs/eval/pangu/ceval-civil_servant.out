@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:25 - OpenCompass - INFO - Task [pangu/ceval-civil_servant]: {'accuracy': 25.53191489361702}
+05/24 10:51:25 - OpenCompass - INFO - time elapsed: 5.13s

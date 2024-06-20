@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:02:10 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_conceptual_physics]: {'accuracy': 62.12765957446808}
+05/20 13:02:10 - OpenCompass - INFO - time elapsed: 4.54s

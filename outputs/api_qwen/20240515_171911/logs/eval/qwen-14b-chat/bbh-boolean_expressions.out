@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 16:26:21 - OpenCompass - INFO - Task [qwen-14b-chat/bbh-boolean_expressions]: {'score': 84.8}
+05/24 16:26:21 - OpenCompass - INFO - time elapsed: 5.02s

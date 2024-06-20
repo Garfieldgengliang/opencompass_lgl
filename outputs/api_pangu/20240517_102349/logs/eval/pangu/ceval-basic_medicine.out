@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:30 - OpenCompass - INFO - Task [pangu/ceval-basic_medicine]: {'accuracy': 68.42105263157895}
+05/24 10:51:30 - OpenCompass - INFO - time elapsed: 3.84s

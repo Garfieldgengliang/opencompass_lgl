@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:08:45 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-chinese_driving_rule]: {'accuracy': 84.7328244274809}
+05/28 20:08:45 - OpenCompass - INFO - time elapsed: 3.01s

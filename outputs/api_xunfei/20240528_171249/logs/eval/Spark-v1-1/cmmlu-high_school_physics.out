@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:10:12 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-high_school_physics]: {'accuracy': 70.0}
+05/28 20:10:12 - OpenCompass - INFO - time elapsed: 3.14s

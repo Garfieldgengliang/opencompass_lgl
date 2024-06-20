@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:46:11 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-professional_tour_guide]: {'accuracy': 58.620689655172406}
+05/14 17:46:11 - OpenCompass - INFO - time elapsed: 4.24s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:34 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-construction_project_management]: {'accuracy': 61.15107913669065}
+05/28 20:09:34 - OpenCompass - INFO - time elapsed: 3.43s

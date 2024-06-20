@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:44:32 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_high_school_microeconomics]: {'accuracy': 59.2436974789916}
+05/24 04:44:32 - OpenCompass - INFO - time elapsed: 4.20s

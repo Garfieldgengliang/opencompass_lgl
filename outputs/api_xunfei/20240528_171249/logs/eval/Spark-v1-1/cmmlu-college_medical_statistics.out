@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:38 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-college_medical_statistics]: {'accuracy': 67.9245283018868}
+05/28 20:09:38 - OpenCompass - INFO - time elapsed: 2.81s

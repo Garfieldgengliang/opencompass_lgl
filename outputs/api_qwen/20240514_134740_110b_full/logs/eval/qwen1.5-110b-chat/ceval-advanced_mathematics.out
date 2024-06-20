@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:24:26 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-advanced_mathematics]: {'accuracy': 26.31578947368421}
+05/14 16:24:26 - OpenCompass - INFO - time elapsed: 2.99s

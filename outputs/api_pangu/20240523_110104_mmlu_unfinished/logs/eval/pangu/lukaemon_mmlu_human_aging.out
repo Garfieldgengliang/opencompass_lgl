@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:45:38 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_human_aging]: {'accuracy': 56.95067264573991}
+05/24 04:45:38 - OpenCompass - INFO - time elapsed: 8.69s

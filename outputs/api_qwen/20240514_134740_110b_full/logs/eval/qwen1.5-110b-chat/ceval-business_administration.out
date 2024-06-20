@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:24:27 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-business_administration]: {'accuracy': 75.75757575757575}
+05/14 16:24:27 - OpenCompass - INFO - time elapsed: 2.97s

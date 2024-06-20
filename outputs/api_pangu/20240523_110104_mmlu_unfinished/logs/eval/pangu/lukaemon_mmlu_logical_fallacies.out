@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:45:25 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_logical_fallacies]: {'accuracy': 68.09815950920245}
+05/24 04:45:25 - OpenCompass - INFO - time elapsed: 4.20s

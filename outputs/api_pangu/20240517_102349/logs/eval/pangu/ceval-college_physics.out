@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:50:11 - OpenCompass - INFO - Task [pangu/ceval-college_physics]: {'accuracy': 15.789473684210526}
+05/24 10:50:11 - OpenCompass - INFO - time elapsed: 3.21s

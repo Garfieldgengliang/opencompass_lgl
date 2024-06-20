@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:46:47 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-tax_accountant]: {'accuracy': 53.06122448979592}
+05/16 16:46:47 - OpenCompass - INFO - time elapsed: 6.10s

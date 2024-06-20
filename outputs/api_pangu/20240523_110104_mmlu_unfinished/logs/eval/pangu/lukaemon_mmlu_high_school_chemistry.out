@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:44:38 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_high_school_chemistry]: {'accuracy': 50.24630541871922}
+05/24 04:44:38 - OpenCompass - INFO - time elapsed: 4.01s

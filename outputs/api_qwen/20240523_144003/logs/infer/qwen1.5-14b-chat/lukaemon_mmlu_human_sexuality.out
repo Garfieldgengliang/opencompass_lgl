@@ -1,0 +1,270 @@
+05/24 00:29:53 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-14b-chat/lukaemon_mmlu_human_sexuality]
+05/24 00:29:53 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-14b-chat/lukaemon_mmlu_human_sexuality]
+  0%|                                                                                                 | 0/131 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████| 131/131 [00:00<?, ?it/s]
+[2024-05-24 00:29:53,497] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                  | 0/33 [00:00<?, ?it/s]================================================================================================================================
+{"status_code": 400, "request_id": "8087b9a3-d77f-925b-ae27-ea94afb5dab2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "f3aacfe8-ecd0-9283-bb52-23b543365adf", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "32e7d5f0-69c3-9ad9-b8fe-b74be932b91d", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "21d94e30-4e89-9abf-b136-5f8d7a5aec7c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+  3%|██▋                                                                                       | 1/33 [00:01<01:03,  1.98s/it]================================================================================================================================
+{"status_code": 400, "request_id": "c71b579e-99f0-9468-8052-62f6622b9416", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "d1cb6514-56b4-936e-80d3-e0fc679a68b5", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "d024805a-cf06-9535-90c7-9d26b4c58ff1", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "6dc24b9d-f0ed-9c24-b697-de4132726745", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+  6%|█████▍                                                                                    | 2/33 [00:03<00:59,  1.92s/it]================================================================================================================================
+{"status_code": 400, "request_id": "07f5d514-5d9f-95d5-a5cd-34c90ce6d6f4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "6386d200-0ceb-9cfa-962a-e424a524d962", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "dd11ee7c-5ffc-90f5-ba3b-ac9c1472d9fe", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "999b669d-d30b-99f9-b8bf-4ffdee6f1568", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "e3d4f82a-dcaf-9312-80e1-684a9a71f0f3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+  9%|████████▏                                                                                 | 3/33 [00:08<01:31,  3.04s/it]================================================================================================================================
+{"status_code": 400, "request_id": "1eb560c8-d494-9120-ace2-0574a8627b9a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "e0b6f3ec-f8b7-9b95-a46a-3a66cad5d138", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "c9edba2a-4932-9d48-ae3b-93cc16600c3f", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "eb7197ca-640c-9f24-9886-57a90077d84c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 12%|██████████▉                                                                               | 4/33 [00:10<01:15,  2.61s/it]================================================================================================================================
+{"status_code": 400, "request_id": "82daf115-9f6a-91ea-8650-3eee9b741c5f", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "14b627bd-7b15-99ac-be94-2aa45044e9c8", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "276f1970-e7b6-95ba-82fe-fd6187d7b8a6", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "3537eaeb-a53c-9285-837c-f7f57831f8f4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 15%|█████████████▋                                                                            | 5/33 [00:12<01:06,  2.37s/it]================================================================================================================================
+{"status_code": 400, "request_id": "61d1f3c8-bc50-9b66-8d22-7c898e2c87d7", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "c270807d-a8ec-96e4-be0c-6155c4ea52b4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "39d475a3-5407-9202-9966-16fdacc03848", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "523af6a1-30c3-97c6-b258-51281776cfb8", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 18%|████████████████▎                                                                         | 6/33 [00:14<00:59,  2.22s/it]================================================================================================================================
+{"status_code": 400, "request_id": "d6c77c4e-a2f1-9ddd-b309-47199fdc1669", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4547917a-0ae9-9f39-9fa6-649c822415bc", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "f01e430f-7659-9d67-9b00-03942cc7cb0c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "9dc8e32e-fd11-98e9-b266-3e45742f07f2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 21%|███████████████████                                                                       | 7/33 [00:17<01:09,  2.67s/it]================================================================================================================================
+{"status_code": 400, "request_id": "43843fd7-9d44-95f9-8cba-6cb4cbe23825", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "f49e419a-94e0-95c0-8d2c-0d4831e4b52e", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "b50345fd-2d00-960d-9d55-4a6bd96cf648", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "32be7b93-583e-9ffc-b352-e3839badc4ea", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 24%|█████████████████████▊                                                                    | 8/33 [00:19<01:00,  2.43s/it]================================================================================================================================
+{"status_code": 400, "request_id": "30e0010d-4a27-9276-bc13-28e3ebecee13", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "5fa2e6f1-f42f-97dc-a539-7d0a11ed092d", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "37d8b76d-7e78-9239-987e-bf3fc24241ce", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "7ed8ff93-0664-9e8d-9e96-41da482949a3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 27%|████████████████████████▌                                                                 | 9/33 [00:21<00:54,  2.26s/it]================================================================================================================================
+{"status_code": 400, "request_id": "61b8d849-f25c-91c2-af97-3ec5bf93b417", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "7fa34d5f-c73c-9e8d-91be-9c7303eeb9ff", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "624d599e-ac01-9ecd-8e8b-808b90dadbb9", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4e575b55-b6b9-9087-9d97-1f10cc9bb46e", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 30%|██████████████████████████▉                                                              | 10/33 [00:23<00:50,  2.18s/it]================================================================================================================================
+{"status_code": 400, "request_id": "2943f4ed-3939-9a4e-b508-d948e91a1bfd", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "47314074-e1c7-923f-9474-6c04ffee4a72", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "29a6d8d8-bde8-9d9f-ab6d-5511a8bd86e4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "60a6033b-62ac-9072-bda6-d0e902a91ede", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 33%|█████████████████████████████▋                                                           | 11/33 [00:25<00:45,  2.09s/it]================================================================================================================================
+{"status_code": 400, "request_id": "3e84be3a-27fa-99a1-a25c-468a25094400", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "f475e0b4-2b41-9693-9cca-e05aa992556a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "8cc7774f-3cfb-96a5-a53d-d2c38c13df17", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "29baa687-fa00-97f5-9f6e-fdc62e797e84", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 36%|████████████████████████████████▎                                                        | 12/33 [00:27<00:42,  2.01s/it]================================================================================================================================
+{"status_code": 400, "request_id": "195a9930-a602-9a73-bee0-b7268449a69d", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "227307b6-62a1-92b1-942b-995f84bcde01", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "ee731aeb-e3dc-9435-a11f-f4c774b8520a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "dccb2f29-2b98-922a-a516-d1c690665474", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 39%|███████████████████████████████████                                                      | 13/33 [00:29<00:39,  1.96s/it]================================================================================================================================
+{"status_code": 400, "request_id": "02f15cac-4174-9057-9cbd-368448491e07", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "531693bd-c25f-99d6-855f-2f533eb00f33", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "be6005e8-adc3-9d79-83ff-57af58e1fa70", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "62f289d1-dc7b-90f5-8dc6-80364e0baeb1", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 42%|█████████████████████████████████████▊                                                   | 14/33 [00:32<00:43,  2.27s/it]================================================================================================================================
+{"status_code": 400, "request_id": "3a394be1-fe3b-9232-a82d-3a6ade2deac6", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4b539292-53df-9c3c-901b-abcab8ce6fe0", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "e7a66ad0-2cd5-9b9a-b0d6-d495fc6d5562", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "daf4edfa-e523-9ff8-a525-bbc8f48f4f02", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 45%|████████████████████████████████████████▍                                                | 15/33 [00:34<00:39,  2.19s/it]================================================================================================================================
+{"status_code": 400, "request_id": "55b42c05-f14a-9a02-bda0-91e1242557c5", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "b78a2c5c-1d47-9295-8b7b-bfc8d89d8815", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "0ca4e5df-e5b4-973a-91fc-74f118129c99", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "5a466491-6c1e-9b25-8981-468c9bf938b8", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 48%|███████████████████████████████████████████▏                                             | 16/33 [00:37<00:43,  2.53s/it]================================================================================================================================
+{"status_code": 400, "request_id": "98ae8d6c-09b1-92ab-a56a-3795b867d5ed", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4f140e6e-352c-953e-b068-6d058e319ca6", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "639cac42-1b7c-95a9-84be-1dee6ad097c2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "17c269e5-c7d0-99af-a51a-a08e284298ce", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 52%|█████████████████████████████████████████████▊                                           | 17/33 [00:39<00:37,  2.33s/it]================================================================================================================================
+{"status_code": 400, "request_id": "4c3fcf00-41ab-97a0-935e-7bf95ec95302", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "a528d51d-a2ba-9b4d-a47e-f53266f33690", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "38d69497-966d-9cf4-b72c-71ccc0be8dad", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "84d11f0f-df77-9b61-9409-54225aa2444d", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 55%|████████████████████████████████████████████████▌                                        | 18/33 [00:41<00:33,  2.21s/it]================================================================================================================================
+{"status_code": 400, "request_id": "f943cb24-5476-9de7-bef4-b64ba1949db2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4455af82-e8d2-9e95-b568-ce682b0fd211", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "40aad43e-38bc-9983-93c5-340c3c3363de", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "d26a6770-800f-999d-b1f2-3e4af965d9bd", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 58%|███████████████████████████████████████████████████▏                                     | 19/33 [00:43<00:30,  2.14s/it]================================================================================================================================
+{"status_code": 400, "request_id": "2b4a5d25-64d4-92ec-953b-1458302131e2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "6c49e4b0-b725-99b8-a6a2-1937fcbb1b32", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "f6e47581-a0ff-98f2-b0f8-2a8a9ac7ace0", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "83c0ff88-c11b-9b41-b0e8-8e14798aef08", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 61%|█████████████████████████████████████████████████████▉                                   | 20/33 [00:45<00:26,  2.07s/it]================================================================================================================================
+{"status_code": 400, "request_id": "389423c9-464b-9f2b-b639-6864f24efde0", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "0be56d7d-ba2d-99ee-9829-af4963f068d8", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "5ce2f2de-73f0-96f3-ba23-86efbd66ff9c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "ccb07124-d067-9db2-a619-0808ef28fa8c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 64%|████████████████████████████████████████████████████████▋                                | 21/33 [00:47<00:25,  2.08s/it]================================================================================================================================
+{"status_code": 400, "request_id": "6f069e78-f239-9ad1-bd49-5929b5474430", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "47fdda52-bb75-9dae-9045-7221a93453aa", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "15bfecf5-025d-98b9-95f9-bf7e2da2065e", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "3ce260f6-a122-9a7a-b59b-1580f16dfbf2", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 67%|███████████████████████████████████████████████████████████▎                             | 22/33 [00:49<00:22,  2.04s/it]================================================================================================================================
+{"status_code": 400, "request_id": "f4321f53-a8ac-9587-8989-433eaa758aaf", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "dd33ef2e-b902-9aec-a078-461f56c4fb95", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "1e7e7f1a-5a06-92df-b0e2-856bb5be0572", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+{"status_code": 429, "request_id": "6b79df10-0ae8-9f98-8836-c832751ce5bf", "code": "Throttling.RateQuota", "message": "Requests rate limit exceeded, please try again later.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "6b757e14-ec8f-9553-9a9f-a3b44758c05c", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 70%|██████████████████████████████████████████████████████████████                           | 23/33 [00:53<00:27,  2.72s/it]================================================================================================================================
+{"status_code": 400, "request_id": "5215e30d-e866-96c8-9b1b-e868def16786", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "0e320d89-80bc-9d60-9959-3b94dd706eb8", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "b8cfd408-f258-988f-9172-9d8ba8350de3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "c26c5c8f-6f35-9d5c-8bb7-2d4b7afa7d95", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 73%|████████████████████████████████████████████████████████████████▋                        | 24/33 [00:55<00:22,  2.46s/it]================================================================================================================================
+{"status_code": 400, "request_id": "90941e79-4899-9f34-bf83-3818bd5e938a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "a6223440-1e4a-9310-8701-7f10d080bd70", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "5e7c3455-b963-9e82-920e-303a8786b785", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "1b415afd-aa01-9f34-8a5e-8df59c2943af", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 76%|███████████████████████████████████████████████████████████████████▍                     | 25/33 [00:57<00:18,  2.26s/it]================================================================================================================================
+{"status_code": 400, "request_id": "879fc5bd-38b2-9d8b-821c-d5b597b2d3df", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "d01f1e3e-0b56-9ce9-8b59-3809e4de0706", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "807852c0-91cf-90b0-8278-0c5ae40c4dd4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "1677c360-24f9-9886-97b2-7abad41b18d3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 79%|██████████████████████████████████████████████████████████████████████                   | 26/33 [00:59<00:16,  2.31s/it]================================================================================================================================
+{"status_code": 400, "request_id": "bf9fdfc6-6268-9cf5-b702-089a0c43f0b9", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "04b3d181-d511-9178-a6af-22ccd48e15c5", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "7d968a46-7035-90bc-80b9-316ed5ef5515", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "2c973df7-9e1c-918e-822c-fa2384fda1ac", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 82%|████████████████████████████████████████████████████████████████████████▊                | 27/33 [01:03<00:16,  2.73s/it]================================================================================================================================
+{"status_code": 400, "request_id": "1ec3be6d-9b30-90b5-b177-3a6451c89f16", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "79dacafc-f5c1-956c-9a68-7bf55e70194a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "fb82c9b9-9272-9464-8ef3-34291a438c5d", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "19693505-1cdc-9322-9a5b-f29ca6defb20", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 85%|███████████████████████████████████████████████████████████████████████████▌             | 28/33 [01:06<00:14,  2.99s/it]================================================================================================================================
+{"status_code": 400, "request_id": "96abc3f5-1efb-9dac-95f6-ddb75b2f2be4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "824fe933-264e-96ec-8dfc-36c3a3bcff8e", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "820adbb8-c451-94e3-bec6-fa325e7958e3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "14040a67-db0b-9ee8-bb95-3d5766648112", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 88%|██████████████████████████████████████████████████████████████████████████████▏          | 29/33 [01:08<00:10,  2.69s/it]================================================================================================================================
+{"status_code": 400, "request_id": "2ec496e7-b896-9568-810b-7d9c06458171", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "da80ce53-7764-9c57-80da-af0500f67784", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "79351565-db2b-99e6-b951-ec7a583232cd", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4183d08d-efb9-9be1-b25e-ab77aec34224", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 91%|████████████████████████████████████████████████████████████████████████████████▉        | 30/33 [01:12<00:08,  2.93s/it]================================================================================================================================
+{"status_code": 400, "request_id": "e6090008-b25e-97b0-8bbe-89e97b8eebcb", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "c7de1486-be98-90e7-8591-d3fce9e38ab3", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "b0ced8fb-1660-931b-8367-fbde0329f506", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "ac12f0f4-6b40-9cb9-a179-994a9afb354f", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 94%|███████████████████████████████████████████████████████████████████████████████████▌     | 31/33 [01:14<00:05,  2.60s/it]================================================================================================================================
+{"status_code": 400, "request_id": "e0a87cf1-b9b6-9397-a7b1-b304b87898c0", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "28f958c1-c85d-9959-b095-79385053b665", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "7c93baba-2e3e-9328-ba9d-6f4b8632bdf4", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "4083993a-6db8-9a22-bb00-07d10267783e", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+ 97%|██████████████████████████████████████████████████████████████████████████████████████▎  | 32/33 [01:15<00:02,  2.39s/it]================================================================================================================================
+{"status_code": 400, "request_id": "4d0313d9-9a63-9605-a81a-82e9cd890971", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "84e222d1-fc51-9ace-91ab-df6de9b2cf1a", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+================================================================================================================================
+{"status_code": 400, "request_id": "0190281d-1b16-9e62-bc36-f526ffb3d153", "code": "Arrearage", "message": "Access denied, please make sure your account is in good standing.", "output": null, "usage": null}
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 33/33 [01:17<00:00,  2.07s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████| 33/33 [01:17<00:00,  2.34s/it]
+05/24 00:31:10 - OpenCompass - [4m[97mINFO[0m - time elapsed: 77.54s

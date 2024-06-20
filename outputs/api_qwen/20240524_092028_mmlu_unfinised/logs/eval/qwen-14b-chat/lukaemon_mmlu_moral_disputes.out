@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 12:35:13 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_moral_disputes]: {'accuracy': 70.52023121387283}
+05/24 12:35:13 - OpenCompass - INFO - time elapsed: 2.82s

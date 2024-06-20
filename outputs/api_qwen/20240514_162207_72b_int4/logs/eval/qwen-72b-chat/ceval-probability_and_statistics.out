@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:45:13 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-probability_and_statistics]: {'accuracy': 44.44444444444444}
+05/14 17:45:13 - OpenCompass - INFO - time elapsed: 3.94s

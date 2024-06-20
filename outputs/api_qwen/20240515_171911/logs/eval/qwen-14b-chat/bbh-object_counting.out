@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 16:26:21 - OpenCompass - INFO - Task [qwen-14b-chat/bbh-object_counting]: {'score': 76.4}
+05/24 16:26:21 - OpenCompass - INFO - time elapsed: 4.98s

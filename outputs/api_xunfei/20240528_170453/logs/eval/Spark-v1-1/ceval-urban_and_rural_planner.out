@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:16:13 - OpenCompass - INFO - Task [Spark-v1-1/ceval-urban_and_rural_planner]: {'accuracy': 76.08695652173914}
+05/28 18:16:13 - OpenCompass - INFO - time elapsed: 4.69s

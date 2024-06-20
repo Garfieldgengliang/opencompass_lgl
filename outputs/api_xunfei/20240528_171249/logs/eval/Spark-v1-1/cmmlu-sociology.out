@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:10:40 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-sociology]: {'accuracy': 80.53097345132744}
+05/28 20:10:40 - OpenCompass - INFO - time elapsed: 4.33s

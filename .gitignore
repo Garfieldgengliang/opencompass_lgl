@@ -1,9 +1,7 @@
 
-output_*/
-outputs/
 scripts/
 icl_inference_output/
-.vscode/
+.vscode/x bv
 tmp/
 configs/eval_subjective_alignbench_test.py
 configs/openai_key.py
@@ -15,7 +13,7 @@ configs/**/*_bkup.py
 opencompass/**/*_bkup.py
 data
 work_dirs
-outputs
+
 models/*
 configs/internal/
 # Byte-compiled / optimized / DLL files

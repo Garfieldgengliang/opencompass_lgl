@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:36 - OpenCompass - INFO - Task [Spark-v1-1/ceval-college_economics]: {'accuracy': 65.45454545454545}
+05/28 18:15:36 - OpenCompass - INFO - time elapsed: 3.19s

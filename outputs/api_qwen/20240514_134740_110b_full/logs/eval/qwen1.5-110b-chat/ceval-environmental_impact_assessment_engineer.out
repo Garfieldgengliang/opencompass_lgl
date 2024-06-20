@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:26:11 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-environmental_impact_assessment_engineer]: {'accuracy': 87.09677419354838}
+05/14 16:26:11 - OpenCompass - INFO - time elapsed: 5.12s

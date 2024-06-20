@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 16:25:06 - OpenCompass - INFO - Task [qwen1.5-110b-chat/ceval-mao_zedong_thought]: {'accuracy': 100.0}
+05/14 16:25:06 - OpenCompass - INFO - time elapsed: 4.10s

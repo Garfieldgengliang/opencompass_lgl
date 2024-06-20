@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:46:13 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-art_studies]: {'accuracy': 87.87878787878788}
+05/14 17:46:13 - OpenCompass - INFO - time elapsed: 4.59s

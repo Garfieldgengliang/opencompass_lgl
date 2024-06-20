@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:09:14 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-conceptual_physics]: {'accuracy': 82.31292517006803}
+05/28 20:09:14 - OpenCompass - INFO - time elapsed: 2.89s

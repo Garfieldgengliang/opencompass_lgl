@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:08:36 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-business_ethics]: {'accuracy': 74.16267942583733}
+05/28 20:08:36 - OpenCompass - INFO - time elapsed: 3.19s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:45:37 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_us_foreign_policy]: {'accuracy': 80.0}
+05/24 04:45:37 - OpenCompass - INFO - time elapsed: 7.09s

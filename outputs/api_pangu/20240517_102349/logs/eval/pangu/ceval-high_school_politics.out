@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:01 - OpenCompass - INFO - Task [pangu/ceval-high_school_politics]: {'accuracy': 42.10526315789473}
+05/24 10:51:01 - OpenCompass - INFO - time elapsed: 3.11s

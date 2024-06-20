@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:46:18 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-clinical_medicine]: {'accuracy': 63.63636363636363}
+05/14 17:46:18 - OpenCompass - INFO - time elapsed: 4.58s

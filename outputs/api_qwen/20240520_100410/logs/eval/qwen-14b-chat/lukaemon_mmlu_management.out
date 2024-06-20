@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:01:18 - OpenCompass - INFO - Task [qwen-14b-chat/lukaemon_mmlu_management]: {'accuracy': 74.75728155339806}
+05/20 13:01:18 - OpenCompass - INFO - time elapsed: 3.09s

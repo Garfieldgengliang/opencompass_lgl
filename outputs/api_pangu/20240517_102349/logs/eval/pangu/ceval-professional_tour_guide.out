@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 10:51:12 - OpenCompass - INFO - Task [pangu/ceval-professional_tour_guide]: {'accuracy': 31.03448275862069}
+05/24 10:51:12 - OpenCompass - INFO - time elapsed: 2.97s

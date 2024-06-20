@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/16 16:46:34 - OpenCompass - INFO - Task [qwen-14b-chat/ceval-ideological_and_moral_cultivation]: {'accuracy': 100.0}
+05/16 16:46:34 - OpenCompass - INFO - time elapsed: 3.56s

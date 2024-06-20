@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:41 - OpenCompass - INFO - Task [Spark-v1-1/ceval-business_administration]: {'accuracy': 69.6969696969697}
+05/28 18:15:41 - OpenCompass - INFO - time elapsed: 3.40s

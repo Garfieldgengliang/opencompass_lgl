@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:44:36 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_human_sexuality]: {'accuracy': 69.46564885496184}
+05/24 04:44:36 - OpenCompass - INFO - time elapsed: 4.16s

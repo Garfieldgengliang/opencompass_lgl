@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:45:31 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-middle_school_chemistry]: {'accuracy': 95.0}
+05/14 17:45:31 - OpenCompass - INFO - time elapsed: 3.39s

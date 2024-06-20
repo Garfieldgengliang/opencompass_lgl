@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:44:08 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_electrical_engineering]: {'accuracy': 46.89655172413793}
+05/24 04:44:08 - OpenCompass - INFO - time elapsed: 2.95s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:59 - OpenCompass - INFO - Task [Spark-v1-1/ceval-chinese_language_and_literature]: {'accuracy': 69.56521739130434}
+05/28 18:15:59 - OpenCompass - INFO - time elapsed: 3.28s

@@ -1,0 +1,56 @@
+05/23 13:26:03 - OpenCompass - [4m[97mINFO[0m - Task [qwen1.5-14b-chat/lukaemon_mmlu_college_computer_science]
+05/23 13:26:03 - OpenCompass - [4m[97mINFO[0m - Start inferencing [qwen1.5-14b-chat/lukaemon_mmlu_college_computer_science]
+  0%|                                                                                                 | 0/100 [00:00<?, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:00<?, ?it/s]
+[2024-05-23 13:26:03,861] [opencompass.openicl.icl_inferencer.icl_gen_inferencer] [INFO] Starting inference process...
+  0%|                                                                                                 | 0/100 [00:00<?, ?it/s]================================================================================================================================
+A
+
+The access matrix approach to protection in computer security involves defining a table or matrix that assigns access permissions to different users or processes for specific resources. The difficulty with this approach lies in the size and management of the matrix, especially as the number of users, resources, and permission levels grows. The matrix can become large and complex to maintain, making it a challenge to enforce and update the access control policies efficiently.
+
+Therefore, the correct answer is A. The other options either don't address the practical challenges of managing the matrix (B, C), or they are not inherent limitations of the access matrix model (D).
+  1%|▉                                                                                        | 1/100 [00:27<45:17, 27.45s/it]================================================================================================================================
+A
+
+Explanation: Common divisors of two integers must be positive integers because they divide both numbers without leaving a remainder. Also, 0 is not a common divisor because it doesn't divide any number except itself (except in the case where one of the integers is 0). Therefore, we can eliminate options containing 0.
+
+Option A: {-6, -2, -1, 1, 2, 6} - This set includes only positive integers and no 0, so it's possible.
+Option B: {-6, -2, -1, 0, 1, 2, 6} - Contains 0, so not valid.
+Option C: {-6, -3, -2, -1, 1, 2, 3, 6} - Contains negative integers and 0, so not valid.
+Option D: {-6, -3, -2, -1, 0, 1, 2, 3, 6} - Contains 0, so not valid.
+
+Hence, the correct answer is A.
+  2%|█▊                                                                                       | 2/100 [00:42<33:12, 20.34s/it]================================================================================================================================
+D. 1.1:1
+  3%|██▋                                                                                      | 3/100 [00:46<20:54, 12.93s/it]================================================================================================================================
+A. C1: (3,3), C2: (4,4), C3: (6,6)
+  4%|███▌                                                                                     | 4/100 [00:49<14:23,  9.00s/it]================================================================================================================================
+A
+  5%|████▍                                                                                    | 5/100 [00:52<10:24,  6.57s/it]================================================================================================================================
+C
+
+Explanation: In a collection of undirected graphs with 10 nodes and 6 edges, we need to maximize the number of connected components while still having a total of 6 edges. To do this, we can form a tree-like structure, where one large component has 5 nodes connected by 4 edges, and the remaining 5 nodes form separate components with no connections to the first component. This would give us a maximum of 1 (the large component) + 5 (small components) = 6 connected components (M = 7).
+
+To minimize the number of connected components (m), we want to create as many disconnected pairs of nodes as possible with a single edge connecting them. Since there are 6 edges, we can form 3 such pairs, leaving 3 nodes unconnected. So, m = 3.
+
+Therefore, the correct answer is M = 7, m = 4 (option C).
+  6%|█████▎                                                                                   | 6/100 [01:04<13:36,  8.69s/it]================================================================================================================================
+C
+
+The resolution theorem proving method is indeed a sound proof system, meaning that it never proves the unsatisfiability of a satisfiable formula. It is also complete for propositional logic, ensuring that for any unsatisfiable formula, there exists a resolution proof. However, it is not necessarily succinct, as the length of the proof may grow exponentially with the size of the input formula, making it non-polynomial in the worst case. Therefore, the correct answer is:
+
+C. I and II only
+  7%|██████▏                                                                                  | 7/100 [01:17<15:20,  9.90s/it]================================================================================================================================
+C
+
+A purely segmented memory system does not divide memory into units of equal size, so statement I is incorrect. Virtual memory is typically implemented in paging systems rather than segmentation, so statement II is also incorrect. Segmented memory systems often suffer from internal fragmentation because each segment has its own fixed size, leading to wasted space if a process's memory requirements do not align exactly with the segment size, hence statement III is correct.
+
+Therefore, the answer is C. III only.
+  8%|███████                                                                                  | 8/100 [01:23<13:17,  8.67s/it]================================================================================================================================
+B
+  9%|████████                                                                                 | 9/100 [01:25<10:00,  6.60s/it]================================================================================================================================
+C. If the owner is allowed to delete a file, dangling links may result.
+ 10%|████████▊                                                                               | 10/100 [01:28<08:13,  5.48s/it]================================================================================================================================
+B
+
+Mergesort requires random access to elements, which is efficient in an array but not in linked lists (especially singly or doubly linked lists, as accessing an element in the middle requires traversal from the beginning). Therefore, only option III (an array) allows mergesort to work in O(n log n) time.
+ 11%|█████████▋                                                                              | 11/100 [01:34<08:25,  5.68s/it]

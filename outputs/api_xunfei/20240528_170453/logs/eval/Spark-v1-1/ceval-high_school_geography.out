@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:30 - OpenCompass - INFO - Task [Spark-v1-1/ceval-high_school_geography]: {'accuracy': 84.21052631578947}
+05/28 18:15:30 - OpenCompass - INFO - time elapsed: 2.95s

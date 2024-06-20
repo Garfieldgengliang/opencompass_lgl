@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 18:15:54 - OpenCompass - INFO - Task [Spark-v1-1/ceval-logic]: {'accuracy': 77.27272727272727}
+05/28 18:15:54 - OpenCompass - INFO - time elapsed: 3.18s

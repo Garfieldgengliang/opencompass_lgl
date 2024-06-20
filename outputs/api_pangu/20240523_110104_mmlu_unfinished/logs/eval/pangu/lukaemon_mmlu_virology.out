@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/24 04:44:57 - OpenCompass - INFO - Task [pangu/lukaemon_mmlu_virology]: {'accuracy': 50.602409638554214}
+05/24 04:44:57 - OpenCompass - INFO - time elapsed: 3.16s

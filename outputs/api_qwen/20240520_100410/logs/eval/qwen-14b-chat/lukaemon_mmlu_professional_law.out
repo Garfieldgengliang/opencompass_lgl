@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/20 13:01:12 - OpenCompass - ERROR - C:\Users\ShuttleChaser\Documents\python_script\LLM\opencompass\opencompass\tasks\openicl_eval.py - _score - 241 - Task [qwen-14b-chat/lukaemon_mmlu_professional_law]: No predictions found.
+05/20 13:01:12 - OpenCompass - INFO - time elapsed: 3.11s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/28 20:08:36 - OpenCompass - INFO - Task [Spark-v1-1/cmmlu-chinese_civil_service_exam]: {'accuracy': 73.125}
+05/28 20:08:36 - OpenCompass - INFO - time elapsed: 4.18s

@@ -1,0 +1,4 @@
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+05/14 17:45:53 - OpenCompass - INFO - Task [qwen-72b-chat/ceval-logic]: {'accuracy': 50.0}
+05/14 17:45:53 - OpenCompass - INFO - time elapsed: 3.11s
