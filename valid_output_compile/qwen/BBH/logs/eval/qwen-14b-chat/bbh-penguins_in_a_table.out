@@ -1,0 +1,6 @@
+Parameter 'function'=<function OpenICLEvalTask._score.<locals>.postprocess at 0x000001A89CEE9EA0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+signal.SIGALRM is not available on this platform
+signal.SIGALRM is not available on this platform
+Map:   0%|          | 0/146 [00:00<?, ? examples/s]Map: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 146/146 [00:00<00:00, 32345.68 examples/s]
+05/24 16:26:01 - OpenCompass - INFO - Task [qwen-14b-chat/bbh-penguins_in_a_table]: {'score': 65.06849315068493}
+05/24 16:26:01 - OpenCompass - INFO - time elapsed: 4.48s
